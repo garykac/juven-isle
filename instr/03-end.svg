@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.74in"
+   height="2.74in"
+   viewBox="0 0 246.6 246.6"
+   id="svg5294"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="03-end.svg"
+   inkscape:export-filename="/Users/garykac/projects/games/islands/v8-sq6/instr/03-end.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs5296">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6971">
+      <stop
+         style="stop-color:#4f97ff;stop-opacity:1"
+         offset="0"
+         id="stop6973" />
+      <stop
+         style="stop-color:#cfe3ff;stop-opacity:1"
+         offset="1"
+         id="stop6975" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6971"
+       id="linearGradient4606"
+       x1="118.21818"
+       y1="-115.78261"
+       x2="121.69827"
+       y2="-97.813858"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-120,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6971"
+       id="linearGradient4608"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-120,0)"
+       x1="118.02403"
+       y1="-110.82753"
+       x2="121.75314"
+       y2="-96.14003" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6971"
+       id="linearGradient4610"
+       x1="123.33537"
+       y1="-114.61019"
+       x2="116.6786"
+       y2="-98.453941"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-120,0)" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M -63.214283,126.24286 C -84.285713,85.88572 -124.64286,64.457139 -161.78571,59.814286"
+       id="path5241"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="97.513752"
+     inkscape:cy="134.64328"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
+     inkscape:window-x="-6"
+     inkscape:window-y="6"
+     inkscape:window-maximized="0"
+     inkscape:snap-page="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5299">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Water"
+     style="display:none">
+    <rect
+       style="display:inline;opacity:1;fill:#b4dcff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6041"
+       width="246.60001"
+       height="246.60002"
+       x="4.9999999e-05"
+       y="-2.0545989e-05" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Info">
+    <text
+       sodipodi:linespacing="125%"
+       id="text4859"
+       y="35.006866"
+       x="120.07722"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan4861"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="35.006866"
+         x="120.07722"
+         sodipodi:role="line">End of Game</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="24.932407"
+       y="53.057461"
+       id="text4863"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="24.932407"
+         y="53.057461"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4873">Game ends immediately when the last</tspan><tspan
+         sodipodi:role="line"
+         x="24.932407"
+         y="63.994961"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4875">card is taken from the DRAW DECK.</tspan><tspan
+         sodipodi:role="line"
+         x="24.932407"
+         y="74.932457"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4869" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="36.932407"
+       y="81.057487"
+       id="text4881"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4885"
+         sodipodi:role="line"
+         x="36.932407"
+         y="81.057487"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">If the last card is drawn while</tspan><tspan
+         sodipodi:role="line"
+         x="36.932407"
+         y="91.994995"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5101">scoring and there are not enough</tspan><tspan
+         sodipodi:role="line"
+         x="36.932407"
+         y="102.9325"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4891">cards for the full amount, then</tspan><tspan
+         sodipodi:role="line"
+         x="36.932407"
+         y="113.86998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4910">that's really unfortunate, isn't it?</tspan><tspan
+         sodipodi:role="line"
+         x="36.932407"
+         y="124.80748"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4887" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4893"
+       y="133.0575"
+       x="24.932407"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan4899"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="133.0575"
+         x="24.932407"
+         sodipodi:role="line">Player with the most cards in their</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="143.995"
+         x="24.932407"
+         sodipodi:role="line"
+         id="tspan4908">SCORING PILE wins.</tspan><tspan
+         id="tspan4901"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="154.9325"
+         x="24.932407"
+         sodipodi:role="line" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="24.932407"
+       y="163.0575"
+       id="text5125"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5129"
+         sodipodi:role="line"
+         x="24.932407"
+         y="163.0575"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">In case of a tie, argue for a bit before</tspan><tspan
+         sodipodi:role="line"
+         x="24.932407"
+         y="173.995"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4890">playing another game to determine the</tspan><tspan
+         sodipodi:role="line"
+         x="24.932407"
+         y="184.9325"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4892"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove Italic'"
+   id="tspan4894">real</tspan> winner.</tspan><tspan
+         sodipodi:role="line"
+         x="24.932407"
+         y="195.87"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5131" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="221.45895"
+       y="27.661255"
+       id="text4860-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4862-7"
+         x="221.45895"
+         y="27.661255"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end">3 / 3</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Safe"
+     style="display:none">
+    <rect
+       ry="10.247997"
+       y="21.850004"
+       x="21.850004"
+       height="202.89999"
+       width="202.89999"
+       id="rect4326"
+       style="display:inline;opacity:0.40800003;fill:none;fill-opacity:1;stroke:#ff6239;stroke-width:0.49999997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 0.99999999;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="Cut"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-805.76192)"
+     style="display:none">
+    <rect
+       style="opacity:0.40800003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5861"
+       width="224.5"
+       height="224.5"
+       x="11.05"
+       y="816.81195"
+       ry="11.338962" />
+  </g>
+</svg>

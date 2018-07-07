@@ -1,0 +1,110 @@
+SVG File Layers
+
+*** Page Border - "page_border_layer"
+	Auto generated
+	Hidden in output file.
+	
+Cut - "cut_layer"
+Hidden in output file.
+
+Safe - "safe_layer"
+*** Not included in output svg file.
+
+Edge Guides Master - "edge_guides_master_layer"
+Contains master copy of the 6 edge guides for each side (24 total)
+Move down into the "Edge Guides" layer to activate.
+Note: Be sure to move them down in order: top, right, bottom, left since the
+	validation script currently just reads them in file order, assuming TRBL order.
+*** Not included in output svg file.
+
+Edge Guides - "edge_guides_layer"
+Initially empty. Move edge guides from "Edge Guides Master" to activate them.
+
+Resources Master - "resources_master_layer"
+Contains master copy of the 6 resources, the pirate and the port circle.
+	resource-turtle
+	resource-flower
+	resource-squid
+	resource-coconut
+	resource-fish
+	resource-banana
+	pirate
+	port-circle
+Move the master copies into the "Resources" layer to activate them.
+Note: There is a group for each resource/pirate/port-circle:
+	The 'id' in the <g> tag must be before the 'transform' attribute or
+	else the wrong transform will be read. This is because the script doesn't
+	really parse the SVG file.
+	Inkscape preserves the order of the attributes, so this should only be a
+	problem when adding new resources to this layer.
+Note: For ports, move and rotate the resource and the port-circle together, but
+	do not group them.
+*** Not included in output svg file.
+
+Resources - "resources_layer"
+Initially empty. Move resources from "Resources Master" to activate them.
+
+Labels Guide - "labels_guide_layer"
+Must contain a single path that is used as a text path.
+
+Labels - "labels_layer"
+must contain a single text object.
+
+Routes - "routes_layer"
+Must contain a single path.
+
+Forest Master - "forest_master_layer"
+Must contain a single path.
+
+*** Forest Outline - "forest_outline_layer"
+	Auto generated from "Forest Master"
+
+*** Forest Texture Small - "forest_texture_small_layer"
+	Auto generated from "Forest Master"
+
+*** Forest Texture Big - "forest_texture_big_layer"
+	Auto generated from "Forest Master"
+
+*** Forest Fill - "forest_fill_layer"
+	Auto generated from "Forest Master"
+
+*** Forest Shadow - "forest_shadow_layer"
+	Auto generated from "Forest Master"
+
+Grass Master - "grass_master_layer"
+Must contain a single path.
+
+*** Grass Texture Small - "grass_texture_small_layer"
+	Auto generated from "Grass Master"
+
+*** Grass Texture Big - "grass_texture_big_layer"
+	Auto generated from "Grass Master"
+
+*** Grass - "grass_layer"
+	Auto generated from "Grass Master"
+
+Shoreline Master - "shoreline_master_layer"
+Must contain a single path.
+
+*** Shoreline - "shoreline_layer"
+	Auto generated from "Shoreline Master"
+
+*** Land Texture - "land_texture_layer"
+	Auto generated from "Shoreline Master"
+
+*** Land - "land_layer"
+	Auto generated from "Shoreline Master"
+
+*** Water Hilight - "water_hilight_layer"
+	Auto generated from "Shoreline Master"
+
+Water Deep - "water_deep_layer"
+Must contain a single path.
+Gaussian blur applied in output svg file.
+
+Water Medium - "water_medium_layer"
+Must contain a single path.
+Gaussian blur applied in output svg file.
+
+Water - "water_layer"
+Auto-generated to fill entire page.

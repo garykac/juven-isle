@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.74in"
+   height="2.74in"
+   viewBox="0 0 246.6 246.6"
+   id="svg5294"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="04-scoring.svg"
+   inkscape:export-filename="/Users/garykac/projects/games/islands/v8-sq6/instr/04-scoring.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs5296">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6971">
+      <stop
+         style="stop-color:#4f97ff;stop-opacity:1"
+         offset="0"
+         id="stop6973" />
+      <stop
+         style="stop-color:#cfe3ff;stop-opacity:1"
+         offset="1"
+         id="stop6975" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6971"
+       id="linearGradient4606"
+       x1="118.21818"
+       y1="-115.78261"
+       x2="121.69827"
+       y2="-97.813858"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-120,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6971"
+       id="linearGradient4608"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-120,0)"
+       x1="118.02403"
+       y1="-110.82753"
+       x2="121.75314"
+       y2="-96.14003" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6971"
+       id="linearGradient4610"
+       x1="123.33537"
+       y1="-114.61019"
+       x2="116.6786"
+       y2="-98.453941"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-120,0)" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M -63.214283,126.24286 C -84.285713,85.88572 -124.64286,64.457139 -161.78571,59.814286"
+       id="path5241"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="97.513752"
+     inkscape:cy="134.64328"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4300"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
+     inkscape:window-x="-6"
+     inkscape:window-y="6"
+     inkscape:window-maximized="0"
+     inkscape:snap-page="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5299">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Water"
+     style="display:none">
+    <rect
+       style="display:inline;opacity:1;fill:#b4dcff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6041"
+       width="246.60001"
+       height="246.60002"
+       x="4.9999999e-05"
+       y="-2.0545989e-05" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Info">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="222.90115"
+       y="27.774466"
+       id="text4860-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4862-7"
+         x="222.90115"
+         y="27.774466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end">4 / 5</tspan></text>
+    <g
+       id="g4300"
+       transform="translate(113.87661,-0.449006)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text9608"
+         y="53.343254"
+         x="-90.396049"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan9640"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="53.343254"
+           x="-90.396049"
+           sodipodi:role="line">A RESOURCE will score 1 point for each</tspan><tspan
+           id="tspan9684"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="64.280754"
+           x="-90.396049"
+           sodipodi:role="line">PIRATE it is <tspan
+   id="tspan5109"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove Italic'">directly</tspan> connected to.</tspan><tspan
+           id="tspan9616"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="75.218254"
+           x="-90.396049"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-90.396049"
+         y="105.34325"
+         id="text9642"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan9644"
+           sodipodi:role="line"
+           x="-90.396049"
+           y="105.34325"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">A PIRATE will score 1 point for each</tspan><tspan
+           sodipodi:role="line"
+           x="-90.396049"
+           y="116.28075"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan9646">PORT it is <tspan
+   id="tspan5111"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove Italic'">directly</tspan> connected to.</tspan><tspan
+           sodipodi:role="line"
+           x="-90.396049"
+           y="127.21825"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan9648" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text9650"
+         y="135.34329"
+         x="-90.396049"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan9678"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="135.34329"
+           x="-90.396049"
+           sodipodi:role="line">A PORT will score 1 point, plus 1</tspan><tspan
+           id="tspan4938"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="146.28079"
+           x="-90.396049"
+           sodipodi:role="line"><tspan
+   id="tspan5113"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CCTreasureTrove;-inkscape-font-specification:CCTreasureTrove">additional</tspan> point for each <tspan
+   id="tspan5135"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove Italic'">matching</tspan> PORT</tspan><tspan
+           id="tspan5004"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="157.21829"
+           x="-90.396049"
+           sodipodi:role="line">or RESOURCE it is connected to.</tspan><tspan
+           id="tspan9656"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="168.15579"
+           x="-90.396049"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-70.632286"
+         y="171.34329"
+         id="text9658"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="-70.632286"
+           y="171.34329"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan9662">PORTs can connect <tspan
+   id="tspan5119"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove Italic'">through</tspan></tspan><tspan
+           id="tspan9668"
+           sodipodi:role="line"
+           x="-70.632286"
+           y="182.28079"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">other PORTs when scoring.</tspan><tspan
+           sodipodi:role="line"
+           x="-70.632286"
+           y="193.21829"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan9664" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4912"
+         y="201.34329"
+         x="-90.6101"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan4914"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="201.34329"
+           x="-90.6101"
+           sodipodi:role="line">Tortuga (on the Start Card) is both</tspan><tspan
+           id="tspan4920"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="212.28079"
+           x="-90.6101"
+           sodipodi:role="line">a PIRATE and a PORT that matches</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="223.21829"
+           x="-90.6101"
+           sodipodi:role="line"
+           id="tspan4916">any RESOURCE.</tspan><tspan
+           id="tspan4918"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="234.15579"
+           x="-90.6101"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5319"
+         y="77.343285"
+         x="-70.632286"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan5333"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="77.343285"
+           x="-70.632286"
+           sodipodi:role="line">If there are multiple resources on the</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="88.280785"
+           x="-70.632286"
+           sodipodi:role="line"
+           id="tspan4425">card, score each one separately.</tspan><tspan
+           id="tspan5327"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="99.218285"
+           x="-70.632286"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4296"
+         y="35.569084"
+         x="7.6055651"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan4298"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+           y="35.569084"
+           x="7.6055651"
+           sodipodi:role="line">Scoring</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Safe"
+     style="display:none">
+    <rect
+       ry="10.247997"
+       y="21.850004"
+       x="21.850006"
+       height="202.89999"
+       width="202.89999"
+       id="rect4326"
+       style="display:inline;opacity:0.40800003;fill:none;fill-opacity:1;stroke:#ff6239;stroke-width:0.49999997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 0.99999999;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="Cut"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-805.76192)"
+     style="display:none">
+    <rect
+       style="opacity:0.40800003;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5861"
+       width="224.5"
+       height="224.5"
+       x="11.05"
+       y="816.81195"
+       ry="11.338962" />
+  </g>
+</svg>
