@@ -18,23 +18,117 @@ resource_encode = {
 	'flower': 'H',	# Hibiscus
 	'coconut': 'C',
 	
-	'pirate': 'p',
-	'portcircle': 'P',
+	'pirate': 'x',
+	'portcircle': 'p',
 }
 
 card_info = {
-	# <id>: [ pattern, resources, debug-info, [ label ] ]
+	# <id>: [ pattern, resources, debug-info, label ]
+	# pattern:
+	#   r: resource (f,s,t,B,C,H)
+	#   x: pirate
+	#   p: port (f,s,t,B,C,H)
+	#   l/w: land/water connection
+	#   dl/dw: dead-end land (water)
+	# resources:
+	#   f,s,t: water resources: fish, squid, turtle
+	#   B,C,H: land resources: banana, coconut, flower/hibiscus
+	#   x: pirate
+	#   p: port
 
-	'0000a':			['3rw',	'fst',	'', 		'Juven Isle'],
-	'0000b':			['xw',	'p',	'', 		'Unused'],
+	'0000a':	['3rw',	'fst',	'',	'Juven Isle'],
+	'0000b':	['xw',	'x',	'Add island and label',	'Unused'],
 
-	'0014a':			['rw',	'f',	'',			'Unused'],
-	'0014b':			['xw',	'p',	'',		 	'Unused'],
-	'0014c':			['xw',	'p',	'',			'Unused'],
+	'0014a':	['rw',	'f',	'TODO',	'Unused'],
+	'0014b':	['xw',	'x',	'TODO',	'Unused'],
+	'0014c':	['xw',	'x',	'TODO',	'Unused'],
 
-	'0016a':			['pl',	'PC',	'',			'Unused'],
-	#'0016b':			['pw',	's',	'',		 	'Unused'],
-	#'0016c':			['rdl',	'B',	'',			'Unused'],
+	'0016a':	['pl',	'pC',	'TODO',	'Unused'],
+	'0016b':	['pw',	'ps',	'TODO',	'Unused'],
+	'0016c':	['rdl',	'B',	'TODO',	'Unused'],
+
+	'0034a':	['pl',	'pH',	'TODO',	'Rose Port'],
+	'0034b':	['pw',	'pf',	'TODO',	'Port Ico'],
+	'0034c':	['rdl', 'C',	'TODO',	'Unused'],
+
+	'0036a':	['pw',	'pf',	'TODO',	'Port Folio'],
+	'0036b':	['rl',	'B',	'TODO',	'Unused'],
+	'0036c':	['rw',	's',	'TODO',	'Unused'],
+
+	'0174a':	['pl',	'pC',	'TODO',	'Port-au-Bella'],
+	'0174b':	['pw',	'ps',	'TODO',	'Port Manteau'],
+	'0174c':	['rdl',	'H',	'TODO', 'Unused'],
+
+	'0176a':	['pl',	'pB',	'TODO',	'Port Lee'],
+	'0176b':	['pw',	'pt',	'TODO',	'Ruby Port'],
+	'0176c':	['rl',	'H',	'TODO',	'Unused'],
+
+	'0374a':	['pl',	'pH',	'TODO',	'Port Starboard'],
+	'0374b':	['pw',	'pf',	'TODO',	'Spoils Port'],
+	'0374c':	['rw',	't',	'TODO',	'Unused'],
+
+	'0376a':	['pl',	'pB',	'TODO',	'Crusted Port'],
+	'0376b':	['pw',	'ps',	'TODO',	'Port Royale'],
+	'0376c':	['rdw',	't',	'TODO', 'Unused'],
+
+	'1414a':	['rw',	's',	'TODO',	'Kidneystone Pass'],
+	'1414b':	['xw',	'x',	'TODO',	'Noneshall Pass'],
+
+	'1416a':	['pl',	'pC',	'TODO',	'Port-au-Potée'],
+	'1416b':	['pw',	'pt',	'TODO',	'Port Hole'],
+	'1416c':	['rdl',	'H',	'TODO',	'Unused'],
+
+	'1434a':	['pl',	'pH',	'TODO',	'Back Port'],
+	'1434b':	['pw',	'pf',	'TODO',	'Tawny Port'],
+	'1434c':	['rdl',	'B',	'TODO',	'Unused'],
+	'1434d':	['rdl',	'C',	'TODO',	'Unused'],
+
+	'1436a':	['pl',	'pB',	'TODO',	'Port Judgement'],
+	'1436b':	['pw',	'ps',	'TODO',	'Port Able'],	# s -> t?
+	'1436c':	['2rdw','fs',	'TODO',	'Unused'],
+	'1436d':	['rw',	't',	'TODO',	'Unused'],
+
+	'1616a':	['2rdl','BC',	'TODO',	'Unused'],
+	'1616b':	['2rdw','tf',	'TODO',	'Unused'],
+
+	'1634a':	['pl',	'pC',	'TODO',	'Serial Port'],
+	'1634b':	['pw',	'pt',	'TODO',	'Newport'],
+	'1634c':	['2rdl','HB',	'TODO',	'Letme Inlet'],
+	'1634d':	['rl',	'C',	'TODO',	'Unused'],
+
+	'1636a':	['pl',	'pH',	'TODO',	'Grande Port'],
+	'1636b':	['pw',	'pf',	'TODO',	'Watersport'],
+	'1636c':	['rdw',	's',	'TODO',	'Unused'],
+	'1636d':	['rdw',	't',	'TODO',	'Unused'],
+
+	'1774a':	['pl',	'pC',	'TODO',	'Freeport'],
+	'1774b':	['rl',	'B',	'TODO',	'Unused'],
+	'1774c':	['rw',	'f',	'TODO',	'Unused'],
+
+	'1776a':	['pl',	'pB',	'TODO',	'Port End'],
+	'1776b':	['pw',	'ps',	'TODO',	'Port Tristam'],
+	'1776c':	['rdw',	'f',	'TODO',	'Unused'],
+
+	'3434a':	['2rdl','CH',	'TODO',	'Unused'],
+	'3434b':	['2rdw','st',	'TODO',	'Unused'],
+
+	'3436a':	['pl',	'pH',	'TODO',	'Morgansport'],
+	'3436b':	['pw',	'pt',	'TODO',	'Port Ray'],	# t -> s?
+	'3436c':	['rdw',	's',	'TODO',	'Unused'],
+
+	'3636a':	['rl',	'C',	'TODO',	'Unused'],
+	'3636b':	['xl',	'x',	'TODO',	'Unused'],
+
+	'3774a':	['pl',	'pB',	'TODO',	'Port Quinta'],
+	'3774b':	['pw',	'pt',	'TODO',	'Port Roberts'],
+	'3774c':	['rdw',	'f',	'TODO',	'Unused'],
+
+	'3776a':	['rl',	'H',	'TODO',	'Unused'],
+	'3776b':	['xl',	'x',	'TODO',	'Unused'],
+	'3776c':	['xl',	'x',	'TODO',	'Unused'],
+
+	'7777a':	['3rl',	'BCH',	'TODO',	'Unused'],
+	'7777b':	['xl',	'x',	'TODO',	'Unused'],
 }
 
 # Port
@@ -87,92 +181,6 @@ card_info = {
 # Crocod Isle; Prehense Isle; Percent Isle; Text Isle; Tact Isle; Project Isle
 # Merchant Isle; Insect Isle; Fert Isle
 # Blubbernut Isle; Crane Isle
-
-cards_todo = {
-	  34: [1, 3, 'lwww', 'dl-p',	[
-	     	['pl', 'h', 'Rose Port'],
-	     	['pw', 'f', 'Port Ico'],
-	     	['rdl', 'c']]],
-	  36: [2, 2, 'llww', 'lw-p-x',	[
-	     	['pw', 'f', 'Port Folio'],
-	     	['rl', 'b'],
-	     	['rw', 's']]],
-	 174: [1, 3, 'lwww', 'dl-p',	[
-	     	['pl', 'c', 'Port-au-Bella'],
-	     	['pw', 's', 'Port Manteau'],
-	     	['rdl', 'h']]],
-	 176: [2, 2, 'llww', 'lw-p-x',	[
-	     	['pl', 'b', 'Port Lee'],
-	     	['pw', 't', 'Ruby Port'],
-	     	['rl', 'h']]],
-	 374: [2, 2, 'llww', 'lw-p-x',	[
-	     	['pl', 'h', 'Port Starboard'],
-	     	['pw', 'f', 'Spoils Port'],
-	     	['rw', 't']]],
-	 376: [3, 1, 'lllw', 'dw-p',	[
-	     	['pl', 'b', 'Crusted Port'],
-	     	['pw', 's', 'Port Royale'],
-	     	['rdw', 't']]],
-	1414: [0, 4, 'wwww', 'w-x',		[
-	     	['rw', 's', 'Kidneystone Pass'],
-	     	['xw', 'fst', 'Noneshall Pass']]],
-	1416: [1, 3, 'lwww', 'dl-p',	[
-	     	['pl', 'c', 'Port-au-Potée'],
-	     	['pw', 't', 'Port Hole'],
-	     	['rdl', 'h']]],
-	1434: [1, 3, 'lwww', 'dl-p',	[
-	     	['pl', 'h', 'Back Port'],
-	     	['pw', 'f', 'Tawny Port'],
-	     	['rdl', 'b'],
-	     	['rdl', 'c']]],
-	1436: [2, 2, 'llww', '2dw-p-x',	[
-	     	['pl', 'b', 'Port Judgement'],
-	     	['pw', 't', 'Port Able'],		# s -> t
-	     	['2rdw', 'fs'],
-	     	['rw', 't']]],
-	1616: [2, 2, 'llww', '2d',		[
-	     	['2rdl', 'bc'],
-	     	['2rdw', 'tf']]],
-	1634: [2, 2, 'llww', '2dl-p-x',	[
-	     	['pl', 'c', 'Serial Port'],
-	     	['pw', 't', 'Newport'],
-	     	['2rdl', 'hb', 'Letme Inlet'],
-	     	['rl','c']]],
-	1636: [3, 1, 'lllw', 'dw-p',	[
-	     	['pl', 'h', 'Grande Port'],
-	     	['pw', 'f', 'Watersport'],
-	     	['rdw', 's'],
-	     	['rdw', 't']]],
-	1774: [2, 2, 'llww', 'lw-p-x',	[
-	     	['pl', 'c', 'Freeport'],
-	     	['rl', 'b'],
-	     	['rw', 'f']]],
-	1776: [3, 1, 'lllw', 'dw-p',	[
-	     	['pl', 'b', 'Port End'],
-	     	['pw', 's', 'Port Tristam'],
-	     	['rdw', 'f']]],
-	3434: [2, 2, 'llww', '2d',		[
-	     	['2rdl', 'ch'],
-	     	['2rdw', 'st']]],
-	3436: [3, 1, 'lllw', 'dw-p',	[
-	     	['pl', 'h', 'Morgansport'],
-	     	['pw', 's', 'Port Ray'],		# t -> s
-	     	['rdw', 's']]],
-	3636: [4, 0, 'llll', 'l-x',		[
-	     	['rl', 'c'],
-	     	['xl', 'bch']]],
-	3774: [3, 1, 'lllw', 'dw-p',	[
-	     	['pl', 'b', 'Port Quinta'],
-	     	['pw', 't', 'Port Roberts'],
-	     	['rdw', 'f']]],
-	3776: [4, 0, 'llll', 'l-p',		[
-	     	['rl', 'h'],
-	     	['xl', 'bch'],
-	     	['xl', 'bch']]],
-	7777: [4, 0, 'llll', 'l-p',		[
-	     	['3rl', 'bch'],
-	     	['xl', 'bch']]],
-}
 
 defs = [
 	# texture octaves freq blur
@@ -507,13 +515,6 @@ class IslandsGen(object):
 		routes_path = data[7]
 		textpaths = data[8]
 		resources = data[9]
-
-		info = card_info[name]
-		target_borders = name[0:4]
-		pattern = info[0]
-		#resources = info[1]
-		#todo = info[2]
-		#label = info[3]
 
 		self.write_defs()
 		self.write_named_view()
@@ -1003,7 +1004,7 @@ class IslandsGen(object):
 		self.write_path(style_black_fill, "m 96.79629,284.49096 c 0.004,0.96632 0.38407,2.09409 1.34792,2.0725 0.96385,-0.0216 1.44376,-1.01186 1.43038,-2.0331 -0.0134,-1.02124 -0.45057,-1.90429 -1.33735,-1.94387 -0.88677,-0.0396 -1.44468,0.93815 -1.44095,1.90447 z")
 		# Outline
 		self.write_path(style_black_fill, "m 100.65625,276.60942 c -0.85308,-0.0126 -2.0994,0.19349 -2.75586,0.39844 -1.86941,0.58365 -2.83514,1.247 -3.88476,2.72657 -0.44,0.76902 -1.06058,1.73123 -0.99181,3.39023 0.058,1.39821 1.39651,3.32249 1.12006,4.24558 -0.10938,0.36524 -0.0785,0.6196 0.30526,1.01848 1.20238,1.37095 1.90562,2.41351 1.91019,3.23239 -0.008,0.23436 0.045,0.42743 0.24414,0.44141 2.80929,0.37265 5.12783,0.29481 7.9453,0.08 0.21185,-0.008 0.29297,-0.1875 0.29297,-0.39063 0.19662,-1.54374 0.9314,-2.00835 1.9863,-3.07614 0.28784,-0.27357 0.62427,-0.65332 0.29883,-1.33789 -0.23102,-0.48596 0.92245,-2.47356 1.06055,-3.55859 0.14911,-1.17151 -0.15793,-2.26393 -0.5293,-3.10157 -0.88762,-1.84613 -1.94831,-2.7592 -3.86523,-3.52929 -0.93109,-0.37405 -2.26053,-0.52603 -3.13664,-0.53899 z m -0.043,0.46285 c 1.09915,0.0507 2.08553,0.14066 3.01172,0.51567 1.72448,0.69823 2.70048,1.44439 3.55078,3.21288 0.36939,0.76826 0.69557,1.73619 0.54493,2.99415 -0.2428,1.03053 -1.05425,2.50934 -1.02149,3.02539 0,0 -0.0861,-0.15602 -0.21289,-0.41601 -0.18281,-0.37493 -0.21233,-0.57486 -0.27149,-1.11328 -0.0268,-0.24371 -0.29862,-0.32626 -0.29296,-0.22657 0.0416,0.73466 0.10464,1.0742 0.24804,1.5918 0.10978,0.39625 0.43528,0.73247 0.46485,1.14258 0.009,0.12977 -0.0461,0.34222 -0.13868,0.43359 -1.26028,1.19619 -2.08802,2.47382 -2.17578,3.43356 -2.51398,0.3381 -4.97436,0.2315 -7.47461,-0.0937 -0.14518,-1.85044 -1.10626,-2.38298 -2.14453,-3.76949 -0.18886,-0.25326 0.28842,-0.85838 0.40236,-1.26172 0.1228,-0.43469 0.32716,-0.88898 0.22258,-1.5508 -0.0245,-0.15513 -0.22882,0.13848 -0.28125,0.41603 -0.11651,0.61664 -0.28224,0.85172 -0.51435,1.37048 -0.0721,-1.12896 -0.74529,-2.04641 -0.91036,-3.0504 -0.28321,-1.72251 0.14892,-2.51897 0.80286,-3.6236 0.72882,-1.23113 1.99799,-2.15947 3.63348,-2.63984 0.72356,-0.21252 1.87504,-0.42215 2.55679,-0.39072 z")
-		# Teeth
+		# Teeth Separators
 		self.write_path(style_black_fill, "m 97.6294,290.74837 c 0.0146,1.13412 -0.0956,1.27773 -0.0956,1.27773 l 0.61964,-0.048 c 0,0 -0.0652,-0.2374 -0.0975,-1.11199 -0.005,-0.1474 -0.42845,-0.26523 -0.42655,-0.11774 z")
 		self.write_path(style_black_fill, "m 99.05443,290.95071 c 0.0466,0.86236 -0.0404,1.24458 -0.0404,1.24458 l 0.53125,-0.0811 c 0,0 -0.054,-0.23486 -0.0422,-1.1341 0.002,-0.1427 -0.40962,-0.22457 -0.4376,-0.0846 z")
 		self.write_path(style_black_fill, "m 100.4009,290.99111 c 0.0202,0.9611 -0.0846,1.25563 -0.0846,1.25563 l 0.60859,-0.11428 c 0,0 -0.11429,-0.11132 -0.0532,-1.12305 0.0103,-0.17158 -0.47427,-0.19016 -0.47066,-0.0183 z")
@@ -1168,6 +1169,7 @@ class IslandsGen(object):
 		# Validate loaded data against expected card info
 		info = card_info[name]
 		target_borders = name[0:4]
+		target_pattern = info[0]
 		target_resources = info[1]
 		target_todo = info[2]
 		target_label = info[3]
@@ -1176,13 +1178,14 @@ class IslandsGen(object):
 			print 'Expected borders:', target_borders
 			print 'Found borders:', borders
 			error('Borders don\'t match expected')
+
 		found_r = ''
 		for r in resources:
 			found_r += resource_encode[r[0]]
 		if ''.join(sorted(target_resources)) != ''.join(sorted(found_r)):
 			print 'Expected resources:', target_resources
 			print 'Found resources:', resources
-			error('Resources don\'t match expected: ' + found_r)
+			error('Resources don\'t match expected')
 		if label_text != target_label:
 			print 'Expected label:', target_label
 			print 'Found label:', label_text
