@@ -153,6 +153,7 @@ card_info = {
 # Hapless Bay; Black Jack Bay; Jolly Bay; Shady Cove; Knob Cove; Shark Bay; Scurvy Dog Bay
 # Half Moon Bay; Stingray Bay; Crystal Bay; Darkwater Bay; Hammerhead Bay; Crybay Bay
 # Spirit Bay; Loading Bay; Ghost Bay; Mutiny Bay; One-Ear Cove
+# Bomb Bay; Al Cove
 
 # Pass & Strait
 # =============
@@ -161,11 +162,13 @@ card_info = {
 # Dire Strait; Crooked Strait; Inappropriate Pass; Je-ne-sais Pass; Buck Pass; Tress Pass
 # --
 # Forward Pass; Season Pass; Backstage Pass; Twisted Strait; Encom Pass; Privateer Strait
+# By Pass; Im Pass; Sur Pass; Over Pass; Under Pass
 
 # Point
 # =====
 # Check Point; Point Illism; Point Exter; Counter Point; Mary Isthmus; Cur Isthmus
 # Data Point; Mid Point; Dagger Point; Needle Point; Dissa Point; Point Less
+# Pin Point; Gun Point; Knife Point; View Point; Rea Point; Exclamation Point
 
 # Beach
 # =====
@@ -180,6 +183,7 @@ card_info = {
 # Duct Isle; Fraj Isle; Comp Isle; Erect Isle; Quint Isle; Imbess Isle; Chamom Isle
 # Crocod Isle; Prehense Isle; Percent Isle; Text Isle; Tact Isle; Project Isle
 # Merchant Isle; Insect Isle; Fert Isle
+# Isle Land; Carl Isle; Aisle Isle; Argh Isle; Ex Isle
 # Blubbernut Isle; Crane Isle
 
 defs = [
