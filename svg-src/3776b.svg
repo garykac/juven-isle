@@ -173,10 +173,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="-70.454844"
-     inkscape:cy="204.67679"
+     inkscape:cx="64.40052"
+     inkscape:cy="164.27069"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_layer"
+     inkscape:current-layer="forest_master_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -280,7 +280,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55002,123.30006 -20,0 C 193.62869,122.79498 161.3376,124.08196 121.60485,112.26809 81.872094,100.45422 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 169.66668,169.66673 0,-20 C 160.21161,193.62875 156.44786,150.64173 146.90683,110.65644 137.36581,70.671156 126.33046,51.456133 123.3,11.050031 l 0,-20.000001" />
+       d="m 255.55002,123.30006 -20,0 c -24.74874,0 -47.94845,6.33774 -74.54922,30.38428 -30.75003,27.7974 -39.21606,54.08649 -37.70083,81.86568 l 0,20 m -132.249969,-94.8334 20,0 C 46.910412,162.73693 70.493376,122.44111 88.823059,92.473694 110.10099,57.686152 163.7471,51.456083 160.71664,11.049981 l 0,-20 M 127.7843,62.752239 c 8.58629,11.111678 -1.01016,89.903581 13.13198,108.086321"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssccccscccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -303,7 +305,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 139.90469,153.16305 C 127.04755,121.37734 88.833264,104.23448 53.833271,103.5202"
+       d="M 104.04427,42.046271 C 70.479008,71.374789 60.548993,100.69895 53.833271,103.5202"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -316,7 +318,7 @@
     <g
        style="display:inline"
        id="resource-pirate"
-       transform="translate(44.61154,-168.95778)">
+       transform="matrix(0.49902255,-0.866589,0.866589,0.49902255,-172.87363,60.704686)">
       <g
          id="g5348-3"
          transform="translate(-53.201598,-19.299297)">
