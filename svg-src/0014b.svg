@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-6.7719683"
-     inkscape:cy="206.07185"
+     inkscape:zoom="1.979899"
+     inkscape:cx="80.408282"
+     inkscape:cy="61.171158"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_layer"
+     inkscape:current-layer="water_deep_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -276,7 +276,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55002,123.30006 -20,0 C 193.62869,122.79498 161.3376,124.08196 121.60485,112.26809 81.872094,100.45422 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 169.66668,169.66673 0,-20 C 160.21161,193.62875 156.44786,150.64173 146.90683,110.65644 137.36581,70.671156 126.33046,51.456133 123.3,11.050031 l 0,-20.000001" />
+       d="m 123.29998,-8.95003 0,20.000001 C 124.59294,31.973462 119.55189,68.367674 96.60485,81.553804 60.664248,102.20647 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 169.66668,169.66673 0,-20 c -0.50508,-41.92133 -4.48551,-55.37263 7.26157,-78.64364 C 178.15293,136.75035 200.00903,122.63467 235.55,123.3 l 20,0 M 105.53572,80.350001 c 18.92856,9.642857 54.82142,43.035719 67.14286,63.035719"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccccscccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -312,7 +314,7 @@
     <g
        style="display:inline"
        id="resource-pirate"
-       transform="translate(-34.674174,-236.81492)">
+       transform="matrix(-0.76786817,-0.6406079,0.6406079,-0.76786817,34.853057,396.83158)">
       <g
          id="g5348-3"
          transform="translate(-53.201598,-19.299297)">

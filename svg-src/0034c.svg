@@ -173,10 +173,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="17.801494"
+     inkscape:cx="92.047706"
      inkscape:cy="88.044428"
      inkscape:document-units="px"
-     inkscape:current-layer="forest_master_layer"
+     inkscape:current-layer="water_deep_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -280,7 +280,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55002,123.30006 -20,0 C 193.62869,122.79498 161.3376,124.08196 121.60485,112.26809 81.872094,100.45422 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 169.66668,169.66673 0,-20 C 160.21161,193.62875 156.44786,150.64173 146.90683,110.65644 137.36581,70.671156 126.33046,51.456133 123.3,11.050031 l 0,-20.000001" />
+       d="m 255.55002,123.30006 -20,0 C 193.62869,122.79498 161.3376,124.08196 121.60485,112.26809 81.872094,100.45422 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 94.833301,169.66667 0,-20 C 86.89346,211.30636 86.747335,195.59352 75.186,188.94326 m 29.29442,-83.33758 C 94.939403,65.620393 126.33046,51.456133 123.3,11.050031 l 0,-20.000001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"

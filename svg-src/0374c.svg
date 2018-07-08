@@ -173,10 +173,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="101.32005"
+     inkscape:cx="135.16016"
      inkscape:cy="147.76599"
      inkscape:document-units="px"
-     inkscape:current-layer="forest_master_layer"
+     inkscape:current-layer="water_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -186,7 +186,7 @@
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true" />
   <metadata
      id="metadata5299">
     <rdf:RDF>
@@ -278,7 +278,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55002,123.30006 -20,0 C 193.62869,122.79498 161.3376,124.08196 121.60485,112.26809 81.872094,100.45422 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 169.66668,169.66673 0,-20 C 160.21161,193.62875 156.44786,150.64173 146.90683,110.65644 137.36581,70.671156 126.33046,51.456133 123.3,11.050031 l 0,-20.000001" />
+       d="m 255.55002,123.30006 -20,0 c -41.92133,-0.50508 -56.83053,24.18375 -80.10506,39.47566 -11.73869,7.71259 -34.16529,33.37835 -32.14499,72.7743 l 0,20 M -8.95,85.88329 l 20.000001,0 C 42.869802,86.893443 65.784219,86.833841 87.30783,73.785872 113.13815,58.127103 122.79493,44.890142 123.3,11.050031 l 0,-20.000001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccccscc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -301,7 +303,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 139.90469,153.16305 C 127.04755,121.37734 88.833264,104.23448 53.833271,103.5202"
+       d="M 223.24227,70.330542 C 210.38513,38.544832 172.17085,21.401972 137.17086,20.687692"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -313,7 +315,7 @@
      style="display:inline">
     <g
        id="resource-turtle"
-       transform="translate(92.15511,171.84187)"
+       transform="matrix(-0.55887092,-0.82925466,0.82925466,-0.55887092,160.35297,-6.8138836)"
        style="display:inline">
       <path
          style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#acf398;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"

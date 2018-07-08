@@ -173,10 +173,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="126.77797"
+     inkscape:cx="120.21198"
      inkscape:cy="102.5419"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_layer"
+     inkscape:current-layer="water_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -276,7 +276,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55002,123.30006 -20,0 C 193.62869,122.79498 161.3376,124.08196 121.60485,112.26809 81.872094,100.45422 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 169.66668,169.66673 0,-20 C 160.21161,193.62875 156.44786,150.64173 146.90683,110.65644 137.36581,70.671156 126.33046,51.456133 123.3,11.050031 l 0,-20.000001" />
+       d="m 255.55,160.71667 -20,0 C 193.62867,160.21159 157.97152,132.1609 121.60485,112.26809 83.387323,91.362847 51.456114,88.91381 11.050011,85.88335 l -20.000001,0 m 94.833301,169.66667 0,-20 C 86.388384,211.81143 79.171191,194.58337 57.50833,179.85189 M 72.660618,88.433084 C 63.119598,48.4478 88.91374,51.456083 85.88328,11.049981 l 0,-20.000001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -299,7 +301,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 139.90469,153.16305 C 127.04755,121.37734 88.833264,104.23448 53.833271,103.5202"
+       d="M 149.50114,172.35595 C 136.644,140.57024 98.429713,123.42738 63.42972,122.7131"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
