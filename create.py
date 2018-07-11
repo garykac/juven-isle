@@ -23,7 +23,7 @@ resource_encode = {
 }
 
 card_info = {
-	# <id>: [ pattern, resources, debug-info, label ]
+	# <id>: [ pattern, resources, debug-info, label, (seed) ]
 	# pattern:
 	#   r: resource (f,s,t,B,C,H)
 	#   x: pirate
@@ -36,16 +36,16 @@ card_info = {
 	#   x: pirate
 	#   p: port
 
-	'0000a':	['3rw',	'fst',	'',	'Juven Isle'],
-	'0000b':	['xw',	'x',	'Add island and label',	'Unused'],
+	'0000a':	['3rw',	'fst',	'',	'Juven Isle', 25],
+	'0000b':	['xw',	'x',	'',	'Argh Isle', 27],
 
-	'0014a':	['rw',	'f',	'TODO',	'Unused'],
-	'0014b':	['xw',	'x',	'TODO',	'Unused'],
-	'0014c':	['xw',	'x',	'TODO',	'Unused'],
+	'0014a':	['rw',	'f',	'',	'Point Exter'],
+	'0014b':	['xw',	'x',	'',	'Exclamation Point'],
+	'0014c':	['xw',	'x',	'Name',	'Unused'],
 
 	'0016a':	['pl',	'pC',	'TODO',	'Unused'],
 	'0016b':	['pw',	'ps',	'TODO',	'Unused'],
-	'0016c':	['rdl',	'B',	'TODO',	'Unused'],
+	'0016c':	['rdl',	'B',	'TODO',	'Dissa Point'],
 
 	'0034a':	['pl',	'pH',	'TODO',	'Rose Port'],
 	'0034b':	['pw',	'pf',	'TODO',	'Port Ico'],
@@ -84,7 +84,7 @@ card_info = {
 	'1434d':	['rdl',	'C',	'TODO',	'Unused'],
 
 	'1436a':	['pl',	'pB',	'TODO',	'Port Judgement'],
-	'1436b':	['pw',	'ps',	'TODO',	'Port Able'],	# s -> t?
+	'1436b':	['pw',	'ps',	'TODO',	'Port Able'],
 	'1436c':	['2rdw','fs',	'TODO',	'Unused'],
 	'1436d':	['rw',	't',	'TODO',	'Unused'],
 
@@ -113,7 +113,7 @@ card_info = {
 	'3434b':	['2rdw','st',	'TODO',	'Unused'],
 
 	'3436a':	['pl',	'pH',	'TODO',	'Morgansport'],
-	'3436b':	['pw',	'pt',	'TODO',	'Port Ray'],	# t -> s?
+	'3436b':	['pw',	'pt',	'TODO',	'Port Ray'],
 	'3436c':	['rdw',	's',	'TODO',	'Unused'],
 
 	'3636a':	['rl',	'C',	'TODO',	'Unused'],
@@ -164,6 +164,9 @@ card_info = {
 # Forward Pass; Season Pass; Backstage Pass; Twisted Strait; Encom Pass; Privateer Strait
 # By Pass; Im Pass; Sur Pass; Over Pass; Under Pass
 
+# Pumpk Inlet; Gobl Inlet; Rais Inlet; Viol Inlet; With Inlet; Urch Inlet; Insul Inlet
+# Coff Inlet; Hero Inlet
+
 # Point
 # =====
 # Check Point; Point Illism; Point Exter; Counter Point; Mary Isthmus; Cur Isthmus
@@ -183,7 +186,7 @@ card_info = {
 # Duct Isle; Fraj Isle; Comp Isle; Erect Isle; Quint Isle; Imbess Isle; Chamom Isle
 # Crocod Isle; Prehense Isle; Percent Isle; Text Isle; Tact Isle; Project Isle
 # Merchant Isle; Insect Isle; Fert Isle
-# Isle Land; Carl Isle; Aisle Isle; Argh Isle; Ex Isle
+# Isle Land; Carl Isle; Aisle Isle; Argh Isle; Ex Isle; Carlyle Isle
 # Blubbernut Isle; Crane Isle
 
 defs = [
@@ -221,8 +224,8 @@ def error(msg):
 	sys.exit(0)
 
 class IslandsGen(object):
-	def __init__(self, gen_png):
-		self.gen_png = gen_png
+	def __init__(self, options):
+		self.options = options
 		
 		self.curr_file = 0
 		self.curr_card = 0
@@ -1207,7 +1210,7 @@ class IslandsGen(object):
 		self.write_footer()
 		self.out.close()
 
-		if self.gen_png:
+		if self.options['png']:
 			cwd = os.getcwd()
 			
 			# Generate PNG file.
@@ -1221,7 +1224,7 @@ class IslandsGen(object):
 				])
 
 	def process_card(self, name):
-		print name
+		print name, self.seed
 
 		data = self.load_data(name)
 
@@ -1232,10 +1235,22 @@ class IslandsGen(object):
 	def gen(self):
 		seed_base = 0
 		seed_delta = 0
-		for name in card_info.keys():
+		
+		id = self.options['id']
+		if id != '' and not id in card_info:
+			error('Invalid card id: %s' % id)
+
+		for name in sorted(card_info.keys()):
 			seed_delta += 1
 			self.seed = seed_base + seed_delta
-			self.process_card(name)
+
+			# Random seed override
+			if len(card_info[name]) >= 5:
+				self.seed = card_info[name][4]
+
+			# Process single card
+			if id == '' or id == name:
+				self.process_card(name)
 
 	def check_res_count(self, desc, res, count):
 		rlist = ['f','s','t','B','C','H']
@@ -1244,14 +1259,6 @@ class IslandsGen(object):
 				print('Failed Validation: %s. Wrong count for %s in %s. Expected %d' % (desc, r, ''.join(sorted(res)), count))
 				self.warnings += 1
 				
-	def verify(self):
-		if not run_checks:
-			return
-			
-		self.warnings = 0
-		if self.warnings != 0:
-			error('Unbalanced resource arrangement')
-			
 def usage():
 	print "Usage: %s <options>" % sys.argv[0]
 	print "where <options> are:"
@@ -1262,17 +1269,22 @@ def main():
 	try:
 		opts, args = getopt.getopt(sys.argv[1:],
 			'p',
-			['png'])
+			['png', 'id='])
 	except getopt.GetoptError:
 		usage()
 
-	gen_png = False
+	options = {
+		'png': False,
+		'id': '',
+	}
+	
 	for opt,arg in opts:
 		if opt in ('-p', '--png'):
-			gen_png = True
+			options['png'] = True
+		if opt in ('--id'):
+			options['id'] = arg
 			
-	islands = IslandsGen(gen_png)
-	islands.verify()
+	islands = IslandsGen(options)
 	islands.gen()
 
 if __name__ == '__main__':
