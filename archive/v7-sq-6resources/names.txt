@@ -1,0 +1,174 @@
+Port
+Portuga - cf. Tortuga http://www.thewayofthepirates.com/regions-and-places/tortuga/
+Davenport
+Port Cullis
+Rose Port
+Port Ico
+Port Folio
+Port-au-Bella
+Port Manteau
+Port Lee
+Ruby Port
+Port Starboard
+Spoils Port
+Crusted Port
+Port Royale - http://www.atlasobscura.com/places/sunken-pirate-stronghold-at-port-royal
+Port Hole
+Port-au-Potée
+Back Port
+Tawny Port
+Port Judgement
+Port Able
+Serial Port
+Newport - Oldport?
+Watersport
+Grande Port
+Freeport
+Port End
+Port Tristam
+Morgansport
+Port Ray
+Port Quinta
+Port Roberts
+--
+Vintage Port
+Reserve Port
+White Port
+Com Port
+Jonesport
+Port Rackham
+Cooke Port
+Queensport
+Port Roger
+Port Crabbe
+Port Tempest
+Silver Port
+Dis Port
+Pearl Bay Port
+Kingsport
+Portsmouth
+Data Port - cf. Data Point
+--
+Port Ugâl
+Port Raiture
+
+Bays and Coves
+* Letme Inlet
+Fishstick Bay
+Lulla Bay
+Dread Cove
+Cove Ariant
+Cove Alent
+Almond Bay
+Pork Bay
+Hapless Bay
+Black Jack Bay
+Jolly Bay
+Shady Cove
+Knob Cove
+Shark Bay
+Scurvy Dog Bay
+Half Moon Bay
+Stingray Bay
+Crystal Bay
+Darkwater Bay
+Hammerhead Bay
+Crybay Bay
+Spirit Bay
+Loading Bay
+Ghost Bay
+Mutiny Bay
+One-Ear Cove
+
+Islands
+Blubbernut Isle
+Crane Isle
+
+Pass & Strait
+* Noneshall Pass
+* Kidneystone Pass
+Dire Strait
+Crooked Strait
+Inappropriate Pass
+Je-ne-sais Pass
+Buck Pass
+Tress Pass
+--
+Forward Pass
+Season Pass
+Backstage Pass
+Twisted Strait
+Encom Pass
+Privateer Strait
+
+Point
+Check Point
+Point Illism
+Point Exter
+Counter Point
+Mary Isthmus
+Cur Isthmus
+Data Point
+Mid Point
+Dagger Point
+Needle Point
+Dissa Point
+Point Less
+
+Beach
+Peg-leg Beach
+Shelly Beach
+Treasure Beach
+Rustyspike Beach
+Half-Pig Landing
+Scabby Beach
+Skullwater Beach
+Coconut Beach
+Baldhead Beach
+Buccaneer Landing
+
+
+
+
+0000 - 2x - none
+0014 -         - 3x point/beach/isle
+0016 - 2x port - 1x point/beach/isle
+0034 - 2x port - 1x point/beach/isle
+0036 - 1x port - 2x point/beach/isle
+0174 - 2x port - 1x point/beach/isle
+0176 - 2x port - 1x point/beach/isle
+0374 - 2x port - 1x point/beach/isle
+0376 - 2x port - 1x point/beach/isle
+1414 -         - 2x pass
+1416 - 2x port - 1x pass
+1434 - 2x port - 2x pass
+1436 - 2x port - 1x cove/bay - 1x pass
+1616 -         - 1x pass - 1x cove/bay
+1634 - 2x port - 1x cove/bay - 1x beach
+1636 - 2x port - 1x cove/bay
+1774 - 1x port - 2x beach/cove/bay
+1776 - 2x port - 1x cove/bay
+3434 -         - 1x pass - 1x cove/bay
+3436 - 2x port - 1x cove/bay
+3636 - 2x beach/cove
+3774 - 2x port - 1x cove/bay
+3776 - 3x beach
+7777 - 2x none
+
+
+
+
+Layers:
+Cut
+Guides Edge
+Guides Resources
+Resources
+Labels
+Paths
+Trees
+Grass
+Sand
+Outline
+Water Deep
+Water Medium
+Water
