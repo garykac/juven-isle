@@ -1,0 +1,27 @@
+0000 - fjst-wwww ; b-l/c-l/h-l/p-l
+0014 - t-wwww ; s-wwww ; f-wwww ; j-wwww
+0016 - h-l/x-www ; b-l/x-www ; (f)-lwww
+0034 - c-l/x-www ; (j)-lwww ; b-l/x-www
+0036 - s-ww/x-ll ; t-ww/x-ll ; h-ll/x-ww ; p-ll/x-ww
+0174 - c-l/x-www ; h-l/x-www ; (f)-lwww ; (b)-lwww
+0176 - h-ll/x-ww ; t-w/x-lll ; s-ww/x-ll ; c-ll/x-ww ; t-ww/x-ll
+0374 - c-ll/x-ww ; f-ww/x-ll ; j-ww/x-ll ; b-llx-ww
+0376 - j-w/x-lll ; (b)-lllw
+1414 - t-wwww ; s-wwww ; j-ww/x-ww
+1416 - p-l/x-www ; (c)-lw/x-ww ; (t)-lwww
+1434 - p-l/x-www ; (p)-lw/x-ww ; (t)-lwww
+1436 - (s)-lllw ; f-ww/x-ll ; (b)(s)-llww
+1616 - c-l/p-l/x-ww ; (c)(j)-llww ; f-w/s-w/x-ll
+1634 - b-ll/x-ww ; (t)(p)-llww ; x-ll/x-ww
+1636 - (j)-lllw ; s-w/x-lll ; (h)-lw/x-ll
+1774 - b-ll/x-ww ; f-ww/x-ll ; j-ww/x-ll ; p-ll/x-ww
+1776 - f-w/x-lll ; s-w/x-lll ; (p)-lllw
+3434 - (f)(h)-llww ; b-l/h-l/x-ww ; j-w/t-w/x-ll
+3436 - (s)-lllw ; f-w/x-lll ; (c)-lw/x-ll
+3636 - h-llll ; p-ll/x-ll ; c-llll
+3774 - (h)-lllw ; j-w/x-lll ; t-w/x-lll
+3776 - h-llll ; p-llll ; c-llll ; b-llll
+7777 - bcph-llll ; f-l/j-l/s-l/t-l
+
+
+

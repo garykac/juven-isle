@@ -1,0 +1,140 @@
+
+Info from v3
+ 1.85% 1 all water
+ 1.85% 1 all land
+ 7.41% 4 double port
+29.63% 16 ports
+59.26% 32 single resource
+
+
+============================
+
+
+For a 72 card deck (removing 1434,1636 from 3rd copy)
+ 1.3 (2/2) all water
+ 1.3 (2/2) all land
+ 5.3 (8/8) double port
+21.3 (6/20) port
+42.6 (0/40) resource
+
+30 port/deadend cards
+20 ports
+10 deadends :-(
+
+
+============================
+
+
+For a 74 card deck (re-adding 1434,1636)
+ 2 all water
+ 2 all land
+ 8 double port (2p)  (or 4 double-ports and 4 double-deadends)
+16 port (p)
+16 resource dead-end (dl & dw)
+30 resource
+
+card types
+2p 6
+	2p: 1616x3, 3434x3
+2plw 6 (2 2p + 4 lw)
+	2p: 1436x1, 1634x1
+	lw: 1436x2, 1634x2
+dlp 16 (8 dl + 8 p)
+	dl: 0016x2, 0034x2, 0174x2, 1416x1, 1434x1
+	p: 0016x1, 0034x1, 0174x2, 1416x2, 1434x2
+dwp 16 (8 dw + 8 p)
+	dw: 0376x2, 1636x1, 1776x2, 3436x1, 3774x2
+	p: 0376x2, 1636x2, 1776x1, 3436x2, 3774x1
+l 8
+	l: 3636x3, 3776x3, 7777x2
+lw 14
+	lw: 0036x3, 0176x4, 0374x4, 1774x3
+w 8
+	w: 0000x2, 0014x3, 1414x3
+
+
+0000 2x w
+0014 3x w
+0016 2x dl 1x p
+0034 2x dl 1x p
+0036 3x lw
+0174 2x dl 2x p
+0176 4x lw
+0374 4x lw
+0376 2x dw 2x p
+1414 3x w
+1416 1x d1 2x p
+1434 1x dl 2x p
+1436 1x 2p 2x lw
+1616 3x 2p         OR 1x 2p 1x ddl 1x ddw
+1634 1x 2p 2x lw
+1636 1x dw 2x p
+1774 3x lw
+1776 2x dw 1x p
+3434 3x 2p         OR 1x 2p 1x ddl 1x ddw
+3436 1x dw 2x p
+3636 3x l
+3774 2x dw 1x p
+3776 3x l
+7777 2x l
+
+
+============================
+
+
+For a 72 card deck (removing 1436,1634 from 3rd copy)
+ 4 double port
+16 port
+16 resource single dead-end
+ 4 resource double dead-end
+28 resource
+ 2 all water
+ 2 all land
+
+card types
+2p 6 (2 2p + 2 ddl + 2 ddw)
+	2p: 1616x1, 3434x1
+	ddl: 1616x1, 3434x1
+	ddw: 1616x1, 3434x1
+2plw 4 (2 2p + 2 lw)
+	2p: 1436x1, 1634x1
+	lw: 1436x1, 1634x1
+dlp 16 (8 dl + 8 p)
+	dl: 0016x2, 0034x2, 0174x2, 1416x1, 1434x1
+	p: 0016x1, 0034x1, 0174x2, 1416x2, 1434x2
+dwp 16 (8 dw + 8 p)
+	dw: 0376x2, 1636x1, 1776x2, 3436x1, 3774x2
+	p: 0376x2, 1636x2, 1776x1, 3436x2, 3774x1
+l 8
+	l: 3636x3, 3776x3, 7777x2
+lw 14
+	lw: 0036x3, 0176x4, 0374x4, 1774x3
+w 8
+	w: 0000x2, 0014x3, 1414x3
+
+    	l	w	lw	p	2p	dl	dw	ddl	ddw
+0000		2
+0014		3
+0016				1		2
+0034				1		2
+0036			3
+0174				2		2
+0176			4
+0374			4
+0376				2			2
+1414		3
+1416				2		1
+1434				2		1
+1436			1		1
+1616					1			1	1
+1634			1		1
+1636				2			1
+1774			3
+1776				1			2
+3434					1			1	1
+3436				2			1
+3636	3
+3774				1			2
+3776	3
+7777	2
+

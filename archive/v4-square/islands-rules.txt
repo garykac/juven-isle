@@ -1,0 +1,64 @@
+Islands
+
+Components:
+Island cards
+	Each card has some part of an island (or two), some water and 1 or 2 Ports or Resources
+Ship tokens - 2 for each player - different colors
+
+Number of players: 2-5?
+
+Resources:
+There are 5 types of resource in the game:
+	Turtle, Squid, Cannon, Nut (Macadamia) and Pineapple
+
+Setup:
+* Shuffle cards
+* Deal 5 cards to each player
+* Place the all-water card in center of table to start the island map. This is the only card that has no island part (nor Resource) on it.
+
+Each turn:
+* Play 1 card from hand
+* Draw a new card from deck
+
+When Playing a Card:
+Either:
+(1) Play a card on the table to build out the islands.
+It must properly connect (by sharing at least one edge) to an already-played island card.
+
+(2) Play a card in front of you to bid on the items (Ports, Resources) shown on the card.
+The card is worth 1 bidding point total.
+When you play a card, you are bidding on the Port or Resource (Turtle, Squid, Cannon, Nut, or Pineapple) shown on the card.
+If more than one item is on the card, then the bid is split between all the items (so, 1/2 bid each for Squid and Cannon if they are both on the card used to bid).
+
+When Building the Islands:
+* If the card played completes an island AND the player already has a Home Port on this island, then the player can choose to Own this island:
+	* Owning an island means that:
+		* All the other player's Home Ports are immediately removed from this island (returned to the player).
+		* All Cannons on the island are now controlled by the player.
+	* If the player does not have a Home Port on the island, then the island is completed, but no single player Owns it.
+* If the card played has a Port on it, the player may make it one of their Home Ports by placing one of their two Ship tokens on it.
+	* If both of the player's Home Ports are already established, then the player can remove one of the old ones to claim a new Home Port.
+	* If there are multiple Ports on a card, the player many only choose at most one.
+
+Ending the game:
+The game ends when any player successfully connects their Home Ports to all 5 of the Resource types, using land and/or sea routes.
+
+Scoring:
+Note: 'pt' can be interpreted as either 'point' or 'pint' depending of whatever you feel is more appropriate for an island themed game.
+
+* Players earn 4pts for each Resource type they have connected to either of their Home Ports.
+	Each resource type is counted once, regardless of how many of that type the Ports are connected to.
+	If a player controls a Cannon, then no other player can make use of the sea routes on the card containing the Cannon.
+
+* Players earn 1pt for each card along the shortest land or sea (or combined) path between their 2 Home Ports.
+	Ignore the effect of Cannons when determine the shortest path.
+
+* Players each 1pt for each card in each island they Own.
+
+* The player who bid the highest for each Port or Resource earns 2pts for each Resource of that type on the islands.
+	All resources of that type are counted, even if they are not connected to anything else.
+	If there is a tie for first place, then all tied players receive these pts and the second place award is not given.
+
+* The player who bid the second highest for each Port or Resource earns 1pt for each Resource of that type on the islands.
+	Unless there was a tie for the highest bidder, in which case the second place bidder gets nothing.
+	If there is a tie for second place, then all tied players receive these pts.
