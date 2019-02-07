@@ -1,0 +1,34 @@
+Ship upgrades
+
+Carpentry tools (for repair)
+Hull
+	Reinforced
+	Streamlines
+Prow
+	Battering ram
+	spiked
+	figurehead
+Anchor
+Masts
+Sails
+Grappling hooks
+Plank
+Cannon
+Oars
+Crow's nest
+Longboat
+Pirate flag?
+
+Island features
+
+Fortress
+city/town
+
+
+Ocean features
+
+monsters
+sharks
+rocks
+shipwrecks
+whirlpools
