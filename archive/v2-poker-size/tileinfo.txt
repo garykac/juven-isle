@@ -1,0 +1,248 @@
+6 edge types
+	x2 for short/long
+
+all codes are short.long.short.long
+
+000 = all water
+001
+011
+100
+110
+111 = all land
+
+don't allow:
+101
+010
+
+sss.lll.sss.lll
+
+000.000.000.000 = 0000
+000.000.001.100 = 0014
+000.000.001.110 = 0016
+000.000.011.100 = 0034
+000.000.011.110 = 0036
+000.001.100.000 = 0140
+
+000.001.110.000 = 0160
+000.001.111.100 = 0174
+000.001.111.110 = 0176
+000.011.100.000 = 0340
+000.011.110.000 = 0360
+000.011.111.100 = 0374
+
+000.011.111.110 = 0376
+001.100.001.100 = 1414
+001.100.001.110 = 1416
+001.100.011.100 = 1434
+001.100.011.110 = 1436
+001.110.001.110 = 1616
+
+001.110.011.100 = 1634
+001.110.011.110 = 1636
+001.111.100.000 = 1740
+001.111.110.000 = 1760
+001.111.111.100 = 1774
+001.111.111.110 = 1776
+
+011.100.011.100 = 3434
+011.100.011.110 = 3436
+011.110.011.110 = 3636
+011.111.100.000 = 3740
+011.111.110.000 = 3760
+011.111.111.100 = 3774
+
+011.111.111.110 = 3776
+100.001.100.001 = 4141
+100.001.100.011 = 4143
+100.001.110.001 = 4161
+100.001.110.011 = 4163
+100.001.111.111 = 4177
+
+100.011.100.011 = 4343
+100.011.110.001 = 4361
+100.011.110.011 = 4363
+100.011.111.111 = 4377
+110.001.110.001 = 6161
+110.001.110.011 = 6163
+
+110.001.111.111 = 6177
+110.011.110.011 = 6363
+110.011.111.111 = 6377
+111.111.111.111 = 7777
+
+valid 46 cards
+
+  +8 = 54
+
+8 new cards = 16 new short/long sides
+
+side counts:
+
+short 000 = 14  |  +2=16   +4=18
+short 001 = 16  |  +3=19   +2=18
+short 011 = 16  |  +3=19   +2=18
+short 100 = 16  |  +3=19   +2=18
+short 110 = 16  |  +3=19   +2=18
+short 111 = 14  |  +2=16   +4=18
+
+long 000 = 14
+long 001 = 16
+long 011 = 16
+long 100 = 16
+long 110 = 16
+long 111 = 14
+
+
+6 Resources = F H M P S T
+===========
+
+FHM/PST
+FHP/MST
+FHS/MPT
+FHT/MPS
+FMP/HST
+FMS/HPT
+FMT/HPS
+FPS/HMT
+FPT/HMS
+FST/HMP
+
+		C/H		D/S			Group
+Ace		F* P*	T* M*		B - FPT/HMS
+2		T		S			C1 - FPS/HMT
+3		M S		P F			C1
+4		P F		T			C2
+5		H		H T			C2
+6		H*		S*			B
+7		M T		H			D1 - FMT/HPS
+8		F		S P			D1
+9		P		M F			D2
+10		S H		M			D2
+Jack	S*		F*			A
+Queen	T*		H*			A
+King	M*		P*			A
+
+Doubles:
+F: P	PM
+P: F	FS
+S: MH	P
+T: M	H
+H: S	T
+M: ST	F
+
+
+8 Resources = 12345678
+land = 1234
+water = 5678
+
+		C/H				D/S				Group
+Ace		1* 2*	lw		7* 8*	lw		A
+2		4 5		w		1 6		lw		B
+3		3 6		lw		2 8		lw		B
+4		2 7		lw		3 5		lw		B
+5		1 8		lw		4 7		lw		B
+6		3*		lw		6*		lw		A
+7		1 5		lw		4 6		l		C
+8		2 6		w		3 8		lw		C
+9		3 7		lw		2 5		lw		c
+10		4 8		lw		1 7		l		C
+Jack	4*		lw		5*		lw		A
+Queen	5* 7*	lw		4* 2*	lw		A
+King	6* 8*	lw		3* 1*	lw		A
+
+Doubles:
+1: 235678	Missing 4
+2: 145678	Missing 3
+3: 15678	Missing 24
+4: 25678	Missing 13
+5: 12347	Missing 68
+6: 12348	Missing 57
+7: 123458	Missing 6
+8: 123467	Missing 5
+
+
+8 Resources, Few Doubles
+
+		C/H				D/S				Group
+Ace		1* 6*	lw		3* 8*	lw		A
+2		8		w		5		lw		B
+3		3		Lw		2		Lw		B
+4		2		lw		7		lw		B
+5		5		lw		8		lw		B
+6		4*		lw		5*		lw		A
+7		1		lw		4		l		C
+8		7		w		6		lw		C
+9		4		Lw		1		Lw		c
+10		6		lw		3		l		C
+Jack	5*		lw		4*		lw		A
+Queen	3* 7*	lw		6* 2*	lw		A
+King	2* 8*	lw		7* 1*	lw		A
+
+Resources:
+Land: (1)Pineapple, (2)Hibiscus, (3)Coconut, (4)Banana
+	Uppercase
+Water: (5)fish, (6)turtle, (7)jellyfish, (8)squid
+	Lowercase
+
+
+Update:
+8 Resources, Remove Double QK
+* = Port
+
+		C		D		H		S
+Ace		1* 6*	3* 8*	2* 7*	4* 5*		B = 12345678
+2		8		5		8		5
+3		3		2		3		2
+4		2		7		2		7
+5		5		8		5		8
+6		7*		2*		6*		1*			C = 1267
+7		1		4		1		4
+8		7		6		7		6
+9		4		1		4		1
+10		6		3		6		3
+Jack	3*		5*		4*		8*			C = 3458
+Queen	4*		6*		8*		2*			A = 2468
+King	5*		1*		3*		7*			A = 1357
+
+A6JQK:
+		134		123		234		124
+		567		568		678		567
+
+		C		D		H		S
+Ace		P* t*	C* s*	H* j*	B* f*
+2		t		H		C		f
+3		P		j		t		H
+4		C		f		s		B
+5		B		P		j		t
+6		j*		H*		t*		P*
+7		s		B		P		j
+8		f		s		B		P
+9		H		C		f		s
+10		j		t		H		C
+Jack	C*		f*		B*		s*
+Queen	B*		t*		s*		H*
+King	f*		P*		C*		j*
+
+		jtf-s	fts-j	jst-f	fjs-t
+		BCP-H	CHP-B	BCH-P	BHP-C
+
+Deck 2:
+
+		C		D		H		S
+Ace		B* t*	P* f*	C* j*	H* s*
+2		s		B		P		j
+3		C		f		s		B
+4		P		j		t		H
+5		H		C		f		s
+6		f*		B*		s*		C*
+7		t		H		C		f
+8		j		t		H		C
+9		B		P		j		t
+10		f		s		B		P
+Jack	H*		t*		P*		j*
+Queen	C*		j*		f*		P*
+King	s*		H*		B*		t*
+
+		fts-j	jtf-s	fjs-t	jst-f
+		CHP-B	BCP-H	BHP-C	BCH-P
+

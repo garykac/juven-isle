@@ -1,0 +1,54 @@
+*Island* Rules
+
+*Components:*
+54 Island cards
+54 Goal/Ability (GA) cards
+
+*Setup:*
+Deal 5 Island and 3 GA cards to each player
+Place 1 Island card in middle of table
+
+*Each turn:*
+
+(A) Build (use Island Cards)
+Either:
+* Play an Island card from your hand, OR
+* Move an exiting Island card to a new location
+
+(B) Redeem (optional - use Goal/Ability Cards):
+* If you have a Goal that is satisfied by the current map state, redeem it for VPs 
+	Keep the Goal card in front of you face-up to track VPs.
+* You may play 0 or more Abilities to modify the map state before redeeming a Goal.
+	No VPs are gained for using a GA card for its Ability.
+	All Abilities expire at the end of the player's turn.
+	After an Ability is used, the GA card is placed on the bottom of the GA deck.
+
+(C) Draw
+* Discard any number of cards from your hand. Place them at bottom of respective deck.
+* Draw hand back up to 8 cards
+* Choose any combination of Island and GA cards.
+
+
+*Island Cards*
+
+Each Island card has the outline of part of an island and may contain Ports and resources that
+are connected by dotted lines ("routes") on the land and water. They are also marked with the
+standard suits (Clubs, Diamonds, Hearts, Spades) and values (Ace through King) with 2 Jokers.
+Resources can be on land (eg, Pineapples) or in the water (eg, Squid, Turtles) and are always
+found along a marked route.
+
+*Goal/Ability Cards*
+
+Each Goal/Ability card contains a goal and may also have a special ability. The card can be
+used either for the Goal OR for the Ability, but not both.
+
+Sample Goals:
+Connect Port + Pineapple + Squid = 2 VP
+Connect 2 Ports + Squid and pass through at least one Heart card = 3 VP
+Connect Turtle + Pineapple without passing through a Spade card = 3 VP
+Complete an island = 2 VP
+
+Sample Abilities:
+Choose 2 Hearts/Spades/Clubs/Diamonds cards in play. Land/water routes on those cards are connected.
+Ignore Goal suit restriction for this turn
+Choose an island. All routes on that island are connected to each other for this turn.

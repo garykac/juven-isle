@@ -1,0 +1,158 @@
+  <g
+     inkscape:groupmode="layer"
+     id="water_shallow_layer"
+     inkscape:label="Water Shallow"
+     style="display:inline">
+    <path
+       style="fill:#9bd1ff;fill-opacity:0.7;fill-rule:evenodd;stroke:none;filter:url(#blurWaterShallow)"
+       d="m -50.625,78.75 c -11.574325,4.453653 -7.770198,19.367387 -7.965541,29.0622 2.165966,9.60465 -5.338383,15.98402 -14.246503,13.08144 -23.334887,1.22863 -47.943546,7.63776 -70.393636,-1.88593 -17.60948,-8.4685 -24.3905,-29.102217 -25.5332,-47.34042 -3.10693,-37.118291 4.88509,-73.9727411 12.57647,-110.064811 2.58538,-11.294213 5.3929,-22.536783 8.34957,-33.739259 26.82026,0.211501 56.086205,2.647322 77.595391,20.463065 18.808569,16.201127 23.992333,42.3629501 24.466828,66.06384 C -45.215775,35.943724 -47.604678,57.444084 -50.625,78.75 Z"
+       id="path166"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="water_deep_layer"
+     inkscape:label="Water Deep"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#87c8ff;fill-opacity:0.6;fill-rule:evenodd;stroke:none;filter:url(#blurWaterDeep)"
+       d="m -78.993892,41.688663 c -7.032722,12.437716 -13.557737,25.396663 -23.008828,36.225087 -2.90458,3.730914 -9.2191,7.210677 -12.6685,2.162173 -5.21591,-7.434177 -6.61149,-16.714095 -8.63915,-25.385472 -2.86429,-14.526788 -5.17165,-29.179878 -7.03969,-43.858447 -0.44963,-11.39808971 -0.66746,-23.84328 6.09163,-33.643359 12.90505,-7.334642 28.403803,-5.552734 42.470987,-3.578385 4.75504,1.196691 8.96725,4.4312 12.464072,7.824627 4.900665,4.732472 4.760343,12.1670096 2.858705,18.24012089 -0.660492,5.44199581 -1.691203,10.11548131 -6.132294,13.70040411 -5.883443,6.841302 -10.223351,16.237233 -7.417341,25.318118 0.281475,1.01713 0.625449,2.0166 1.020409,2.995133 z"
+       id="path169"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="grass_master_layer"
+     inkscape:label="Grass Master"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 291.875,132.75 c -7.24874,0 -13.125,8.11484 -13.125,18.125 0,10.01016 5.87626,18.125 13.125,18.125 7.24874,0 13.125,-8.11484 13.125,-18.125 0,-10.01016 -5.87626,-18.125 -13.125,-18.125 z"
+       id="grass"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="forest_master_layer"
+     inkscape:label="Forest Master"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 291.375,140.5 c -4.34924,0 -7.875,4.25329 -7.875,9.5 0,5.24671 3.52576,9.5 7.875,9.5 4.34924,0 7.875,-4.25329 7.875,-9.5 0,-5.24671 -3.52576,-9.5 -7.875,-9.5 z"
+       id="forest"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="labels_layer"
+     inkscape:label="Labels"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       id="text223"><textPath
+         xlink:href="#dagger_point"
+         id="textPath225"><tspan
+   style="-inkscape-font-specification:'CCTreasureTroveAged, Normal';font-family:CCTreasureTroveAged;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:8.75px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   id="tspan227">Dagger Point</tspan></textPath></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="labels_guide_layer"
+     inkscape:label="Labels Guide"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       id="dagger_point"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       d="m 346.02863,126.08781 c -14,-2.75 -43.125,-4.625 -64.625,-2.625"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="extras_layer"
+     inkscape:label="Extras"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="extra-ship"
+       transform="matrix(0.4444171,-0.89581998,0.89581998,0.4444171,266.30938,417.60566)">
+      <path
+         style="color:#000000;fill:url(#gradientShip);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         d="m 243.2364,-52.722824 c -3.10208,-2.937202 -8.72518,-3.346714 -12.49116,-3.032742 -2.95307,0.246202 -6.62512,1.070872 -6.62512,1.070872 l -0.0121,3.725952 c 0,0 2.43298,0.582421 6.39007,0.932887 3.66202,0.324334 9.61676,-0.283241 12.73834,-2.696969 z"
+         inkscape:connector-curvature="0"
+         id="path261" />
+      <path
+         style="color:#000000;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 243.05273,-53.089844 c -0.50461,-0.01007 -0.51271,0.749303 -0.008,0.75 l 2.80546,-0.143551 c 0.50461,0.01007 0.51856,-0.385922 0.0138,-0.386619 z"
+         inkscape:connector-curvature="0"
+         id="path263" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="guides_layer"
+     inkscape:label="Guides"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="guide-short0-3">
+      <rect
+         x="84.375"
+         y="-22.5"
+         width="163.125"
+         height="22.5"
+         style="fill:#ffd291;stroke:#000000;stroke-width:0.89999998"
+         id="rect349" />
+    </g>
+    <g
+       id="guide-long1-7">
+      <rect
+         x="247.5"
+         y="0"
+         width="22.5"
+         height="337.5"
+         style="fill:#ffd291;stroke:#000000;stroke-width:0.89999998"
+         id="rect366" />
+    </g>
+    <g
+       id="guide-short2-4"
+       transform="matrix(-1,0,0,1,247.5,360)">
+      <rect
+         x="0"
+         y="-22.5"
+         width="84.375"
+         height="22.5"
+         style="fill:#ffd291;stroke:#000000;stroke-width:0.89999998"
+         id="rect373" />
+    </g>
+    <g
+       id="guide-long3-0"
+       transform="matrix(1,0,0,-1,-270,337.5)">
+      <rect
+         x="247.5"
+         y="0"
+         width="22.5"
+         height="337.5"
+         style="fill:#73baff;stroke:#000000;stroke-width:0.89999998"
+         id="rect386" />
+    </g>
+  </g>
+
+
+
+fixup guide border numbers
+
+shoreline_master_layer
+	single path
+
+routes_layer
+	single path
+	
+resources_layer
+	group with id = resource-xxx

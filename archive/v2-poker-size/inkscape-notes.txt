@@ -1,0 +1,232 @@
+Notes for making Island cards
+
+Setup Inkscape
+	*** snap to
+
+Notes:
+	Union, Difference
+		The backmost shape is kept, the others are removed
+		This is important when you're merging into a cloned shape
+		Make sure the clones shape is the rearmost shape/path
+		TODO: is this the same for combine paths
+
+Set page size:
+2.5 x 3.5 + 1/8" border for bleed
+
+"Page Border" Layer with outside boundary
+	topmost layer
+	
+"Cut Line" Layer with card cut outline
+	Below "Page Border"
+
+*** Set page grid
+	Enable alignment
+	
+*** Create edge guides
+
+"Water"
+=======
+Create layer below "Page Border"
+Rect size of entire page
+Fill: rgb 180 220 255
+Stroke: None
+
+Lock layer
+
+"Shoreline Master"
+==================
+Create layer above "Water"
+Draw single shape for shoreline
+	If multiple islands, combine into a single shape using Path > Union
+	Enable the guides and snap to grid to match the edges
+Apply "Roughen" Filter
+	Filters > Distort > Roughen
+	Turbulence
+		Base freq: 0.05
+		Octaves: 4
+	Displacement Map
+		Scale: 6.6
+In "Filter Editor" rename the filter "Shoreline Roughen"
+"Fill and Stroke"
+	Set Fill and Stroke to "?"
+	This will allow clones to override
+	This will turn the shape black
+	That's OK because we'll be hiding this layer
+The roughen filter will move the shortline a bit
+	Adjust points so that the roughened shortline aligns with the guides
+
+"Land"
+======
+Create layer below "Shoreline Master"
+Clone the shape from "Shoreline Master"
+	Edit > Clone > Create Clone
+Move clone into the "Land" layer
+	Layer > Move Selection to Layer Below
+Turn off the visibility of the "Shoreline Master" layer
+	Only the clone should be visible
+	
+Select the clone
+"Fill and Stroke"
+	fill: rgb 255 221 171
+	stroke: rgb 95 76 20
+		1px wide
+
+"Water Hilight"
+===============
+Create layer below "Land" (above "Water")
+Clone the shape from "Shoreline Master"
+	Edit > Clone > Create Clone
+	Showing and hiding the layer again
+Move clone into the "Water Hilight" layer
+	Layer > Move Selection to Layer Below (Twice)
+"Fill and Stroke"
+	Fill white
+	Stroke white 1px
+	Blur 5%
+In "Filter Editor" rename the filter "Shoreline Water Blur"
+
+
+
+*** Water Deep
+Below Water Hilight
+fill 135 190 255 opacity 65
+Blur 10%
+Rename filter "Water Deep Blur"
+
+Lock "Land" and "Water Hilight" layers
+Turn off visibility of "Shoreline Master" layer
+
+
+"Paths Master"
+=============
+Create layer above "Shoreline Master"
+Draw paths
+	combine multiple paths into a single path
+		Path > Combine
+	Enable the guides and snap to grid to match the edges
+"Fill and Stroke"
+	Set Fill and Stroke to "?"
+	This will allow clones to override
+	This will fill the path with a black fills
+	That's OK because:
+		we'll be hiding this layer
+		otherwise we wouldn't be able to see the path to select it
+
+"Paths Dots"
+============
+Create layer below "Paths Master"
+Clone the path from "Paths Master"
+	Edit > Clone > Create Clone
+Move clone into the "Paths Dots" layer
+	Layer > Move Selection to Layer Below
+Turn off the visibility of the "Paths Master" layer
+	Only the clone should be visible
+
+"Fill and Stroke"
+	Fill: None
+	Stroke: black, 2px, round cap, pick any dash pattern
+
+To make a proper dot pattern, we need to edit the paths XML directly
+	Select the path and choose Edit > XML Editor
+	Select the 'style' for this path
+	Change the 'stroke-dasharray' to 0.1 5
+		stroke-dasharray:0.1 5
+	Press the 'Set' button
+	Close the XML Editor
+
+At this point, you may want to move paths to align the dots
+	Esp. if you use multiple lines to have the the path split
+It's easier to align path dots from the start of the path
+	Since there's guaranteed to be a dot there
+	Reverse path if necessary to change where the start of the path is
+		Path > Reverse
+	
+"Paths Hilight"
+===============
+Create layer below "Paths Dots"
+Clone the shape from "Paths Master"
+	Edit > Clone > Create Clone
+	Showing and hiding the layer again
+Move clone into the "Paths Hilight" layer
+	Layer > Move Selection to Layer Below (Twice)
+"Fill and Stroke"
+	Stroke: white, 4px
+	Blur: 3%
+	Opacity: 50%
+In "Filter Editor" rename the filter "Paths Hilight Blur"
+
+
+Lock "Path Dots" and "Paths Hilight" layers
+Turn off visibility of "Paths Master" layer
+
+
+"Grass"
+=======
+Create layer above "Shoreline Master"
+Draw grass shape with the land
+	Enable the guides and snap to grid to match the edges
+"Fill and Stroke"
+	Stroke: None
+	Fill: 180 233 130
+	Blur: 2%
+In "Filter Editor" rename the filter "Grass Blur"
+
+"Forest Master"
+===============
+Create layer above "Grass"
+Draw content
+	Draw ovals
+	Union them into a single shape
+"Fill and Stroke"
+	Set Fill and Stroke to "?"
+
+"Forest"
+========	
+Create layer below "Forest Master"
+Clone the shape from "Forest Master"
+	Edit > Clone > Create Clone
+	Showing and hiding the layer again
+Move clone into the "Forest" layer
+	Layer > Move Selection to Layer Below
+"Fill and Stroke"
+	Fill rgb: 108 176 0; HSV: 59 255 88
+	Stroke rgb: 0 104 0; HSV: 85 255 52
+	width 1.5 px
+Apply "Roughen" Filter
+	Filters > Distort > Roughen
+	Turbulence
+		Base freq: 0.15 (Horizontal/Vertical freq 15.0)
+		Octaves: 4 (Complexity)
+	Displacement Map
+		Scale: 6.6 (Intensity)
+In "Filter Editor" rename the filter "Trees Roughen"
+
+"Forest Shadow"
+===============
+Create layer below "Forest"
+Clone the shape from "Forest Master"
+	Edit > Clone > Create Clone
+	Showing and hiding the layer again
+Move clone into the "Forest Shadow" layer
+	Layer > Move Selection to Layer Below (Twice)
+"Fill and Stroke"
+	Fill rgb: 37 140 27
+	Stroke: None
+	Opacity 75%
+N2me filter "Trees Shadow Blur"
+Apply "Trees Roughen" Filter
+	Open Filter Editor
+Group Shadow
+	Group will only have 1 object in it (the shadow)
+	This will allow multiple filters to be applied
+	Object > Group
+"Fill and Stroke"
+	Blur 2%
+
+Lock "Forest" and "Forest Shadow" layers
+Turn off visibility of "Forest Master" layer
+
+
+
+======
+
