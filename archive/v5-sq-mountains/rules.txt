@@ -1,0 +1,99 @@
+Intro
+players start with no weapons. just a ceremonial knife given to them by the locals.
+"weapons may not be taken into the mountains," you are told.  "when you die, the mountains will take your weapons and use them against us."
+"these knives," you are told as you are each handed a curved knife with a carved bone handle, "cannot be used by the mountains against us. you may take these with you."
+
+setup:
+draw one blessing from the locals
+
+turn:
+draw 3 map tiles. choose 1 to add to the map and explore. discard other 2 map tiles.
+	you must play a tile if possible
+	if multiple match, then you choose which one to play
+	if you can't match any, then discard all 3 and heal 1
+if tile has a location, then explore location by drawing monster cards equal to the number of stars on the location
+	see combat
+	after defeating monsters at the location, draw treasure cards
+
+players have 4 treasure slots to hold treasure cards
+	multiple cards of the exact same type can be placed in the same slot
+
+for every 2 treasures discarded, players may remove one damage card
+
+combat:
+player attacks first, then monster, and so on.
+run away - take damage, but no treasure.
+	Mark location so others can re-visit.
+death -
+	if killed, then other players can choose to immediately group up to attack the monster.
+	if they are successful, then they save the body which can be returned to town and revived.
+	if they don't do this immediately, or if they aren't successful, then the body is gone (consumed, inhabited, who knows?) all equipment lost.
+
+
+blessings/abilities:
+you can heal another player one card per battle when you are attacking together
+you can use rusty swords as any other sword that you have
+once/battle you can cast a spell that causes 1 damage to each enemy
+base defense +1
+during trading, you may give/receive 2 cards instead of only 1 (must be same card to/fro same person)
+sword sweep: instead of damage to 1 opponent with sword, you can split 1/2 damage over multiple opponents
+
+
+treasure:
+	long sword 2/4/7/11
+	throwing dagger 1/3/5 can split damage across multiple monsters
+	bow & arrow 2/4/6 can split damage
+	rusty sword 2/3/4
+	amulet damage boost +1/2/3/4
+	warhammer 3/6/10/15 requires 2hands
+	wand 2/4/6/8 can split damage
+
+	amulet defense +1/2/3/4
+	shield def +1/3/6/10
+	armor def +2/4/7/
+
+	wand of healing
+	amulet of ability-to-attack-boss +0/2/4 against boss
+
+
+
+players have 8hp
+
+monsters:
+Wild:
+Wolf:
+	1: 1x 3hp wolf    attack 2  def 0  escape 1
+	2: 2x 4hp wolves  attack 3  def 1  escape 1
+	3: 4x 5hp wolves  attack 4  def 2  escape 1/ea
+	4: 
+Slime: all slimes combine for single attack
+	1: 2x 1hp slimes  attack 1 each
+	2: 4x 2hp slimes  attack 2 each
+	3: 6x 4hp slimes  attack 3 each
+	4: 
+Goblin:
+	1: 1x 3hp goblin  attack 2  def 0
+	2: 1x 8hp goblins attack 4  def 2
+	3: 1x 14hp goblins attack 8  def 4
+	4: 
+
+boss:
+
+
+locations:
+castles with monsters
+trading fair - players can give 1 item to another
+	can remove 1 damage card for each treasure discarded
+
+
+pain:
+0 damage (lucky)
+	3x then heal 1?
+1 damage
+1 damage - attack/sword side
+	3x then can no longer use attack arm (or 2-handed weapons)
+1 damage - defense/shield side
+	3x then can no longer use defense arm (or 2-handed weapons)
+1 damage
+	3x then "the magic, it burns" cannot use amulets, or cast spells
+2 damage

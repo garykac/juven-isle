@@ -1,0 +1,163 @@
+
+    100,110,210 - 000 - 001,011,012
+    100,110,210 - 001 - 100,110,111,112
+    100,110,210 - 011 - 100,110,111,112
+    100,110,210 - 012 - 210,211,222
+001,011,111,211 - 100 - 001,011,012
+001,011,111,211 - 110 - 001,011,012
+001,011,111,211 - 111 - 100,110,111,112
+001,011,111,211 - 112 - 210,211,222
+    012,112,222 - 210 - 001,011,012
+    012,112,222 - 211 - 100,110,111,112
+    012,112,222 - 222 - 210,211,222
+
+
+simple (no 100 or 100):
+
+island test (with mountains)
+000.000.000.000 - all water. skip
+000.000.011.110
+000.000.012.210
+000.011.112.210
+000.012.211.110
+000.012.222.210 - only one 222 edge (topo lines don't match)
+011.110.011.110
+011.110.012.210
+011.111.111.110
+011.112.211.110
+011.112.222.210 - only one 222 edge (topo lines don't match)
+012.210.012.210
+012.211.112.210
+012.222.211.110 - only one 222 edge (topo lines don't match)
+012.222.222.210
+111.111.111.111
+111.111.112.211
+112.211.112.211
+112.222.222.211
+222.222.222.222
+auto-gen cards 20
+
+
+island test (with mountains)
+@@dL - 000.000.011.110
+@@eu - 000.000.012.210
+@dNu - 000.011.112.210
+@evL - 000.012.211.110
+dLdL - 011.110.011.110
+dLeu - 011.110.012.210
+dmmL - 011.111.111.110
+dNvL - 011.112.211.110
+eueu - 012.210.012.210
+evNu - 012.211.112.210
+ezzu - 012.222.222.210
+mmmm - 111.111.111.111
+mmNv - 111.111.112.211
+NvNv - 112.211.112.211
+Nzzv - 112.222.222.211
+zzzz - 222.222.222.222
+auto-gen cards 16
+
+
+island test (with mountains)
+00.00.02.20 - 00.00.02.20
+00.00.05.50 - 00.00.05.50
+00.02.25.50 - 00.02.25.50
+00.05.52.20 - 00.05.52.20
+02.20.02.20 - 02.20.02.20
+02.20.05.50 - 02.20.05.50
+02.23.32.20 - 02.23.32.20
+02.25.52.20 - 02.25.52.20
+05.50.05.50 - 05.50.05.50
+05.52.25.50 - 05.52.25.50
+05.56.65.50 - 05.56.65.50
+23.32.23.32 - 23.32.23.32
+23.32.25.52 - 23.32.25.52
+25.52.25.52 - 25.52.25.52
+25.56.65.52 - 25.56.65.52
+56.65.56.65 - 56.65.56.65
+auto-gen cards 16
+
+
+
+Probabilities
+3 different types. equal prob
+draw 2 match 2 = 1 * 0.3 = 0.3
+draw 3 match 2 = (0.3) + (0.6 * 0.3) + (0.3 * 0.3) + (0.3 * 0.3)
+
+draw 2:
+66.6% 2 singles
+33.3% match 2
+
+draw 3:
+22.2% 3 singles
+66.6% match 2 + single
+11.1% match 3
+
+draw 4:
+44.4% match 2 + 2 singles
+22.2% match 2 + match 2
+29.6% match 3 + single
+ 3.7% match 4
+
+Match 2
+a a
+a b
+a c
+Match 3
+a a a - match iii
+a a b - match ii
+a a c - match ii
+a b a - match ii
+a b b - match ii
+a b c
+a c a - match ii
+a c b
+a c c - match ii
+b a a - match ii
+b a b - match ii
+b a c
+b b a - match ii
+b b b - match iii
+b b c - match ii
+b c a
+b c b - match ii
+b c c - match ii
+c a a - match ii
+c a b
+c a c - match ii
+c b a
+c b b - match ii
+c b c - match ii
+c c a - match ii
+c c b - match ii
+c c c - match iii
+
+Match 4
+a a a a - match iiii
+a a a b - match iii
+a a a c - match iii
+a a b a - match iii
+a a b b - match ii & ii
+a a b c - match ii
+a a c a - match iii
+a a c b - match ii
+a a c c - match ii & ii
+a b a a - match iii
+a b a b - match ii & ii
+a b a c - match ii
+a b b a - match ii & ii
+a b b b - match iii
+a b b c - match ii
+a b c a - match ii
+a b c b - match ii
+a b c c - match ii
+a c a a - match iii
+a c a b - match ii
+a c a c - match ii & ii
+a c b a - match ii
+a c b b - match ii
+a c b c - match ii
+a c c a - match ii & ii
+a c c b - match ii
+a c c c - match iii
+...
