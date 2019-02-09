@@ -41,11 +41,6 @@ card_info = {
 
 	'0000a':	['3rw',	'fst',	'',	'Juven Isle', 25],
 	'0000b':	['xw',	'x',	'',	'Argh Isle', 27],
-
-
-	'1436a':	['pl',	'pB',	'TODO',	'Port Judgement'],
-	'7777a':	['3rl',	'BCH',	'TODO',	'Unused'],
-
 }
 
 xxx = {
@@ -212,6 +207,7 @@ class IslandsGen(object):
 		self.curr_file = 0
 		self.curr_card = 0
 		self.seed = 0
+		self.base_name = ''
 
 		self.bleed = 11.25 # = 1/8"
 		self.safe_margin = 11.25 # = 1/8"
@@ -1007,7 +1003,13 @@ class IslandsGen(object):
 	# Utilities
 
 	def process_card(self, name):
-		print name, self.seed
+		basename = name[0:4]
+		if basename != self.base_name:
+			if self.base_name != '':
+				print
+			self.base_name = basename
+			print basename,
+		print name[4:],
 
 		data = self.load_data(name)
 
@@ -1025,6 +1027,7 @@ class IslandsGen(object):
 				"--export-text-to-path",
 				"--without-gui"
 				])
+
 	def gen(self):
 		seed_base = 0
 		seed_delta = 0
@@ -1044,6 +1047,7 @@ class IslandsGen(object):
 			# Process single card
 			if id == '' or id == name:
 				self.process_card(name)
+		print
 
 	def check_res_count(self, desc, res, count):
 		rlist = ['f','s','t','B','C','H']
