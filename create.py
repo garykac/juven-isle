@@ -85,14 +85,14 @@ card_info = {
 	'1434b':	['pw',	'pf',	'TODO',	'Tawny Port'],
 	'1434c':	['rdl',	'B',	'TODO',	'Unused'],
 	'1434d':	['rdl',	'C',	'TODO',	'Unused'],
-}
-
-xxx = {
 
 	'1436a':	['pl',	'pB',	'TODO',	'Port Judgement'],
 	'1436b':	['pw',	'ps',	'TODO',	'Port Able'],
 	'1436c':	['2rdw','fs',	'TODO',	'Unused'],
 	'1436d':	['rw',	't',	'TODO',	'Unused'],
+}
+
+xxx = {
 
 	'1616a':	['2rdl','BC',	'TODO',	'Unused'],
 	'1616b':	['2rdw','tf',	'TODO',	'Unused'],
