@@ -45,12 +45,13 @@ card_info = {
 	'0014a':	['rw',	'f',	'',	'Point Exter'],
 	'0014b':	['xw',	'x',	'',	'Exclamation Point'],
 	'0014c':	['xw',	'x',	'Name',	'Unused'],
-}
 
-xxx = {
 	'0016a':	['pl',	'pC',	'TODO',	'Unused'],
 	'0016b':	['pw',	'ps',	'TODO',	'Unused'],
 	'0016c':	['rdl',	'B',	'TODO',	'Dissa Point'],
+}
+
+xxx = {
 
 	'0034a':	['pl',	'pH',	'TODO',	'Rose Port'],
 	'0034b':	['pw',	'pf',	'TODO',	'Port Ico'],
