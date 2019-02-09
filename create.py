@@ -125,13 +125,13 @@ card_info = {
 	'3774a':	['pl',	'pB',	'TODO',	'Port Quinta'],
 	'3774b':	['pw',	'pt',	'TODO',	'Port Roberts'],
 	'3774c':	['rdw',	'f',	'TODO',	'Unused'],
-}
-
-xxx = {
 
 	'3776a':	['rl',	'H',	'TODO',	'Unused'],
 	'3776b':	['xl',	'x',	'TODO',	'Unused'],
 	'3776c':	['xl',	'x',	'TODO',	'Unused'],
+}
+
+xxx = {
 
 	'7777a':	['3rl',	'BCH',	'TODO',	'Unused'],
 	'7777b':	['xl',	'x',	'TODO',	'Unused'],
