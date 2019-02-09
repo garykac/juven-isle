@@ -173,8 +173,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="158.16459"
-     inkscape:cy="98.320104"
+     inkscape:cx="82.093161"
+     inkscape:cy="55.462961"
      inkscape:document-units="px"
      inkscape:current-layer="water_medium_layer"
      showgrid="false"
@@ -909,7 +909,7 @@
      inkscape:groupmode="layer"
      id="edge_guides_layer"
      inkscape:label="Edge Guides"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(-1.5e-5,39.99994)"
        style="display:inline"
@@ -987,7 +987,7 @@
      inkscape:groupmode="layer"
      id="edge_guides_master_layer"
      inkscape:label="Edge Guides Master"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="guide0-1"
