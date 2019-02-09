@@ -1,4 +1,5 @@
 *~
+*.pyc
 old decks/*
 
 archive/v2-poker-size/deck1-png-gen/*
