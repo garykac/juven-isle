@@ -53,13 +53,13 @@ card_info = {
 	'0034a':	['pl',	'pH',	'TODO',	'Rose Port'],
 	'0034b':	['pw',	'pf',	'TODO',	'Port Ico'],
 	'0034c':	['rdl', 'C',	'TODO',	'Unused'],
-}
-
-xxx = {
 
 	'0036a':	['pw',	'pf',	'TODO',	'Port Folio'],
 	'0036b':	['rl',	'B',	'TODO',	'Unused'],
 	'0036c':	['rw',	's',	'TODO',	'Unused'],
+}
+
+xxx = {
 
 	'0174a':	['pl',	'pC',	'TODO',	'Port-au-Bella'],
 	'0174b':	['pw',	'ps',	'TODO',	'Port Manteau'],
