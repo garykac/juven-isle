@@ -129,9 +129,6 @@ card_info = {
 	'3776a':	['rl',	'H',	'TODO',	'Unused'],
 	'3776b':	['xl',	'x',	'TODO',	'Unused'],
 	'3776c':	['xl',	'x',	'TODO',	'Unused'],
-}
-
-xxx = {
 
 	'7777a':	['3rl',	'BCH',	'TODO',	'Unused'],
 	'7777b':	['xl',	'x',	'TODO',	'Unused'],
