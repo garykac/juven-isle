@@ -246,21 +246,21 @@ class IslandsGen(object):
 		self.svg.set_filename('svg-out/%s.svg' % (name))
 
 		# texture: octaves seed freq blur
-		self.svg.add_def(SvgDefTexture('textureGrassBig', 2, self.seed, 0.07, 2.5))
-		self.svg.add_def(SvgDefTexture('textureGrassSmall', 4, self.seed, 0.5, 1.0))
-		self.svg.add_def(SvgDefTexture('textureLand', 4, self.seed, 0.5, 0.8))
-		self.svg.add_def(SvgDefTexture('textureForestBig', 2, self.seed, 0.3, 2.0))
-		self.svg.add_def(SvgDefTexture('textureForestSmall', 4, self.seed, 0.35, 1.0))
+		#self.svg.add_def(SvgDefTexture('textureGrassBig', 2, self.seed, 0.07, 2.5))
+		#self.svg.add_def(SvgDefTexture('textureGrassSmall', 4, self.seed, 0.5, 1.0))
+		#self.svg.add_def(SvgDefTexture('textureLand', 4, self.seed, 0.5, 0.8))
+		#self.svg.add_def(SvgDefTexture('textureForestBig', 2, self.seed, 0.3, 2.0))
+		#self.svg.add_def(SvgDefTexture('textureForestSmall', 4, self.seed, 0.35, 1.0))
 		# roughen turbulence octaves seed freq scale
-		self.svg.add_def(SvgDefRoughenTurbulence('roughenShoreline', 4, self.seed, 0.05, 6.6))
+		#self.svg.add_def(SvgDefRoughenTurbulence('roughenShoreline', 4, self.seed, 0.05, 6.6))
 		# roughen noise octaves seed freq1 freq2 scale
-		self.svg.add_def(SvgDefRoughenNoise('roughenForest', 4, self.seed, 0.15, 0.15, 6.6))
+		#self.svg.add_def(SvgDefRoughenNoise('roughenForest', 4, self.seed, 0.15, 0.15, 6.6))
 		# filter-blur: x y width height stddev
 		self.svg.add_def(SvgDefFilterBlur('blurWaterDeep', -0.056690667, -0.041619708, 1.1133813, 1.0832394, 6.9191359))
 		self.svg.add_def(SvgDefFilterBlur('blurWaterShallow', -0.055818416, -0.042102724, 1.1116368, 1.0842054, 6.5615005))
 		self.svg.add_def(SvgDefFilterBlur('blurWaterHilight', -0.25, -0.25, 1.5, 1.5, 6.8575319))
-		self.svg.add_def(SvgDefFilterBlur('blurGrass', -0.032100266, -0.019164084, 1.0642005, 1.0383282, 2.3862132))
-		self.svg.add_def(SvgDefFilterBlur('blurForestShadow', -0.033575919, -0.018674107, 1.0671518, 1.0373482, 2.1997847))
+		self.svg.add_def(SvgDefFilterBlur('blurGrass', -0.1, -0.1, 1.2, 1.2, 0.8))
+		self.svg.add_def(SvgDefFilterBlur('blurForestShadow', -0.1, -0.1, 1.2, 1.2, 0.8))
 		self.svg.add_def(SvgDefFilterBlur('blurFlowerInner', -0.42, -0.42, 1.84, 1.84, 1.6055398))
 		self.svg.add_def(SvgDefFilterBlur('blurFlowerMiddle', -0.24, -0.24, 1.48, 1.48, 1.9337049))
 		# gradient-stops: [<stop1>, ...]
@@ -317,25 +317,13 @@ class IslandsGen(object):
 		self.svg.clone('shoreline', {'style': style})
 		self.svg.end_layer()
 	
-		self.svg.start_layer('land_layer', 'Land')
-		style = 'display:inline;fill:#ffddab;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
-		self.svg.clone('shoreline', {'style': style})
-		self.svg.end_layer()
-	
-		self.svg.start_layer('land_texture_layer', 'Land Texture')
-		filter = 'textureLand'
-		style = 'display:inline;fill:#ffca7d;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#%s)' % filter
-		self.svg.clone('shoreline', {'style': style})
-		self.svg.end_layer()
-	
 		self.svg.start_layer('shoreline_layer', 'Shoreline')
-		style = 'display:inline;fill:none;fill-opacity:1;stroke:#5f4c14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
+		style = 'display:inline;fill:#ffddab;fill-opacity:1;stroke:#5f4c14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
 		self.svg.clone('shoreline', {'style': style})
 		self.svg.end_layer()
 	
 		self.svg.start_layer('shoreline_master_layer', 'Shoreline Master', {'hidden': True})
-		filter = 'roughenShoreline'
-		style = 'color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#%s);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate' % filter
+		style = 'color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate'
 		self.svg.path(path, {'id': 'shoreline', 'style': style})
 		self.svg.end_layer()
 
@@ -344,19 +332,7 @@ class IslandsGen(object):
 		style = 'display:inline;fill:#b4e982;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
 		self.svg.clone('grass', {'style': style})
 		self.svg.end_layer()
-	
-		self.svg.start_layer('grass_texture_big_layer', 'Grass Texture Big')
-		filter = 'textureGrassBig'
-		style = 'display:inline;fill:#a7e46a;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#%s)' % filter
-		self.svg.clone('grass', {'style': style})
-		self.svg.end_layer()
-	
-		self.svg.start_layer('grass_texture_small_layer', 'Grass Texture Small')
-		filter = 'textureGrassSmall'
-		style = 'display:inline;fill:#8cdd3d;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#%s)' % filter
-		self.svg.clone('grass', {'style': style})
-		self.svg.end_layer()
-	
+
 		self.svg.start_layer('grass_master_layer', 'Grass Master', {'hidden': True})
 		filter = 'blurGrass'
 		style = 'color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#%s);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate' % filter
@@ -365,39 +341,19 @@ class IslandsGen(object):
 		self.svg.end_layer()
 
 	def draw_forest_layers(self, path):
-		outline_filter = 'roughenForest'
-
 		self.svg.start_layer('forest_shadow_layer', 'Forest Shadow')
 		self.svg.start_group({'style': 'filter:url(#blurForestShadow)'})
-		style = 'display:inline;opacity:0.75;fill:#258c1b;fill-opacity:1;filter:url(#%s)' % outline_filter
+		style = 'display:inline;opacity:0.75;fill:#258c1b;fill-opacity:1'
 		self.svg.clone('forest', {'style': style})
 		self.svg.end_group()
 		self.svg.end_layer()
 		
 		self.svg.start_layer('forest_fill_layer', 'Forest Fill')
-		style = 'fill:#83d700;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#%s)' % outline_filter
+		#style = 'fill:#83d700;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
+		style = 'fill:#7ebd47;fill-opacity:1;fill-rule:nonzero;stroke:#496e28;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1'
 		self.svg.clone('forest', {'style': style})
 		self.svg.end_layer()
 		
-		self.svg.start_layer('forest_texture_big_layer', 'Forest Texture Big')
-		self.svg.start_group({'style': 'filter:url(#textureForestBig)'})
-		style = 'fill:#548c00;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#%s)' % outline_filter
-		self.svg.clone('forest', {'style': style})
-		self.svg.end_group()
-		self.svg.end_layer()
-		
-		self.svg.start_layer('forest_texture_small_layer', 'Forest Texture Small')
-		self.svg.start_group({'style': 'filter:url(#textureForestSmall)'})
-		style = 'fill:#78c125;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#%s)' % outline_filter
-		self.svg.clone('forest', {'style': style})
-		self.svg.end_group()
-		self.svg.end_layer()
-	
-		self.svg.start_layer('forest_outline_layer', 'Forest Outline')
-		style = 'fill:none;fill-opacity:1;stroke:#006800;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#%s)' % outline_filter
-		self.svg.clone('forest', {'style': style})
-		self.svg.end_layer()
-
 		self.svg.start_layer('forest_master_layer', 'Forest Master', {'hidden': True})
 		style = 'color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate'
 		self.svg.path(path, {'id': 'forest', 'style': style})

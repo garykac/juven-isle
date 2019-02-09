@@ -14,64 +14,6 @@
 </metadata>
 
 <defs>
-  <filter inkscape:label="textureGrassBig" style="color-interpolation-filters:sRGB" id="textureGrassBig">
-    <feTurbulence numOctaves="2" seed="27" type="turbulence" baseFrequency="0.070000" result="result1" />
-    <feColorMatrix result="result0" in="SourceGraphic" type="luminanceToAlpha" />
-    <feColorMatrix result="result2" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 " />
-    <feComposite in="result2" operator="over" in2="result1" />
-    <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -4 " />
-    <feComposite operator="out" in="SourceGraphic" in2="result91" />
-    <feGaussianBlur stdDeviation="2.500000" />
-    <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
-  </filter>
-  <filter inkscape:label="textureGrassSmall" style="color-interpolation-filters:sRGB" id="textureGrassSmall">
-    <feTurbulence numOctaves="4" seed="27" type="turbulence" baseFrequency="0.500000" result="result1" />
-    <feColorMatrix result="result0" in="SourceGraphic" type="luminanceToAlpha" />
-    <feColorMatrix result="result2" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 " />
-    <feComposite in="result2" operator="over" in2="result1" />
-    <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -4 " />
-    <feComposite operator="out" in="SourceGraphic" in2="result91" />
-    <feGaussianBlur stdDeviation="1.000000" />
-    <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
-  </filter>
-  <filter inkscape:label="textureLand" style="color-interpolation-filters:sRGB" id="textureLand">
-    <feTurbulence numOctaves="4" seed="27" type="turbulence" baseFrequency="0.500000" result="result1" />
-    <feColorMatrix result="result0" in="SourceGraphic" type="luminanceToAlpha" />
-    <feColorMatrix result="result2" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 " />
-    <feComposite in="result2" operator="over" in2="result1" />
-    <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -4 " />
-    <feComposite operator="out" in="SourceGraphic" in2="result91" />
-    <feGaussianBlur stdDeviation="0.800000" />
-    <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
-  </filter>
-  <filter inkscape:label="textureForestBig" style="color-interpolation-filters:sRGB" id="textureForestBig">
-    <feTurbulence numOctaves="2" seed="27" type="turbulence" baseFrequency="0.300000" result="result1" />
-    <feColorMatrix result="result0" in="SourceGraphic" type="luminanceToAlpha" />
-    <feColorMatrix result="result2" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 " />
-    <feComposite in="result2" operator="over" in2="result1" />
-    <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -4 " />
-    <feComposite operator="out" in="SourceGraphic" in2="result91" />
-    <feGaussianBlur stdDeviation="2.000000" />
-    <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
-  </filter>
-  <filter inkscape:label="textureForestSmall" style="color-interpolation-filters:sRGB" id="textureForestSmall">
-    <feTurbulence numOctaves="4" seed="27" type="turbulence" baseFrequency="0.350000" result="result1" />
-    <feColorMatrix result="result0" in="SourceGraphic" type="luminanceToAlpha" />
-    <feColorMatrix result="result2" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 " />
-    <feComposite in="result2" operator="over" in2="result1" />
-    <feColorMatrix result="result91" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -4 " />
-    <feComposite operator="out" in="SourceGraphic" in2="result91" />
-    <feGaussianBlur stdDeviation="1.000000" />
-    <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
-  </filter>
-  <filter inkscape:label="roughenShoreline" style="color-interpolation-filters:sRGB" id="roughenShoreline">
-    <feTurbulence numOctaves="4" seed="27" type="turbulence" baseFrequency="0.050000" result="turb" />
-    <feDisplacementMap scale="6.600000" yChannelSelector="G" xChannelSelector="R" in="SourceGraphic" in2="turb" />
-  </filter>
-  <filter inkscape:label="roughenForest" style="color-interpolation-filters:sRGB" id="roughenForest">
-    <feTurbulence numOctaves="4" seed="27" type="fractalNoise" baseFrequency="0.150000 0.150000" result="turb" />
-    <feDisplacementMap scale="6.600000" yChannelSelector="G" xChannelSelector="R" in="SourceGraphic" in2="turb" />
-  </filter>
   <filter inkscape:collect="always" inkscape:label="blurWaterDeep" style="color-interpolation-filters:sRGB" id="blurWaterDeep" x="-0.056691" y="-0.041620" width="1.113381" height="1.083239">
     <feGaussianBlur inkscape:collect="always" stdDeviation="6.919136" />
   </filter>
@@ -81,11 +23,11 @@
   <filter inkscape:collect="always" inkscape:label="blurWaterHilight" style="color-interpolation-filters:sRGB" id="blurWaterHilight" x="-0.250000" y="-0.250000" width="1.500000" height="1.500000">
     <feGaussianBlur inkscape:collect="always" stdDeviation="6.857532" />
   </filter>
-  <filter inkscape:collect="always" inkscape:label="blurGrass" style="color-interpolation-filters:sRGB" id="blurGrass" x="-0.032100" y="-0.019164" width="1.064201" height="1.038328">
-    <feGaussianBlur inkscape:collect="always" stdDeviation="2.386213" />
+  <filter inkscape:collect="always" inkscape:label="blurGrass" style="color-interpolation-filters:sRGB" id="blurGrass" x="-0.100000" y="-0.100000" width="1.200000" height="1.200000">
+    <feGaussianBlur inkscape:collect="always" stdDeviation="0.800000" />
   </filter>
-  <filter inkscape:collect="always" inkscape:label="blurForestShadow" style="color-interpolation-filters:sRGB" id="blurForestShadow" x="-0.033576" y="-0.018674" width="1.067152" height="1.037348">
-    <feGaussianBlur inkscape:collect="always" stdDeviation="2.199785" />
+  <filter inkscape:collect="always" inkscape:label="blurForestShadow" style="color-interpolation-filters:sRGB" id="blurForestShadow" x="-0.100000" y="-0.100000" width="1.200000" height="1.200000">
+    <feGaussianBlur inkscape:collect="always" stdDeviation="0.800000" />
   </filter>
   <filter inkscape:collect="always" inkscape:label="blurFlowerInner" style="color-interpolation-filters:sRGB" id="blurFlowerInner" x="-0.420000" y="-0.420000" width="1.840000" height="1.840000">
     <feGaussianBlur inkscape:collect="always" stdDeviation="1.605540" />
@@ -164,50 +106,25 @@
 <g inkscape:groupmode="layer" id="water_hilight_layer" inkscape:label="Water Hilight" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;filter:url(#blurWaterHilight)" />
 </g>
-<g inkscape:groupmode="layer" id="land_layer" inkscape:label="Land" style="display:inline" sodipodi:insensitive="true" >
-  <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffddab;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-</g>
-<g inkscape:groupmode="layer" id="land_texture_layer" inkscape:label="Land Texture" style="display:inline" sodipodi:insensitive="true" >
-  <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffca7d;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#textureLand)" />
-</g>
 <g inkscape:groupmode="layer" id="shoreline_layer" inkscape:label="Shoreline" style="display:inline" sodipodi:insensitive="true" >
-  <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:none;fill-opacity:1;stroke:#5f4c14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffddab;fill-opacity:1;stroke:#5f4c14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="shoreline_master_layer" inkscape:label="Shoreline Master" style="display:none" sodipodi:insensitive="true" >
-  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#roughenShoreline);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 107.39089,70.497794 c -6.50453,4.09092 -8.704759,4.967945 -11.132758,7.941738 -3.233593,3.960479 -9.309077,9.780587 -12.979692,14.90287 -0.886188,1.236661 -1.632203,2.432648 -2.164211,3.551972 -0.595169,1.252211 1.476765,4.099916 2.215147,6.149866 1.34057,3.7218 1.9922,7.76981 4.021711,11.1654 0.837276,1.40085 2.18082,2.42851 3.27123,3.64277 2.678989,2.98326 4.058628,8.45013 8.036967,8.94979 1.225024,0.15386 2.052936,-1.37218 3.079406,-2.05827 2.80581,-1.8754 5.91956,-3.35676 8.41743,-5.6262 1.49635,-1.3595 2.55804,-3.1314 3.83706,-4.69709 l 8.67203,-10.61576 c 0.7127,-0.87245 1.94605,-1.5073 2.13812,-2.61736 0.39639,-2.29089 -1.56072,-4.380113 -2.34108,-6.570169 -0.99339,-2.787925 -1.56535,-5.764229 -2.98017,-8.363774 -1.41182,-2.59404 -3.6848,-4.620385 -5.39404,-7.028864 l -4.5687,-6.437725 c -0.44812,-0.631436 -1.31664,-2.799768 -2.12845,-2.289194 z" inkscape:connector-curvature="0" />
+  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 107.39089,70.497794 c -6.50453,4.09092 -8.704759,4.967945 -11.132758,7.941738 -3.233593,3.960479 -9.309077,9.780587 -12.979692,14.90287 -0.886188,1.236661 -1.632203,2.432648 -2.164211,3.551972 -0.595169,1.252211 1.476765,4.099916 2.215147,6.149866 1.34057,3.7218 1.9922,7.76981 4.021711,11.1654 0.837276,1.40085 2.18082,2.42851 3.27123,3.64277 2.678989,2.98326 4.058628,8.45013 8.036967,8.94979 1.225024,0.15386 2.052936,-1.37218 3.079406,-2.05827 2.80581,-1.8754 5.91956,-3.35676 8.41743,-5.6262 1.49635,-1.3595 2.55804,-3.1314 3.83706,-4.69709 l 8.67203,-10.61576 c 0.7127,-0.87245 1.94605,-1.5073 2.13812,-2.61736 0.39639,-2.29089 -1.56072,-4.380113 -2.34108,-6.570169 -0.99339,-2.787925 -1.56535,-5.764229 -2.98017,-8.363774 -1.41182,-2.59404 -3.6848,-4.620385 -5.39404,-7.028864 l -4.5687,-6.437725 c -0.44812,-0.631436 -1.31664,-2.799768 -2.12845,-2.289194 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="grass_layer" inkscape:label="Grass" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#grass" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#b4e982;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-</g>
-<g inkscape:groupmode="layer" id="grass_texture_big_layer" inkscape:label="Grass Texture Big" style="display:inline" sodipodi:insensitive="true" >
-  <use xlink:href="#grass" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#a7e46a;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#textureGrassBig)" />
-</g>
-<g inkscape:groupmode="layer" id="grass_texture_small_layer" inkscape:label="Grass Texture Small" style="display:inline" sodipodi:insensitive="true" >
-  <use xlink:href="#grass" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#8cdd3d;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#textureGrassSmall)" />
 </g>
 <g inkscape:groupmode="layer" id="grass_master_layer" inkscape:label="Grass Master" style="display:none" sodipodi:insensitive="true" >
   <path id="grass" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 107.03097,74.418621 -10.445334,7.449238 -10.384222,14.091823 2.923676,14.760148 9.110861,14.12881 12.179839,-9.39666 12.21946,-14.20912 -6.20405,-14.707852 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="forest_shadow_layer" inkscape:label="Forest Shadow" style="display:inline" sodipodi:insensitive="true" >
   <g style="filter:url(#blurForestShadow)" >
-    <use xlink:href="#forest" height="100%" width="100%" x="0" y="0" style="display:inline;opacity:0.75;fill:#258c1b;fill-opacity:1;filter:url(#roughenForest)" />
+    <use xlink:href="#forest" height="100%" width="100%" x="0" y="0" style="display:inline;opacity:0.75;fill:#258c1b;fill-opacity:1" />
   </g>
 </g>
 <g inkscape:groupmode="layer" id="forest_fill_layer" inkscape:label="Forest Fill" style="display:inline" sodipodi:insensitive="true" >
-  <use xlink:href="#forest" height="100%" width="100%" x="0" y="0" style="fill:#83d700;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#roughenForest)" />
-</g>
-<g inkscape:groupmode="layer" id="forest_texture_big_layer" inkscape:label="Forest Texture Big" style="display:inline" sodipodi:insensitive="true" >
-  <g style="filter:url(#textureForestBig)" >
-    <use xlink:href="#forest" height="100%" width="100%" x="0" y="0" style="fill:#548c00;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#roughenForest)" />
-  </g>
-</g>
-<g inkscape:groupmode="layer" id="forest_texture_small_layer" inkscape:label="Forest Texture Small" style="display:inline" sodipodi:insensitive="true" >
-  <g style="filter:url(#textureForestSmall)" >
-    <use xlink:href="#forest" height="100%" width="100%" x="0" y="0" style="fill:#78c125;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#roughenForest)" />
-  </g>
-</g>
-<g inkscape:groupmode="layer" id="forest_outline_layer" inkscape:label="Forest Outline" style="display:inline" sodipodi:insensitive="true" >
-  <use xlink:href="#forest" height="100%" width="100%" x="0" y="0" style="fill:none;fill-opacity:1;stroke:#006800;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#roughenForest)" />
+  <use xlink:href="#forest" height="100%" width="100%" x="0" y="0" style="fill:#7ebd47;fill-opacity:1;fill-rule:nonzero;stroke:#496e28;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="forest_master_layer" inkscape:label="Forest Master" style="display:none" sodipodi:insensitive="true" >
   <path id="forest" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 101.39406,115.28017 1.38896,-0.88388 -1.26269,-1.51523 -0.12627,-2.02031 -1.767765,0.63135 m 6.050325,-32.873517 -0.11607,1.242745 -1.42634,0.153736 -1.0039,1.740792 -1.29437,-0.378906 -0.44141,1.578125 -1.767577,0.251953 0,1.894531 -1.136719,0.757813 2.208986,1.705078 0.18945,2.083985 1.64258,1.767578 -0.37891,1.767578 1.51368,1.261718 1.13671,-0.630859 0,-1.388672 1.26368,-0.126953 0.63086,-2.019531 -0.0625,-1.388672 2.14648,0 0.75781,-1.390625 1.51367,-0.693359 -0.63085,-1.894532 0.44335,-2.146484 -1.51562,-1.515625 -0.63281,-2.525391 -1.16742,0.524833 z m -11.836776,10.748605 -0.292969,2.5 -1.300781,-0.259766 -0.03125,1.425781 -1.160156,0.492188 -1.793527,-0.185547 -0.145143,1.895846 -2.063284,1.274076 1.16211,1.128906 -0.447266,1.550781 1.607422,0 0.177734,1.339847 -0.535156,1.60547 1.697266,0 -0.804688,2.32226 1.339844,0.16797 0.535156,1.5293 1.697266,-1.51953 -0.230469,-1.51758 2.117188,0.42773 0.289062,-1.76953 2.023438,-0.082 0.06445,-1.865235 1.539062,-0.638672 -0.445312,-1.339844 1.785159,-0.267578 -0.892581,-1.427734 0.177734,-1.339844 -1.96289,-0.08984 0,-1.517578 L 96.875,90.529297 95.447266,90.349609 Z m 19.107426,2.804687 -1.19922,1.894531 -1.64063,-0.630859 -0.50586,1.451172 -1.76758,-0.189453 -0.25195,2.148437 -1.39062,1.513672 1.20117,1.453125 0.18945,1.83008 1.64063,0.88476 -0.25196,1.76758 1.89258,0.82031 0.61328,1.75977 1.56641,-0.55664 1.33398,1.36914 0.40821,-1.95703 1.31836,-1.12109 -2.08204,-0.44141 1.13672,-1.38867 2.34989,0.0326 1.59403,-1.92133 -1.07728,-1.981859 0.46818,-2.057199 -2.0731,-1.142578 -0.75781,-2.652343 -1.64063,0.378906 z m -8.64844,10.734375 -2.02149,1.13672 -2.01953,-0.75781 0.25196,2.27148 -1.640629,0.37891 0,1.76757 -1.767579,0 -0.632812,2.27344 -2.146484,0.50586 1.011718,2.01953 -0.757812,0.25196 0.882812,1.64257 -0.757812,1.26172 1.767578,0.12696 0.505859,2.01953 1.136719,-1.13477 1.136719,1.38867 -1.263672,1.26172 1.388672,0.88477 1.263673,1.26172 1.38867,-1.64063 1.26367,-0.12695 0.125,-2.14649 1.64258,0.12696 0.63086,-2.65235 2.52539,0.37891 0,-2.39844 1.38867,-0.63086 -1.64062,-1.39062 0.25195,-1.76758 -2.14648,-1.00977 0,-2.14648 -1.76758,-0.63086 z" inkscape:connector-curvature="0" />
