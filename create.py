@@ -57,13 +57,13 @@ card_info = {
 	'0036a':	['pw',	'pf',	'TODO',	'Port Folio'],
 	'0036b':	['rl',	'B',	'TODO',	'Unused'],
 	'0036c':	['rw',	's',	'TODO',	'Unused'],
-}
-
-xxx = {
 
 	'0174a':	['pl',	'pC',	'TODO',	'Port-au-Bella'],
 	'0174b':	['pw',	'ps',	'TODO',	'Port Manteau'],
 	'0174c':	['rdl',	'H',	'TODO', 'Unused'],
+}
+
+xxx = {
 
 	'0176a':	['pl',	'pB',	'TODO',	'Port Lee'],
 	'0176b':	['pw',	'pt',	'TODO',	'Ruby Port'],
