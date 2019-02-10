@@ -319,8 +319,12 @@ class SvgGen(object):
 		style = options.get('style')
 		id = options.get('id')
 		transform = options.get('transform')
+		textpath_style = options.get('textpath-style')
 
 		tag = '<text xml:space="preserve" style="%s">' % style
-		tag += '<textPath xlink:href="#%s"\n' % path_id
+		tag += '<textPath '
+		if textpath_style != None:
+			tag += 'style="%s" ' % textpath_style
+		tag += 'xlink:href="#%s"\n' % path_id
 		tag += '>%s</textPath></text>\n' % text
 		self.write_(tag)

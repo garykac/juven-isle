@@ -91,6 +91,8 @@ card_info = {
 	'1436c':	['2rdw','fs',	'TODO',	'Unused'],
 	'1436d':	['rw',	't',	'TODO',	'Unused'],
 
+	'1436-start':['start','fstBCHpx',	'TODO',	'Portuga'],
+
 	'1616a':	['2rdl','BC',	'TODO',	'Unused'],
 	'1616b':	['2rdw','tf',	'TODO',	'Unused'],
 
@@ -202,8 +204,7 @@ class IslandsGen(object):
 		
 		self.svg = SvgGen()
 		
-		self.curr_file = 0
-		self.curr_card = 0
+		self.curr_name = ''
 		self.seed = 0
 		self.base_name = ''
 
@@ -228,6 +229,7 @@ class IslandsGen(object):
 		self.route_style = 'display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1'
 
 	def draw_card(self, name, data):
+		self.curr_name = name
 		filename = data[0]
 		borders = data[1]
 		shallow_water_path = data[2]
@@ -376,8 +378,18 @@ class IslandsGen(object):
 		path = textpath[1]
 
 		self.svg.start_layer('labels_layer', 'Labels')
-		style = "font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-		self.svg.text_path(text, 'label-path', {'style': style})
+		if self.curr_name[4:] == '-start':
+			style = "font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+			options = {
+				'style': style,
+				'textpath-style': "letter-spacing:5.5px",
+			}
+		else:
+			style = "font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+			options = {
+				'style': style,
+			}
+		self.svg.text_path(text, 'label-path', options)
 		self.svg.end_layer()
 		
 		self.svg.start_layer('labels_guide_layer', 'Labels Guide', {'hidden': True})
@@ -830,7 +842,7 @@ class IslandsGen(object):
 			if re.search(r'inkscape:groupmode="layer"', line):
 				current_layer = ''
 			for layer in layers:
-				if re.search(layer, line):
+				if re.search(layer, line) and not re.search('inkscape:current-layer', line):
 					current_layer = layer
 
 			# Parse labels and label guides
@@ -851,19 +863,26 @@ class IslandsGen(object):
 					found_layer[current_layer] = True
 
 			# Parse resources
-			elif current_layer == 'resources_layer':
+			# This code assumes that the 'transform' in the <g> tag comes after
+			# the 'id'.
+			elif current_layer == 'resources_layer':				
 				m = re.search(r'id="resource-([A-Za-z]+)"', line)
 				if m:
 					res = m.group(1)
+					#print '\tFound resource:', res
 					m = re.search(r' transform="(.+)"', line)
 					if m:
 						resources.append([res, m.group(1)])
 						found_layer[current_layer] = True
-						#print '\tFound resource:', res
+						print '\tFound resource:', res
 					else:
 						current_resource = res
 						current_layer = 'resources_layer-transform'
 			elif current_layer == 'resources_layer-transform':
+				m = re.search(r'id="resource-([A-Za-z]+)"', line)
+				if m:
+					res = m.group(1)
+					error('Found "%s" resource while searching for "%s" transform' % (res, current_resource))
 				m = re.search(r' transform="(.+)"', line)
 				if m:
 					resources.append([current_resource, m.group(1)])
