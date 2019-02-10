@@ -98,10 +98,10 @@
   <rect id="water" x="0" y="0" width="246.6" height="246.6" style="fill:#b9deff;fill-opacity:1;stroke:none" />
 </g>
 <g inkscape:groupmode="layer" id="water_medium_layer" inkscape:label="Water Shallow" style="display:inline" sodipodi:insensitive="true" >
-  <path style="fill:#9bd1ff;fill-opacity:0.70;fill-rule:evenodd;stroke:none;filter:url(#blurWaterShallow)" d="M 168.69547,82.450214 134.85536,73.35884 93.125447,69.870575 50.002551,104.16849 l -24.748738,9.59645 -14.203802,0.0351 -20.000001,0 0,-102.75 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,103.786759 -20,-0.7081 z" inkscape:connector-curvature="0" />
+  <path style="fill:#9bd1ff;fill-opacity:0.70;fill-rule:evenodd;stroke:none;filter:url(#blurWaterShallow)" d="m 180.48118,91.021643 -33.12582,-4.091375 -46.72991,1.511735 -50.622899,15.726487 -24.748738,9.59645 -14.203802,0.0351 -20.000001,0 0,-102.75 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,103.786759 -20,-0.7081 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="water_deep_layer" inkscape:label="Water Deep" style="display:inline" sodipodi:insensitive="true" >
-  <path style="fill:#87c8ff;fill-opacity:0.60;fill-rule:evenodd;stroke:none;filter:url(#blurWaterDeep)" d="m 192.39178,62.827888 -52.99073,-25.834539 -39.39595,-8.08122 -39.901024,0 -14.506384,27.58649 -34.547681,9.051401 -20.000001,0 0,-54.5 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,54.794363 -20.00003,-1.71824 z" inkscape:connector-curvature="0" />
+  <path style="fill:#87c8ff;fill-opacity:0.60;fill-rule:evenodd;stroke:none;filter:url(#blurWaterDeep)" d="m 192.39178,57.827888 -46.9193,-13.334539 -36.18167,2.275923 -31.329591,2.857143 -32.363527,6.872204 -34.547681,9.051401 -20.000001,0 0,-54.5 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,54.794363 -20.00003,-1.71824 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="water_hilight_layer" inkscape:label="Water Hilight" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;filter:url(#blurWaterHilight)" />
@@ -110,13 +110,13 @@
   <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffddab;fill-opacity:1;stroke:#5f4c14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="shoreline_master_layer" inkscape:label="Shoreline Master" style="display:none" sodipodi:insensitive="true" >
-  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 236.38189,255.55002 19.1929,-20 -1.12914,-79.87299 -18.53462,-0.67185 -66.04027,-21.33231 -100.750926,8.62873 -31.74982,5.41842 -26.320013,7.45494 -20.000001,0 10e-6,80.37512 20.00001,20 z" inkscape:connector-curvature="0" />
+  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 236.38189,255.55002 19.1929,-20 -1.12914,-79.87299 -18.53462,-0.67185 -30.45513,-5.85378 -16.37073,-13.51893 -19.21441,-1.9596 -77.838465,11.8077 -9.855065,7.85241 -9.128825,-4.60281 -9.478991,3.75579 -28.342257,-2.26594 -24.177156,4.95494 -20.000001,0 10e-6,80.37512 20.00001,20 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="grass_layer" inkscape:label="Grass" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#grass" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#b4e982;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="grass_master_layer" inkscape:label="Grass Master" style="display:none" sodipodi:insensitive="true" >
-  <path id="grass" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 235.84828,255.55008 18.18275,-20 1.58758,-70.51862 -20.46302,-0.41407 -59.80822,-12.71446 -43.18184,-4.04677 L 65.535714,157.85 47.5,158.56429 l -21.25,1.25 -15.199989,4.98573 -20.000001,0 0,70.75 20.00001,20.00006 z" inkscape:connector-curvature="0" />
+  <path id="grass" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 235.84828,255.55008 18.18275,-20 1.58758,-70.51862 -20.46302,-0.41407 -49.09393,-12.71446 -9.26986,-8.95541 -44.62627,4.90864 -34.961837,4.5285 -11.881877,9.33696 L 65.535714,157.85 47.5,158.56429 l -21.25,1.25 -15.199989,4.98573 -20.000001,0 0,70.75 20.00001,20.00006 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="forest_shadow_layer" inkscape:label="Forest Shadow" style="display:inline" sodipodi:insensitive="true" >
   <g style="filter:url(#blurForestShadow)" >
@@ -137,7 +137,7 @@
 >Port-au-Bella</textPath></text>
 </g>
 <g inkscape:groupmode="layer" id="labels_guide_layer" inkscape:label="Labels Guide" style="display:none" sodipodi:insensitive="true" >
-  <path id="label-path" style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" d="M 110.10519,131.44477 C 97.24805,99.65906 59.033764,82.5162 24.033771,81.80192" inkscape:connector-curvature="0" />
+  <path id="label-path" style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" d="m 104.74805,124.65906 c -29.642857,7.5 -54.285715,10.35714 -84.999993,15.71429" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="resources_layer" inkscape:label="Resources" style="display:inline" sodipodi:insensitive="true" >
   <g id="resource-portcircle" transform="matrix(-0.98651723,0.16365742,-0.16365742,-0.98651723,402.88751,138.62535)" >
