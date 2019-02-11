@@ -1,0 +1,13 @@
+
+Card task checklist
+
+Assign edge pattern
+Assign resources
+Assign name
+
+Edges line up with guides
+Unique shoreline/forest
+Water depth matches shoreline
+Smooth shoreline
+Smooth connected paths
+Pointy forest
