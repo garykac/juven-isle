@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="107.24913"
-     inkscape:cy="103.50693"
+     inkscape:zoom="5.6"
+     inkscape:cx="53.670071"
+     inkscape:cy="131.44603"
      inkscape:document-units="px"
-     inkscape:current-layer="water_deep_layer"
+     inkscape:current-layer="water_medium_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -244,7 +244,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path5035"
-       d="m 165.16614,255.55002 0,-20 2.91147,-29.36536 10.22499,-26.62508 -1.76989,-36.44441 3.91157,-33.96973 -3.89845,-22.440585 -26.2184,8.44299 -25.62818,27.360785 -55.579416,19.79297 -31.74982,5.41842 -26.320013,7.45494 -20.000001,0 10e-6,80.37512 20.00001,20 z"
+       d="m 166.17498,255.55002 0,-20 1.90263,-29.36536 10.22499,-26.62508 -1.76989,-36.44441 3.91157,-33.96973 -3.89845,-22.440585 -26.2184,8.44299 -25.62818,27.360785 -55.579416,19.79297 -31.74982,5.41842 -26.320013,7.45494 -20.000001,0 10e-6,80.37512 20.00001,20 z"
        style="fill:#e2cb9a;fill-opacity:1;stroke:#5d481b;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="cccccccccccccccc" />
   </g>
@@ -255,7 +255,7 @@
      style="display:inline">
     <path
        style="display:inline;fill:#b7da98;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 146.44978,255.55008 0,-20 7.6485,-30.11252 -2.78535,-15.56635 -19.90719,-27.36168 -34.595546,-9.6026 -25.213565,-0.10769 -24.096629,5.76505 -21.25,1.25 -15.199989,4.98573 -20.000001,0 0,70.75 20.00001,20.00006 z"
+       d="m 147.29998,255.55002 0,-20 6.7983,-30.11246 -2.78535,-15.56635 -19.90719,-27.36168 -34.595546,-9.6026 -25.213565,-0.10769 -24.096629,5.76505 -21.25,1.25 -15.199989,4.98573 -20.000001,0 0,70.75 20.00001,20.00006 z"
        id="path4536"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccc" />
