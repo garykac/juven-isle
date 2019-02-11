@@ -245,9 +245,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-6.1606925"
-     inkscape:cy="134.41089"
+     inkscape:zoom="3.959798"
+     inkscape:cx="62.105504"
+     inkscape:cy="106.52248"
      inkscape:document-units="px"
      inkscape:current-layer="svg5294"
      showgrid="false"
@@ -2045,7 +2045,7 @@
      inkscape:groupmode="layer"
      id="edge_guides_layer"
      inkscape:label="Edge Guides"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="guide0-1"
@@ -2287,7 +2287,7 @@
      inkscape:groupmode="layer"
      id="edge_guides_master_layer"
      inkscape:label="Edge Guides Master"
-     style="display:none">
+     style="display:inline">
     <g
        id="g6254"
        transform="translate(0,-120)">
