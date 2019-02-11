@@ -98,10 +98,10 @@
   <rect id="water" x="0" y="0" width="246.6" height="246.6" style="fill:#b9deff;fill-opacity:1;stroke:none" />
 </g>
 <g inkscape:groupmode="layer" id="water_medium_layer" inkscape:label="Water Shallow" style="display:inline" sodipodi:insensitive="true" >
-  <path style="fill:#9bd1ff;fill-opacity:0.70;fill-rule:evenodd;stroke:none;filter:url(#blurWaterShallow)" d="m 172.48355,105.17865 -28.54779,9.80288 -18.52811,-13.77297 10.02874,-17.749429 9.26796,-29.798266 -45.26545,-10.306794 -49.436349,3.740801 -24.748738,9.59645 -14.203802,0.0351 -20.000001,0 0,-45.676382 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,102.271529 -20,0.30206 -25.94831,-0.57946 z" inkscape:connector-curvature="0" />
+  <path style="fill:#9bd1ff;fill-opacity:0.70;fill-rule:evenodd;stroke:none;filter:url(#blurWaterShallow)" d="m 172.48355,105.17865 -28.54779,9.80288 -18.52811,-13.77297 10.02874,-17.749429 9.26796,-29.798266 -45.26545,-10.306794 -49.436349,3.740801 -24.748738,9.59645 -14.203812,1.233638 -20.000001,0 10e-6,-46.87492 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,102.271529 -20.00002,0.47836 -25.94829,-0.75576 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="water_deep_layer" inkscape:label="Water Deep" style="display:inline" sodipodi:insensitive="true" >
-  <path style="fill:#87c8ff;fill-opacity:0.60;fill-rule:evenodd;stroke:none;filter:url(#blurWaterDeep)" d="m 166.9277,35.47812 -66.9226,-6.565991 -39.901024,0 -14.506384,-2.21301 -34.547681,9.051401 -20.000001,0 0,-24.7005 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,53.78421 -20.00003,-1.71824 -24.48874,2.041722 -31.4579,-1.188165 z" inkscape:connector-curvature="0" />
+  <path style="fill:#87c8ff;fill-opacity:0.60;fill-rule:evenodd;stroke:none;filter:url(#blurWaterDeep)" d="m 166.9277,35.47812 -66.9226,-6.565991 -39.901024,0 -14.506384,-2.21301 -34.547681,9.051401 -20.000001,0 0,-24.7005 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 -2e-5,54.499909 -20,0 -24.48875,-0.392217 -31.4579,-1.188165 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="water_hilight_layer" inkscape:label="Water Hilight" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;filter:url(#blurWaterHilight)" />
@@ -110,13 +110,13 @@
   <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffddab;fill-opacity:1;stroke:#5f4c14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="shoreline_master_layer" inkscape:label="Shoreline Master" style="display:none" sodipodi:insensitive="true" >
-  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 234.36159,255.55002 20.20305,-20 0.89116,-79.36791 -20.04985,0.3383 -35.27153,-5.75619 -27.6875,-17.89856 -24.43318,18.5493 -18.95623,9.81903 -29.04753,0.3214 -30.101838,-19.7738 2.86157,-40.13899 37.839668,-27.981698 6.09711,-12.479687 -38.801664,-1.453953 -40.333891,19.244646 -26.520934,2.461917 -20.000001,0 10e-6,154.116255 20.00001,20 z" inkscape:connector-curvature="0" />
+  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 234.36159,255.55002 20.20305,-20 0.98536,-80.37505 -20,0 -35.41558,-4.41075 -27.6875,-17.89856 -24.43318,18.5493 -18.95623,9.81903 -29.04753,0.3214 -30.101838,-19.7738 2.86157,-40.13899 37.839668,-27.981698 6.09711,-12.479687 -38.801664,-1.453953 -40.333891,19.244646 -26.520934,1.453052 -20.000001,0 10e-6,155.12512 20.00001,20 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="grass_layer" inkscape:label="Grass" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#grass" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#b4e982;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="grass_master_layer" inkscape:label="Grass Master" style="display:none" sodipodi:insensitive="true" >
-  <path id="grass" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 234.83813,255.55008 19.69797,-20 0.0724,-71.52877 -18.44271,1.10116 -47.76693,-2.33195 -66.36023,21.99494 L 61.575603,149.97979 56.071429,116.97472 78.55299,78.658958 56.535429,82.15675 28.035714,99.720728 11.050011,98.635029 l -20.000001,0 0,136.914991 20.00001,20.00006 z" inkscape:connector-curvature="0" />
+  <path id="grass" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 234.83813,255.55008 19.69797,-20 1.0139,-70.75011 -20,0 -47.15114,-2.00945 -66.36023,21.99494 L 61.575603,149.97979 56.071429,116.97472 78.55299,78.658958 56.535429,82.15675 28.035714,99.720728 11.050001,99.29996 l -20.000001,0 10e-6,136.25006 20.00001,20.00006 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="forest_shadow_layer" inkscape:label="Forest Shadow" style="display:inline" sodipodi:insensitive="true" >
   <g style="filter:url(#blurForestShadow)" >
@@ -192,6 +192,9 @@
     <path style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1" d="m 86.25,0 0,-22.5" inkscape:connector-curvature="0" />
   </g>
 </g>
+<g inkscape:groupmode="layer" id="id_layer" inkscape:label="Card ID" style="display:inline" sodipodi:insensitive="true" >
+  <text xml:space="preserve" x="19.7" y="27.3" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#909090;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" 
+>0176b</text></g>
 <g inkscape:groupmode="layer" id="cut_layer" inkscape:label="Cut Line" style="display:none" sodipodi:insensitive="true" >
   <rect x="11.25" y="11.25" width="224.5" height="224.5" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ry="11.338962" />
 </g>
