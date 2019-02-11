@@ -39,8 +39,8 @@ card_info = {
 	#   x: pirate
 	#   p: port
 
-	'0000a':	['3rw',	'fst',	'',	'Juven Isle', 25],
-	'0000b':	['xw',	'x',	'',	'Argh Isle', 27],
+	'0000a':	['3rw',	'fst',	'',	'Juven Isle'],
+	'0000b':	['xw',	'x',	'',	'Argh Isle'],
 
 	'0014a':	['rw',	'f',	'',	'Point Exter'],
 	'0014b':	['xw',	'x',	'',	'Exclamation Point'],
@@ -79,7 +79,7 @@ card_info = {
 
 	'1416a':	['pl',	'pC',	'TODO',	'Port-au-Potée'],
 	'1416b':	['pw',	'pt',	'TODO',	'Port Hole'],
-	'1416c':	['rdl',	'H',	'TODO',	'Unused'],
+	'1416c':	['rdl',	'H',	'TODO',	'Tress Pass'],
 
 	'1434a':	['pl',	'pH',	'TODO',	'Back Port'],
 	'1434b':	['pw',	'pf',	'TODO',	'Tawny Port'],
@@ -986,6 +986,9 @@ class IslandsGen(object):
 
 		data = self.load_data(name)
 
+		if self.options['verify']:
+			return
+
 		self.draw_card(name, data)
 	
 		if self.options['png']:
@@ -1039,7 +1042,7 @@ def main():
 	try:
 		opts, args = getopt.getopt(sys.argv[1:],
 			'p',
-			['png', 'id='])
+			['png', 'id=', 'verify'])
 	except getopt.GetoptError:
 		usage()
 
@@ -1053,6 +1056,8 @@ def main():
 			options['png'] = True
 		if opt in ('--id'):
 			options['id'] = arg
+		if opt in ('--verify'):
+			options['verify'] = True
 			
 	islands = IslandsGen(options)
 	islands.gen()
