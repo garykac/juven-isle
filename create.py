@@ -10,9 +10,6 @@ import sys
 from svglib.svggen import SvgGen
 from svglib.svgdef import *
 
-hide_guides = True
-run_checks = False
-
 resource_encode = {
 	'fish': 'f',
 	'squid': 's',
@@ -215,6 +212,11 @@ class IslandsGen(object):
 		self.card_size = 225
 		self.guide_height = 22.5
 		
+		# Hide edge guides in output file.
+		self.hide_guides = True
+		# Show card id in output file.
+		self.show_id = True
+
 		self.draw_resource = {
 			'banana': self.draw_banana,
 			'coconut': self.draw_coconut,
@@ -245,16 +247,6 @@ class IslandsGen(object):
 		self.svg.set_size(self.page_size, self.page_size)
 		self.svg.set_filename('svg-out/%s.svg' % (name))
 
-		# texture: octaves seed freq blur
-		#self.svg.add_def(SvgDefTexture('textureGrassBig', 2, self.seed, 0.07, 2.5))
-		#self.svg.add_def(SvgDefTexture('textureGrassSmall', 4, self.seed, 0.5, 1.0))
-		#self.svg.add_def(SvgDefTexture('textureLand', 4, self.seed, 0.5, 0.8))
-		#self.svg.add_def(SvgDefTexture('textureForestBig', 2, self.seed, 0.3, 2.0))
-		#self.svg.add_def(SvgDefTexture('textureForestSmall', 4, self.seed, 0.35, 1.0))
-		# roughen turbulence octaves seed freq scale
-		#self.svg.add_def(SvgDefRoughenTurbulence('roughenShoreline', 4, self.seed, 0.05, 6.6))
-		# roughen noise octaves seed freq1 freq2 scale
-		#self.svg.add_def(SvgDefRoughenNoise('roughenForest', 4, self.seed, 0.15, 0.15, 6.6))
 		# filter-blur: x y width height stddev
 		self.svg.add_def(SvgDefFilterBlur('blurWaterDeep', -0.056690667, -0.041619708, 1.1133813, 1.0832394, 6.9191359))
 		self.svg.add_def(SvgDefFilterBlur('blurWaterShallow', -0.055818416, -0.042102724, 1.1116368, 1.0842054, 6.5615005))
@@ -286,6 +278,7 @@ class IslandsGen(object):
 		self.draw_resources_layer(resources)
 		
 		self.draw_guides(borders)
+		self.draw_id_layer(name)
 		self.draw_border_layers()
 
 		self.svg.end()
@@ -413,7 +406,7 @@ class IslandsGen(object):
 			'matrix(0,-1,1,0,0,%g)' % (self.page_size),
 		]
 
-		self.svg.start_layer('edge_guides_layer', 'Edges', {'hidden': hide_guides})
+		self.svg.start_layer('edge_guides_layer', 'Edges', {'hidden': self.hide_guides})
 		for i in xrange(0, 4):
 			g = guides[i]
 			self.draw_guide(i, g, guide_transform[i])
@@ -512,14 +505,20 @@ class IslandsGen(object):
 
 		self.svg.end_group()
 
+	def draw_id_layer(self, id):
+		self.svg.start_layer('id_layer', 'Card ID', {'hidden': not self.show_id})
+		style = "font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#909090;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+		self.svg.text(19.7, 27.3, id, {'style': style})
+		self.svg.end_layer()
+
 	def draw_border_layers(self):
 		style = 'fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
 
-		self.svg.start_layer('cut_layer', 'Cut Line', {'hidden': hide_guides})
+		self.svg.start_layer('cut_layer', 'Cut Line', {'hidden': self.hide_guides})
 		self.svg.rect(11.25, 11.25, 224.5, 224.5, {'style': style, 'radius': 11.338962})
 		self.svg.end_layer()
 	
-		self.svg.start_layer('page_border_layer', 'Page Border', {'hidden': hide_guides})
+		self.svg.start_layer('page_border_layer', 'Page Border', {'hidden': self.hide_guides})
 		self.svg.rect(0, 0, 246.6, 246.6, {'style': style})
 		self.svg.end_layer()
 
@@ -1048,6 +1047,7 @@ def main():
 	options = {
 		'png': False,
 		'id': '',
+		'verify': False,
 	}
 	
 	for opt,arg in opts:

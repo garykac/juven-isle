@@ -313,6 +313,24 @@ class SvgGen(object):
 		tag += '/>\n'
 		self.write_(tag)
 
+	def text(self, x, y, text, options=None):
+		if options == None:
+			options = {}
+		style = options.get('style')
+		id = options.get('id')
+		transform = options.get('transform')
+
+		tag = '<text xml:space="preserve" '
+		if id != None and id != '':
+			tag += 'id="%s" ' % id
+		tag += 'x="%g" y="%g" ' % (x, y)
+		if style != None:
+			tag += 'style="%s" ' % (style)
+		if transform != None and transform != '':
+			tag += 'transform="%s" ' % transform
+		tag += '\n>%s</text>' % text
+		self.write_(tag)
+
 	def text_path(self, text, path_id, options=None):
 		if options == None:
 			options = {}
