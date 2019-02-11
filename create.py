@@ -26,7 +26,7 @@ resource_encode = {
 }
 
 card_info = {
-	# <id>: [ pattern, resources, debug-info, label, (seed) ]
+	# <id>: [ pattern, resources, label ]
 	# pattern:
 	#   r: resource (f,s,t,B,C,H)
 	#   x: pirate
@@ -39,101 +39,101 @@ card_info = {
 	#   x: pirate
 	#   p: port
 
-	'0000a':	['3rw',	'fst',	'',	'Juven Isle'],
-	'0000b':	['xw',	'x',	'',	'Argh Isle'],
+	'0000a':	['3rw',	'fst',	'Juven Isle'],
+	'0000b':	['xw',	'x',	'Argh Isle'],
 
-	'0014a':	['rw',	'f',	'',	'Point Exter'],
-	'0014b':	['xw',	'x',	'',	'Exclamation Point'],
-	'0014c':	['xw',	'x',	'Name',	'Unused'],
+	'0014a':	['rw',	'f',	'Point Exter'],
+	'0014b':	['xw',	'x',	'Exclamation Point'],
+	'0014c':	['xw',	'x',	'Unused'],
 
-	'0016a':	['pl',	'pC',	'TODO',	'Unused'],
-	'0016b':	['pw',	'ps',	'TODO',	'Unused'],
-	'0016c':	['rdl',	'B',	'TODO',	'Dissa Point'],
+	'0016a':	['pl',	'pC',	'Unused'],
+	'0016b':	['pw',	'ps',	'Unused'],
+	'0016c':	['rdl',	'B',	'Dissa Point'],
 
-	'0034a':	['pl',	'pH',	'TODO',	'Rose Port'],
-	'0034b':	['pw',	'pf',	'TODO',	'Port Ico'],
-	'0034c':	['rdl', 'C',	'TODO',	'Unused'],
+	'0034a':	['pl',	'pH',	'Rose Port'],
+	'0034b':	['pw',	'pf',	'Port Ico'],
+	'0034c':	['rdl', 'C',	'Unused'],
 
-	'0036a':	['pw',	'pf',	'TODO',	'Port Folio'],
-	'0036b':	['rl',	'B',	'TODO',	'Unused'],
-	'0036c':	['rw',	's',	'TODO',	'Unused'],
+	'0036a':	['pw',	'pf',	'Port Folio'],
+	'0036b':	['rl',	'B',	'Unused'],
+	'0036c':	['rw',	's',	'Unused'],
 
-	'0174a':	['pl',	'pC',	'TODO',	'Port-au-Bella'],
-	'0174b':	['pw',	'ps',	'TODO',	'Port Manteau'],
-	'0174c':	['rdl',	'H',	'TODO', 'Unused'],
+	'0174a':	['pl',	'pC',	'Port-au-Bella'],
+	'0174b':	['pw',	'ps',	'Port Manteau'],
+	'0174c':	['rdl',	'H',	'Unused'],
 
-	'0176a':	['pl',	'pB',	'TODO',	'Port Lee'],
-	'0176b':	['pw',	'pt',	'TODO',	'Ruby Port'],
-	'0176c':	['rl',	'H',	'TODO',	'Unused'],
+	'0176a':	['pl',	'pB',	'Port Lee'],
+	'0176b':	['pw',	'pt',	'Ruby Port'],
+	'0176c':	['rl',	'H',	'Unused'],
 
-	'0374a':	['pl',	'pH',	'TODO',	'Port Starboard'],
-	'0374b':	['pw',	'pf',	'TODO',	'Spoils Port'],
-	'0374c':	['rw',	't',	'TODO',	'Unused'],
+	'0374a':	['pl',	'pH',	'Port Starboard'],
+	'0374b':	['pw',	'pf',	'Spoils Port'],
+	'0374c':	['rw',	't',	'Unused'],
 
-	'0376a':	['pl',	'pB',	'TODO',	'Crusted Port'],
-	'0376b':	['pw',	'ps',	'TODO',	'Port Royale'],
-	'0376c':	['rdw',	't',	'TODO', 'Unused'],
+	'0376a':	['pl',	'pB',	'Crusted Port'],
+	'0376b':	['pw',	'ps',	'Port Royale'],
+	'0376c':	['rdw',	't',	'Unused'],
 
-	'1414a':	['rw',	's',	'TODO',	'Kidneystone Pass'],
-	'1414b':	['xw',	'x',	'TODO',	'Noneshall Pass'],
+	'1414a':	['rw',	's',	'Kidneystone Pass'],
+	'1414b':	['xw',	'x',	'Noneshall Pass'],
 
-	'1416a':	['pl',	'pC',	'TODO',	'Port-au-Potée'],
-	'1416b':	['pw',	'pt',	'TODO',	'Port Hole'],
-	'1416c':	['rdl',	'H',	'TODO',	'Tress Pass'],
+	'1416a':	['pl',	'pC',	'Port-au-Potée'],
+	'1416b':	['pw',	'pt',	'Port Hole'],
+	'1416c':	['rdl',	'H',	'Tress Pass'],
 
-	'1434a':	['pl',	'pH',	'TODO',	'Back Port'],
-	'1434b':	['pw',	'pf',	'TODO',	'Tawny Port'],
-	'1434c':	['rdl',	'B',	'TODO',	'Unused'],
-	'1434d':	['rdl',	'C',	'TODO',	'Unused'],
+	'1434a':	['pl',	'pH',	'Back Port'],
+	'1434b':	['pw',	'pf',	'Tawny Port'],
+	'1434c':	['rdl',	'B',	'Unused'],
+	'1434d':	['rdl',	'C',	'Unused'],
 
-	'1436a':	['pl',	'pB',	'TODO',	'Port Judgement'],
-	'1436b':	['pw',	'ps',	'TODO',	'Port Able'],
-	'1436c':	['2rdw','fs',	'TODO',	'Unused'],
-	'1436d':	['rw',	't',	'TODO',	'Unused'],
+	'1436a':	['pl',	'pB',	'Port Judgement'],
+	'1436b':	['pw',	'ps',	'Port Able'],
+	'1436c':	['2rdw','fs',	'Unused'],
+	'1436d':	['rw',	't',	'Unused'],
 
-	'1436-start':['start','fstBCHpx',	'TODO',	'Portuga'],
+	'1436-start':	['start',	'fstBCHpx',	'Portuga'],
 
-	'1616a':	['2rdl','BC',	'TODO',	'Unused'],
-	'1616b':	['2rdw','tf',	'TODO',	'Unused'],
+	'1616a':	['2rdl','BC',	'Unused'],
+	'1616b':	['2rdw','tf',	'Unused'],
 
-	'1634a':	['pl',	'pC',	'TODO',	'Serial Port'],
-	'1634b':	['pw',	'pt',	'TODO',	'Newport'],
-	'1634c':	['2rdl','HB',	'TODO',	'Letme Inlet'],
-	'1634d':	['rl',	'C',	'TODO',	'Unused'],
+	'1634a':	['pl',	'pC',	'Serial Port'],
+	'1634b':	['pw',	'pt',	'Newport'],
+	'1634c':	['2rdl','HB',	'Letme Inlet'],
+	'1634d':	['rl',	'C',	'Unused'],
 
-	'1636a':	['pl',	'pH',	'TODO',	'Grande Port'],
-	'1636b':	['pw',	'pf',	'TODO',	'Watersport'],
-	'1636c':	['rdw',	's',	'TODO',	'Unused'],
-	'1636d':	['rdw',	't',	'TODO',	'Unused'],
+	'1636a':	['pl',	'pH',	'Grande Port'],
+	'1636b':	['pw',	'pf',	'Watersport'],
+	'1636c':	['rdw',	's',	'Unused'],
+	'1636d':	['rdw',	't',	'Unused'],
 
-	'1774a':	['pl',	'pC',	'TODO',	'Freeport'],
-	'1774b':	['rl',	'B',	'TODO',	'Unused'],
-	'1774c':	['rw',	'f',	'TODO',	'Unused'],
+	'1774a':	['pl',	'pC',	'Freeport'],
+	'1774b':	['rl',	'B',	'Unused'],
+	'1774c':	['rw',	'f',	'Unused'],
 
-	'1776a':	['pl',	'pB',	'TODO',	'Port End'],
-	'1776b':	['pw',	'ps',	'TODO',	'Port Tristam'],
-	'1776c':	['rdw',	'f',	'TODO',	'Unused'],
+	'1776a':	['pl',	'pB',	'Port End'],
+	'1776b':	['pw',	'ps',	'Port Tristam'],
+	'1776c':	['rdw',	'f',	'Unused'],
 
-	'3434a':	['2rdl','CH',	'TODO',	'Unused'],
-	'3434b':	['2rdw','st',	'TODO',	'Unused'],
+	'3434a':	['2rdl','CH',	'Unused'],
+	'3434b':	['2rdw','st',	'Unused'],
 
-	'3436a':	['pl',	'pH',	'TODO',	'Morgansport'],
-	'3436b':	['pw',	'pt',	'TODO',	'Port Ray'],
-	'3436c':	['rdw',	's',	'TODO',	'Unused'],
+	'3436a':	['pl',	'pH',	'Morgansport'],
+	'3436b':	['pw',	'pt',	'Port Ray'],
+	'3436c':	['rdw',	's',	'Unused'],
 
-	'3636a':	['rl',	'C',	'TODO',	'Unused'],
-	'3636b':	['xl',	'x',	'TODO',	'Unused'],
+	'3636a':	['rl',	'C',	'Unused'],
+	'3636b':	['xl',	'x',	'Unused'],
 
-	'3774a':	['pl',	'pB',	'TODO',	'Port Quinta'],
-	'3774b':	['pw',	'pt',	'TODO',	'Port Roberts'],
-	'3774c':	['rdw',	'f',	'TODO',	'Unused'],
+	'3774a':	['pl',	'pB',	'Port Quinta'],
+	'3774b':	['pw',	'pt',	'Port Roberts'],
+	'3774c':	['rdw',	'f',	'Unused'],
 
-	'3776a':	['rl',	'H',	'TODO',	'Unused'],
-	'3776b':	['xl',	'x',	'TODO',	'Unused'],
-	'3776c':	['xl',	'x',	'TODO',	'Unused'],
+	'3776a':	['rl',	'H',	'Unused'],
+	'3776b':	['xl',	'x',	'Unused'],
+	'3776c':	['xl',	'x',	'Unused'],
 
-	'7777a':	['3rl',	'BCH',	'TODO',	'Unused'],
-	'7777b':	['xl',	'x',	'TODO',	'Unused'],
+	'7777a':	['3rl',	'BCH',	'Unused'],
+	'7777b':	['xl',	'x',	'Unused'],
 }
 
 # Port
@@ -951,8 +951,7 @@ class IslandsGen(object):
 		target_borders = name[0:4]
 		target_pattern = info[0]
 		target_resources = info[1]
-		target_todo = info[2]
-		target_label = info[3]
+		target_label = info[2]
 
 		if target_borders != ''.join([str(x) for x in borders]):
 			print 'Expected borders:', target_borders
