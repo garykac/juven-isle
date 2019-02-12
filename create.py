@@ -232,17 +232,17 @@ class IslandsGen(object):
 
 	def draw_card(self, name, data):
 		self.curr_name = name
-		filename = data[0]
-		borders = data[1]
-		shallow_water_path = data[2]
-		deep_water_path = data[3]
-		shoreline_path = data[4]
-		grass_path = data[5]
-		forest_path = data[6]
-		forest_overlay = data[7]
-		routes_path = data[8]
-		textpaths = data[9]
-		resources = data[10]
+		filename = data['name']
+		borders = data['borders']
+		shallow_water_path = data['water_medium_layer']
+		deep_water_path = data['water_deep_layer']
+		shoreline_path = data['shoreline_master_layer']
+		grass_path = data['grass_master_layer']
+		forest_path = data['forest_master_layer']
+		forest_overlay = data['forest_overlay_layer']
+		routes_path = data['routes_layer']
+		textpaths = data['labels']
+		resources = data['resources']
 
 		self.svg.reset()
 		self.svg.set_size(self.page_size, self.page_size)
@@ -931,19 +931,24 @@ class IslandsGen(object):
 			print borders
 			error('Unable to find all for borders')	
 			
-		card_data = [name, borders]
-		card_data.append(layer_data['water_medium_layer'])
-		card_data.append(layer_data['water_deep_layer'])
-		card_data.append(layer_data['shoreline_master_layer'])
-		card_data.append(layer_data['grass_master_layer'])
-		card_data.append(layer_data['forest_master_layer'])
-		card_data.append(layer_data.get('forest_overlay_layer'))
-		card_data.append(layer_data['routes_layer'])
+		card_data = {}
+		card_data['name'] = name
+		card_data['borders'] = borders
+
+		for layer in ['water_medium_layer',
+					  'water_deep_layer',
+					  'shoreline_master_layer',
+					  'grass_master_layer',
+					  'forest_master_layer',
+					  'forest_overlay_layer',
+					  'routes_layer',
+					  ]:
+			card_data[layer] = layer_data.get(layer)
 
 		label_data = [label_text, label_guide]
+		card_data['labels'] = label_data
 
-		card_data.append(label_data)
-		card_data.append(resources)
+		card_data['resources'] = resources
 		
 		# Debugging
 		if False:
