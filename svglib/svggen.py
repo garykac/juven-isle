@@ -27,6 +27,10 @@ class SvgGen(object):
 		self.out = 0
 		self.indent_count = 0
 
+		# Currently generates Inkscape v0.91 files.
+		# Note that Inkscape v0.92 and later use 96dpi.
+		self.dpi = 90
+		
 		self.width = 0
 		self.height = 0
 		
@@ -87,6 +91,8 @@ class SvgGen(object):
 	def write_header_(self):
 		self.write_('<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n')
 		self.write_('<svg version="1.1" height="%g" width="%g" ' % (self.height, self.width))
+		# Mark as Inkscape 0.91 so that pixels are interpreted as 90dpi (vs. 96dpi in 0.92 and greater)
+		self.write_('inkscape:version="0.91 r13725" ')
 		self.write_('%s>\n' % ' '.join(XML_NAMESPACES))
 		
 		self.write_('<metadata>\n')
@@ -345,4 +351,20 @@ class SvgGen(object):
 			tag += 'style="%s" ' % textpath_style
 		tag += 'xlink:href="#%s"\n' % path_id
 		tag += '>%s</textPath></text>\n' % text
+		self.write_(tag)
+
+	def image(self, x, y, width, height, link, options=None):
+		if options == None:
+			options = {}
+		id = options.get('id')
+		transform = options.get('transform')
+	
+		tag = '<image '
+		if id != None and id != '':
+			tag += 'id="%s" ' % id
+		tag += 'x="%g" y="%g" width="%g" height="%g" ' % (x, y, width, height)
+		tag += 'xlink:href="%s" ' % link
+		if transform != None and transform != '':
+			tag += 'transform="%s" ' % transform
+		tag += '/>\n'
 		self.write_(tag)
