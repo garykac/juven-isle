@@ -47,6 +47,12 @@ Routes "routes_layer"
 			style: 2px round join; round cap
 			custom dashes: stroke-dasharray: 0.1,5
 
+Forest Overlay "forest_overlay_layer" ** OPTIONAL LAYER **
+	Must contain a single path.
+	stroke:	rgb = 73,110,40
+			hsl = 65,119/120,75
+			style: 0.5px round join, round cap
+
 Forest "forest_master_layer"
 	Must contain a single path.
 	fill:	rgb = 126,189,71

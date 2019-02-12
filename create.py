@@ -239,9 +239,10 @@ class IslandsGen(object):
 		shoreline_path = data[4]
 		grass_path = data[5]
 		forest_path = data[6]
-		routes_path = data[7]
-		textpaths = data[8]
-		resources = data[9]
+		forest_overlay = data[7]
+		routes_path = data[8]
+		textpaths = data[9]
+		resources = data[10]
 
 		self.svg.reset()
 		self.svg.set_size(self.page_size, self.page_size)
@@ -272,7 +273,7 @@ class IslandsGen(object):
 		self.draw_deep_water_layer(deep_water_path)
 		self.draw_shoreline_layers(shoreline_path)
 		self.draw_grass_layers(grass_path)
-		self.draw_forest_layers(forest_path)
+		self.draw_forest_layers(forest_path, forest_overlay)
 		self.draw_routes_layers(routes_path)
 		self.draw_labels_layer(textpaths)
 		self.draw_resources_layer(resources)
@@ -333,7 +334,7 @@ class IslandsGen(object):
 		self.svg.path(path, {'id': 'grass', 'style': style})
 		self.svg.end_layer()
 
-	def draw_forest_layers(self, path):
+	def draw_forest_layers(self, path, overlay):
 		self.svg.start_layer('forest_shadow_layer', 'Forest Shadow')
 		self.svg.start_group({'style': 'filter:url(#blurForestShadow)'})
 		style = 'display:inline;opacity:0.75;fill:#258c1b;fill-opacity:1'
@@ -352,6 +353,12 @@ class IslandsGen(object):
 		self.svg.path(path, {'id': 'forest', 'style': style})
 		self.svg.end_layer()
 	
+		if overlay:
+			self.svg.start_layer('forest_overlay_layer', 'Forest Overlay')
+			style = 'fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#496e28;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1'
+			self.svg.path(overlay, {'style': style})
+			self.svg.end_layer()
+		
 	def draw_routes_layers(self, path):
 		self.svg.start_layer('routes_layer', 'Routes')
 		self.svg.path(path, {'style': self.route_style})
@@ -812,17 +819,19 @@ class IslandsGen(object):
 	# Load card data
 	
 	def load_data(self, name):
-		layers = [
-			'water_medium_layer',
-			'water_deep_layer',
-			'shoreline_master_layer',
-			'grass_master_layer',
-			'forest_master_layer',
-			'routes_layer',
-			'labels_layer',
-			'labels_guide_layer',
-			'resources_layer',
-			'edge_guides_layer',
+		# [ layer-name, required ]
+		layer_info = [
+			['water_medium_layer', True],
+			['water_deep_layer', True],
+			['shoreline_master_layer', True],
+			['grass_master_layer', True],
+			['forest_master_layer', True],
+			['forest_overlay_layer', False],
+			['routes_layer', True],
+			['labels_layer', True],
+			['labels_guide_layer', True],
+			['resources_layer', True],
+			['edge_guides_layer', True],
 		]
 		borders = []
 		layer_data = {}
@@ -831,7 +840,8 @@ class IslandsGen(object):
 		resources = []
 		
 		found_layer = {}
-		for layer in layers:
+		for linfo in layer_info:
+			layer = linfo[0]
 			found_layer[layer] = False
 		input = open('svg-src/%s.svg' % (name), "r")
 		current_layer = ''
@@ -840,7 +850,8 @@ class IslandsGen(object):
 		for line in input:
 			if re.search(r'inkscape:groupmode="layer"', line):
 				current_layer = ''
-			for layer in layers:
+			for linfo in layer_info:
+				layer = linfo[0]
 				if re.search(layer, line) and not re.search('inkscape:current-layer', line):
 					current_layer = layer
 
@@ -910,8 +921,10 @@ class IslandsGen(object):
 					found_layer[current_layer] = True
 		input.close()
 		
-		for layer in layers:
-			if not found_layer[layer]:
+		for linfo in layer_info:
+			layer = linfo[0]
+			required = linfo[1]
+			if required and not found_layer[layer]:
 				error('Unable to find data for %s' % layer)
 				return
 		if len(borders) != 4:
@@ -924,6 +937,7 @@ class IslandsGen(object):
 		card_data.append(layer_data['shoreline_master_layer'])
 		card_data.append(layer_data['grass_master_layer'])
 		card_data.append(layer_data['forest_master_layer'])
+		card_data.append(layer_data.get('forest_overlay_layer'))
 		card_data.append(layer_data['routes_layer'])
 
 		label_data = [label_text, label_guide]
@@ -934,7 +948,8 @@ class IslandsGen(object):
 		# Debugging
 		if False:
 			print name
-			for layer in layers:
+			for linfo in layer_info:
+				layer = linfo[0]
 				print '\t# %s\n' % layer
 				if layer == 'labels_layer':
 					print "\t['%s',\t'%s'],\n" % (label_text, label_guide)
