@@ -147,18 +147,13 @@ class IslandsGen(object):
 		self.seed = 0
 		self.base_name = ''
 
-		self.bleed = 11.25 # = 1/8"
-		self.safe_margin = 11.25 # = 1/8"
-
+		# These values assume dpi=90 (for Inkscape v0.91).
 		self.page_size = 246.6
 		self.card_size = 225
 		self.guide_height = 22.5
+		self.bleed = 11.25 # = 1/8"
+		self.safe_margin = 11.25 # = 1/8"
 		
-		# Hide edge guides in output file.
-		self.hide_guides = True
-		# Show card id in output file.
-		self.show_id = True
-
 		self.draw_resource = {
 			'banana': self.draw_banana,
 			'coconut': self.draw_coconut,
@@ -355,7 +350,8 @@ class IslandsGen(object):
 			'matrix(0,-1,1,0,0,%g)' % (self.page_size),
 		]
 
-		self.svg.start_layer('edge_guides_layer', 'Edges', {'hidden': self.hide_guides})
+		hide = not self.options['show-guides']
+		self.svg.start_layer('edge_guides_layer', 'Edges', {'hidden': hide})
 		for i in xrange(0, 4):
 			g = guides[i]
 			self.draw_guide(i, g, guide_transform[i])
@@ -455,7 +451,8 @@ class IslandsGen(object):
 		self.svg.end_group()
 
 	def draw_id_layer(self, id):
-		self.svg.start_layer('id_layer', 'Card ID', {'hidden': not self.show_id})
+		hide = not self.options['show-id']
+		self.svg.start_layer('id_layer', 'Card ID', {'hidden': hide})
 		style = "font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#909090;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
 		self.svg.text(19.7, 27.3, id, {'style': style})
 		self.svg.end_layer()
@@ -463,11 +460,12 @@ class IslandsGen(object):
 	def draw_border_layers(self):
 		style = 'fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
 
-		self.svg.start_layer('cut_layer', 'Cut Line', {'hidden': self.hide_guides})
+		hide = not self.options['show-cut']
+		self.svg.start_layer('cut_layer', 'Cut Line', {'hidden': hide})
 		self.svg.rect(11.25, 11.25, 224.5, 224.5, {'style': style, 'radius': 11.338962})
 		self.svg.end_layer()
 	
-		self.svg.start_layer('page_border_layer', 'Page Border', {'hidden': self.hide_guides})
+		self.svg.start_layer('page_border_layer', 'Page Border', {'hidden': True})
 		self.svg.rect(0, 0, 246.6, 246.6, {'style': style})
 		self.svg.end_layer()
 
@@ -995,14 +993,19 @@ class IslandsGen(object):
 def usage():
 	print "Usage: %s <options>" % sys.argv[0]
 	print "where <options> are:"
-	print "  --png   Generate PNG output files"
+	print "  --png      Generate PNG output files"
+	print "  --id <id>  Only process card with given id"
+	print "  --verify   Verify source files. Don't generate SVG output"
+	print "  --show-cut     Show the cut line in the output"
+	print "  --show-guides  Show the guide layers in the output"
+	print "  --show-id      Add a new layer that shows the card id"
 	sys.exit(2)
 
 def main():
 	try:
 		opts, args = getopt.getopt(sys.argv[1:],
 			'p',
-			['png', 'id=', 'verify'])
+			['png', 'id=', 'verify', 'show-cut', 'show-guides', 'show-id'])
 	except getopt.GetoptError:
 		usage()
 
@@ -1010,6 +1013,9 @@ def main():
 		'png': False,
 		'id': '',
 		'verify': False,
+		'show-cut': False,
+		'show-guides': False,
+		'show-id': True,
 	}
 	
 	for opt,arg in opts:
@@ -1019,6 +1025,12 @@ def main():
 			options['id'] = arg
 		if opt in ('--verify'):
 			options['verify'] = True
+		if opt in ('--show-cut'):
+			options['show-cut'] = True
+		if opt in ('--show-guides'):
+			options['show-guides'] = True
+		if opt in ('--show-id'):
+			options['show-id'] = True
 			
 	islands = IslandsGen(options)
 	islands.gen()
