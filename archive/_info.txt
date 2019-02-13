@@ -1,8 +1,8 @@
-v1-square
+v1-square (Sept 2014)
 initial designs with square
 not printed
 
-v2-poker-size
+v2-poker-size (Mar-May 2015)
 experiment with poker size cards (easier to get printed)
 turbulence for shoreline + forest
 8 resources: 4 land, 4 water
@@ -10,14 +10,14 @@ turbulence for shoreline + forest
 labels on each card
 printed
 
-v3-more-water
+v3-more-water (May 2015)
 add more water edges to deck
 8 resources: 4 land, 4 water
 2 decks: blue, red backs
 labels on each card
 printed
 
-v4-square
+v4-square (Dec 2016 - May 2017)
 revert to square since that's better for gameplay
 8 resources: 4 land, 4 water
 simplified shoreline/forest
@@ -25,15 +25,15 @@ repeated card layout
 no labels
 printed
 
-v5-sq-mountains
+v5-sq-mountains (Apr-May 2017)
 experiment with multiple topo lines for mountains
 not printed
 
-v6-hex
+v6-hex (May 2017)
 experiment with hex cards
 not printed
 
-v7-sq-6resources
+v7-sq-6resources (May-Jun 2017)
 same as v4 but with only 6 resources
 6 resources: 3 land, 3 water
 simplified shoreline/forest
@@ -41,10 +41,12 @@ repeated card layout
 no labels
 printed
 
-v8-sq6
+v8-sq6 (Jul 2018)
 revive turbulence script from v2. apply to v7
 6 resources
 repeated card layout
 broken forest: missing many cutouts for paths
 some labels (incomplete)
 not printed
+
+v9 (current) (Feb 2019)
