@@ -2,26 +2,19 @@
 Port (30 (+start) in deck)
 ====
 
--- Pirate locations
+-- Start location (both decks)
 * Portuga (on start card) - cf. Tortuga http://www.thewayofthepirates.com/regions-and-places/tortuga/
-* Port Royale - http://www.atlasobscura.com/places/sunken-pirate-stronghold-at-port-royal
-New Providence
 
--- Port Wine
-* Rose Port
-* Ruby Port
-* Crusted Port
-* Tawny Port
-* Port Quinta
-Vintage Port
-Reserve Port
-White Port
-Colheita Port
-
+-- Deck 1 (30)
+* Ruby Port (wine)
+* Crusted Port (wine)
+* Tawny Port (wine)
+* Rose Port (wine)
+* Port Quinta (wine)
 * Port Ico
 * Port Folio
-* Port-au-Bella
-* Port Manteau
+* Port O' Bello (portobello)
+* Port Manteau (portmanteau, portmantle)
 * Port Starboard
 * Spoils Port
 * Port-au-Potée
@@ -30,56 +23,103 @@ Colheita Port
 * Port Judgement
 * Port Able
 * Serial Port
-* Newport - Oldport?
+* Newport
 * Grande Port
-* Watersport - Waters' Port
+* Watersport
 * Freeport
 * Port End
 * Port Ray
-Davenport
-Port Cullis
-
--- People names
+* Port Royale - http://www.atlasobscura.com/places/sunken-pirate-stronghold-at-port-royal
 * Port Lee
 * Morgansport
 * Port Tristam
 * Port Roberts
-Jonesport
+Davenport
+Queensport
+
+-- Deck 2 (30)
+Vintage Port (wine)
+Reserve Port (wine)
+White Port (wine)
+Colheita Port (wine)
+Port de Bras
+Portamento
+Portglave
+Portulaca
+Sally port
+Bloodsport
+Data Port - cf. Data Point
+Port Jackson (shark)
+Dis Port
+Port Raiture
+Teleport
+Com Port
+Port Olan (portolan/portolano)
+Bridle port
+Portent (Portentous, Portension)
+Port Fire (portfire)
+Kingsport
+Portsmouth
+Purport
+Port Ugâl
+Portlast
+Oldport
+Porthook
 Port Rackham
+Portreeve
+Port Cullis
+
+-- Unused
+Portage
+Portative
+Portiere (portière)
+Portace
+Portate
+Portcluse (portcullis)
+Portgreve
+Portmote
+Portpane
+Portulacaceous
+Portunus puber
+Raft port
+Helm port
+Chase port
+Jonesport
 Cooke Port
 Port Roger
 Port Crabbe
-
-Com Port
-Queensport
 Port Tempest
 Silver Port
-Dis Port
 Pearl Bay Port
-Kingsport
-Portsmouth
-Data Port - cf. Data Point
-
-Port Ugâl
-Port Raiture
+Misreport
 
 
 ===
 Bay
 ===
-Fishstick Bay; Lulla Bay
+Bomb Bay
+Sick Bay
+Bayonet
+Fishstick Bay
+Lulla Bay
+Crybay Bay
+Ghost Bay
+Mutiny Bay
+Loading Bay
+
 Almond Bay; Pork Bay
 Hapless Bay; Black Jack Bay; Jolly Bay
 Shark Bay; Scurvy Dog Bay
-Half Moon Bay; Stingray Bay; Crystal Bay; Darkwater Bay; Hammerhead Bay; Crybay Bay
-Spirit Bay; Loading Bay; Ghost Bay; Mutiny Bay
-Bomb Bay
+Half Moon Bay; Stingray Bay; Crystal Bay; Darkwater Bay; Hammerhead Bay
+Spirit Bay
 
 
 ====
 Cove
 ====
-Dread Cove; Cove Ariant; Cove Alent
+Cove Ariant
+Cove Alent
+Dread Cove
 Al Cove
 Shady Cove; Knob Cove
 One-Ear Cove
@@ -100,11 +140,12 @@ Pass
 * Noneshall Pass
 * Kidneystone Pass
 * Tress Pass
-
 Inappropriate Pass
 Je-ne-sais Pass
 Buck Pass
 Forward Pass
+
+-- Unused
 Season Pass
 Backstage Pass
 By Pass
@@ -112,6 +153,7 @@ Im Pass
 Sur Pass
 Over Pass
 Under Pass
+Encom Pass
 
 
 ======
@@ -119,9 +161,9 @@ Strait
 ======
 Dire Strait
 Crooked Strait
-
 Twisted Strait
-Encom Pass
+
+-- Unused
 Privateer Strait
 
 
@@ -150,7 +192,7 @@ Rea Point
 =======
 Isthmus
 =======
-Mary Isthmus
+Mary Isthmus (Merry?)
 Cur Isthmus
 
 
@@ -169,33 +211,32 @@ Isle
 
 Fewt Isle
 Noob Isle
-Seen Isle
-Peen Isle
 Rept Isle
 Miss Isle
+Imbess Isle
+Prehense Isle;
+Crocod Isle
+Tact Isle
+Carlyle Isle
+Ex Isle
 Pure Isle
-Duct Isle
+Seen Isle
 Fraj Isle
+Fert Isle
+
+Peen Isle
+Duct Isle
 Comp Isle
 Erect Isle
 Quint Isle
-Imbess Isle
 Chamom Isle
-Crocod Isle
-Prehense Isle;
 Percent Isle
 Text Isle
-Tact Isle
 Project Isle
 Merchant Isle
 Insect Isle
-Fert Isle
-
-Isle Land
 Carl Isle
+Isle Land
 Aisle Isle
-Ex Isle
-Carlyle Isle
-
 Blubbernut Isle
 Crane Isle
