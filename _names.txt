@@ -141,15 +141,14 @@ Pass
 * Kidneystone Pass
 * Tress Pass
 Inappropriate Pass
-Je-ne-sais Pass
-Buck Pass
+* Je-ne-sais Pass
+* Buck Pass
 Forward Pass
 
--- Unused
 Season Pass
 Backstage Pass
-By Pass
-Im Pass
+* Bye Pass
+* Imm Pass
 Sur Pass
 Over Pass
 Under Pass
@@ -159,8 +158,8 @@ Encom Pass
 ======
 Strait
 ======
-Dire Strait
-Crooked Strait
+* Dire Strait
+* Crooked Strait
 Twisted Strait
 
 -- Unused

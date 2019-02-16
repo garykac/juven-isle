@@ -55,7 +55,7 @@ card_info = {
 	'0036b':	['rl',	'B',	'Unused'],
 	'0036c':	['rw',	's',	'Unused'],
 
-	'0174a':	['pl',	'pC',	'Port-au-Bella'],
+	'0174a':	['pl',	'pC',	'Port O’Bello'],
 	'0174b':	['pw',	'ps',	'Port Manteau'],
 	'0174c':	['rdl',	'H',	'Unused'],
 
@@ -80,23 +80,23 @@ card_info = {
 
 	'1434a':	['pl',	'pH',	'Back Port'],
 	'1434b':	['pw',	'pf',	'Tawny Port'],
-	'1434c':	['rdl',	'B',	'Unused'],
-	'1434d':	['rdl',	'C',	'Unused'],
+	'1434c':	['rdl',	'B',	'Je-ne-sais Pass'],
+	'1434d':	['rdl',	'C',	'Buck Pass'],
 
 	'1436a':	['pl',	'pB',	'Port Judgement'],
 	'1436b':	['pw',	'ps',	'Port Able'],
 	'1436c':	['2rdw','fs',	'Unused'],
-	'1436d':	['rw',	't',	'Unused'],
+	'1436d':	['rw',	't',	'Bye Pass'],
 
 	'1436-start':	['start',	'fstBCHpx',	'Portuga'],
 
-	'1616a':	['2rdl','BC',	'Unused'],
+	'1616a':	['2rdl','BC',	'Crooked Strait'],
 	'1616b':	['2rdw','tf',	'Unused'],
 
 	'1634a':	['pl',	'pC',	'Serial Port'],
 	'1634b':	['pw',	'pt',	'Newport'],
-	'1634c':	['2rdl','HB',	'Letme Inlet'],
-	'1634d':	['rl',	'C',	'Unused'],
+	'1634c':	['2rdl','HB',	'Dire Strait'],
+	'1634d':	['rl',	'C',	'Letme Inlet'],
 
 	'1636a':	['pl',	'pH',	'Grande Port'],
 	'1636b':	['pw',	'pf',	'Watersport'],
@@ -111,7 +111,7 @@ card_info = {
 	'1776b':	['pw',	'ps',	'Port Tristam'],
 	'1776c':	['rdw',	'f',	'Unused'],
 
-	'3434a':	['2rdl','CH',	'Unused'],
+	'3434a':	['2rdl','CH',	'Imm Pass'],
 	'3434b':	['2rdw','st',	'Unused'],
 
 	'3436a':	['pl',	'pH',	'Morgansport'],
@@ -971,12 +971,18 @@ class IslandsGen(object):
 			error('Invalid card id: %s' % id)
 
 		labels = {}
+		unused = 0
 		for name in sorted(card_info.keys()):
 			label = card_info[name][2]
-			if label != "Unused" and label in labels:
-				error('Duplicate label: %s' % label)
+			if label == "Unused":
+				unused += 1
+			elif label in labels:
+				print labels
+				error('Duplicate label for %s: %s (already assigned to %s)' % (name, label, labels[label]))
 			else:
-				labels[label] = label
+				labels[label] = name
+		if unused != 0:
+			print unused, 'unassigned labels'
 
 		for name in sorted(card_info.keys()):
 			seed_delta += 1
