@@ -970,13 +970,17 @@ class IslandsGen(object):
 		if id != '' and not id in card_info:
 			error('Invalid card id: %s' % id)
 
+		labels = {}
+		for name in sorted(card_info.keys()):
+			label = card_info[name][2]
+			if label != "Unused" and label in labels:
+				error('Duplicate label: %s' % label)
+			else:
+				labels[label] = label
+
 		for name in sorted(card_info.keys()):
 			seed_delta += 1
 			self.seed = seed_base + seed_delta
-
-			# Random seed override
-			if len(card_info[name]) >= 5:
-				self.seed = card_info[name][4]
 
 			# Process single card
 			if id == '' or id == name:
