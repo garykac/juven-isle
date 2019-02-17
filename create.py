@@ -43,8 +43,8 @@ card_info = {
 	'0014b':	['xw',	'x',	'Exclamation Point'],
 	'0014c':	['xw',	'x',	'Unused'],
 
-	'0016a':	['pl',	'pC',	'Unused'],
-	'0016b':	['pw',	'ps',	'Unused'],
+	'0016a':	['pl',	'pC',	'Davenport'],
+	'0016b':	['pw',	'ps',	'Queensport'],
 	'0016c':	['rdl',	'B',	'Dissa Point'],
 
 	'0034a':	['pl',	'pH',	'Rose Port'],
@@ -95,7 +95,7 @@ card_info = {
 
 	'1634a':	['pl',	'pC',	'Serial Port'],
 	'1634b':	['pw',	'pt',	'Newport'],
-	'1634c':	['2rdl','HB',	'Dire Strait'],
+	'1634c':	['2rdl','HB',	'Inappropriate Pass'],
 	'1634d':	['rl',	'C',	'Letme Inlet'],
 
 	'1636a':	['pl',	'pH',	'Grande Port'],
@@ -129,7 +129,7 @@ card_info = {
 	'3776b':	['xl',	'x',	'Unused'],
 	'3776c':	['xl',	'x',	'Unused'],
 
-	'7777a':	['3rl',	'BCH',	'Unused'],
+	'7777a':	['3rl',	'BCH',	'Landlubber’s Lane'],
 	'7777b':	['xl',	'x',	'Unused'],
 }
 

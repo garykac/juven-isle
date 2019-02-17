@@ -173,10 +173,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="46.68341"
+     inkscape:cx="42.040553"
      inkscape:cy="123.06402"
      inkscape:document-units="px"
-     inkscape:current-layer="labels_layer"
+     inkscape:current-layer="water_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -296,7 +296,7 @@
        sodipodi:linespacing="125%"><textPath
          xlink:href="#path4673"
          id="textPath4486"
-         style="font-size:10px">Dire Strait</textPath></text>
+         style="font-size:10px">Inappropriate Pass</textPath></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -305,7 +305,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 154.1904,116.02019 C 141.33326,84.234483 136.69041,53.520195 137.76184,27.091629"
+       d="m 182.76183,196.02019 c -17.5,-41.42856 -0.35713,-54.64285 -35.71427,-107.499989"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
