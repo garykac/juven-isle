@@ -98,10 +98,10 @@
   <rect id="water" x="0" y="0" width="246.6" height="246.6" style="fill:#b9deff;fill-opacity:1;stroke:none" />
 </g>
 <g inkscape:groupmode="layer" id="water_medium_layer" inkscape:label="Water Shallow" style="display:inline" sodipodi:insensitive="true" >
-  <path style="fill:#9bd1ff;fill-opacity:0.70;fill-rule:evenodd;stroke:none;filter:url(#blurWaterShallow)" d="m 195.09686,59.502059 -40.70196,-10.11204 -24.30861,2.624157 11.2896,15.544931 8.689,24.516861 7.47568,23.461832 -14.8978,20.67604 -24.34472,-6.83851 -7.252,-25.82693 12.36297,-25.966657 -10.83071,-17.440682 -30.128326,-1.659672 -42.043883,6.291153 -29.35609,-7.035968 -20.000001,0 0,-46.686534 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,47.218217 L 235.55,57.925 Z" inkscape:connector-curvature="0" />
+  <path style="fill:#9bd1ff;fill-opacity:0.70;fill-rule:evenodd;stroke:none;filter:url(#blurWaterShallow)" d="m 191.88257,59.502059 -37.48767,-2.61204 -24.30861,-4.875843 1.2896,21.259217 14.76043,19.159718 8.18996,16.676119 -11.68351,20.3189 -23.63043,-7.90994 L 94.974621,107.11983 85.194734,88.653172 71.506881,77.283918 57.807127,63.124246 40.406101,57.629685 l -29.35609,0.106889 -20.000001,0 0,-46.686534 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,47.218217 L 235.55,57.925 Z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="water_deep_layer" inkscape:label="Water Deep" style="display:inline" sodipodi:insensitive="true" >
-  <path style="fill:#87c8ff;fill-opacity:0.60;fill-rule:evenodd;stroke:none;filter:url(#blurWaterDeep)" d="M 181.54458,34.698683 133.74616,27.67222 97.386427,40.937627 48.709365,42.252826 11.050011,35.75052 -8.94999,34.740367 l 0,-23.690347 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,24.994862 -20.00003,-0.203011 z" inkscape:connector-curvature="0" />
+  <path style="fill:#87c8ff;fill-opacity:0.60;fill-rule:evenodd;stroke:none;filter:url(#blurWaterDeep)" d="M 181.54458,34.698683 128.03187,33.029363 108.45786,45.937627 104.50089,57.944745 88.210673,64.859397 48.709365,42.252826 11.050011,35.75052 -8.94999,34.740367 l 0,-23.690347 19.99999,-19.9999902 224.49999,0 20.00003,20.0000312 0,24.994862 -20.00003,-0.203011 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="water_hilight_layer" inkscape:label="Water Hilight" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;filter:url(#blurWaterHilight)" />
@@ -110,13 +110,13 @@
   <use xlink:href="#shoreline" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#ffddab;fill-opacity:1;stroke:#5f4c14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="shoreline_master_layer" inkscape:label="Shoreline Master" style="display:none" sodipodi:insensitive="true" >
-  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 235.84828,255.55008 19.69798,-20 0.004,-155.12508 -20,0 -74.77062,-12.412047 4.51398,8.426967 19.90059,7.901603 17.45819,37.134757 -14.66367,41.861 -33.49798,19.09353 -49.25027,-10.58969 -29.859529,-18.2695 -8.517254,-46.01349 18.621569,-20.507947 5.175211,-10.366588 -42.892811,5.784415 -36.717405,-2.04305 -20.000001,0 10e-6,155.12512 20.00001,20 z" inkscape:connector-curvature="0" />
+  <path id="shoreline" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="m 235.84828,255.55008 19.69798,-20 0.004,-155.12508 -20,0 -74.77062,-12.412047 4.51398,8.426967 19.90059,7.901603 17.45819,37.134757 -14.66367,41.861 -33.49798,19.09353 L 105.24048,171.84112 75.380951,153.57162 69.006554,125.05813 66.621149,108.06718 51.01762,89.897881 32.410523,84.253724 11.050261,80.42496 l -20.000001,0 10e-6,155.12512 20.00001,20 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="grass_layer" inkscape:label="Grass" style="display:inline" sodipodi:insensitive="true" >
   <use xlink:href="#grass" height="100%" width="100%" x="0" y="0" style="display:inline;fill:#b4e982;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </g>
 <g inkscape:groupmode="layer" id="grass_master_layer" inkscape:label="Grass Master" style="display:none" sodipodi:insensitive="true" >
-  <path id="grass" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="M 235.84828,255.55008 255.55003,235.55003 255.55,99.3 l -20,0 -28.22873,-15.032686 -7.56091,6.626764 5.72099,19.229302 0.0435,27.42033 -19.39678,35.23014 -36.75245,14.73644 -54.663904,-12.55328 -23.973842,-21.02825 -10.734201,-46.88594 3.40319,-14.689927 -23.519764,-1.228976 -28.837098,8.176043 -20.000001,0 5e-5,136.25006 20.00001,20.00006 z" inkscape:connector-curvature="0" />
+  <path id="grass" style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-opacity:1;fill-rule:evenodd;filter:url(#blurGrass);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="M 235.84828,255.55008 255.55003,235.55003 255.55,99.3 l -20,0 -28.22873,-15.032686 -7.56091,6.626764 5.72099,19.229302 0.0435,27.42033 -19.39678,35.23014 -36.75245,14.73644 L 94.711716,174.95701 70.737874,153.92876 60.003673,107.04282 49.835434,99.138607 35.244242,99.695346 11.050001,99.29996 l -20.000001,0 5e-5,136.25006 20.00001,20.00006 z" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="forest_shadow_layer" inkscape:label="Forest Shadow" style="display:inline" sodipodi:insensitive="true" >
   <g style="filter:url(#blurForestShadow)" >
@@ -134,7 +134,7 @@
 </g>
 <g inkscape:groupmode="layer" id="labels_layer" inkscape:label="Labels" style="display:inline" sodipodi:insensitive="true" >
   <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><textPath xlink:href="#label-path"
->Unused</textPath></text>
+>Bomb Bay</textPath></text>
 </g>
 <g inkscape:groupmode="layer" id="labels_guide_layer" inkscape:label="Labels Guide" style="display:none" sodipodi:insensitive="true" >
   <path id="label-path" style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" d="M 109.79339,159.03939 C 88.799492,150.29724 81.936256,129.39654 81.936265,109.39654" inkscape:connector-curvature="0" />
@@ -188,7 +188,7 @@
   </g>
 </g>
 <g inkscape:groupmode="layer" id="id_layer" inkscape:label="Card ID" style="display:inline" sodipodi:insensitive="true" >
-  <text xml:space="preserve" x="19.7" y="27.3" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#909090;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" 
+  <text xml:space="preserve" x="19.7" y="27.3" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#606060;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" 
 >0376c</text></g>
 <g inkscape:groupmode="layer" id="cut_layer" inkscape:label="Cut Line" style="display:inline" sodipodi:insensitive="true" >
   <rect x="11.25" y="11.25" width="224.5" height="224.5" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ry="11.338962" />
