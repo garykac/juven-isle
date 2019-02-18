@@ -13,7 +13,7 @@ Port (30 (+start) in deck)
 * Port Quinta (wine)
 * Port Ico
 * Port Folio
-* Port O' Bello (portobello)
+* Port O'Bello (portobello)
 * Port Manteau (portmanteau, portmantle)
 * Port Starboard
 * Spoils Port
@@ -38,40 +38,40 @@ Port (30 (+start) in deck)
 * Queensport
 
 -- Deck 2 (30)
-Vintage Port (wine)
-Reserve Port (wine)
-White Port (wine)
-Colheita Port (wine)
-Port de Bras
-Portamento
-Portglave
-Portulaca
-Sally port
-Bloodsport
-Data Port - cf. Data Point
-Port Jackson (shark)
-Dis Port
-Port Raiture
-Teleport
-Com Port
-Port Olan (portolan/portolano)
-Bridle port
-Portent (Portentous, Portension)
-Port Fire (portfire)
-Kingsport
-Portsmouth
-Purport
-Port Ugâl
-Portlast
-Oldport
-Porthook
-Port Rackham
-Portreeve
-Port Cullis
+* Vintage Port (wine)
+* Reserve Port (wine)
+* White Port (wine)
+* Colheita Port (wine)
+* Port de Bras
+* Port Amento
+* Port Glave
+* Port Ulaca (portulaca)
+* Sally Port
+* Bloodsport
+* Data Port - cf. Data Point
+* Port Jackson (shark)
+* Dis Port
+* Port Raiture
+* Tele Port
+* Com Port
+* Port Olan (portolan/portolano)
+* Bridle Port
+* Port Entous (portent, portentous, portension)
+* Port Fire (portfire)
+* Kingsport
+* Portsmouth
+* Purr Port (purport)
+* Port Ative
+* Portlast
+* Oldport
+* Porthook
+* Port Rackham
+* Port Reeve
+* Port Cullis
 
 -- Unused
+Port Ugâl
 Portage
-Portative
 Portiere (portière)
 Portace
 Portate
@@ -97,18 +97,22 @@ Misreport
 ===
 Bay
 ===
-Bomb Bay
-Sick Bay
-Bayonet
-Fishstick Bay
-Lulla Bay
-Crybay Bay
+-- Deck 1
+* Bomb Bay
+* Sick Bay
+* Bay O'Net
+* Mutiny Bay
+
+-- Deck 2
+* Fishstick Bay
+* Lulla Bay
+* Crybey Bay
+* Loading Bay
+
+-- Unused
 Ghost Bay
-Mutiny Bay
-Loading Bay
 Clew Bay (Ireland)
 Barataria Bay (Louisiana)
-
 Almond Bay; Pork Bay
 Hapless Bay; Black Jack Bay; Jolly Bay
 Shark Bay; Scurvy Dog Bay
@@ -119,51 +123,67 @@ Spirit Bay
 ====
 Cove
 ====
-Cove Ariant
-Cove Alent
+-- Deck 1
+* Cove Ariant
+* Al Cove
+
+-- Deck 2
+* Cove Alent
+* Cove Ert
+
+-- Unused
 Dread Cove
-Al Cove
 Shady Cove; Knob Cove
 One-Ear Cove
-Covert Cove
-
 
 =====
 Inlet
 =====
+-- Deck 1
 * Letme Inlet
 
-Pumpk Inlet; Gobl Inlet; Rais Inlet; Viol Inlet; With Inlet; Urch Inlet; Insul Inlet
+-- Deck 2
+* Viol Inlet
+
+-- Unused
+Pumpk Inlet; Gobl Inlet; Rais Inlet; With Inlet; Urch Inlet; Insul Inlet
 Coff Inlet; Hero Inlet
 
 
 ====
 Pass
 ====
-* Noneshall Pass
+-- Deck 1
+* None-shall Pass
 * Kidneystone Pass
 * Tress Pass
 * Inappropriate Pass
 * Je-ne-sais Pass
-* Buck Pass
-Forward Pass
+* Forward Pass
+* Backstage Pass
+* Over Pass
 
-Season Pass
-Backstage Pass
-* Bye Pass
+-- Deck 2
+* Buck Pass
 * Imm Pass
-Sur Pass
-Over Pass
+* Bye Pass
+* Season Pass
+* Sir Pass (surpass)
+* Encom Pass
+
+-- Unused
 Under Pass
-Encom Pass
 
 
 ======
 Strait
 ======
-Dire Strait
+-- Deck 1
 * Crooked Strait
-Twisted Strait
+
+-- Deck 2
+* Dire Strait
+* Twisted Strait
 
 -- Unused
 Privateer Strait
@@ -172,60 +192,87 @@ Privateer Strait
 =====
 Point
 =====
+-- Deck 1
 * Exclamation Point
 * Point Exter
 * Dissa Point
+* View Point
+* Data Point
+* Gun Point
 
-Check Point
+-- Deck 2
+* Mid Point
+* Dagger Point
+* Point Less
+* Check Point
+* Counter Point
+* Needle Point
+
+-- Unused
 Point Illism
-Counter Point
-Data Point
-Mid Point
-Dagger Point
-Needle Point
-Point Less
-Pin Point
-Gun Point
 Knife Point
-View Point
+Pin Point
 Rea Point
 
 
 =======
 Isthmus
 =======
-Mary Isthmus (Merry?)
-Cur Isthmus
+--Deck 1
+* Mary Isthmus (Merry?)
+-- Deck 2
+* Cur Isthmus
 
 
 =====
-Beach
+Beach (Landing)
 =====
-Peg-leg Beach; Shelly Beach; Treasure Beach; Rustyspike Beach; Half-Pig Landing
-Scabby Beach; Skullwater Beach; Coconut Beach; Baldhead Beach; Buccaneer Landing
+-- Deck 1
+* Shelly Beach
+* Scabby Beach
+* Treasure Beach
+
+-- Deck 2
+* Peg-leg Beach
+* Skullwater Beach
+* Seaweed Landing
+
+-- Unused
+Rustyspike Beach; Half-Pig Landing
+Coconut Beach; Baldhead Beach; Buccaneer Landing
+
+
+======
+Strand
+======
+Magi Strand
+Well Strand
 
 
 ====
 Isle
 ====
+-- Deck 1
 * Juven Isle
 * Argh Isle
-
-Fewt Isle
-Noob Isle
-Rept Isle
-Miss Isle
-Imbess Isle
-Prehense Isle;
-Crocod Isle
-Tact Isle
-Carlyle Isle
-Ex Isle
-Pure Isle
+* Prehense Isle
+* Rept Isle
+* Carlyle Isle
+* Noob Isle
+* Fewt Isle
 Seen Isle
-Fraj Isle
-Fert Isle
 
+-- Deck 2
+* Miss Isle
+* Imbess Isle
+* Ex Isle
+* Crocod Isle
+* Fraj Isle
+Tact Isle
+* Pure Isle
+* Fert Isle
+
+-- Unused
 Peen Isle
 Duct Isle
 Comp Isle
@@ -245,46 +292,61 @@ Crane Isle
 
 
 Reef
-Cay
+===
+Deeb reef (debrief)
+Mynpachtb Reef (mynpachtbrief)
 
+Cay
+===
+Mon Cay (monkey)
+Don Cay (donkey)
+Lack Cay (lackey)
+Tur Cay (turkey)
+Whisk Cay (whiskey)
+
+Lagoon
+======
 
 Generic Pirate Words
 =======
 Anchor
 Avast
+Barnacle
 Bilge (bilgewater)
 Binnacle
 Black Jack
+Blubber
 Booty
 Buccaneer
 Chantey
 Corsair
 Crow's Nest
 Cutlass
-Dead man
-Devil's
-Flog
-Grog
+* Dead man's
+* Devil's
+* Flog
+* Grog
 Gunpowder
 Hornswaggle
-Jolly Roger
-Keelhaul
+* Jolly Roger
+* Keelhaul
 Kraken
 Maroon
 Mermaid
 Mizzen
-Mutiny
-Plunder
+* Mutiny
+* Plunder
 Rum
 Salty
-Scallywag
+* Scallywag
 Scurvy
 Scupper
 Scuttle (Scuttleship Bay)
 Seadog
-Seaweed
-Shipwreck
+* Seaweed
+* Shipwreck
 Skeleton
-Skull
+* Skull (skullwater)
 Swab
-Wreckage
+* Treasure
+* Wreckage

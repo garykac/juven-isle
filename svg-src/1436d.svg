@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="156.4287"
-     inkscape:cy="210.88326"
+     inkscape:zoom="2.8"
+     inkscape:cx="187.24734"
+     inkscape:cy="186.87315"
      inkscape:document-units="px"
-     inkscape:current-layer="labels_layer"
+     inkscape:current-layer="labels_guide_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -296,7 +296,7 @@
        sodipodi:linespacing="125%"><textPath
          xlink:href="#path4673"
          id="textPath4486"
-         style="font-size:10px">Bye Pass</textPath></text>
+         style="font-size:10px">Backstage Pass</textPath></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -305,7 +305,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 138.93659,24.506766 c -9.28571,29.28572 -5,44.285717 -0.35713,62.857152"
+       d="m 119.29373,58.078194 c 9.64286,32.142863 48.92857,52.500006 65.00002,69.642866"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />

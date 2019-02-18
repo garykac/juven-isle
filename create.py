@@ -23,7 +23,7 @@ resource_encode = {
 }
 
 card_info = {
-	# <id>: [ pattern, resources, label ]
+	# <id>: [ pattern, resources, deck1-label, deck2-label ]
 	# pattern:
 	#   r: resource (f,s,t,B,C,H)
 	#   x: pirate
@@ -36,101 +36,101 @@ card_info = {
 	#   x: pirate
 	#   p: port
 
-	'0000a':	['3rw',	'fst',	'Juven Isle'],
-	'0000b':	['xw',	'x',	'Argh Isle'],
+	'0000a':	['3rw',	'fst',	'Juven Isle',			'Pure Isle'],
+	'0000b':	['xw',	'x',	'Argh Isle',			'Fert Isle'],
 
-	'0014a':	['rw',	'f',	'Point Exter'],
-	'0014b':	['xw',	'x',	'Exclamation Point'],
-	'0014c':	['xw',	'x',	'Unused'],
+	'0014a':	['rw',	'f',	'Point Exter',			'Mid Point'],
+	'0014b':	['xw',	'x',	'Exclamation Point',	'Dagger Point'],
+	'0014c':	['xw',	'x',	'View Point',			'Check Point'],
 
-	'0016a':	['pl',	'pC',	'Davenport'],
-	'0016b':	['pw',	'ps',	'Queensport'],
-	'0016c':	['rdl',	'B',	'Dissa Point'],
+	'0016a':	['pl',	'pC',	'Davenport',			'Port Jackson'],
+	'0016b':	['pw',	'ps',	'Queensport',			'Port Olan'],
+	'0016c':	['rdl',	'B',	'Dissa Point',			'Point Less'],
 
-	'0034a':	['pl',	'pH',	'Rose Port'],
-	'0034b':	['pw',	'pf',	'Port Ico'],
-	'0034c':	['rdl', 'C',	'Unused'],
+	'0034a':	['pl',	'pH',	'Rose Port',			'Port Fire'],
+	'0034b':	['pw',	'pf',	'Port Ico',				'Port Amento'],
+	'0034c':	['rdl', 'C',	'Gun Point',			'Needle Point'],
 
-	'0036a':	['pw',	'pf',	'Port Folio'],
-	'0036b':	['rl',	'B',	'Unused'],
-	'0036c':	['rw',	's',	'Unused'],
+	'0036a':	['pw',	'pf',	'Port Folio',			'Colheita Port'],
+	'0036b':	['rl',	'B',	'Data Point',			'Counter Point'],
+	'0036c':	['rw',	's',	'Rept Isles',			'Imbess Isles'],
 
-	'0174a':	['pl',	'pC',	'Port O’Bello'],
-	'0174b':	['pw',	'ps',	'Port Manteau'],
-	'0174c':	['rdl',	'H',	'Unused'],
+	'0174a':	['pl',	'pC',	'Port O’Bello',			'Port Ulaca'],
+	'0174b':	['pw',	'ps',	'Port Manteau',			'Data Port'],
+	'0174c':	['rdl',	'H',	'Noob Isle',			'Fraj Isle'],
 
-	'0176a':	['pl',	'pB',	'Port Lee'],
-	'0176b':	['pw',	'pt',	'Ruby Port'],
-	'0176c':	['rl',	'H',	'Unused'],
+	'0176a':	['pl',	'pB',	'Port Lee',				'Reserve Port'],
+	'0176b':	['pw',	'pt',	'Ruby Port',			'Portsmouth'],
+	'0176c':	['rl',	'H',	'Carlyle Isle',			'Ex Isle'],
 
-	'0374a':	['pl',	'pH',	'Port Starboard'],
-	'0374b':	['pw',	'pf',	'Spoils Port'],
-	'0374c':	['rw',	't',	'Unused'],
+	'0374a':	['pl',	'pH',	'Port Starboard',		'Portlast'],
+	'0374b':	['pw',	'pf',	'Spoils Port',			'Bridle port'],
+	'0374c':	['rw',	't',	'Prehense Isle',		'Miss Isle'],
 
-	'0376a':	['pl',	'pB',	'Crusted Port'],
-	'0376b':	['pw',	'ps',	'Port Royale'],
-	'0376c':	['rdw',	't',	'Unused'],
+	'0376a':	['pl',	'pB',	'Crusted Port',			'Port Entous'],
+	'0376b':	['pw',	'ps',	'Port Royale',			'White Port'],
+	'0376c':	['rdw',	't',	'Bomb Bay',				'Lulla Bay'],
 
-	'1414a':	['rw',	's',	'Kidneystone Pass'],
-	'1414b':	['xw',	'x',	'Noneshall Pass'],
+	'1414a':	['rw',	's',	'Kidneystone Pass',		'Dire Strait'],
+	'1414b':	['xw',	'x',	'None-shall Pass',		'Imm Pass'],
 
-	'1416a':	['pl',	'pC',	'Port-au-Potée'],
-	'1416b':	['pw',	'pt',	'Port Hole'],
-	'1416c':	['rdl',	'H',	'Tress Pass'],
+	'1416a':	['pl',	'pC',	'Port-au-Potée',		'Port de Bras'],
+	'1416b':	['pw',	'pt',	'Port Hole',			'Bloodsport'],
+	'1416c':	['rdl',	'H',	'Tress Pass',			'Sir Pass'],
 
-	'1434a':	['pl',	'pH',	'Back Port'],
-	'1434b':	['pw',	'pf',	'Tawny Port'],
-	'1434c':	['rdl',	'B',	'Je-ne-sais Pass'],
-	'1434d':	['rdl',	'C',	'Buck Pass'],
+	'1434a':	['pl',	'pH',	'Back Port',			'Tele Port'],
+	'1434b':	['pw',	'pf',	'Tawny Port',			'Port Glave'],
+	'1434c':	['rdl',	'B',	'Je-ne-sais Pass',		'Bye Pass'],
+	'1434d':	['rdl',	'C',	'Over Pass',			'Season Pass'],
 
-	'1436a':	['pl',	'pB',	'Port Judgement'],
-	'1436b':	['pw',	'ps',	'Port Able'],
-	'1436c':	['2rdw','fs',	'Unused'],
-	'1436d':	['rw',	't',	'Bye Pass'],
+	'1436-start':	['start',	'fstBCHpx',	'Portuga',	'Portuga'],
 
-	'1436-start':	['start',	'fstBCHpx',	'Portuga'],
+	'1436a':	['pl',	'pB',	'Port Judgement',		'Port Rackham'],
+	'1436b':	['pw',	'ps',	'Port Able',			'Port Cullis'],
+	'1436c':	['2rdw','fs',	'Scabby Beach',			'Skullwater Beach'],
+	'1436d':	['rw',	't',	'Backstage Pass',		'Encom Pass'],
 
-	'1616a':	['2rdl','BC',	'Crooked Strait'],
-	'1616b':	['2rdw','tf',	'Unused'],
+	'1616a':	['2rdl','BC',	'Crooked Strait',		'Twisted Strait'],
+	'1616b':	['2rdw','tf',	'Mutiny Bay',			'Fishstick Bay'],
 
-	'1634a':	['pl',	'pC',	'Serial Port'],
-	'1634b':	['pw',	'pt',	'Newport'],
-	'1634c':	['2rdl','HB',	'Inappropriate Pass'],
-	'1634d':	['rl',	'C',	'Letme Inlet'],
+	'1634a':	['pl',	'pC',	'Serial Port',			'Vintage Port'],
+	'1634b':	['pw',	'pt',	'Newport',				'Com Port'],
+	'1634c':	['2rdl','HB',	'Inappropriate Pass',	'Under Pass'],
+	'1634d':	['rl',	'C',	'Letme Inlet',			'Viol Inlet'],
 
-	'1636a':	['pl',	'pH',	'Grande Port'],
-	'1636b':	['pw',	'pf',	'Watersport'],
-	'1636c':	['rdw',	's',	'Unused'],
-	'1636d':	['rdw',	't',	'Unused'],
+	'1636a':	['pl',	'pH',	'Grande Port',			'Port Reeve'],
+	'1636b':	['pw',	'pf',	'Watersport',			'Purr port'],
+	'1636c':	['rdw',	's',	'Wreckage Bay',			'Scallywag Bay'],
+	'1636d':	['rdw',	't',	'Mary Isthmus',			'Cur Isthmus'],
 
-	'1774a':	['pl',	'pC',	'Freeport'],
-	'1774b':	['rl',	'B',	'Unused'],
-	'1774c':	['rw',	'f',	'Unused'],
+	'1774a':	['pl',	'pC',	'Freeport',				'Dis Port'],
+	'1774b':	['rl',	'B',	'Fewt Isle',			'Crocod Isle'],
+	'1774c':	['rw',	'f',	'Scuttleship Beach',	'Seaweed Landing'],
 
-	'1776a':	['pl',	'pB',	'Port End'],
-	'1776b':	['pw',	'ps',	'Port Tristam'],
-	'1776c':	['rdw',	'f',	'Unused'],
+	'1776a':	['pl',	'pB',	'Port End',				'Porthook'],
+	'1776b':	['pw',	'ps',	'Port Tristam',			'Oldport'],
+	'1776c':	['rdw',	'f',	'Binnacle Beach',		'Scurvy Beach'],
 
-	'3434a':	['2rdl','CH',	'Imm Pass'],
-	'3434b':	['2rdw','st',	'Unused'],
+	'3434a':	['2rdl','CH',	'Forward Pass',			'Buck Pass'],
+	'3434b':	['2rdw','st',	'Magi Strand',			'Well Strand'],
 
-	'3436a':	['pl',	'pH',	'Morgansport'],
-	'3436b':	['pw',	'pt',	'Port Ray'],
-	'3436c':	['rdw',	's',	'Unused'],
+	'3436a':	['pl',	'pH',	'Morgansport',			'Port Ative'],
+	'3436b':	['pw',	'pt',	'Port Ray',				'Port Raiture'],
+	'3436c':	['rdw',	's',	'Sick Bay',				'Crybey Bay'],
 
-	'3636a':	['rl',	'C',	'Unused'],
-	'3636b':	['xl',	'x',	'Unused'],
+	'3636a':	['rl',	'C',	'Al Cove',				'Cove Ert'],
+	'3636b':	['xl',	'x',	'Shelly Beach',			'Peg-leg Beach'],
 
-	'3774a':	['pl',	'pB',	'Port Quinta'],
-	'3774b':	['pw',	'pt',	'Port Roberts'],
-	'3774c':	['rdw',	'f',	'Unused'],
+	'3774a':	['pl',	'pB',	'Port Quinta',			'Kingsport'],
+	'3774b':	['pw',	'pt',	'Port Roberts',			'Sally Port'],
+	'3774c':	['rdw',	'f',	'Bay O’Net',			'Loading Bay'],
 
-	'3776a':	['rl',	'H',	'Unused'],
-	'3776b':	['xl',	'x',	'Unused'],
-	'3776c':	['xl',	'x',	'Unused'],
+	'3776a':	['rl',	'H',	'Plunder Beach',		'Shipwreck Landing'],
+	'3776b':	['xl',	'x',	'Keelhaul Landing',		'Dead Man’s Beach'],
+	'3776c':	['xl',	'x',	'Cove Arient',			'Cove Alent'],
 
-	'7777a':	['3rl',	'BCH',	'Landlubber’s Lane'],
-	'7777b':	['xl',	'x',	'Unused'],
+	'7777a':	['3rl',	'BCH',	'Landlubber’s Lane',	'Lake Booty'],
+	'7777b':	['xl',	'x',	'Devil’s Hideout',		'Jolly Roger’s Grog & Flog'],
 }
 
 def error(msg):
@@ -970,19 +970,41 @@ class IslandsGen(object):
 		if id != '' and not id in card_info:
 			error('Invalid card id: %s' % id)
 
-		labels = {}
-		unused = 0
+		labels1 = {}
+		labels2 = {}
+		unused1 = 0
+		unused2 = 0
 		for name in sorted(card_info.keys()):
-			label = card_info[name][2]
-			if label == "Unused":
-				unused += 1
-			elif label in labels:
-				print labels
-				error('Duplicate label for %s: %s (already assigned to %s)' % (name, label, labels[label]))
+			label1 = card_info[name][2]
+			if label1 == "Unused":
+				unused1 += 1
+			elif name == '1436-start':
+				if label1 != "Portuga":
+					error('Start card should have label "Portuga" instead of %s (deck 1)' % (label1))
+			elif label1 in labels1:
+				error('Duplicate label for %s (deck 1): %s (already assigned to %s in deck 1)' % (name, label1, labels1[label1]))
+			elif label1 in labels2:
+				error('Duplicate label for %s (deck 1): %s (already assigned to %s in deck 2)' % (name, label1, labels2[label1]))
 			else:
-				labels[label] = name
-		if unused != 0:
-			print unused, 'unassigned labels'
+				labels1[label1] = name
+
+			label2 = card_info[name][3]
+			if label2 == "Unused":
+				unused2 += 1
+			elif name == '1436-start':
+				if label2 != "Portuga":
+					error('Start card should have label "Portuga" instead of %s (deck 2)' % (label1))
+			elif label2 in labels1:
+				error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 1)' % (name, label2, labels1[label2]))
+			elif label2 in labels2:
+				error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 2)' % (name, label2, labels2[label2]))
+			else:
+				labels1[label1] = name
+
+		if unused1 != 0:
+			print unused1, 'unassigned labels in deck 1'
+		if unused2 != 0:
+			print unused2, 'unassigned labels in deck 2'
 
 		for name in sorted(card_info.keys()):
 			seed_delta += 1
