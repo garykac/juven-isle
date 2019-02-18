@@ -167,7 +167,7 @@ class IslandsGen(object):
 		
 		self.route_style = 'display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1'
 
-	def draw_card(self, name, data):
+	def draw_card(self, name, data, alt):
 		self.curr_name = name
 		filename = data['name']
 		borders = data['borders']
@@ -181,9 +181,16 @@ class IslandsGen(object):
 		textpaths = data['labels']
 		resources = data['resources']
 
+		dir_suffix = 'out'
+		if alt:
+			dir_suffix = 'out2'
+		outdir = 'svg-%s' % (dir_suffix)
+		if not os.path.exists(outdir):
+			os.makedirs(outdir)
+
 		self.svg.reset()
 		self.svg.set_size(self.page_size, self.page_size)
-		self.svg.set_filename('svg-out/%s.svg' % (name))
+		self.svg.set_filename('%s/%s.svg' % (outdir, name))
 
 		# filter-blur: x y width height stddev
 		self.svg.add_def(SvgDefFilterBlur('blurWaterDeep', -0.056690667, -0.041619708, 1.1133813, 1.0832394, 6.9191359))
@@ -759,19 +766,19 @@ class IslandsGen(object):
 	# Load card data
 	
 	def load_data(self, name):
-		# [ layer-name, required ]
+		# [ layer-name, options ]
 		layer_info = [
-			['water_medium_layer', True],
-			['water_deep_layer', True],
-			['shoreline_master_layer', True],
-			['grass_master_layer', True],
-			['forest_master_layer', True],
-			['forest_overlay_layer', False],
-			['routes_layer', True],
-			['labels_layer', True],
-			['labels_guide_layer', True],
-			['resources_layer', True],
-			['edge_guides_layer', True],
+			['water_medium_layer', {}],
+			['water_deep_layer', {}],
+			['shoreline_master_layer', {}],
+			['grass_master_layer', {}],
+			['forest_master_layer', {}],
+			['forest_overlay_layer', { 'optional': True }],
+			['routes_layer', {}],
+			['labels_layer', {}],
+			['labels_guide_layer', {}],
+			['resources_layer', {}],
+			['edge_guides_layer', {}],
 		]
 		borders = []
 		layer_data = {}
@@ -863,8 +870,9 @@ class IslandsGen(object):
 		
 		for linfo in layer_info:
 			layer = linfo[0]
-			required = linfo[1]
-			if required and not found_layer[layer]:
+			options = linfo[1]
+			optional = options.get('optional')
+			if not optional and not found_layer[layer]:
 				error('Unable to find data for %s' % layer)
 				return
 		if len(borders) != 4:
@@ -947,20 +955,28 @@ class IslandsGen(object):
 		if self.options['verify']:
 			return
 
-		self.draw_card(name, data)
+		for alt in [False, True]:
+			self.draw_card(name, data, alt)
 	
-		if self.options['png']:
-			cwd = os.getcwd()
-			
-			# Generate PNG file.
-			subprocess.call([
-				"/Applications/Inkscape.app/Contents/Resources/bin/inkscape",
-				"--file=%s/svg-out/%s.svg" % (cwd, name),
-				"--export-png=%s/png-out/%s.png" % (cwd, name),
-				"--export-dpi=300",
-				"--export-text-to-path",
-				"--without-gui"
-				])
+			if self.options['png']:
+				cwd = os.getcwd()
+
+				dir_suffix = 'out'
+				if alt:
+					dir_suffix = 'out2'
+				outdir = '%s/png-%s' % (cwd, dir_suffix)
+				if not os.path.exists(outdir):
+					os.makedirs(outdir)
+
+				# Generate PNG file.
+				subprocess.call([
+					"/Applications/Inkscape.app/Contents/Resources/bin/inkscape",
+					"--file=%s/svg-%s/%s.svg" % (cwd, dir_suffix, name),
+					"--export-png=%s/%s.png" % (outdir, name),
+					"--export-dpi=300",
+					"--export-text-to-path",
+					"--without-gui"
+					])
 
 	def gen(self):
 		seed_base = 0
