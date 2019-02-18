@@ -1,13 +1,16 @@
 
 Card task checklist
 
-Assign edge pattern
-Assign resources
-Assign name
-
-Edges line up with guides
-Unique shoreline/forest
-Water depth matches shoreline
-Smooth shoreline
-Smooth connected paths
-Pointy forest
+- [x] Assign edge pattern
+- [x] Edges line up with guides
+- [x] Assign resources
+- [x] Assign label (deck 1)
+- [ ] Fix label path (deck 1)
+- [x] Assign label (deck 2)
+- [ ] Fix label path (deck 2)
+- [x] Unique shoreline
+- [ ] Water depth matches shoreline
+- [ ] Smooth shoreline
+- [ ] Smooth water depth lines
+- [ ] Smooth connected paths
+- [ ] Pointy forest trees
