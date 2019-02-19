@@ -245,8 +245,11 @@ Coconut Beach; Baldhead Beach; Buccaneer Landing
 ======
 Strand
 ======
-Magi Strand
-Well Strand
+-- Deck 1
+* Magi Strand
+
+-- Deck 2
+* Well Strand
 
 
 ====
@@ -258,9 +261,9 @@ Isle
 * Prehense Isle
 * Rept Isle
 * Carlyle Isle
-* Noob Isle
+Noob Isle
 * Fewt Isle
-Seen Isle
+* Seen Isle
 
 -- Deck 2
 * Miss Isle
@@ -313,7 +316,7 @@ Anchor
 Avast
 Barnacle
 Bilge (bilgewater)
-Binnacle
+* Binnacle
 Black Jack
 Blubber
 Booty
@@ -339,14 +342,14 @@ Mizzen
 Rum
 Salty
 * Scallywag
-Scurvy
+* Scurvy
 Scupper
-Scuttle (Scuttleship Bay)
+* Scuttle (Scuttleship)
 Seadog
 * Seaweed
 * Shipwreck
 Skeleton
 * Skull (skullwater)
 Swab
-* Treasure
+Treasure
 * Wreckage

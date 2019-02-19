@@ -57,7 +57,7 @@ card_info = {
 
 	'0174a':	['pl',	'pC',	'Port O’Bello',			'Port Ulaca'],
 	'0174b':	['pw',	'ps',	'Port Manteau',			'Data Port'],
-	'0174c':	['rdl',	'H',	'Noob Isle',			'Fraj Isle'],
+	'0174c':	['rdl',	'H',	'Seen Isle',			'Fraj Isle'],
 
 	'0176a':	['pl',	'pB',	'Port Lee',				'Reserve Port'],
 	'0176b':	['pw',	'pt',	'Ruby Port',			'Portsmouth'],
@@ -104,12 +104,12 @@ card_info = {
 	'1636d':	['rdw',	't',	'Mary Isthmus',			'Cur Isthmus'],
 
 	'1774a':	['pl',	'pC',	'Freeport',				'Dis Port'],
-	'1774b':	['rl',	'B',	'Fewt Isle',			'Crocod Isle'],
+	'1774b':	['rl',	'B',	'Fewt Isle',			'Croco d’Isle'],
 	'1774c':	['rw',	'f',	'Scuttleship Beach',	'Seaweed Landing'],
 
 	'1776a':	['pl',	'pB',	'Port End',				'Porthook'],
 	'1776b':	['pw',	'ps',	'Port Tristam',			'Oldport'],
-	'1776c':	['rdw',	'f',	'Binnacle Beach',		'Scurvy Beach'],
+	'1776c':	['rdw',	'f',	'Binnacle Beach',		'Shipwreck Landing'],
 
 	'3434a':	['2rdl','CH',	'Forward Pass',			'Buck Pass'],
 	'3434b':	['2rdw','st',	'Magi Strand',			'Well Strand'],
@@ -125,12 +125,12 @@ card_info = {
 	'3774b':	['pw',	'pt',	'Port Roberts',			'Sally Port'],
 	'3774c':	['rdw',	'f',	'Bay O’Net',			'Loading Bay'],
 
-	'3776a':	['rl',	'H',	'Plunder Beach',		'Shipwreck Landing'],
+	'3776a':	['rl',	'H',	'Plunder Beach',		'Scurvy Beach'],
 	'3776b':	['xl',	'x',	'Keelhaul Landing',		'Dead Man’s Beach'],
 	'3776c':	['xl',	'x',	'Cove Arient',			'Cove Alent'],
 
-	'7777a':	['3rl',	'BCH',	'Landlubber’s Lane',	'Lake Booty'],
-	'7777b':	['xl',	'x',	'Devil’s Hideout',		'Jolly Roger’s Grog & Flog'],
+	'7777a':	['3rl',	'BCH',	'Landlubber’s Lane',	'Noob Isle'],
+	'7777b':	['xl',	'x',	'Devil’s Hideout',		'Jolly Roger’s Grog &amp; Flog'],
 }
 
 def error(msg):
@@ -178,9 +178,18 @@ class IslandsGen(object):
 		forest_path = data['forest_master_layer']
 		forest_overlay = data['forest_overlay_layer']
 		routes_path = data['routes_layer']
-		textpaths = data['labels']
+		textpath = data['labels']
 		resources = data['resources']
 
+		if alt:
+			textpath = data['labels-alt']
+			if data['grass_alt_master_layer']:
+				grass_path = data['grass_alt_master_layer']
+			if data['forest_alt_master_layer']:
+				forest_path = data['forest_alt_master_layer']
+			if data['routes_alt_layer']:
+				routes_path = data['routes_alt_layer']
+		
 		dir_suffix = 'out'
 		if alt:
 			dir_suffix = 'out2'
@@ -219,7 +228,7 @@ class IslandsGen(object):
 		self.draw_grass_layers(grass_path)
 		self.draw_forest_layers(forest_path, forest_overlay)
 		self.draw_routes_layers(routes_path)
-		self.draw_labels_layer(textpaths)
+		self.draw_labels_layer(textpath)
 		self.draw_resources_layer(resources)
 		
 		self.draw_guides(borders)
@@ -767,28 +776,42 @@ class IslandsGen(object):
 	
 	def load_data(self, name):
 		# [ layer-name, options ]
-		layer_info = [
-			['water_medium_layer', {}],
-			['water_deep_layer', {}],
-			['shoreline_master_layer', {}],
-			['grass_master_layer', {}],
-			['forest_master_layer', {}],
-			['forest_overlay_layer', { 'optional': True }],
-			['routes_layer', {}],
-			['labels_layer', {}],
-			['labels_guide_layer', {}],
-			['resources_layer', {}],
-			['edge_guides_layer', {}],
-		]
+		layer_info = {
+			'water_layer': { 'ignore': True },
+			'water_medium_layer': {},
+			'water_deep_layer': {},
+			'shoreline_master_layer': {},
+			'grass_master_layer': {},
+			'grass_alt_master_layer': { 'optional': True },
+			'forest_master_layer': {},
+			'forest_overlay_layer': { 'optional': True },
+			'forest_alt_master_layer': { 'optional': True },
+			'forest_alt_overlay_master_layer': { 'optional': True },
+			'routes_layer': {},
+			'routes_alt_layer': { 'optional': True },
+			'labels_layer': {},
+			'labels_guide_layer': {},
+			'labels_alt_layer': { 'optional': True },
+			'labels_alt_guide_layer': { 'optional': True },
+			'resources_layer': {},
+			'resources_alt_layer': { 'optional': True },
+			'resources_master_layer': { 'ignore': True },
+			'edge_guides_layer': {},
+			'edge_guides_master_layer': { 'ignore': True },
+			'safe_layer': { 'ignore': True },
+			'cut_layer': { 'ignore': True },
+		}
 		borders = []
 		layer_data = {}
-		label_text = ''
-		label_guide = ''
+		label_text = None
+		label_guide = None
+		label_alt_text = None
+		label_alt_guide = None
 		resources = []
+		resources_alt = []
 		
 		found_layer = {}
-		for linfo in layer_info:
-			layer = linfo[0]
+		for layer in layer_info.keys():
 			found_layer[layer] = False
 		input = open('svg-src/%s.svg' % (name), "r")
 		current_layer = ''
@@ -796,28 +819,44 @@ class IslandsGen(object):
 		current_extra = ''
 		for line in input:
 			if re.search(r'inkscape:groupmode="layer"', line):
-				current_layer = ''
-			for linfo in layer_info:
-				layer = linfo[0]
-				if re.search(layer, line) and not re.search('inkscape:current-layer', line):
-					current_layer = layer
+				current_layer = 'LAYER'
+			#for layer in layer_info:
+			#if re.search(layer, line) and not re.search('inkscape:current-layer', line):
+			if current_layer == 'LAYER':
+				m = re.search(r'id="(.*)"', line)
+				if m:
+					layer = m.group(1)
+					if not layer in layer_info:
+						error('Unexpected layer: %s' % layer) 
+					options = layer_info[layer]
+					if options.get('ignore'):
+						current_layer = ''
+					else:
+						current_layer = layer
+				continue
 
-			# Parse labels and label guides
-			if current_layer == 'labels_layer':
-				#print 'labels_layer:', line
-				#m = re.search(r'>([A-Za-z0-9 \'.-]+)(</tspan>)?</textPath>', line)
-				m = re.search(r'>([^<]+)</textPath></text>', line)
+			# Parse labels and label guides (and alt labels/guides)
+			if current_layer.startswith('labels_'):
+				m = re.match('labels_(alt_)?layer', current_layer)
 				if m:
-					label_text = m.group(1)
-					#print '\tFound label text:', label_text
-					found_layer[current_layer] = True
-			elif current_layer == 'labels_guide_layer':
-				#print 'labels_guide_layer:', line
-				m = re.search(r' d="([^"]+)"', line)
+					alt = (m.group(1) == 'alt_')
+					m = re.search(r'>([^<]+)</textPath></text>', line)
+					if m:
+						if alt:
+							label_alt_text = m.group(1)
+						else:
+							label_text = m.group(1)
+						found_layer[current_layer] = True
+				m = re.match('labels_(alt_)?guide_layer', current_layer)
 				if m:
-					label_guide = m.group(1)
-					#print '\tFound label guide:', label_guide
-					found_layer[current_layer] = True
+					alt = (m.group(1) == 'alt_')
+					m = re.search(r' d="([^"]+)"', line)
+					if m:
+						if alt:
+							label_alt_guide = m.group(1)
+						else:
+							label_guide = m.group(1)
+						found_layer[current_layer] = True
 
 			# Parse resources
 			# This code assumes that the 'transform' in the <g> tag comes after
@@ -868,57 +907,24 @@ class IslandsGen(object):
 					found_layer[current_layer] = True
 		input.close()
 		
-		for linfo in layer_info:
-			layer = linfo[0]
-			options = linfo[1]
+		for layer in layer_info:
+			options = layer_info[layer]
+			ignore = options.get('ignore')
 			optional = options.get('optional')
-			if not optional and not found_layer[layer]:
+			if not ignore and not optional and not found_layer[layer]:
 				error('Unable to find data for %s' % layer)
 				return
 		if len(borders) != 4:
 			print borders
-			error('Unable to find all for borders')	
+			error('Unable to find all four borders')	
 			
-		card_data = {}
-		card_data['name'] = name
-		card_data['borders'] = borders
-
-		for layer in ['water_medium_layer',
-					  'water_deep_layer',
-					  'shoreline_master_layer',
-					  'grass_master_layer',
-					  'forest_master_layer',
-					  'forest_overlay_layer',
-					  'routes_layer',
-					  ]:
-			card_data[layer] = layer_data.get(layer)
-
-		label_data = [label_text, label_guide]
-		card_data['labels'] = label_data
-
-		card_data['resources'] = resources
-		
-		# Debugging
-		if False:
-			print name
-			for linfo in layer_info:
-				layer = linfo[0]
-				print '\t# %s\n' % layer
-				if layer == 'labels_layer':
-					print "\t['%s',\t'%s'],\n" % (label_text, label_guide)
-				elif layer == 'resources_layer':
-					print resources
-				elif layer == 'edge_guides_layer':
-					print borders
-				else:
-					print '\t%s\n' % layer_data[layer]
-
 		# Validate loaded data against expected card info
 		info = card_info[name]
 		target_borders = name[0:4]
 		target_pattern = info[0]
 		target_resources = info[1]
 		target_label = info[2]
+		target_label_alt = info[3]
 
 		if target_borders != ''.join([str(x) for x in borders]):
 			print 'Expected borders:', target_borders
@@ -936,7 +942,44 @@ class IslandsGen(object):
 			print 'Expected label:', target_label
 			print 'Found label:', label_text
 			error('Label doesn\'t match expected')
+		if label_alt_text and label_alt_text != target_label_alt:
+			print 'Expected alt label:', target_label_alt
+			print 'Found alt label:', label_alt_text
+			error('Alt label doesn\'t match expected')
 			
+		if label_alt_text == None or label_alt_guide == None:
+			label_alt_text = target_label_alt
+			label_alt_guide = label_guide
+			
+		card_data = {}
+		card_data['name'] = name
+		card_data['borders'] = borders
+
+		for layer in layer_info:
+			options = layer_info[layer]
+			ignore = options.get('ignore')
+			if not ignore:
+				card_data[layer] = layer_data.get(layer)
+
+		card_data['labels'] = [label_text, label_guide]
+		card_data['labels-alt'] = [label_alt_text, label_alt_guide]
+
+		card_data['resources'] = resources
+		
+		# Debugging
+		if False:
+			print name
+			for layer in layer_info:
+				print '\t# %s\n' % layer
+				if layer == 'labels_layer':
+					print "\t['%s',\t'%s'],\n" % (label_text, label_guide)
+				elif layer == 'resources_layer':
+					print resources
+				elif layer == 'edge_guides_layer':
+					print borders
+				else:
+					print '\t%s\n' % layer_data[layer]
+
 		return card_data
 		
 	# Utilities
@@ -986,6 +1029,7 @@ class IslandsGen(object):
 		if id != '' and not id in card_info:
 			error('Invalid card id: %s' % id)
 
+		# Check for duplicate or unassigned labels.
 		labels1 = {}
 		labels2 = {}
 		unused1 = 0

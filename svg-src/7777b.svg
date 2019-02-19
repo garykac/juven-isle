@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-44.473471"
-     inkscape:cy="168.62206"
+     inkscape:zoom="3.959798"
+     inkscape:cx="120.67042"
+     inkscape:cy="174.27109"
      inkscape:document-units="px"
-     inkscape:current-layer="labels_guide_layer"
+     inkscape:current-layer="forest_master_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -284,12 +284,13 @@
      inkscape:groupmode="layer"
      id="labels_layer"
      inkscape:label="Labels"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="text5237"
-       sodipodi:linespacing="125%"><textPath
+       sodipodi:linespacing="125%"
+       x="20"><textPath
          xlink:href="#path4673"
          id="textPath4486"
          style="font-size:10px">Devil’s Hideout</textPath></text>
@@ -298,13 +299,38 @@
      inkscape:groupmode="layer"
      id="labels_guide_layer"
      inkscape:label="Labels Guide"
-     style="display:inline">
+     style="display:none">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="M 55.053522,107.63605 C 61.043559,74.253708 100.49552,54.071678 120.7459,52.510047"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="labels_alt_layer"
+     inkscape:label="Labels Alt">
+    <text
+       x="20"
+       sodipodi:linespacing="125%"
+       id="text4475"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><textPath
+         style="font-size:10px"
+         id="textPath4477"
+         xlink:href="#path4483">Jolly Roger’s Grog &amp; Flog</textPath></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="labels_alt_guide_layer"
+     inkscape:label="Labels Alt Guide">
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4483"
+       d="M 62.12459,97.534525 C 70.619682,73.504271 88.343466,59.273144 118.22061,57.211998 m 16.66751,1.010153 c 17.00314,-0.543041 39.06314,15.022949 56.56846,37.724455"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
   </g>
   <g
      inkscape:groupmode="layer"
