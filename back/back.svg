@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="back.svg"
-   inkscape:export-filename="/Users/garykac/projects/github/juven-isle/back/back-green-start.png"
+   inkscape:export-filename="/Users/garykac/projects/github/juven-isle/back/back-blue.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    enable-background="new">
@@ -450,8 +450,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="99.559236"
-     inkscape:cy="111.81225"
+     inkscape:cx="152.10366"
+     inkscape:cy="140.43127"
      inkscape:document-units="px"
      inkscape:current-layer="svg5294"
      showgrid="false"
@@ -479,7 +479,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Page Blue"
-     style="display:none">
+     style="display:inline">
     <rect
        style="display:inline;opacity:1;fill:#b9deff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6041"
@@ -489,7 +489,7 @@
        y="-2.0545989e-05" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Page Green"
      id="g6394"
      inkscape:groupmode="layer">
@@ -505,7 +505,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Back Blue"
-     style="display:none">
+     style="display:inline">
     <g
        inkscape:groupmode="layer"
        id="layer10"
@@ -3036,7 +3036,7 @@
     </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Back Green"
      id="g5746"
      inkscape:groupmode="layer">
@@ -3303,7 +3303,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Resources Blue"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(-140.06059,-6.86143)"
        style="display:inline"
@@ -4923,7 +4923,7 @@
     </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Resources Green"
      id="g5839"
      inkscape:groupmode="layer">
@@ -6546,7 +6546,7 @@
     </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Resources Full Color"
      id="g5191"
      inkscape:groupmode="layer">
