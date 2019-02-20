@@ -2,6 +2,7 @@
 *.pyc
 png-out/*
 png-out2/*
+ppg/*
 
 archive/v2-poker-size/deck1-png-gen/*
 archive/v2-poker-size/deck1-svg-gen/*
