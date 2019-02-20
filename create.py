@@ -183,10 +183,18 @@ class IslandsGen(object):
 
 		if alt:
 			textpath = data['labels-alt']
+			if data['water_medium_alt_layer']:
+				shallow_water_path = data['water_medium_alt_layer']
+			if data['water_deep_alt_layer']:
+				deep_water_path = data['water_deep_alt_layer']
+			if data['shoreline_alt_master_layer']:
+				shoreline_path = data['shoreline_alt_master_layer']
 			if data['grass_alt_master_layer']:
 				grass_path = data['grass_alt_master_layer']
 			if data['forest_alt_master_layer']:
 				forest_path = data['forest_alt_master_layer']
+			if data['forest_alt_overlay_layer']:
+				forest_overlay = data['forest_alt_overlay_layer']
 			if data['routes_alt_layer']:
 				routes_path = data['routes_alt_layer']
 		
@@ -779,14 +787,17 @@ class IslandsGen(object):
 		layer_info = {
 			'water_layer': { 'ignore': True },
 			'water_medium_layer': {},
+			'water_medium_alt_layer': { 'optional': True },
 			'water_deep_layer': {},
+			'water_deep_alt_layer': { 'optional': True },
 			'shoreline_master_layer': {},
+			'shoreline_alt_master_layer': { 'optional': True },
 			'grass_master_layer': {},
 			'grass_alt_master_layer': { 'optional': True },
 			'forest_master_layer': {},
 			'forest_overlay_layer': { 'optional': True },
 			'forest_alt_master_layer': { 'optional': True },
-			'forest_alt_overlay_master_layer': { 'optional': True },
+			'forest_alt_overlay_layer': { 'optional': True },
 			'routes_layer': {},
 			'routes_alt_layer': { 'optional': True },
 			'labels_layer': {},
