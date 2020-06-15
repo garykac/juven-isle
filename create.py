@@ -134,7 +134,7 @@ card_info = {
 }
 
 def error(msg):
-	print '\nERROR: %s\n' % msg
+	print('\nERROR: %s\n' % msg)
 	sys.exit(0)
 
 class IslandsGen(object):
@@ -376,7 +376,7 @@ class IslandsGen(object):
 
 		hide = not self.options['show-guides']
 		self.svg.start_layer('edge_guides_layer', 'Edges', {'hidden': hide})
-		for i in xrange(0, 4):
+		for i in range(0, 4):
 			g = guides[i]
 			self.draw_guide(i, g, guide_transform[i])
 		self.svg.end_layer()
@@ -876,12 +876,12 @@ class IslandsGen(object):
 				m = re.search(r'id="resource-([A-Za-z]+)"', line)
 				if m:
 					res = m.group(1)
-					#print '\tFound resource:', res
+					#print('\tFound resource:', res)
 					m = re.search(r' transform="(.+)"', line)
 					if m:
 						resources.append([res, m.group(1)])
 						found_layer[current_layer] = True
-						print '\tFound resource:', res
+						print('\tFound resource:', res)
 					else:
 						current_resource = res
 						current_layer = 'resources_layer-transform'
@@ -893,7 +893,7 @@ class IslandsGen(object):
 				m = re.search(r' transform="(.+)"', line)
 				if m:
 					resources.append([current_resource, m.group(1)])
-					#print '\tFound resource:', current_resource
+					#print('\tFound resource:', current_resource)
 					current_resource = ''
 					current_layer = 'resources_layer'
 					found_layer[current_layer] = True
@@ -913,7 +913,7 @@ class IslandsGen(object):
 				if m:
 					if found_layer[current_layer]:
 						error('Multiple paths found in %s' % current_layer)
-					#print '\tFound data for', current_layer
+					#print('\tFound data for', current_layer)
 					layer_data[current_layer] = m.group(1)
 					found_layer[current_layer] = True
 		input.close()
@@ -926,7 +926,7 @@ class IslandsGen(object):
 				error('Unable to find data for %s' % layer)
 				return
 		if len(borders) != 4:
-			print borders
+			print(borders)
 			error('Unable to find all four borders')	
 			
 		# Validate loaded data against expected card info
@@ -938,24 +938,24 @@ class IslandsGen(object):
 		target_label_alt = info[3]
 
 		if target_borders != ''.join([str(x) for x in borders]):
-			print 'Expected borders:', target_borders
-			print 'Found borders:', borders
+			print('Expected borders:', target_borders)
+			print('Found borders:', borders)
 			error('Borders don\'t match expected')
 
 		found_r = ''
 		for r in resources:
 			found_r += resource_encode[r[0]]
 		if ''.join(sorted(target_resources)) != ''.join(sorted(found_r)):
-			print 'Expected resources:', target_resources
-			print 'Found resources:', resources
+			print('Expected resources:', target_resources)
+			print('Found resources:', resources)
 			error('Resources don\'t match expected')
 		if label_text != target_label:
-			print 'Expected label:', target_label
-			print 'Found label:', label_text
+			print('Expected label:', target_label)
+			print('Found label:', label_text)
 			error('Label doesn\'t match expected')
 		if label_alt_text and label_alt_text != target_label_alt:
-			print 'Expected alt label:', target_label_alt
-			print 'Found alt label:', label_alt_text
+			print('Expected alt label:', target_label_alt)
+			print('Found alt label:', label_alt_text)
 			error('Alt label doesn\'t match expected')
 			
 		if label_alt_text == None or label_alt_guide == None:
@@ -979,17 +979,17 @@ class IslandsGen(object):
 		
 		# Debugging
 		if False:
-			print name
+			print(name)
 			for layer in layer_info:
-				print '\t# %s\n' % layer
+				print('\t# %s\n' % layer)
 				if layer == 'labels_layer':
-					print "\t['%s',\t'%s'],\n" % (label_text, label_guide)
+					print("\t['%s',\t'%s'],\n" % (label_text, label_guide))
 				elif layer == 'resources_layer':
-					print resources
+					print(resources)
 				elif layer == 'edge_guides_layer':
-					print borders
+					print(borders)
 				else:
-					print '\t%s\n' % layer_data[layer]
+					print('\t%s\n' % layer_data[layer])
 
 		return card_data
 		
@@ -999,10 +999,10 @@ class IslandsGen(object):
 		basename = name[0:4]
 		if basename != self.base_name:
 			if self.base_name != '':
-				print
+				print()
 			self.base_name = basename
-			print basename,
-		print name[4:],
+			print(basename, end='')
+		print(name[4:], end='')
 
 		data = self.load_data(name)
 
@@ -1073,9 +1073,9 @@ class IslandsGen(object):
 				labels1[label1] = name
 
 		if unused1 != 0:
-			print unused1, 'unassigned labels in deck 1'
+			print(unused1, 'unassigned labels in deck 1')
 		if unused2 != 0:
-			print unused2, 'unassigned labels in deck 2'
+			print(unused2, 'unassigned labels in deck 2')
 
 		for name in sorted(card_info.keys()):
 			seed_delta += 1
@@ -1084,7 +1084,7 @@ class IslandsGen(object):
 			# Process single card
 			if id == '' or id == name:
 				self.process_card(name)
-		print
+		print()
 
 	def check_res_count(self, desc, res, count):
 		rlist = ['f','s','t','B','C','H']
@@ -1094,14 +1094,14 @@ class IslandsGen(object):
 				self.warnings += 1
 				
 def usage():
-	print "Usage: %s <options>" % sys.argv[0]
-	print "where <options> are:"
-	print "  --png      Generate PNG output files"
-	print "  --id <id>  Only process card with given id"
-	print "  --verify   Verify source files. Don't generate SVG output"
-	print "  --show-cut     Show the cut line in the output"
-	print "  --show-guides  Show the guide layers in the output"
-	print "  --show-id      Add a new layer that shows the card id"
+	print("Usage: %s <options>" % sys.argv[0])
+	print("where <options> are:")
+	print("  --png      Generate PNG output files")
+	print("  --id <id>  Only process card with given id")
+	print("  --verify   Verify source files. Don't generate SVG output")
+	print("  --show-cut     Show the cut line in the output")
+	print("  --show-guides  Show the guide layers in the output")
+	print("  --show-id      Add a new layer that shows the card id")
 	sys.exit(2)
 
 def main():

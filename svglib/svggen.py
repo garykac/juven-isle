@@ -3,7 +3,7 @@
 
 import re
 
-from svgdef import *
+from svglib.svgdef import *
 
 # XML namespaces to include in <svg> tag.
 XML_NAMESPACES = [
@@ -40,23 +40,23 @@ class SvgGen(object):
 	
 	def set_size(self, width, height):
 		if self.state != 'reset':
-			print 'ERROR - set_size() must be called before begin()'
+			print('ERROR - set_size() must be called before begin()')
 		self.width = width
 		self.height = height
 
 	def set_filename(self, filename):
 		if self.state != 'reset':
-			print 'ERROR - set_filename() must be called before begin()'
+			print('ERROR - set_filename() must be called before begin()')
 		self.filename = filename
 
 	def add_def(self, svg_def):
 		if self.state != 'reset':
-			print 'ERROR - add_def() must be called before begin()'
+			print('ERROR - add_def() must be called before begin()')
 		self.defs.append(svg_def)
 		
 	def begin(self):
 		if self.state != 'reset':
-			print 'ERROR - Call reset() before begin()'
+			print('ERROR - Call reset() before begin()')
 		self.state = 'begin'
 		
 		self.out = open(self.filename, "w")
@@ -66,7 +66,7 @@ class SvgGen(object):
 
 	def end(self):
 		if self.state != 'begin':
-			print 'ERROR - Call begin() before end()'
+			print('ERROR - Call begin() before end()')
 		self.state = 'end'
 
 		self.write_footer_()

@@ -139,11 +139,11 @@ card_types = [
 	'xw',	# pirate water
 ]
 
-print 'island test - square, resources=6'
+print('island test - square, resources=6')
 
 # Track card topo types (lw, dl, ...)
 card_topo_types = {}
-for k,v in card_info.iteritems():
+for k,v in card_info.items():
 	type = v[3]
 	card_topo_types[type] = 0
 
@@ -210,7 +210,7 @@ def validate(card):
 
 	# Make sure we have card info for this card.
 	if not card2val(card) in card_info:
-		print 'no card info for', card
+		print('no card info for', card)
 		sys.exit(1)
 
 	return True
@@ -231,14 +231,14 @@ def add_card(card, info):
 		res_count[type][r] += 1;
 	
 	edges = {}
-	for x in xrange(0,4):
+	for x in range(0,4):
 		edge_count[card[x]] += 1
 		edges[card[x]] = True
 	for edge in edges:
 		edge_count_cards[edge] += 1
 
 	corners = {}
-	for x in xrange(0,4):
+	for x in range(0,4):
 		edge1 = card[x]
 		edge2 = card[(x+1)%4]
 		corner_count[edge1][edge2] += 1
@@ -251,7 +251,7 @@ def add_card(card, info):
 def print_card(card):
 	out = '.'.join([side_map[x] for x in card])
 	num = ''.join([str(x) for x in card])
-	print '%s = %s' % (out, num)
+	print('%s = %s' % (out, num))
 
 def print_global_stats():
 	print_card_types()
@@ -260,24 +260,24 @@ def print_global_stats():
 	print_corner_count()
 
 def print_card_types():
-	print
-	print 'card topo types'
-	for k in sorted(card_topo_types.iterkeys()):
-		print k, card_topo_types[k]
+	print()
+	print('card topo types')
+	for k in sorted(card_topo_types.keys()):
+		print(k, card_topo_types[k])
 
-	print
-	print 'card types'
-	for k in sorted(card_type_info.iterkeys()):
-		print k, card_type_info[k]
+	print()
+	print('card types')
+	for k in sorted(card_type_info.keys()):
+		print(k, card_type_info[k])
 
 def print_resources():
-	print
-	print 'resource count'
+	print()
+	print('resource count')
 
-	print '%-5s' % '',
+	print('%-5s' % '', end='')
 	for r in resources:
-		print '%-3s' % r,
-	print
+		print('%-3s' % r, end='')
+	print()
 
 	for t in card_types:
 		res_type = 'land'
@@ -286,16 +286,16 @@ def print_resources():
 			res_type = 'water'
 			res_list = res_water
 			
-		print '%-5s' % t,
+		print('%-5s' % t, end='')
 		if res_type == 'water':
-			for x in xrange(3):
-				print '%-3s' % '-',
+			for x in range(3):
+				print('%-3s' % '-', end='')
 
 		first = True
 		all_match = True
 		val = 0
 		for r in res_list:
-			print '%-3s' % res_count[t][r],
+			print('%-3s' % res_count[t][r], end='')
 			if first:
 				val = res_count[t][r]
 				first = False
@@ -304,59 +304,59 @@ def print_resources():
 					all_match = False
 
 		if res_type == 'land':
-			for x in xrange(3):
-				print '%-3s' % '-',
+			for x in range(3):
+				print('%-3s' % '-', end='')
 
 		if not all_match:
-			print '  *** mitmatch',
-		print
+			print('  *** mismatch', end='')
+		print()
 		
 def print_edge_count():
-	print
-	print 'edge count'
+	print()
+	print('edge count')
 	for x in sides:
-		print 'sides', side_map[x], '=', edge_count[x], '(edges)', edge_count_cards[x], '(cards)'
+		print('sides', side_map[x], '=', edge_count[x], '(edges)', edge_count_cards[x], '(cards)')
 
 def print_corner_count():
 	edge_count_check = 0
 
-	print
-	print 'edge1-edge2 (total corners)'
-	print ' '.join(list('      edge2'))
-	print ' ', ' ',
+	print()
+	print('edge1-edge2 (total corners)')
+	print(' '.join(list('      edge2')))
+	print(' ', ' ', end='')
 	for x in range(8):
-		print '%2d' % x,
-	print
+		print('%2d' % x, end='')
+	print()
 	col_label = ' edge1   '
 	for s in range(8):
-		print col_label[s], s,
+		print(col_label[s], s, end='')
 		for l in range(8):
 			if side_map[s][-1] != side_map[l][0]:
-				print ' -',
+				print(' -', end='')
 			else:
-				print '%2d' % corner_count[s][l],
+				print('%2d' % corner_count[s][l], end='')
 				edge_count_check += corner_count[s][l]
-		print
+		print()
 
-	print 'total edges', edge_count_check
-	print 'total cards (calc from edges)', (edge_count_check / 4)
+	print('total edges', edge_count_check)
+	print('total cards (calc from edges)', (edge_count_check / 4))
 
-	print
-	print 'edge1-edge2 (total cards with corners)'
-	print ' '.join(list('      edge2'))
-	print ' ', ' ',
+	print()
+	print('edge1-edge2 (total cards with corners)')
+	print(' '.join(list('      edge2')))
+	print(' ', ' ', end='')
 	for x in range(8):
-		print '%2d' % x,
-	print
+		print('%2d' % x, end='')
+	print()
 	col_label = ' edge1   '
 	for s in range(8):
-		print col_label[s], s,
+		print(col_label[s], s, end='')
 		for l in range(8):
 			if side_map[s][-1] != side_map[l][0]:
-				print ' -',
+				print(' -', end='')
 			else:
-				print '%2d' % corner_count_cards[s][l],
-		print
+				print('%2d' % corner_count_cards[s][l], end='')
+		print()
 
 for s1 in sides:
 	for l1 in sides:
@@ -369,6 +369,6 @@ for s1 in sides:
 					for i in info[4]:
 						add_card(card, i)
 
-print 'auto-gen cards', valid
+print('auto-gen cards', valid)
 
 print_global_stats()
