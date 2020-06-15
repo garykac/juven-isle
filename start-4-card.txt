@@ -1,0 +1,40 @@
+Start Pirate cards
+
+4 double-sided cards
+
+Skip cards that don't have exactly 2 edges from [0,1]
+	0000
+	1414
+	1416
+	1434
+	1436
+	1616
+	1634
+	1636
+	3434
+	3436
+	3636
+	7777
+
+1-path + port
+	0016 - 1 water + port
+	0034 - 1 water + port
+x	0174 - 1 water + port
+x	0376 - 1 land + port
+	1776 - 1 land + port
+	3774 - 1 land + port
+
+2-path
+x	0014 - 2 water
+	0036 - 1 land + 1 water
+	0176 - 1 land + 1 water
+	0374 - 1 land + 1 water
+	1774 - 1 land + 1 water
+x	3776 - 2 land
+
+
+Cards:
+	0016 / 1776
+	0034 / 3774
+	0036 / 1774
+	0176 / 0374
