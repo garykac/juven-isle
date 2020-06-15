@@ -1023,14 +1023,17 @@ class IslandsGen(object):
 					os.makedirs(outdir)
 
 				# Generate PNG file.
-				subprocess.call([
+				cmd = [
 					"/Applications/Inkscape.app/Contents/Resources/bin/inkscape",
 					"--file=%s/svg-%s/%s.svg" % (cwd, dir_suffix, name),
 					"--export-png=%s/%s.png" % (outdir, name),
 					"--export-dpi=300",
 					"--export-text-to-path",
 					"--without-gui"
-					])
+					]
+				if self.options['no-bleed']:
+					cmd.append('--export-id=cut-line')
+				subprocess.call(cmd)
 
 	def gen(self):
 		seed_base = 0
@@ -1119,6 +1122,7 @@ def main():
 		'show-cut': False,
 		'show-guides': False,
 		'show-id': True,
+		'no-bleed': False,
 	}
 	
 	for opt,arg in opts:
