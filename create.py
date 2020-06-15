@@ -486,7 +486,7 @@ class IslandsGen(object):
 
 		hide = not self.options['show-cut']
 		self.svg.start_layer('cut_layer', 'Cut Line', {'hidden': hide})
-		self.svg.rect(11.25, 11.25, 224.5, 224.5, {'style': style, 'radius': 11.338962})
+		self.svg.rect(11.25, 11.25, 224.5, 224.5, {'id': 'cut-line', 'style': style, 'radius': 11.338962})
 		self.svg.end_layer()
 	
 		self.svg.start_layer('page_border_layer', 'Page Border', {'hidden': True})
