@@ -22,22 +22,34 @@ resource_encode = {
     'portcircle': 'p',
 }
 
+# <id>: [ pattern, resources]
+# id: # + 'f' (front) or 'b' (back)
+# pattern:
+#   XX = edge pattern (for 2 non-volcano edges)
+#   j = volcano joined with outer island
+#   s = split - water divides volanco from other island
+# resources: as below
 start_card_info = {
-    'start14a': ['f'],
-    'start14b': ['H'],
-    'start14c': ['C'],
-    'start16a': ['Bt'],
-    'start16b': ['Hs'],
-    'start16c': ['C'],
-    'start34a': ['Bs'],
-    'start34b': ['Cf'],
-    'start34c': ['H'],
-    'start36a': ['B'],
-    'start36b': ['tf'],
-    'start36c': ['st'],
+    'start00f': ['p14', 'fstBCHpx'],
+    'start00b': ['p36', 'fstBCHpx'],
 
-    'start-p14': ['fstBCHpx'],
-    'start-p36': ['fstBCHpx'],
+    'start01f': ['14s', 'f'],
+    'start01b': ['16j', 'Hs'],
+
+    'start02f': ['34s', 'Bs'],
+    'start02b': ['14j', 'H'],
+
+    'start03f': ['16s', 'C'],
+    'start03b': ['36j', 'tf'],
+
+    'start04f': ['36s', 'B'],
+    'start04b': ['34j', 'Cf'],
+
+    'start05f': ['16s', 'Bt'],
+    'start05b': ['14j', 'C'],
+
+    'start06f': ['34s', 'H'],
+    'start06b': ['36j', 'st'],
 }
 
 card_info = {
@@ -100,8 +112,6 @@ card_info = {
     '1434b':    ['pw',    'pf',   'Tawny Port',           'Port Glave'],
     '1434c':    ['rdl',   'B',    'Je-ne-sais Pass',      'Bye Pass'],
     '1434d':    ['rdl',   'C',    'Over Pass',            'Season Pass'],
-
-    #'1436-start':    ['start',    'fstBCHpx',    'Portuga',    'Portuga'],
 
     '1436a':    ['pl',    'pB',   'Port Judgement',       'Port Rackham'],
     '1436b':    ['pw',    'ps',   'Port Able',            'Port Cullis'],
@@ -196,10 +206,13 @@ class IslandsGen(object):
         grass_path = data['grass_master_layer']
         forest_path = data['forest_master_layer']
         forest_overlay = data['forest_overlay_layer']
-        volcano_path = data['volcano_master_layer']
         routes_path = data['routes_layer']
         textpath = data['labels']
         resources = data['resources']
+
+        volcano_path = None
+        if 'volcano_master_layer' in data:
+            volcano_path = data['volcano_master_layer']
 
         if alt:
             textpath = data['labels-alt']
@@ -368,7 +381,7 @@ class IslandsGen(object):
         path = textpath[1]
 
         self.svg.start_layer('labels_layer', 'Labels')
-        if self.curr_name[4:] == '-start':
+        if self.curr_name[0:7] == 'start00':
             style = "font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
             options = {
                 'style': style,
@@ -827,7 +840,6 @@ class IslandsGen(object):
             'forest_overlay_layer': { 'optional': True },
             'forest_alt_master_layer': { 'optional': True },
             'forest_alt_overlay_layer': { 'optional': True },
-            'volcano_master_layer': { 'optional': True },
             'routes_layer': {},
             'routes_alt_layer': { 'optional': True },
             'labels_layer': {},
@@ -842,6 +854,8 @@ class IslandsGen(object):
             'safe_layer': { 'ignore': True },
             'cut_layer': { 'ignore': True },
         }
+        if is_start_card:
+            layer_info['volcano_master_layer'] = {}
         borders = []
         layer_data = {}
         label_text = None
@@ -936,7 +950,12 @@ class IslandsGen(object):
                     border = m.group(1)
                     borders.append(int(border))
                     found_layer[current_layer] = True
-            
+
+            # Volcano layer is special
+            elif current_layer == 'volcano_master_layer':
+                layer_data[current_layer] = 'unused'
+                found_layer[current_layer] = True
+                
             # Parse all other layers
             elif current_layer != '':
                 m = re.search(r' d="([^"]+)"', line)
@@ -947,7 +966,7 @@ class IslandsGen(object):
                     layer_data[current_layer] = m.group(1)
                     found_layer[current_layer] = True
         input.close()
-        
+
         for layer in layer_info:
             options = layer_info[layer]
             ignore = options.get('ignore')
@@ -958,7 +977,8 @@ class IslandsGen(object):
 
         if is_start_card:
             info = start_card_info[name]
-            target_resources = info[0]
+            pattern = info[0]
+            target_resources = info[1]
         else:
             if len(borders) != 4:
                 print(borders)
@@ -1012,7 +1032,7 @@ class IslandsGen(object):
         card_data['labels-alt'] = [label_alt_text, label_alt_guide]
 
         card_data['resources'] = resources
-        
+
         # Debugging
         if False:
             print(name)
@@ -1060,7 +1080,7 @@ class IslandsGen(object):
 
         self.draw_card(name, data, False)
         if self.options['png']:
-            self.process_png(name, alt)
+            self.process_png(name, False)
 
     def process_png(self, name, alt):
         cwd = os.getcwd()
@@ -1078,7 +1098,9 @@ class IslandsGen(object):
             'inkscape',
             "--file=%s/svg-%s/%s.svg" % (cwd, dir_suffix, name),
             "--export-png=%s/%s.png" % (outdir, name),
-            "--export-dpi=300",
+            #"--export-dpi=300",
+            "--export-width=750",
+            "--export-height=750",
             "--export-text-to-path",
             "--without-gui"
         ]
@@ -1110,9 +1132,6 @@ class IslandsGen(object):
             label1 = card_info[name][2]
             if label1 == "Unused":
                 unused1 += 1
-            elif name == '1436-start':
-                if label1 != "Portuga":
-                    error('Start card should have label "Portuga" instead of %s (deck 1)' % (label1))
             elif label1 in labels1:
                 error('Duplicate label for %s (deck 1): %s (already assigned to %s in deck 1)' % (name, label1, labels1[label1]))
             elif label1 in labels2:
@@ -1123,9 +1142,6 @@ class IslandsGen(object):
             label2 = card_info[name][3]
             if label2 == "Unused":
                 unused2 += 1
-            elif name == '1436-start':
-                if label2 != "Portuga":
-                    error('Start card should have label "Portuga" instead of %s (deck 2)' % (label1))
             elif label2 in labels1:
                 error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 1)' % (name, label2, labels1[label2]))
             elif label2 in labels2:
@@ -1176,7 +1192,7 @@ def main():
         'verify': False,
         'show-cut': False,
         'show-guides': False,
-        'show-id': True,
+        'show-id': False,
         'no-bleed': True,
     }
     
