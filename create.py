@@ -22,6 +22,24 @@ resource_encode = {
     'portcircle': 'p',
 }
 
+start_card_info = {
+    'start14a': ['f'],
+    'start14b': ['H'],
+    'start14c': ['C'],
+    'start16a': ['Bt'],
+    'start16b': ['Hs'],
+    'start16c': ['C'],
+    'start34a': ['Bs'],
+    'start34b': ['Cf'],
+    'start34c': ['H'],
+    'start36a': ['B'],
+    'start36b': ['tf'],
+    'start36c': ['st'],
+
+    'start-p14': ['fstBCHpx'],
+    'start-p36': ['fstBCHpx'],
+}
+
 card_info = {
     # <id>: [ pattern, resources, deck1-label, deck2-label ]
     # pattern:
@@ -36,101 +54,101 @@ card_info = {
     #   x: pirate
     #   p: port
 
-    '0000a':    ['3rw',    'fst',    'Juven Isle',            'Pure Isle'],
+    '0000a':    ['3rw',   'fst',  'Juven Isle',           'Pure Isle'],
     '0000b':    ['xw',    'x',    'Argh Isle',            'Fert Isle'],
 
-    '0014a':    ['rw',    'f',    'Point Exter',            'Mid Point'],
+    '0014a':    ['rw',    'f',    'Point Exter',          'Mid Point'],
     '0014b':    ['xw',    'x',    'Exclamation Point',    'Dagger Point'],
-    '0014c':    ['xw',    'x',    'View Point',            'Check Point'],
+    '0014c':    ['xw',    'x',    'View Point',           'Check Point'],
 
-    '0016a':    ['pl',    'pC',    'Davenport',            'Port Jackson'],
-    '0016b':    ['pw',    'ps',    'Queensport',            'Port Olan'],
-    '0016c':    ['rdl',    'B',    'Dissa Point',            'Point Less'],
+    '0016a':    ['pl',    'pC',   'Davenport',            'Port Jackson'],
+    '0016b':    ['pw',    'ps',   'Queensport',           'Port Olan'],
+    '0016c':    ['rdl',   'B',    'Dissa Point',          'Point Less'],
 
-    '0034a':    ['pl',    'pH',    'Rose Port',            'Port Fire'],
-    '0034b':    ['pw',    'pf',    'Port Ico',                'Port Amento'],
-    '0034c':    ['rdl', 'C',    'Gun Point',            'Needle Point'],
+    '0034a':    ['pl',    'pH',   'Rose Port',            'Port Fire'],
+    '0034b':    ['pw',    'pf',   'Port Ico',             'Port Amento'],
+    '0034c':    ['rdl',   'C',    'Gun Point',            'Needle Point'],
 
-    '0036a':    ['pw',    'pf',    'Port Folio',            'Colheita Port'],
-    '0036b':    ['rl',    'B',    'Data Point',            'Counter Point'],
-    '0036c':    ['rw',    's',    'Rept Isles',            'Imbess Isles'],
+    '0036a':    ['pw',    'pf',   'Port Folio',           'Colheita Port'],
+    '0036b':    ['rl',    'B',    'Data Point',           'Counter Point'],
+    '0036c':    ['rw',    's',    'Rept Isles',           'Imbess Isles'],
 
-    '0174a':    ['pl',    'pC',    'Port O’Bello',            'Port Ulaca'],
-    '0174b':    ['pw',    'ps',    'Port Manteau',            'Data Port'],
-    '0174c':    ['rdl',    'H',    'Seen Isle',            'Fraj Isle'],
+    '0174a':    ['pl',    'pC',   'Port O’Bello',         'Port Ulaca'],
+    '0174b':    ['pw',    'ps',   'Port Manteau',         'Data Port'],
+    '0174c':    ['rdl',   'H',    'Seen Isle',            'Fraj Isle'],
 
-    '0176a':    ['pl',    'pB',    'Port Lee',                'Reserve Port'],
-    '0176b':    ['pw',    'pt',    'Ruby Port',            'Portsmouth'],
-    '0176c':    ['rl',    'H',    'Carlyle Isle',            'Ex Isle'],
+    '0176a':    ['pl',    'pB',   'Port Lee',             'Reserve Port'],
+    '0176b':    ['pw',    'pt',   'Ruby Port',            'Portsmouth'],
+    '0176c':    ['rl',    'H',    'Carlyle Isle',         'Ex Isle'],
 
-    '0374a':    ['pl',    'pH',    'Port Starboard',        'Portlast'],
-    '0374b':    ['pw',    'pf',    'Spoils Port',            'Bridle port'],
+    '0374a':    ['pl',    'pH',   'Port Starboard',       'Portlast'],
+    '0374b':    ['pw',    'pf',   'Spoils Port',          'Bridle port'],
     '0374c':    ['rw',    't',    'Prehense Isle',        'Miss Isle'],
 
-    '0376a':    ['pl',    'pB',    'Crusted Port',            'Port Entous'],
-    '0376b':    ['pw',    'ps',    'Port Royale',            'White Port'],
-    '0376c':    ['rdw',    't',    'Bomb Bay',                'Lulla Bay'],
+    '0376a':    ['pl',    'pB',   'Crusted Port',         'Port Entous'],
+    '0376b':    ['pw',    'ps',   'Port Royale',          'White Port'],
+    '0376c':    ['rdw',   't',    'Bomb Bay',             'Lulla Bay'],
 
-    '1414a':    ['rw',    's',    'Kidneystone Pass',        'Dire Strait'],
-    '1414b':    ['xw',    'x',    'None-shall Pass',        'Imm Pass'],
+    '1414a':    ['rw',    's',    'Kidneystone Pass',     'Dire Strait'],
+    '1414b':    ['xw',    'x',    'None-shall Pass',      'Imm Pass'],
 
-    '1416a':    ['pl',    'pC',    'Port-au-Potée',        'Port de Bras'],
-    '1416b':    ['pw',    'pt',    'Port Hole',            'Bloodsport'],
-    '1416c':    ['rdl',    'H',    'Tress Pass',            'Sir Pass'],
+    '1416a':    ['pl',    'pC',   'Port-au-Potée',        'Port de Bras'],
+    '1416b':    ['pw',    'pt',   'Port Hole',            'Bloodsport'],
+    '1416c':    ['rdl',   'H',    'Tress Pass',           'Sir Pass'],
 
-    '1434a':    ['pl',    'pH',    'Back Port',            'Tele Port'],
-    '1434b':    ['pw',    'pf',    'Tawny Port',            'Port Glave'],
-    '1434c':    ['rdl',    'B',    'Je-ne-sais Pass',        'Bye Pass'],
-    '1434d':    ['rdl',    'C',    'Over Pass',            'Season Pass'],
+    '1434a':    ['pl',    'pH',   'Back Port',            'Tele Port'],
+    '1434b':    ['pw',    'pf',   'Tawny Port',           'Port Glave'],
+    '1434c':    ['rdl',   'B',    'Je-ne-sais Pass',      'Bye Pass'],
+    '1434d':    ['rdl',   'C',    'Over Pass',            'Season Pass'],
 
     #'1436-start':    ['start',    'fstBCHpx',    'Portuga',    'Portuga'],
 
-    '1436a':    ['pl',    'pB',    'Port Judgement',        'Port Rackham'],
-    '1436b':    ['pw',    'ps',    'Port Able',            'Port Cullis'],
-    '1436c':    ['2rdw','fs',    'Scabby Beach',            'Skullwater Beach'],
-    '1436d':    ['rw',    't',    'Backstage Pass',        'Encom Pass'],
+    '1436a':    ['pl',    'pB',   'Port Judgement',       'Port Rackham'],
+    '1436b':    ['pw',    'ps',   'Port Able',            'Port Cullis'],
+    '1436c':    ['2rdw',  'fs',   'Scabby Beach',         'Skullwater Beach'],
+    '1436d':    ['rw',    't',    'Backstage Pass',       'Encom Pass'],
 
-    '1616a':    ['2rdl','BC',    'Crooked Strait',        'Twisted Strait'],
-    '1616b':    ['2rdw','tf',    'Mutiny Bay',            'Fishstick Bay'],
+    '1616a':    ['2rdl',  'BC',   'Crooked Strait',       'Twisted Strait'],
+    '1616b':    ['2rdw',  'tf',   'Mutiny Bay',           'Fishstick Bay'],
 
-    '1634a':    ['pl',    'pC',    'Serial Port',            'Vintage Port'],
-    '1634b':    ['pw',    'pt',    'Newport',                'Com Port'],
-    '1634c':    ['2rdl','HB',    'Inappropriate Pass',    'Under Pass'],
-    '1634d':    ['rl',    'C',    'Letme Inlet',            'Viol Inlet'],
+    '1634a':    ['pl',    'pC',   'Serial Port',          'Vintage Port'],
+    '1634b':    ['pw',    'pt',   'Newport',              'Com Port'],
+    '1634c':    ['2rdl',  'HB',   'Inappropriate Pass',   'Under Pass'],
+    '1634d':    ['rl',    'C',    'Letme Inlet',          'Viol Inlet'],
 
-    '1636a':    ['pl',    'pH',    'Grande Port',            'Port Reeve'],
-    '1636b':    ['pw',    'pf',    'Watersport',            'Purr port'],
-    '1636c':    ['rdw',    's',    'Wreckage Bay',            'Scallywag Bay'],
-    '1636d':    ['rdw',    't',    'Mary Isthmus',            'Cur Isthmus'],
+    '1636a':    ['pl',    'pH',   'Grande Port',          'Port Reeve'],
+    '1636b':    ['pw',    'pf',   'Watersport',           'Purr port'],
+    '1636c':    ['rdw',   's',    'Wreckage Bay',         'Scallywag Bay'],
+    '1636d':    ['rdw',   't',    'Mary Isthmus',         'Cur Isthmus'],
 
-    '1774a':    ['pl',    'pC',    'Freeport',                'Dis Port'],
+    '1774a':    ['pl',    'pC',   'Freeport',             'Dis Port'],
     '1774b':    ['rl',    'B',    'Fewt Isle',            'Croco d’Isle'],
     '1774c':    ['rw',    'f',    'Scuttleship Beach',    'Seaweed Landing'],
 
-    '1776a':    ['pl',    'pB',    'Port End',                'Porthook'],
-    '1776b':    ['pw',    'ps',    'Port Tristam',            'Oldport'],
-    '1776c':    ['rdw',    'f',    'Binnacle Beach',        'Shipwreck Landing'],
+    '1776a':    ['pl',    'pB',   'Port End',             'Porthook'],
+    '1776b':    ['pw',    'ps',   'Port Tristam',         'Oldport'],
+    '1776c':    ['rdw',   'f',    'Binnacle Beach',       'Shipwreck Landing'],
 
-    '3434a':    ['2rdl','CH',    'Forward Pass',            'Buck Pass'],
-    '3434b':    ['2rdw','st',    'Magi Strand',            'Well Strand'],
+    '3434a':    ['2rdl',  'CH',   'Forward Pass',         'Buck Pass'],
+    '3434b':    ['2rdw',  'st',   'Magi Strand',          'Well Strand'],
 
-    '3436a':    ['pl',    'pH',    'Morgansport',            'Port Ative'],
-    '3436b':    ['pw',    'pt',    'Port Ray',                'Port Raiture'],
-    '3436c':    ['rdw',    's',    'Sick Bay',                'Crybey Bay'],
+    '3436a':    ['pl',    'pH',   'Morgansport',          'Port Ative'],
+    '3436b':    ['pw',    'pt',   'Port Ray',             'Port Raiture'],
+    '3436c':    ['rdw',   's',    'Sick Bay',             'Crybey Bay'],
 
-    '3636a':    ['rl',    'C',    'Al Cove',                'Cove Ert'],
-    '3636b':    ['xl',    'x',    'Shelly Beach',            'Peg-leg Beach'],
+    '3636a':    ['rl',    'C',    'Al Cove',              'Cove Ert'],
+    '3636b':    ['xl',    'x',    'Shelly Beach',         'Peg-leg Beach'],
 
-    '3774a':    ['pl',    'pB',    'Port Quinta',            'Kingsport'],
-    '3774b':    ['pw',    'pt',    'Port Roberts',            'Sally Port'],
-    '3774c':    ['rdw',    'f',    'Bay O’Net',            'Loading Bay'],
+    '3774a':    ['pl',    'pB',   'Port Quinta',          'Kingsport'],
+    '3774b':    ['pw',    'pt',   'Port Roberts',         'Sally Port'],
+    '3774c':    ['rdw',   'f',    'Bay O’Net',            'Loading Bay'],
 
     '3776a':    ['rl',    'H',    'Plunder Beach',        'Scurvy Beach'],
-    '3776b':    ['xl',    'x',    'Keelhaul Landing',        'Dead Man’s Beach'],
-    '3776c':    ['xl',    'x',    'Cove Arient',            'Cove Alent'],
+    '3776b':    ['xl',    'x',    'Keelhaul Landing',     'Dead Man’s Beach'],
+    '3776c':    ['xl',    'x',    'Cove Arient',          'Cove Alent'],
 
-    '7777a':    ['3rl',    'BCH',    'Landlubber’s Lane',    'Noob Isle'],
-    '7777b':    ['xl',    'x',    'Devil’s Hideout',        'Jolly Roger’s Grog &amp; Flog'],
+    '7777a':    ['3rl',   'BCH',  'Landlubber’s Lane',    'Noob Isle'],
+    '7777b':    ['xl',    'x',    'Devil’s Hideout',      'Jolly Roger’s Grog &amp; Flog'],
 }
 
 def error(msg):
@@ -148,7 +166,7 @@ class IslandsGen(object):
         self.base_name = ''
 
         # These values assume dpi=90 (for Inkscape v0.91).
-                # In Inkscape v0.92, the default was changed to dpi=96.
+        # In Inkscape v0.92, the default was changed to dpi=96.
         self.page_size = 246.6
         self.card_size = 225
         self.guide_height = 22.5
@@ -178,6 +196,7 @@ class IslandsGen(object):
         grass_path = data['grass_master_layer']
         forest_path = data['forest_master_layer']
         forest_overlay = data['forest_overlay_layer']
+        volcano_path = data['volcano_master_layer']
         routes_path = data['routes_layer']
         textpath = data['labels']
         resources = data['resources']
@@ -236,6 +255,8 @@ class IslandsGen(object):
         self.draw_shoreline_layers(shoreline_path)
         self.draw_grass_layers(grass_path)
         self.draw_forest_layers(forest_path, forest_overlay)
+        if volcano_path:
+            self.draw_volcano_layers(volcano_path)
         self.draw_routes_layers(routes_path)
         self.draw_labels_layer(textpath)
         self.draw_resources_layer(resources)
@@ -321,6 +342,13 @@ class IslandsGen(object):
             self.svg.path(overlay, {'style': style})
             self.svg.end_layer()
         
+    def draw_volcano_layers(self, path):
+        self.svg.start_layer('volcano_master_layer', 'Volcano')
+        style = 'display:inline;opacity:1;fill:#884816;fill-opacity:1;stroke:#572e0e;stroke-width:0.93897629;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke'
+        self.svg.circle(11.05, 235.55008, 32.276173, {'style': style})
+        self.svg.end_layer()
+        pass
+
     def draw_routes_layers(self, path):
         self.svg.start_layer('routes_layer', 'Routes')
         self.svg.path(path, {'style': self.route_style})
@@ -783,7 +811,7 @@ class IslandsGen(object):
     
     # Load card data
     
-    def load_data(self, name):
+    def load_data(self, name, is_start_card):
         # [ layer-name, options ]
         layer_info = {
             'water_layer': { 'ignore': True },
@@ -799,6 +827,7 @@ class IslandsGen(object):
             'forest_overlay_layer': { 'optional': True },
             'forest_alt_master_layer': { 'optional': True },
             'forest_alt_overlay_layer': { 'optional': True },
+            'volcano_master_layer': { 'optional': True },
             'routes_layer': {},
             'routes_alt_layer': { 'optional': True },
             'labels_layer': {},
@@ -926,23 +955,41 @@ class IslandsGen(object):
             if not ignore and not optional and not found_layer[layer]:
                 error('Unable to find data for %s' % layer)
                 return
-        if len(borders) != 4:
-            print(borders)
-            error('Unable to find all four borders')    
+
+        if is_start_card:
+            info = start_card_info[name]
+            target_resources = info[0]
+        else:
+            if len(borders) != 4:
+                print(borders)
+                error('Unable to find all four borders')
+                
+            # Validate loaded data against expected card info
+            info = card_info[name]
+            target_borders = name[0:4]
+            target_pattern = info[0]
+            target_resources = info[1]
+            target_label = info[2]
+            target_label_alt = info[3]
+
+            if target_borders != ''.join([str(x) for x in borders]):
+                print('Expected borders:', target_borders)
+                print('Found borders:', borders)
+                error('Borders don\'t match expected')
+
+            if label_text != target_label:
+                print('Expected label:', target_label)
+                print('Found label:', label_text)
+                error('Label doesn\'t match expected')
+            if label_alt_text and label_alt_text != target_label_alt:
+                print('Expected alt label:', target_label_alt)
+                print('Found alt label:', label_alt_text)
+                error('Alt label doesn\'t match expected')
             
-        # Validate loaded data against expected card info
-        info = card_info[name]
-        target_borders = name[0:4]
-        target_pattern = info[0]
-        target_resources = info[1]
-        target_label = info[2]
-        target_label_alt = info[3]
-
-        if target_borders != ''.join([str(x) for x in borders]):
-            print('Expected borders:', target_borders)
-            print('Found borders:', borders)
-            error('Borders don\'t match expected')
-
+            if label_alt_text == None or label_alt_guide == None:
+                label_alt_text = target_label_alt
+                label_alt_guide = label_guide
+            
         found_r = ''
         for r in resources:
             found_r += resource_encode[r[0]]
@@ -950,23 +997,11 @@ class IslandsGen(object):
             print('Expected resources:', target_resources)
             print('Found resources:', resources)
             error('Resources don\'t match expected')
-        if label_text != target_label:
-            print('Expected label:', target_label)
-            print('Found label:', label_text)
-            error('Label doesn\'t match expected')
-        if label_alt_text and label_alt_text != target_label_alt:
-            print('Expected alt label:', target_label_alt)
-            print('Found alt label:', label_alt_text)
-            error('Alt label doesn\'t match expected')
-            
-        if label_alt_text == None or label_alt_guide == None:
-            label_alt_text = target_label_alt
-            label_alt_guide = label_guide
-            
+
         card_data = {}
         card_data['name'] = name
         card_data['borders'] = borders
-
+            
         for layer in layer_info:
             options = layer_info[layer]
             ignore = options.get('ignore')
@@ -1005,38 +1040,59 @@ class IslandsGen(object):
             print(basename, end='')
         print(name[4:], end='')
 
-        data = self.load_data(name)
+        data = self.load_data(name, False)
 
         if self.options['verify']:
             return
 
         for alt in [False, True]:
             self.draw_card(name, data, alt)
-    
             if self.options['png']:
-                cwd = os.getcwd()
+                self.process_png(name, alt)
 
-                dir_suffix = 'out'
-                if alt:
-                    dir_suffix = 'out2'
-                outdir = '%s/png-%s' % (cwd, dir_suffix)
-                if not os.path.exists(outdir):
-                    os.makedirs(outdir)
+    def process_start_card(self, name):
+        print(name)
 
-                # Generate PNG file.
-                cmd = [
-                    #"/Applications/Inkscape.app/Contents/Resources/bin/inkscape",
-                                        'inkscape',
-                    "--file=%s/svg-%s/%s.svg" % (cwd, dir_suffix, name),
-                    "--export-png=%s/%s.png" % (outdir, name),
-                    "--export-dpi=300",
-                    "--export-text-to-path",
-                    "--without-gui"
-                    ]
-                if self.options['no-bleed']:
-                    cmd.append('--export-id=cut-line')
-                subprocess.call(cmd)
+        data = self.load_data(name, True)
 
+        if self.options['verify']:
+            return
+
+        self.draw_card(name, data, False)
+        if self.options['png']:
+            self.process_png(name, alt)
+
+    def process_png(self, name, alt):
+        cwd = os.getcwd()
+
+        dir_suffix = 'out'
+        if alt:
+            dir_suffix = 'out2'
+        outdir = '%s/png-%s' % (cwd, dir_suffix)
+        if not os.path.exists(outdir):
+            os.makedirs(outdir)
+
+        # Generate PNG file.
+        cmd = [
+            #"/Applications/Inkscape.app/Contents/Resources/bin/inkscape",
+            'inkscape',
+            "--file=%s/svg-%s/%s.svg" % (cwd, dir_suffix, name),
+            "--export-png=%s/%s.png" % (outdir, name),
+            "--export-dpi=300",
+            "--export-text-to-path",
+            "--without-gui"
+        ]
+        if self.options['no-bleed']:
+            cmd.append('--export-id=cut-line')
+        subprocess.call(cmd)
+
+    def check_res_count(self, desc, res, count):
+        rlist = ['f','s','t','B','C','H']
+        for r in rlist:
+            if not res.count(r) == count:
+                print('Failed Validation: %s. Wrong count for %s in %s. Expected %d' % (desc, r, ''.join(sorted(res)), count))
+                self.warnings += 1
+                
     def gen(self):
         seed_base = 0
         seed_delta = 0
@@ -1091,13 +1147,10 @@ class IslandsGen(object):
                 self.process_card(name)
         print()
 
-    def check_res_count(self, desc, res, count):
-        rlist = ['f','s','t','B','C','H']
-        for r in rlist:
-            if not res.count(r) == count:
-                print('Failed Validation: %s. Wrong count for %s in %s. Expected %d' % (desc, r, ''.join(sorted(res)), count))
-                self.warnings += 1
-                
+    def gen_starts(self):
+        for name in sorted(start_card_info.keys()):
+            self.process_start_card(name);
+
 def usage():
     print("Usage: %s <options>" % sys.argv[0])
     print("where <options> are:")
@@ -1143,6 +1196,7 @@ def main():
             
     islands = IslandsGen(options)
     islands.gen()
+    islands.gen_starts()
 
 if __name__ == '__main__':
     main()

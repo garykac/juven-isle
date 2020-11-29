@@ -16,7 +16,7 @@
    id="svg5294"
    version="1.1"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="start16.svg"
+   sodipodi:docname="start16a.svg"
    inkscape:export-filename="/Users/garykac/projects/games/islands/v7-sq-6resources/svg-2.5in-822px/_start.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
@@ -183,10 +183,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="-15.647286"
-     inkscape:cy="176.85531"
+     inkscape:cx="-94.218715"
+     inkscape:cy="175.42674"
      inkscape:document-units="px"
-     inkscape:current-layer="water_layer"
+     inkscape:current-layer="routes_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="3440"
@@ -300,29 +300,9 @@
      inkscape:label="Routes"
      style="display:inline">
     <path
+       id="path1397"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55,85.883366 h -20 c -7.72472,-0.369529 -22.78911,-2.3286 -30.81786,-6.849606"
-       id="path1391"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m -8.949999,59.46669 h 20 c 29.765624,-0.792408 89.437249,-3.859007 128.528239,53.29167 19.74603,28.86851 48.78278,81.58632 47.5551,122.79167 v 20"
-       id="path1389"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccscc" />
-    <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m -8.949999,140.09169 h 20 c 18.996687,0.29939 39.968791,13.93989 56.016638,29.95484 20.371169,20.3294 38.727421,37.64636 39.441701,65.5035 v 20"
-       id="path4708"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccscc" />
-    <path
-       sodipodi:nodetypes="ccc"
-       inkscape:connector-curvature="0"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="M 72.116597,64.586116 C 77.547902,56.733443 87.402236,40.756239 85.8833,11.050001 V -8.9500003"
-       id="path1397" />
+       d="M 72.116597,64.586116 C 77.547902,56.733443 87.402236,40.756239 85.8833,11.050001 V -8.9500003 M -8.949999,140.09169 h 20 c 18.996687,0.29939 39.968791,13.93989 56.016638,29.95484 20.371169,20.3294 38.727421,37.64636 39.441701,65.5035 v 20 M -8.949999,59.46669 h 20 c 29.765624,-0.792408 89.437249,-3.859007 128.528239,53.29167 19.74603,28.86851 48.78278,81.58632 47.5551,122.79167 v 20 M 255.55,85.883366 h -20 c -7.72472,-0.369529 -22.78911,-2.3286 -30.81786,-6.849606" />
   </g>
   <g
      inkscape:groupmode="layer"
