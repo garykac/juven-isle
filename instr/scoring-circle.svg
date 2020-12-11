@@ -130,16 +130,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="21.681533"
-     inkscape:cy="141.87984"
+     inkscape:cx="110.66513"
+     inkscape:cy="140.61759"
      inkscape:document-units="px"
      inkscape:current-layer="g4856"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
      inkscape:window-height="1001"
-     inkscape:window-x="0"
-     inkscape:window-y="417"
+     inkscape:window-x="59"
+     inkscape:window-y="521"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
@@ -206,7 +206,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
            startOffset="89.999998%"
            id="textPath9413"
-           xlink:href="#circle9403">Direct Connection</textPath></text>
+           xlink:href="#circle9403">Connection</textPath></text>
       <text
          transform="translate(-479.37177,-352.9452)"
          xml:space="preserve"
@@ -217,7 +217,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
            xlink:href="#circle9403"
            id="textPath9418"
-           startOffset="23.999998%">Direct Connection</textPath></text>
+           startOffset="23.999998%">Connection</textPath></text>
       <text
          transform="translate(-479.37177,-352.9452)"
          id="text9422"
@@ -228,7 +228,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
            startOffset="57.700002%"
            id="textPath9424"
-           xlink:href="#circle9403">Any Connection</textPath></text>
+           xlink:href="#circle9403">other Ports</textPath></text>
       <text
          transform="translate(-479.37177,-352.9452)"
          y="-352.94519"
@@ -250,7 +250,7 @@
            id="textPath4844"
            xlink:href="#circle4836"><tspan
    id="tspan4842"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">1 + 1pt per</tspan></textPath></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">May connect through</tspan></textPath></text>
       <text
          transform="translate(-479.37177,-352.9452)"
          xml:space="preserve"
@@ -262,7 +262,7 @@
            id="textPath4849"
            startOffset="89.999998%"><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-   id="tspan4851">1pt per</tspan></textPath></text>
+   id="tspan4851">Direct</tspan></textPath></text>
       <text
          transform="translate(-479.37177,-352.9452)"
          id="text4853"
@@ -274,7 +274,7 @@
            id="textPath4855"
            xlink:href="#circle4836"><tspan
    id="tspan4857"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">1pt per</tspan></textPath></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">Direct</tspan></textPath></text>
       <g
          transform="matrix(0.27144611,-0.41990119,0.41990119,0.27144611,33.55525,129.19045)"
          id="g5068-5-9"
@@ -515,23 +515,6 @@
          cx="123.30002"
          cy="127.30006"
          r="61.286976" />
-      <text
-         id="text9586"
-         y="132.07069"
-         x="123.34348"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan9594"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-           y="132.07069"
-           x="123.34348"
-           sodipodi:role="line">Scoring</tspan></text>
-      <circle
-         r="42.900883"
-         cy="127.30006"
-         cx="123.30002"
-         id="circle9602"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.47600001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <circle
          r="79.312561"
          cy="127.30006"
