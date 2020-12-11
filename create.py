@@ -35,6 +35,10 @@ card_info = {
     #   B,C,H: land resources: banana, coconut, flower/hibiscus
     #   x: pirate
     #   p: port
+    # Extra symbols added to base separated by '-'
+    #   Added to remove "dead" paths (those without any symbols)
+    #   18 additional Pirates
+    #   12 additional Resources
 
     'start-1436':  ['start',  'fstBCHpx',   'Portuga',    'Portuga'],
 
@@ -47,83 +51,83 @@ card_info = {
 
     '0016a':    ['pl',    'pC',   'Davenport',            'Port Jackson'],
     '0016b':    ['pw',    'ps',   'Queensport',           'Port Olan'],
-    '0016c':    ['rdl',   'B',    'Dissa Point',          'Point Less'],
+    '0016c':    ['rdl',   'B-x',  'Dissa Point',          'Point Less'],
 
     '0034a':    ['pl',    'pH',   'Rose Port',            'Port Fire'],
     '0034b':    ['pw',    'pf',   'Port Ico',             'Port Amento'],
-    '0034c':    ['rdl',   'C',    'Gun Point',            'Needle Point'],
+    '0034c':    ['rdl',   'C-x',  'Gun Point',            'Needle Point'],
 
     '0036a':    ['pw',    'pf',   'Port Folio',           'Colheita Port'],
-    '0036b':    ['rl',    'B',    'Data Point',           'Counter Point'],
-    '0036c':    ['rw',    's',    'Rept Isles',           'Imbess Isles'],
+    '0036b':    ['rl',    'B-t',  'Data Point',           'Counter Point'],
+    '0036c':    ['rw',    's-C',  'Rept Isles',           'Imbess Isles'],
 
     '0174a':    ['pl',    'pC',   'Port O’Bello',         'Port Ulaca'],
     '0174b':    ['pw',    'ps',   'Port Manteau',         'Data Port'],
-    '0174c':    ['rdl',   'H',    'Seen Isle',            'Fraj Isle'],
+    '0174c':    ['rdl',   'H-x',  'Seen Isle',            'Fraj Isle'],
 
     '0176a':    ['pl',    'pB',   'Port Lee',             'Reserve Port'],
     '0176b':    ['pw',    'pt',   'Ruby Port',            'Portsmouth'],
-    '0176c':    ['rl',    'H',    'Carlyle Isle',         'Ex Isle'],
+    '0176c':    ['rl',    'H-s',  'Carlyle Isle',         'Ex Isle'],
 
     '0374a':    ['pl',    'pH',   'Port Starboard',       'Portlast'],
     '0374b':    ['pw',    'pf',   'Spoils Port',          'Bridle port'],
-    '0374c':    ['rw',    't',    'Prehense Isle',        'Miss Isle'],
+    '0374c':    ['rw',    't-B',  'Prehense Isle',        'Miss Isle'],
 
     '0376a':    ['pl',    'pB',   'Crusted Port',         'Port Entous'],
     '0376b':    ['pw',    'ps',   'Port Royale',          'White Port'],
-    '0376c':    ['rdw',   't',    'Bomb Bay',             'Lulla Bay'],
+    '0376c':    ['rdw',   't-x',  'Bomb Bay',             'Lulla Bay'],
 
     '1414a':    ['rw',    's',    'Kidneystone Pass',     'Dire Strait'],
     '1414b':    ['xw',    'x',    'None-shall Pass',      'Imm Pass'],
 
-    '1416a':    ['pl',    'pC',   'Port-au-Potée',        'Port de Bras'],
+    '1416a':    ['pl',    'pC-f', 'Port-au-Potée',        'Port de Bras'],
     '1416b':    ['pw',    'pt',   'Port Hole',            'Bloodsport'],
-    '1416c':    ['rdl',   'H',    'Tress Pass',           'Sir Pass'],
+    '1416c':    ['rdl',   'H-x',  'Tress Pass',           'Sir Pass'],
 
-    '1434a':    ['pl',    'pH',   'Back Port',            'Tele Port'],
+    '1434a':    ['pl',    'pH-s', 'Back Port',            'Tele Port'],
     '1434b':    ['pw',    'pf',   'Tawny Port',           'Port Glave'],
-    '1434c':    ['rdl',   'B',    'Je-ne-sais Pass',      'Bye Pass'],
-    '1434d':    ['rdl',   'C',    'Over Pass',            'Season Pass'],
+    '1434c':    ['rdl',   'B-x',  'Je-ne-sais Pass',      'Bye Pass'],
+    '1434d':    ['rdl',   'C-x',  'Over Pass',            'Season Pass'],
 
     '1436a':    ['pl',    'pB',   'Port Judgement',       'Port Rackham'],
     '1436b':    ['pw',    'ps',   'Port Able',            'Port Cullis'],
-    '1436c':    ['2rdw',  'fs',   'Scabby Beach',         'Skullwater Beach'],
-    '1436d':    ['rw',    't',    'Backstage Pass',       'Encom Pass'],
+    '1436c':    ['2rdw',  'fs-x', 'Scabby Beach',         'Skullwater Beach'],
+    '1436d':    ['rw',    't-H',  'Backstage Pass',       'Encom Pass'],
 
-    '1616a':    ['2rdl',  'BC',   'Crooked Strait',       'Twisted Strait'],
-    '1616b':    ['2rdw',  'tf',   'Mutiny Bay',           'Fishstick Bay'],
+    '1616a':    ['2rdl',  'BC-x', 'Crooked Strait',       'Twisted Strait'],
+    '1616b':    ['2rdw',  'tf-x', 'Mutiny Bay',           'Fishstick Bay'],
 
     '1634a':    ['pl',    'pC',   'Serial Port',          'Vintage Port'],
     '1634b':    ['pw',    'pt',   'Newport',              'Com Port'],
-    '1634c':    ['2rdl',  'HB',   'Inappropriate Pass',   'Under Pass'],
-    '1634d':    ['rl',    'C',    'Letme Inlet',          'Viol Inlet'],
+    '1634c':    ['2rdl',  'HB-x', 'Inappropriate Pass',   'Under Pass'],
+    '1634d':    ['rl',    'C-f',  'Letme Inlet',          'Viol Inlet'],
 
     '1636a':    ['pl',    'pH',   'Grande Port',          'Port Reeve'],
-    '1636b':    ['pw',    'pf',   'Watersport',           'Purr port'],
-    '1636c':    ['rdw',   's',    'Wreckage Bay',         'Scallywag Bay'],
-    '1636d':    ['rdw',   't',    'Mary Isthmus',         'Cur Isthmus'],
+    '1636b':    ['pw',    'pf-C', 'Watersport',           'Purr port'],
+    '1636c':    ['rdw',   's-x',  'Wreckage Bay',         'Scallywag Bay'],
+    '1636d':    ['rdw',   't-x',  'Mary Isthmus',         'Cur Isthmus'],
 
     '1774a':    ['pl',    'pC',   'Freeport',             'Dis Port'],
-    '1774b':    ['rl',    'B',    'Fewt Isle',            'Croco d’Isle'],
-    '1774c':    ['rw',    'f',    'Scuttleship Beach',    'Seaweed Landing'],
+    '1774b':    ['rl',    'B-t',  'Fewt Isle',            'Croco d’Isle'],
+    '1774c':    ['rw',    'f-H',  'Scuttleship Beach',    'Seaweed Landing'],
 
     '1776a':    ['pl',    'pB',   'Port End',             'Porthook'],
     '1776b':    ['pw',    'ps',   'Port Tristam',         'Oldport'],
-    '1776c':    ['rdw',   'f',    'Binnacle Beach',       'Shipwreck Landing'],
+    '1776c':    ['rdw',   'f-x',  'Binnacle Beach',       'Shipwreck Landing'],
 
-    '3434a':    ['2rdl',  'CH',   'Forward Pass',         'Buck Pass'],
-    '3434b':    ['2rdw',  'st',   'Magi Strand',          'Well Strand'],
+    '3434a':    ['2rdl',  'CH-x', 'Forward Pass',         'Buck Pass'],
+    '3434b':    ['2rdw',  'st-x', 'Magi Strand',          'Well Strand'],
 
     '3436a':    ['pl',    'pH',   'Morgansport',          'Port Ative'],
-    '3436b':    ['pw',    'pt',   'Port Ray',             'Port Raiture'],
-    '3436c':    ['rdw',   's',    'Sick Bay',             'Crybey Bay'],
+    '3436b':    ['pw',    'pt-B', 'Port Ray',             'Port Raiture'],
+    '3436c':    ['rdw',   's-x',  'Sick Bay',             'Crybey Bay'],
 
     '3636a':    ['rl',    'C',    'Al Cove',              'Cove Ert'],
     '3636b':    ['xl',    'x',    'Shelly Beach',         'Peg-leg Beach'],
 
     '3774a':    ['pl',    'pB',   'Port Quinta',          'Kingsport'],
     '3774b':    ['pw',    'pt',   'Port Roberts',         'Sally Port'],
-    '3774c':    ['rdw',   'f',    'Bay O’Net',            'Loading Bay'],
+    '3774c':    ['rdw',   'f-x',  'Bay O’Net',            'Loading Bay'],
 
     '3776a':    ['rl',    'H',    'Plunder Beach',        'Scurvy Beach'],
     '3776b':    ['xl',    'x',    'Keelhaul Landing',     'Dead Man’s Beach'],
@@ -937,7 +941,7 @@ class IslandsGen(object):
         if self.is_start_card(name):
             target_borders = self.get_start_borders(name)
         target_pattern = info[0]
-        target_resources = info[1]
+        target_resources = info[1].replace('?', '').replace('-', '')
         target_label = info[2]
         target_label_alt = info[3]
 
