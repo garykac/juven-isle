@@ -29,13 +29,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="616.68685"
-     inkscape:cy="1038.1469"
+     inkscape:zoom="0.36706699"
+     inkscape:cx="1080.8233"
+     inkscape:cy="1270.0669"
      inkscape:document-units="mm"
      inkscape:current-layer="green2"
      showgrid="false"
-     inkscape:window-width="2764"
+     inkscape:window-width="2095"
      inkscape:window-height="1351"
      inkscape:window-x="84"
      inkscape:window-y="427"
@@ -309,13 +309,13 @@
     <image
        sodipodi:absref="/home/garykac/projects/github/juven-isle/tts/hidden.png"
        xlink:href="hidden.png"
-       style="display:inline"
-       y="197.78125"
-       x="496.09375"
-       id="image1170-35"
-       preserveAspectRatio="none"
+       width="99.21875"
        height="99.21875"
-       width="99.21875" />
+       preserveAspectRatio="none"
+       id="image1170-35"
+       x="496.09375"
+       y="197.78125"
+       style="display:inline" />
     <image
        style="display:inline"
        sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out/1776c.png"
@@ -552,14 +552,14 @@
     <image
        sodipodi:absref="/home/garykac/projects/github/juven-isle/tts/hidden.png"
        xlink:href="hidden.png"
-       width="99.21875"
-       height="99.21875"
-       preserveAspectRatio="none"
-       id="image3277"
-       x="496.09375"
-       y="197.78125"
+       transform="translate(0,-3.9583335e-6)"
        style="display:inline"
-       transform="translate(0,-3.9583335e-6)" />
+       y="197.78125"
+       x="496.09375"
+       id="image3277"
+       preserveAspectRatio="none"
+       height="99.21875"
+       width="99.21875" />
     <image
        style="display:inline"
        sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out/0000a.png"
@@ -756,17 +756,6 @@
        transform="rotate(-90)" />
     <image
        style="display:inline"
-       sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out/0376c.png"
-       y="-7.6293945e-06"
-       x="199.09375"
-       id="image2737-6"
-       xlink:href="file:///home/garykac/projects/github/juven-isle/png-out/0376c.png"
-       preserveAspectRatio="none"
-       height="99.21875"
-       width="99.21875"
-       transform="rotate(-90)" />
-    <image
-       style="display:inline"
        sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out/3434a.png"
        y="197.78125"
        x="198.4375"
@@ -818,6 +807,16 @@
        height="99.21875"
        width="99.21875"
        transform="rotate(90)" />
+    <image
+       sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out/1776b.png"
+       y="5.6843419e-14"
+       x="199.09375"
+       id="image1053"
+       xlink:href="file:///home/garykac/projects/github/juven-isle/png-out/1776b.png"
+       preserveAspectRatio="none"
+       height="99.21875"
+       width="99.21875"
+       transform="rotate(-90)" />
   </g>
   <g
      inkscape:label="Green 1"
@@ -1070,13 +1069,13 @@
     <image
        sodipodi:absref="/home/garykac/projects/github/juven-isle/tts/hidden.png"
        xlink:href="hidden.png"
-       style="display:inline"
-       y="197.78125"
-       x="496.09375"
-       id="image129"
-       preserveAspectRatio="none"
+       width="99.21875"
        height="99.21875"
-       width="99.21875" />
+       preserveAspectRatio="none"
+       id="image129"
+       x="496.09375"
+       y="197.78125"
+       style="display:inline" />
     <image
        style="display:inline"
        sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out2/1776c.png"
@@ -1313,14 +1312,14 @@
     <image
        sodipodi:absref="/home/garykac/projects/github/juven-isle/tts/hidden.png"
        xlink:href="hidden.png"
-       width="99.21875"
-       height="99.21875"
-       preserveAspectRatio="none"
-       id="image174"
-       x="496.09375"
-       y="197.78125"
+       transform="translate(0,-3.9583335e-6)"
        style="display:inline"
-       transform="translate(0,-3.9583335e-6)" />
+       y="197.78125"
+       x="496.09375"
+       id="image174"
+       preserveAspectRatio="none"
+       height="99.21875"
+       width="99.21875" />
     <image
        style="display:inline"
        sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out2/0000a.png"
@@ -1517,17 +1516,6 @@
        transform="rotate(-90)" />
     <image
        style="display:inline"
-       sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out2/0376c.png"
-       y="-7.6293945e-06"
-       x="199.09375"
-       id="image212"
-       xlink:href="file:///home/garykac/projects/github/juven-isle/png-out2/0376c.png"
-       preserveAspectRatio="none"
-       height="99.21875"
-       width="99.21875"
-       transform="rotate(-90)" />
-    <image
-       style="display:inline"
        sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out2/3434a.png"
        y="197.78125"
        x="198.4375"
@@ -1579,5 +1567,15 @@
        height="99.21875"
        width="99.21875"
        transform="rotate(90)" />
+    <image
+       sodipodi:absref="/home/garykac/projects/github/juven-isle/png-out2/1776b.png"
+       y="5.6843419e-14"
+       x="199.09375"
+       id="image1150"
+       xlink:href="file:///home/garykac/projects/github/juven-isle/png-out2/1776b.png"
+       preserveAspectRatio="none"
+       height="99.21875"
+       width="99.21875"
+       transform="rotate(-90)" />
   </g>
 </svg>
