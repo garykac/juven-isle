@@ -22,6 +22,36 @@ resource_encode = {
     'portcircle': 'p',
 }
 
+# <id>: [ pattern, resources]
+# id: # + 'f' (front) or 'b' (back)
+# pattern:
+#   XX = edge pattern (for 2 non-volcano edges)
+#   j = volcano joined with outer island
+#   s = split - water divides volanco from other island
+# resources: as below
+start_card_info = {
+    'start00f': ['p14', 'fstBCHpx'],
+    'start00b': ['p36', 'fstBCHpx'],
+
+    'start01f': ['14s', 'f'],
+    'start01b': ['16j', 'Hs'],
+
+    'start02f': ['34s', 'Bs'],
+    'start02b': ['14j', 'H'],
+
+    'start03f': ['16s', 'C'],
+    'start03b': ['36j', 'tf'],
+
+    'start04f': ['36s', 'B'],
+    'start04b': ['34j', 'Cf'],
+
+    'start05f': ['16s', 'Bt'],
+    'start05b': ['14j', 'C'],
+
+    'start06f': ['34s', 'H'],
+    'start06b': ['36j', 'st'],
+}
+
 card_info = {
     # <id>: [ pattern, resources, deck1-label, deck2-label ]
     # pattern:
@@ -35,8 +65,6 @@ card_info = {
     #   B,C,H: land resources: banana, coconut, flower/hibiscus
     #   x: pirate
     #   p: port
-
-    'start-1436':  ['start',  'fstBCHpx',   'Portuga',    'Portuga'],
 
     '0000a':    ['3rw',   'fst',  'Juven Isle',           'Pure Isle'],
     '0000b':    ['xw',    'x',    'Argh Isle',            'Fert Isle'],
@@ -182,6 +210,10 @@ class IslandsGen(object):
         textpath = data['labels']
         resources = data['resources']
 
+        volcano_path = None
+        if 'volcano_master_layer' in data:
+            volcano_path = data['volcano_master_layer']
+
         if alt:
             textpath = data['labels-alt']
             if data['water_medium_alt_layer']:
@@ -236,6 +268,8 @@ class IslandsGen(object):
         self.draw_shoreline_layers(shoreline_path)
         self.draw_grass_layers(grass_path)
         self.draw_forest_layers(forest_path, forest_overlay)
+        if volcano_path:
+            self.draw_volcano_layers(volcano_path)
         self.draw_routes_layers(routes_path)
         self.draw_labels_layer(textpath)
         self.draw_resources_layer(resources)
@@ -321,6 +355,13 @@ class IslandsGen(object):
             self.svg.path(overlay, {'style': style})
             self.svg.end_layer()
         
+    def draw_volcano_layers(self, path):
+        self.svg.start_layer('volcano_master_layer', 'Volcano')
+        style = 'display:inline;opacity:1;fill:#884816;fill-opacity:1;stroke:#572e0e;stroke-width:0.93897629;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke'
+        self.svg.circle(11.05, 235.55008, 32.276173, {'style': style})
+        self.svg.end_layer()
+        pass
+
     def draw_routes_layers(self, path):
         self.svg.start_layer('routes_layer', 'Routes')
         self.svg.path(path, {'style': self.route_style})
@@ -340,7 +381,7 @@ class IslandsGen(object):
         path = textpath[1]
 
         self.svg.start_layer('labels_layer', 'Labels')
-        if self.is_start_card(self.curr_name):
+        if self.curr_name[0:7] == 'start00':
             style = "font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
             options = {
                 'style': style,
@@ -783,7 +824,7 @@ class IslandsGen(object):
     
     # Load card data
     
-    def load_data(self, name):
+    def load_data(self, name, is_start_card):
         # [ layer-name, options ]
         layer_info = {
             'water_layer': { 'ignore': True },
@@ -813,6 +854,8 @@ class IslandsGen(object):
             'safe_layer': { 'ignore': True },
             'cut_layer': { 'ignore': True },
         }
+        if is_start_card:
+            layer_info['volcano_master_layer'] = {}
         borders = []
         layer_data = {}
         label_text = None
@@ -908,6 +951,11 @@ class IslandsGen(object):
                     borders.append(int(border))
                     found_layer[current_layer] = True
 
+            # Volcano layer is special
+            elif current_layer == 'volcano_master_layer':
+                layer_data[current_layer] = 'unused'
+                found_layer[current_layer] = True
+                
             # Parse all other layers
             elif current_layer != '':
                 m = re.search(r' d="([^"]+)"', line)
@@ -927,37 +975,40 @@ class IslandsGen(object):
                 error('Unable to find data for %s' % layer)
                 return
 
-        if len(borders) != 4:
-            print(borders)
-            error('Unable to find all four borders')
+        if is_start_card:
+            info = start_card_info[name]
+            pattern = info[0]
+            target_resources = info[1]
+        else:
+            if len(borders) != 4:
+                print(borders)
+                error('Unable to find all four borders')
                 
-        # Validate loaded data against expected card info
-        info = card_info[name]
-        target_borders = name[0:4]
-        if self.is_start_card(name):
-            target_borders = self.get_start_borders(name)
-        target_pattern = info[0]
-        target_resources = info[1]
-        target_label = info[2]
-        target_label_alt = info[3]
+            # Validate loaded data against expected card info
+            info = card_info[name]
+            target_borders = name[0:4]
+            target_pattern = info[0]
+            target_resources = info[1]
+            target_label = info[2]
+            target_label_alt = info[3]
 
-        if target_borders != ''.join([str(x) for x in borders]):
-            print('Expected borders:', target_borders)
-            print('Found borders:', borders)
-            error('Borders don\'t match expected')
+            if target_borders != ''.join([str(x) for x in borders]):
+                print('Expected borders:', target_borders)
+                print('Found borders:', borders)
+                error('Borders don\'t match expected')
 
-        if label_text != target_label:
-            print('Expected label:', target_label)
-            print('Found label:', label_text)
-            error('Label doesn\'t match expected')
-        if label_alt_text and label_alt_text != target_label_alt:
-            print('Expected alt label:', target_label_alt)
-            print('Found alt label:', label_alt_text)
-            error('Alt label doesn\'t match expected')
+            if label_text != target_label:
+                print('Expected label:', target_label)
+                print('Found label:', label_text)
+                error('Label doesn\'t match expected')
+            if label_alt_text and label_alt_text != target_label_alt:
+                print('Expected alt label:', target_label_alt)
+                print('Found alt label:', label_alt_text)
+                error('Alt label doesn\'t match expected')
             
-        if label_alt_text == None or label_alt_guide == None:
-            label_alt_text = target_label_alt
-            label_alt_guide = label_guide
+            if label_alt_text == None or label_alt_guide == None:
+                label_alt_text = target_label_alt
+                label_alt_guide = label_guide
             
         found_r = ''
         for r in resources:
@@ -1009,7 +1060,7 @@ class IslandsGen(object):
             print(basename, end='')
         print(name[4:], end='')
 
-        data = self.load_data(name)
+        data = self.load_data(name, False)
 
         if self.options['verify']:
             return
@@ -1018,6 +1069,18 @@ class IslandsGen(object):
             self.draw_card(name, data, alt)
             if self.options['png']:
                 self.process_png(name, alt)
+
+    def process_start_card(self, name):
+        print(name)
+
+        data = self.load_data(name, True)
+
+        if self.options['verify']:
+            return
+
+        self.draw_card(name, data, False)
+        if self.options['png']:
+            self.process_png(name, False)
 
     def process_png(self, name, alt):
         cwd = os.getcwd()
@@ -1051,13 +1114,7 @@ class IslandsGen(object):
             if not res.count(r) == count:
                 print('Failed Validation: %s. Wrong count for %s in %s. Expected %d' % (desc, r, ''.join(sorted(res)), count))
                 self.warnings += 1
-
-    def is_start_card(self, name):
-        return name[0:6] == 'start-'
-
-    def get_start_borders(self, name):
-        return name[-4:]
-
+                
     def gen(self):
         seed_base = 0
         seed_delta = 0
@@ -1075,9 +1132,6 @@ class IslandsGen(object):
             label1 = card_info[name][2]
             if label1 == "Unused":
                 unused1 += 1
-            elif self.is_start_card(name):
-                if label1 != "Portuga":
-                    error('Start card should have label "Portuga" instead of %s (deck 1)' % (label1))
             elif label1 in labels1:
                 error('Duplicate label for %s (deck 1): %s (already assigned to %s in deck 1)' % (name, label1, labels1[label1]))
             elif label1 in labels2:
@@ -1088,9 +1142,6 @@ class IslandsGen(object):
             label2 = card_info[name][3]
             if label2 == "Unused":
                 unused2 += 1
-            elif self.is_start_card(name):
-                if label2 != "Portuga":
-                    error('Start card should have label "Portuga" instead of %s (deck 2)' % (label2))
             elif label2 in labels1:
                 error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 1)' % (name, label2, labels1[label2]))
             elif label2 in labels2:
@@ -1111,6 +1162,10 @@ class IslandsGen(object):
             if id == '' or id == name:
                 self.process_card(name)
         print()
+
+    def gen_starts(self):
+        for name in sorted(start_card_info.keys()):
+            self.process_start_card(name);
 
 def usage():
     print("Usage: %s <options>" % sys.argv[0])
@@ -1157,6 +1212,7 @@ def main():
             
     islands = IslandsGen(options)
     islands.gen()
+    islands.gen_starts()
 
 if __name__ == '__main__':
     main()
