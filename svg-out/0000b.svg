@@ -133,7 +133,7 @@
   <path style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#496e28;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="m 101.39406,115.28017 1.38896,-0.88388 -1.26269,-1.51523 -0.12627,-2.02031 -1.767765,0.63135" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="routes_layer" inkscape:label="Routes" style="display:inline" sodipodi:insensitive="true" >
-  <path style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1" d="M 124.20296,138.23471 C 74.990833,157.41148 63.176201,122.62906 11.050019,123.30001 l -20,0 M 137.34489,150.0611 c -7.97046,29.34519 -13.03474,53.16409 -14.0449,85.48897 l 0,20 m 38.01026,-129.44988 c 26.03807,-9.76105 52.49176,-2.23379 74.23977,-2.80014 l 20,0 M 150.77686,113.53248 C 161.31145,66.157456 124.22656,48.045804 123.3,11.050031 l 0,-20.000001" inkscape:connector-curvature="0" />
+  <path style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1" d="M 124.20296,138.23471 C 74.990833,157.41148 63.176201,122.62906 11.050019,123.30001 h -20 M 123.29999,255.55007 v -20 c 1.01016,-32.32488 10.70266,-53.34242 31.82807,-76.75341 21.1254,-23.41099 58.67395,-34.93026 80.42196,-35.49661 h 20 M 144.858,116.37353 C 167.46707,73.260091 122.09577,59.646774 123.3,11.050031 V -8.94997" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="labels_layer" inkscape:label="Labels" style="display:inline" sodipodi:insensitive="true" >
   <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><textPath xlink:href="#label-path"
@@ -143,7 +143,7 @@
   <path id="label-path" style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" d="M 101.33326,54.591622 C 71.333263,68.163055 58.297549,95.48448 58.297556,116.91306" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="resources_layer" inkscape:label="Resources" style="display:inline" sodipodi:insensitive="true" >
-  <g id="resource-pirate" transform="matrix(0.97640891,0.2159297,-0.2159297,0.97640891,100.22239,-175.34085)" >
+  <g id="resource-pirate" transform="rotate(12.470076,863.09471,336.95415)" >
     <path style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72000003;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" transform="scale(-1,-1)" d="m -107.60416,-273.69223 -7.8991,-1.94695 -6.08951,-5.39484 -2.88489,-7.60683 0.98062,-8.07619 4.6215,-6.69539 7.20363,-3.78076 8.13551,0 7.203628,3.78076 4.621495,6.69539 0.980627,8.07619 -2.88489,7.60683 -6.089513,5.39484 z" inkscape:connector-curvature="0" />
     <g transform="translate(6.943425,5.6840535)" >
       <g transform="translate(0,-10)" >

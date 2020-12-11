@@ -22,6 +22,13 @@
    inkscape:export-ydpi="300">
   <defs
      id="defs5296">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 123.3 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="246.6 : 123.3 : 1"
+       inkscape:persp3d-origin="123.3 : 82.2 : 1"
+       id="perspective1152" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient9366"
@@ -172,11 +179,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="78.013457"
-     inkscape:cy="54.069664"
+     inkscape:zoom="3.959798"
+     inkscape:cx="113.86857"
+     inkscape:cy="97.575707"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_layer"
+     inkscape:current-layer="grass_master_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="2035"
@@ -280,7 +287,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 169.13019,125.80873 c 8.9981,41.79481 -73.923477,47.73731 -72.237416,-4.65847 C 98.542932,69.870195 124.31015,68.966105 123.3,11.050031 l 0,-20.000001 M 82.826047,185.8489 c -20.927253,26.17754 41.070903,24.94713 40.473923,49.70112 l 0,20 M 255.55,160.71666 l -20,0 c -37.99276,-0.50508 -27.68666,52.34538 -88.1337,52.31722 C 124.42515,213.02317 96.400503,196.70834 73.605783,178.97019 55.036251,164.51996 32.226086,161.43003 11.050001,160.71662 l -20,0" />
+       d="m 169.13019,125.80873 c 8.9981,41.79481 -73.923477,47.73731 -72.237416,-4.65847 C 98.542932,69.870195 124.31015,68.966105 123.3,11.050031 V -8.94997 m 9.24449,219.65809 c -6.95874,7.23718 -9.12105,12.6359 -9.24452,24.8419 v 20 M 255.55,160.71666 h -20 c -37.99276,-0.50508 -27.68666,52.34538 -88.1337,52.31722 C 124.42515,213.02317 96.400503,196.70834 73.605783,178.97019 55.036251,164.51996 32.226086,161.43003 11.050001,160.71662 h -20"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccccccsscc" />
   </g>
   <g
      inkscape:groupmode="layer"

@@ -172,15 +172,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="134.98721"
-     inkscape:cy="147.85604"
+     inkscape:zoom="3.959798"
+     inkscape:cx="82.440722"
+     inkscape:cy="154.13265"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_layer"
+     inkscape:current-layer="water_medium_layer"
      showgrid="false"
      units="in"
-     inkscape:window-width="1680"
-     inkscape:window-height="1001"
+     inkscape:window-width="2140"
+     inkscape:window-height="1337"
      inkscape:window-x="0"
      inkscape:window-y="417"
      inkscape:window-maximized="0"
@@ -300,7 +300,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 203.70718,96.397507 C 178.39032,89.306235 159.02579,88.515762 132.58103,67.574779"
+       d="M 158.72383,79.114429 C 133.40697,72.023157 119.01428,45.663199 87.597676,50.291701"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -408,7 +408,7 @@
     <g
        style="display:inline"
        id="resource-pirate"
-       transform="rotate(152.1369,147.3148,176.04521)">
+       transform="rotate(144.45477,119.67197,170.1918)">
       <g
          id="g5348-3"
          transform="translate(-53.201598,-19.299297)">
