@@ -227,7 +227,7 @@ you can add to this base without it getting too complicated
 
 supports 2-6 players with this rule
 cf: Bang
-    player gets big benefit, everyone else gets smaller benefit
+    player gets big benefit, everyone else gets smaller benefithttps://steamcommunity.com/sharedfiles/filedetails/?id=1169112551
 eg: whirlpool
     everyone pass card to left
     discard (redraw?)
@@ -237,10 +237,10 @@ Ken: Pirate games need treasure
 Adam: play pirate, add treasure to pile
 
 
-Game 2
+Game 2 - 10 Dec 2020
 
 Play a pirate, everyone else draws
-
+https://steamcommunity.com/sharedfiles/filedetails/?id=1169112551
 Are there enough Pirates in deck?
     Need a pirate to play a resource
 
@@ -256,4 +256,60 @@ try to give different symbol types
 
 
 
+Game 3 - 11 Dec 2020
+
+What happens when decks run out of cards?
+How to handle in a satisfying way
+
+Add info on Pirate card to remind people to draw cards.
+
+When does Pirate symbol apply:
+    only whne you attach it
+
+Portuga - can Ports connect through it
+
+Portuga is just a Pirate Port - no Resources
+exists only to make start avoid all land/water edges
+    otherwise can choose random
+
+Feels too easy
+how to make Ports more challenging
+
+Treasure cards
+can bury cards - discard
+
+Pirates block all directions
+Whirlpool - draft cards around table
+    person who played Pirate discards the card they would get
+Land pirate draw 1
+Add icons to indicate action
+Discards are placed at bottom of draw deck
+
+Can't play - draw 2
+Ports only have ports
+    this means that all ports visible on the map - you see a port, you know it's connected
+    easier to scan map
+    therefore, must connect to all sides (since no dead paths)
+
+See Scuttleship Beach
+    Hibiscus has 2 full-land edges - hard to match
+
+cards with 2 land edges or 2 water edges are harder to play
+    fewer in deck
+    edges act the same because of internal connectivity
+consider adding 2 resources on these cards
+
+8 suits
+More cards
+
+End of game
+Deck runs out - last man standing
+    You're eliminated if you need to draw and can't
+
+
+Next time:
+can you draw 2 if you have a valid play? or only if you are blocked?
+otherwise, near end of game keep drawing cards if you think the other player is stuck
+because they will lose if they are stuck and no cards to draw
+and if you have lots of cards in hand, you can keep playing
 
