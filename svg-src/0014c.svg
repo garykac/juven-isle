@@ -15,7 +15,7 @@
    viewBox="0 0 246.6 246.6"
    id="svg5294"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="0014c.svg"
    inkscape:export-filename="/Users/garykac/projects/games/islands/v7-sq-6resources/svg-2.5in-822px/0014c.png"
    inkscape:export-xdpi="300"
@@ -172,21 +172,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="75.026532"
-     inkscape:cy="57.41377"
+     inkscape:zoom="2.8"
+     inkscape:cx="76.82074"
+     inkscape:cy="116.78265"
      inkscape:document-units="px"
-     inkscape:current-layer="labels_layer"
+     inkscape:current-layer="water_deep_layer"
      showgrid="false"
      units="in"
-     inkscape:window-width="1680"
-     inkscape:window-height="1001"
+     inkscape:window-width="1895"
+     inkscape:window-height="1198"
      inkscape:window-x="0"
-     inkscape:window-y="3"
+     inkscape:window-y="417"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
-     inkscape:snap-global="true" />
+     inkscape:snap-global="false" />
   <metadata
      id="metadata5299">
     <rdf:RDF>
@@ -280,9 +280,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55002,123.30006 -20,0 C 211.12869,125.29498 168.30583,102.55552 151.60485,79.76809 126.79522,45.916931 124.77752,26.580431 123.29998,11.049971 l 0,-20.000001 m 37.41671,264.50011 0,-20 C 160.21161,193.62875 141.96417,152.99606 109.76397,127.44215 75.580096,100.31401 38.723318,87.717963 11.050001,85.88329 l -20.000001,0 m 114.16013,32.41605 c 14.69392,-13.38666 40.52109,-27.227697 47.62652,-32.653736"
+       d="m 255.55002,123.30006 h -20 c -24.42133,1.99492 -77.28883,0.68403 -93.98981,-22.1034 M 136.53788,86.799339 C 156.92915,54.287467 122.43377,46.669716 123.29998,11.049971 V -8.95003 m 37.41671,264.50011 v -20 C 160.21161,193.62875 153.3481,144.62552 132.86665,111.37072 M 119.01013,90.487096 C 84.826252,63.358956 38.723318,87.717963 11.050001,85.88329 H -8.95"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsccccscccc" />
+       sodipodi:nodetypes="cccccccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -291,9 +291,8 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text5237"
-       sodipodi:linespacing="125%"><textPath
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text5237"><textPath
          xlink:href="#path4673"
          id="textPath4486"
          style="font-size:10px">View Point</textPath></text>

@@ -15,7 +15,7 @@
    viewBox="0 0 246.6 246.6"
    id="svg5294"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="1414b.svg"
    inkscape:export-filename="/Users/garykac/projects/games/islands/v7-sq-6resources/svg-2.5in-822px/0014c.png"
    inkscape:export-xdpi="300"
@@ -172,21 +172,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="104.20722"
-     inkscape:cy="105.41161"
+     inkscape:zoom="2.8"
+     inkscape:cx="59.094218"
+     inkscape:cy="144.09243"
      inkscape:document-units="px"
-     inkscape:current-layer="labels_layer"
+     inkscape:current-layer="routes_layer"
      showgrid="false"
      units="in"
-     inkscape:window-width="1680"
-     inkscape:window-height="1001"
+     inkscape:window-width="2029"
+     inkscape:window-height="1269"
      inkscape:window-x="1"
-     inkscape:window-y="2"
+     inkscape:window-y="417"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
-     inkscape:snap-global="true" />
+     inkscape:snap-global="false" />
   <metadata
      id="metadata5299">
     <rdf:RDF>
@@ -280,7 +280,9 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 190.27198,167.09118 c -6.71471,-9.98131 -39.5621,-35.78504 -64.69431,-49.78255 m -57.173552,-48.253 c 17.347478,19.841159 38.681492,34.63265 51.943322,43.57244 M -8.95,85.88329 l 20.000001,0 c 22.223352,0 35.341174,1.099141 54.67697,-14.64818 C 85.581968,55.064944 86.388359,34.28349 85.88328,11.049981 l 0,-20.000001 M 255.55,160.71667 l -20,0 c -19.1929,-1.01016 -41.41793,-2.42138 -61.23339,18.58914 -11.36255,12.04783 -13.09486,35.03101 -13.59994,56.24421 l 0,20" />
+       d="m -8.95,85.88329 h 20.000001 c 22.223352,0 68.153673,1.768784 103.226079,25.53039 m 6.69643,-8.37054 C 97.635539,70.801551 86.388359,34.28349 85.88328,11.049981 V -8.95002 M 255.55,160.71667 h -20 c -19.1929,-1.01016 -62.8465,-60.34549 -99.40303,-49.71443 m -7.70089,9.70982 c 33.83834,28.45408 32.77567,93.62476 32.27059,114.83796 v 20"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -289,9 +291,8 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text5237"
-       sodipodi:linespacing="125%"><textPath
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text5237"><textPath
          xlink:href="#path4673"
          id="textPath4486"
          style="font-size:10px">None-shall Pass</textPath></text>
@@ -303,7 +304,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 140.75204,160.2595 C 95.037762,137.40236 72.894901,107.7595 57.180622,84.188076"
+       d="M 132.71633,194.41128 C 124.50205,148.11665 83.609186,126.84432 51.153836,113.65236"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />

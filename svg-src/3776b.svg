@@ -15,7 +15,7 @@
    viewBox="0 0 246.6 246.6"
    id="svg5294"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="3776b.svg"
    inkscape:export-filename="/Users/garykac/projects/games/islands/v7-sq-6resources/svg-2.5in-822px/0014c.png"
    inkscape:export-xdpi="300"
@@ -173,16 +173,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="7.8522277"
-     inkscape:cy="157.1891"
+     inkscape:cx="94.520956"
+     inkscape:cy="121.08118"
      inkscape:document-units="px"
-     inkscape:current-layer="water_layer"
+     inkscape:current-layer="grass_master_layer"
      showgrid="false"
      units="in"
-     inkscape:window-width="1680"
-     inkscape:window-height="1001"
-     inkscape:window-x="-3"
-     inkscape:window-y="1"
+     inkscape:window-width="2099"
+     inkscape:window-height="1352"
+     inkscape:window-x="0"
+     inkscape:window-y="417"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
@@ -278,7 +278,9 @@
     <path
        id="path4679"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 68.592784,111.22414 c 20.18543,2.05716 49.277716,16.21589 61.180376,22.6294 m 72.64523,12.10437 c -19.22409,-8.91352 -40.09813,2.99608 -66.82507,-10.26993 m -144.543326,25.0286 19.99999,0 c 45.35715,0.71428 44.34653,-34.26534 66.93028,-64.070841 8.74838,-11.545896 23.869376,-21.86238 38.811326,-32.387548 22.26824,-15.685844 44.13878,-31.835184 43.92505,-53.20821 l 0,-20 m -37.41669,264.499999 0,-20 c -1.87112,-35.02157 15.08176,-36.09542 42.97792,-47.88037 30.20932,-12.76216 34.62184,-64.30832 69.27213,-64.3696 l 20,0" />
+       d="m -8.950006,160.71658 h 19.99999 c 45.35715,0.71428 41.505476,-45.3928 104.100736,-28.32091 m 20.81798,-9.18561 c 22.50366,-2.67613 48.1141,-9.81201 32.3168,-41.658774 -16.95257,-34.175753 -8.62438,-49.784138 -7.56886,-70.501305 v -20 M 123.29995,255.54998 v -20 c 1.91695,-39.28315 -7.64667,-62.84868 1.30913,-91.20644 m 19.17711,-8.99667 c 30.20932,-12.76216 57.11352,-11.98558 91.76381,-12.04686 h 20"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -287,9 +289,8 @@
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text5237"
-       sodipodi:linespacing="125%"><textPath
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text5237"><textPath
          xlink:href="#path4673"
          id="textPath4486"
          style="font-size:10px">Keelhaul Landing</textPath></text>
@@ -312,9 +313,8 @@
      inkscape:label="Labels Alt"
      style="display:inline">
     <text
-       sodipodi:linespacing="125%"
        id="text4475"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><textPath
          style="font-size:10px"
          id="textPath4477"

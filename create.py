@@ -39,25 +39,31 @@ card_info = {
     #   Added to remove "dead" paths (those without any symbols)
     #   18 additional Pirates
     #   12 additional Resources
+    # Extra resources added to cards with 2 all-land or 2 all-water edges
+    #   6 cards with 2 all-water edges
+    #   6 cards with 2 all-land edges
+    # Don't split paths on cards with ports
+    #   4 cards had split paths on ports (with resources on the 2nd path)
+    #   Added connections to the card, but left the extra resources
 
-    'start-1436':  ['start',  'fstBCHpx',   'Portuga',    'Portuga'],
+    'start-1436':  ['start',  'px',   'Portuga',    'Portuga'],
 
     '0000a':    ['3rw',   'fst',  'Juven Isle',           'Pure Isle'],
     '0000b':    ['xw',    'x',    'Argh Isle',            'Fert Isle'],
 
-    '0014a':    ['rw',    'f',    'Point Exter',          'Mid Point'],
+    '0014a':    ['rw',    'f-t',  'Point Exter',          'Mid Point'],         # t added for 2 water edges
     '0014b':    ['xw',    'x',    'Exclamation Point',    'Dagger Point'],
     '0014c':    ['xw',    'x',    'View Point',           'Check Point'],
 
-    '0016a':    ['pl',    'pC',   'Davenport',            'Port Jackson'],
-    '0016b':    ['pw',    'ps',   'Queensport',           'Port Olan'],
+    '0016a':    ['pl',    'pC-s', 'Davenport',            'Port Jackson'],      # s added for 2 water edges
+    '0016b':    ['pw',    'ps-f', 'Queensport',           'Port Olan'],         # f added for 2 water edges
     '0016c':    ['rdl',   'B-x',  'Dissa Point',          'Point Less'],        # triple-w
 
-    '0034a':    ['pl',    'pH',   'Rose Port',            'Port Fire'],
-    '0034b':    ['pw',    'pf',   'Port Ico',             'Port Amento'],
+    '0034a':    ['pl',    'pH-f', 'Rose Port',            'Port Fire'],         # f added for 2 water edges
+    '0034b':    ['pw',    'pf-t', 'Port Ico',             'Port Amento'],       # t added for 2 water edges
     '0034c':    ['rdl',   'C-x',  'Gun Point',            'Needle Point'],      # triple-w
 
-    '0036a':    ['pw',    'pf',   'Port Folio',           'Colheita Port'],
+    '0036a':    ['pw',    'pf-s', 'Port Folio',           'Colheita Port'],     # s added for 2 water edges
     '0036b':    ['rl',    'B-t',  'Data Point',           'Counter Point'],     # path-w
     '0036c':    ['rw',    's-C',  'Rept Isles',           'Imbess Isles'],      # path-l
 
@@ -80,11 +86,11 @@ card_info = {
     '1414a':    ['rw',    's',    'Kidneystone Pass',     'Dire Strait'],
     '1414b':    ['xw',    'x',    'None-shall Pass',      'Imm Pass'],
 
-    '1416a':    ['pl',    'pC-f', 'Port-au-Potée',        'Port de Bras'],      # path-w port
+    '1416a':    ['pl',    'pC-f', 'Port-au-Potée',        'Port de Bras'],      # f previously from separate path
     '1416b':    ['pw',    'pt',   'Port Hole',            'Bloodsport'],
     '1416c':    ['rdl',   'H-x',  'Tress Pass',           'Sir Pass'],          # triple-w
 
-    '1434a':    ['pl',    'pH-s', 'Back Port',            'Tele Port'],         # path-w
+    '1434a':    ['pl',    'pH-s', 'Back Port',            'Tele Port'],         # s previously from separate path
     '1434b':    ['pw',    'pf',   'Tawny Port',           'Port Glave'],
     '1434c':    ['rdl',   'B-x',  'Je-ne-sais Pass',      'Bye Pass'],          # triple-w
     '1434d':    ['rdl',   'C-x',  'Over Pass',            'Season Pass'],       # triple-w
@@ -103,33 +109,33 @@ card_info = {
     '1634d':    ['rl',    'C-f',  'Letme Inlet',          'Viol Inlet'],        # path-w
 
     '1636a':    ['pl',    'pH',   'Grande Port',          'Port Reeve'],
-    '1636b':    ['pw',    'pf-C', 'Watersport',           'Purr port'],         # path-l port
+    '1636b':    ['pw',    'pf-C', 'Watersport',           'Purr port'],         # C previously from separate path
     '1636c':    ['rdw',   's-x',  'Wreckage Bay',         'Scallywag Bay'],     # triple-l
     '1636d':    ['rdw',   't-x',  'Mary Isthmus',         'Cur Isthmus'],       # triple-l
 
-    '1774a':    ['pl',    'pC',   'Freeport',             'Dis Port'],
+    '1774a':    ['pl',    'pC-B', 'Freeport',             'Dis Port'],          # B added for 2 land edges
     '1774b':    ['rl',    'B-t',  'Fewt Isle',            'Croco d’Isle'],      # path-w
     '1774c':    ['rw',    'f-H',  'Scuttleship Beach',    'Seaweed Landing'],   # path-l
 
-    '1776a':    ['pl',    'pB',   'Port End',             'Porthook'],
-    '1776b':    ['pw',    'ps',   'Port Tristam',         'Oldport'],
+    '1776a':    ['pl',    'pB-C', 'Port End',             'Porthook'],          # C added for 2 land edges
+    '1776b':    ['pw',    'ps-H', 'Port Tristam',         'Oldport'],           # H added for 2 land edges
     '1776c':    ['rdw',   'f-x',  'Binnacle Beach',       'Shipwreck Landing'], # triple-l
 
     '3434a':    ['2rdl',  'CH-f', 'Forward Pass',         'Buck Pass'],         # path-w
     '3434b':    ['2rdw',  'st-B', 'Magi Strand',          'Well Strand'],       # path-l
 
     '3436a':    ['pl',    'pH',   'Morgansport',          'Port Ative'],
-    '3436b':    ['pw',    'pt-B', 'Port Ray',             'Port Raiture'],      # path-l
-    '3436c':    ['rdw',   's-x',  'Sick Bay',             'Crybey Bay'],        # x triple-l
+    '3436b':    ['pw',    'pt-B', 'Port Ray',             'Port Raiture'],      # B previously from separate path
+    '3436c':    ['rdw',   's-x',  'Sick Bay',             'Crybey Bay'],        # triple-l
 
     '3636a':    ['rl',    'C',    'Al Cove',              'Cove Ert'],
     '3636b':    ['xl',    'x',    'Shelly Beach',         'Peg-leg Beach'],
 
-    '3774a':    ['pl',    'pB',   'Port Quinta',          'Kingsport'],
-    '3774b':    ['pw',    'pt',   'Port Roberts',         'Sally Port'],
+    '3774a':    ['pl',    'pB-H', 'Port Quinta',          'Kingsport'],         # H added for 2 land edges
+    '3774b':    ['pw',    'pt-C', 'Port Roberts',         'Sally Port'],        # C added for 2 land edges
     '3774c':    ['rdw',   'f-x',  'Bay O’Net',            'Loading Bay'],       # triple-l
 
-    '3776a':    ['rl',    'H',    'Plunder Beach',        'Scurvy Beach'],
+    '3776a':    ['rl',    'H-B',  'Plunder Beach',        'Scurvy Beach'],      # B added for 2 land edges
     '3776b':    ['xl',    'x',    'Keelhaul Landing',     'Dead Man’s Beach'],
     '3776c':    ['xl',    'x',    'Cove Arient',          'Cove Alent'],
 

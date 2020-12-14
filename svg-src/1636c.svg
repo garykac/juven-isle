@@ -172,9 +172,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="84.494081"
-     inkscape:cy="110.76093"
+     inkscape:zoom="3.959798"
+     inkscape:cx="101.67211"
+     inkscape:cy="122.30637"
      inkscape:document-units="px"
      inkscape:current-layer="grass_master_layer"
      showgrid="false"
@@ -301,7 +301,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 135.35901,24.368601 C 136.644,62.283416 113.582,74.940056 78.582008,74.225776"
+       d="M 139.14708,41.414925 C 140.43207,79.32974 117.37007,91.98638 82.37008,91.2721"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -435,7 +435,7 @@
     <g
        style="display:inline"
        id="resource-pirate"
-       transform="rotate(128.98692,184.60175,216.57985)">
+       transform="rotate(128.98692,137.63015,227.15492)">
       <g
          id="g5348-3"
          transform="translate(-53.201598,-19.299297)">

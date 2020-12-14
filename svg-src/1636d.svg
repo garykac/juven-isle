@@ -173,14 +173,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="103.92027"
-     inkscape:cy="179.49793"
+     inkscape:cx="102.65758"
+     inkscape:cy="131.51568"
      inkscape:document-units="px"
-     inkscape:current-layer="grass_master_layer"
+     inkscape:current-layer="water_layer"
      showgrid="false"
      units="in"
-     inkscape:window-width="1680"
-     inkscape:window-height="1001"
+     inkscape:window-width="2133"
+     inkscape:window-height="1230"
      inkscape:window-x="0"
      inkscape:window-y="417"
      inkscape:window-maximized="0"
@@ -280,7 +280,7 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="M 99.429657,56.1082 C 88.62595,43.902114 85.883282,34.28349 85.88328,11.049981 l 0,-20.000001 M 74.957493,147.21102 c -2.075723,27.10585 12.05236,51.11872 10.925818,88.339 l 0,20 M 255.55,85.883336 l -20,0 c -21.35157,-0.25725 -49.60411,-1.04665 -64.44952,24.804774 -13.36048,23.26562 -50.68865,45.15594 -70.18454,39.35917 -39.73275,-11.81387 -49.459836,13.6998 -89.865939,10.66934 l -20,0"
+       d="M 99.429657,56.1082 C 88.62595,43.902114 85.883282,34.28349 85.88328,11.049981 V -8.95002 M 74.957493,147.21102 c -2.075723,27.10585 12.05236,51.11872 10.925818,88.339 v 20 M 255.55,85.883336 h -20 c -21.35157,-0.25725 -41.92478,5.277393 -64.44952,24.804774 -25.1982,21.84509 -56.60751,25.50532 -81.312001,30.3625 -40.673209,7.99681 -38.332375,22.69647 -78.738478,19.66601 h -20"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csccccccsscc" />
   </g>
@@ -385,7 +385,7 @@
     <g
        style="display:inline"
        id="resource-pirate"
-       transform="rotate(159.76318,153.85063,207.66915)">
+       transform="rotate(159.76318,103.87617,215.97354)">
       <g
          id="g5348-3"
          transform="translate(-53.201598,-19.299297)">
