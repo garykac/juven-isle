@@ -15,7 +15,7 @@
    viewBox="0 0 246.6 246.6"
    id="svg5294"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="1634b.svg"
    inkscape:export-filename="/Users/garykac/projects/games/islands/v7-sq-6resources/svg-2.5in-822px/0014c.png"
    inkscape:export-xdpi="300"
@@ -173,16 +173,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="176.06586"
+     inkscape:cx="96.423003"
      inkscape:cy="114.97389"
      inkscape:document-units="px"
-     inkscape:current-layer="routes_layer"
+     inkscape:current-layer="labels_guide_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
      inkscape:window-height="1001"
      inkscape:window-x="1"
-     inkscape:window-y="5"
+     inkscape:window-y="417"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
@@ -289,9 +289,8 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text5237"
-       sodipodi:linespacing="125%"><textPath
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text5237"><textPath
          xlink:href="#path4673"
          id="textPath4486"
          style="font-size:10px">Newport</textPath></text>
@@ -303,7 +302,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 101.51889,90.028516 C 65.933322,100.66921 66.609909,123.93245 31.609916,123.21817"
+       d="M 127.63496,124.84994 C 92.049393,135.49064 81.676873,117.57084 47.681344,111.1646"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />

@@ -137,7 +137,7 @@
 >Purr port</textPath></text>
 </g>
 <g inkscape:groupmode="layer" id="labels_guide_layer" inkscape:label="Labels Guide" style="display:none" sodipodi:insensitive="true" >
-  <path id="label-path" style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" d="m 168.69404,125.13132 c 6.33575,25.28791 -40.85941,30.99976 -51.36321,54.27659" inkscape:connector-curvature="0" />
+  <path id="label-path" style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" d="m 168.69404,125.13132 c 6.33575,25.28791 -19.43084,47.07119 -51.36321,54.27659" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="resources_layer" inkscape:label="Resources" style="display:inline" sodipodi:insensitive="true" >
   <g id="resource-portcircle" transform="matrix(0.41297975,0.91074021,-0.91074021,0.41297975,97.530059,-162.2274)" >
