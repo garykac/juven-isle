@@ -45,6 +45,7 @@ card_info = {
     # Don't split paths on cards with ports
     #   4 cards had split paths on ports (with resources on the 2nd path)
     #   Added connections to the card, but left the extra resources
+    # Remove 6 pirates with triple connections. Convert to resources.
 
     'start-1436':  ['start',  'px',   'Portuga',    'Portuga'],
 
@@ -57,7 +58,7 @@ card_info = {
 
     '0016a':    ['pl',    'pC-s', 'Davenport',            'Port Jackson'],      # s added for 2 water edges
     '0016b':    ['pw',    'ps-f', 'Queensport',           'Port Olan'],         # f added for 2 water edges
-    '0016c':    ['rdl',   'B-x',  'Dissa Point',          'Point Less'],        # triple-w
+    '0016c':    ['rdl',   'B-t',  'Dissa Point',          'Point Less'],        # x->t triple-w
 
     '0034a':    ['pl',    'pH-f', 'Rose Port',            'Port Fire'],         # f added for 2 water edges
     '0034b':    ['pw',    'pf-t', 'Port Ico',             'Port Amento'],       # t added for 2 water edges
@@ -69,7 +70,7 @@ card_info = {
 
     '0174a':    ['pl',    'pC',   'Port O’Bello',         'Port Ulaca'],
     '0174b':    ['pw',    'ps',   'Port Manteau',         'Data Port'],
-    '0174c':    ['rdl',   'H-x',  'Seen Isle',            'Fraj Isle'],         # triple-w
+    '0174c':    ['rdl',   'H-s',  'Seen Isle',            'Fraj Isle'],         # x->s triple-w
 
     '0176a':    ['pl',    'pB',   'Port Lee',             'Reserve Port'],
     '0176b':    ['pw',    'pt',   'Ruby Port',            'Portsmouth'],
@@ -93,7 +94,7 @@ card_info = {
     '1434a':    ['pl',    'pH-s', 'Back Port',            'Tele Port'],         # s previously from separate path
     '1434b':    ['pw',    'pf',   'Tawny Port',           'Port Glave'],
     '1434c':    ['rdl',   'B-x',  'Je-ne-sais Pass',      'Bye Pass'],          # triple-w
-    '1434d':    ['rdl',   'C-x',  'Over Pass',            'Season Pass'],       # triple-w
+    '1434d':    ['rdl',   'C-f',  'Over Pass',            'Season Pass'],       # x->f   # triple-w
 
     '1436a':    ['pl',    'pB',   'Port Judgement',       'Port Rackham'],
     '1436b':    ['pw',    'ps',   'Port Able',            'Port Cullis'],
@@ -110,7 +111,7 @@ card_info = {
 
     '1636a':    ['pl',    'pH',   'Grande Port',          'Port Reeve'],
     '1636b':    ['pw',    'pf-C', 'Watersport',           'Purr port'],         # C previously from separate path
-    '1636c':    ['rdw',   's-x',  'Wreckage Bay',         'Scallywag Bay'],     # triple-l
+    '1636c':    ['rdw',   's-H',  'Wreckage Bay',         'Scallywag Bay'],     # x->H triple-l
     '1636d':    ['rdw',   't-x',  'Mary Isthmus',         'Cur Isthmus'],       # triple-l
 
     '1774a':    ['pl',    'pC-B', 'Freeport',             'Dis Port'],          # B added for 2 land edges
@@ -126,14 +127,14 @@ card_info = {
 
     '3436a':    ['pl',    'pH',   'Morgansport',          'Port Ative'],
     '3436b':    ['pw',    'pt-B', 'Port Ray',             'Port Raiture'],      # B previously from separate path
-    '3436c':    ['rdw',   's-x',  'Sick Bay',             'Crybey Bay'],        # triple-l
+    '3436c':    ['rdw',   's-C',  'Sick Bay',             'Crybey Bay'],        # x->C triple-l
 
     '3636a':    ['rl',    'C',    'Al Cove',              'Cove Ert'],
     '3636b':    ['xl',    'x',    'Shelly Beach',         'Peg-leg Beach'],
 
     '3774a':    ['pl',    'pB-H', 'Port Quinta',          'Kingsport'],         # H added for 2 land edges
     '3774b':    ['pw',    'pt-C', 'Port Roberts',         'Sally Port'],        # C added for 2 land edges
-    '3774c':    ['rdw',   'f-x',  'Bay O’Net',            'Loading Bay'],       # triple-l
+    '3774c':    ['rdw',   'f-B',  'Bay O’Net',            'Loading Bay'],       # x->B triple-l
 
     '3776a':    ['rl',    'H-B',  'Plunder Beach',        'Scurvy Beach'],      # B added for 2 land edges
     '3776b':    ['xl',    'x',    'Keelhaul Landing',     'Dead Man’s Beach'],

@@ -140,7 +140,7 @@
   <path id="label-path" style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" d="M 162.64286,137.52857 C 136.92857,98.957141 113,81.457144 70.5,69.671429" inkscape:connector-curvature="0" />
 </g>
 <g inkscape:groupmode="layer" id="resources_layer" inkscape:label="Resources" style="display:inline" sodipodi:insensitive="true" >
-  <g id="resource-portcircle" transform="matrix(-0.7669287,-0.64173232,0.64173232,-0.7669287,269.90142,358.28006)" >
+  <g id="resource-portcircle" transform="rotate(-140.07888,40.63773,188.01064)" >
     <g transform="translate(168.55655,-76.089882)" >
       <path style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="m 117.61371,135.33305 -14.27687,-7.03247 -5.122553,15.06798 -5.122556,-15.06798 -14.276867,7.03247 7.032478,-14.27686 -15.067982,-5.12256 15.067981,-5.12255 -7.032477,-14.276871 14.276866,7.032481 5.122557,-15.067985 5.122553,15.067985 14.27687,-7.032481 -7.03248,14.276861 15.06798,5.12256 -15.06798,5.12256 z" inkscape:connector-curvature="0" />
       <path style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" transform="matrix(0.92387953,-0.38268343,0.38268343,0.92387953,-92.322534,69.370912)" d="m 174.56986,132.36623 -10.89361,-3.15815 -5.51643,9.91029 -5.46979,-9.9361 -10.90834,3.10693 3.15816,-10.89362 -9.91029,-5.51642 9.9361,-5.4698 -3.10693,-10.908329 10.89361,3.158149 5.51643,-9.910281 5.46979,9.936101 10.90834,-3.106932 -3.15816,10.893612 9.91029,5.51643 -9.9361,5.46979 z" inkscape:connector-curvature="0" />
