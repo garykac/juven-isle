@@ -246,10 +246,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="100.74384"
-     inkscape:cy="163.09102"
+     inkscape:cx="57.307281"
+     inkscape:cy="137.33213"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_master_layer"
+     inkscape:current-layer="resources_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="3440"
@@ -384,7 +384,7 @@
      style="display:inline">
     <g
        id="resource-portcircle"
-       transform="matrix(-0.7669287,-0.64173232,0.64173232,-0.7669287,269.90142,358.28006)">
+       transform="rotate(-140.07888,40.63773,188.01064)">
       <g
          transform="translate(168.55655,-76.089882)"
          id="g6373">
@@ -395,7 +395,7 @@
            id="path6375" />
         <path
            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           transform="matrix(0.92387953,-0.38268343,0.38268343,0.92387953,-92.322534,69.370912)"
+           transform="rotate(-22.5,128.21429,266.75382)"
            d="m 174.56986,132.36623 -10.89361,-3.15815 -5.51643,9.91029 -5.46979,-9.9361 -10.90834,3.10693 3.15816,-10.89362 -9.91029,-5.51642 9.9361,-5.4698 -3.10693,-10.908329 10.89361,3.158149 5.51643,-9.910281 5.46979,9.936101 10.90834,-3.106932 -3.15816,10.893612 9.91029,5.51643 -9.9361,5.46979 z"
            inkscape:connector-curvature="0"
            id="path6377" />
