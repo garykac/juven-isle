@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="cards.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.27496365"
+     inkscape:cx="149.11062"
+     inkscape:cy="1243.8008"
+     inkscape:window-width="3440"
+     inkscape:window-height="1406"
+     inkscape:window-x="0"
+     inkscape:window-y="394"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1703">
+      <rect
+         style="fill:#ffd9ff;fill-opacity:0.792016;stroke-width:3.67893"
+         id="rect1705"
+         width="582.08301"
+         height="582.08301"
+         x="43.721405"
+         y="-17.175526"
+         ry="36.253159"
+         transform="rotate(-90)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1707">
+      <rect
+         style="fill:#ffd9ff;fill-opacity:0.792016;stroke-width:3.67893"
+         id="rect1709"
+         width="582.08301"
+         height="582.08301"
+         x="-589.16199"
+         y="-17.175545"
+         ry="36.253159"
+         transform="scale(-1)" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       width="632.88336"
+       height="632.88336"
+       preserveAspectRatio="none"
+       xlink:href="cards-out/0036c.png"
+       id="image922"
+       x="-42.575703"
+       y="-651.20459"
+       transform="rotate(90,-25.400183,-25.400202)"
+       clip-path="url(#clipPath1703)" />
+    <image
+       width="632.88336"
+       height="632.88336"
+       preserveAspectRatio="none"
+       xlink:href="cards-out/1776a.png"
+       id="image934"
+       x="-18.321228"
+       y="-590.30768"
+       transform="scale(-1)"
+       clip-path="url(#clipPath1707)" />
+    <rect
+       style="fill:#ffd9ff;fill-opacity:0.792016;stroke-width:3.67893"
+       id="rect1550-6"
+       width="582.08301"
+       height="582.08301"
+       x="966.37347"
+       y="-83.913078"
+       ry="36.253159" />
+  </g>
+</svg>
