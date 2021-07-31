@@ -143,7 +143,7 @@ For 3-4 players, need something that can happen during your downtime
 Play 1 card per type
 
 
-# 10 Dec 2020
+# Game 1 - 10 Dec 2020
 
 Draw 3 cards
 
@@ -237,7 +237,7 @@ Ken: Pirate games need treasure
 Adam: play pirate, add treasure to pile
 
 
-Game 2 - 10 Dec 2020
+# Game 2 - 10 Dec 2020
 
 Play a pirate, everyone else draws
 https://steamcommunity.com/sharedfiles/filedetails/?id=1169112551
@@ -256,7 +256,7 @@ try to give different symbol types
 
 
 
-Game 3 - 11 Dec 2020
+# Game 3 - 11 Dec 2020
 
 What happens when decks run out of cards?
 How to handle in a satisfying way
@@ -312,4 +312,240 @@ can you draw 2 if you have a valid play? or only if you are blocked?
 otherwise, near end of game keep drawing cards if you think the other player is stuck
 because they will lose if they are stuck and no cards to draw
 and if you have lots of cards in hand, you can keep playing
+
+
+
+# 1Extra game with Adam/Sverre/Chris
+
+Playing light game
+Once yuou get it, it's too easy
+Until then, it's takes a while to figure out how to play
+
+
+
+# Game 4 - 15 Dec 2020
+
+Pirate block all directions
+Port connect all directions
+Addtional resources added to card with 2 or more all-land or all-water edges
+
+
+Draw 7
+
+First player: most recently attacked by pirate, or more recently pirated something
+
+Play only 1 card
+
+Hand shedding game
+    win when play last card
+Cards must match edge - land water
+
+Symbols must connect to what they want
+    Pirates -> Port
+    Resources -> Pirate
+    Port -> Resource
+Pay attention to corners
+
+Pirates block all connections
+    cannot pass through
+Ports can pass through Ports
+
+Portuga - Piorate Port - Ports can pass through
+
+
+Canm't play - draw 2
+
+
+==================
+
+Pirates should be harder to play
+Maybe harder to play on average as well
+
+# Game 5 - 15 Dec 2020
+
+Pirates in hand at start of game
+Adam 3
+Gary 2
+Ken 2
+Chris
+
+Consider restrictions
+Cards must played within N spaces of Portuga
+Must form 3x3 square at first, then 4x4
+Like:
+    Kingdomino - max width
+    The Colonists - expands
+    Anno 1800
+
+Note: can't play in corners
+
+Ports shouldn't have resources on them
+so that you can know that a Port always connects to a R
+
+Endgame
+When deck runs out. maybe not great now.
+was OK as a fallback, but now it might be too common.
+
+Land pirate - everyone draws
+    but no deck - game end?
+
+Ken: what if start card was just a Pirate (not a Port)
+
+Chris:
+doesn't like lose once you have no card to draw
+    regardless of # of cards in hand
+can there be a penalty instead?
+    e.g.: play until 3 penalty markers accumulated
+
+Solo victor or single loser (like Cockroach poker)
+
+Coop
+    build together
+Pirates cause penalty
+
+Ken:
+Solo or co-op play are a big selling point
+solo emphasizes the puzzle part
+
+Chris:
+old game: Izzo  or Izzi 2 (puzzle game)
+
+Adam:
+refine how the map grows
+
+refine how the game ends
+
+Penalty cards
+whoever draws the last penalty card loses
+
+Chris:
+If can't play, mill off deck
+widen map if everyone can't play
+
+Adam:
+Have card in corner that indicates the map size (3x3)
+It's also a penalty card that the player takes when they can't play
+Penalty card could be different for each level
+    arrange random
+
+Chris:
+Penalty card: Find hardest piece to play and use that as penalty card
+
+Game needs to end at this point anyway
+
+Map boundary cards
+
+Draw map boundary card
+
+
+# 16 Dec 2020
+
+Overview:
+Build map by connecting cards
+Goal is to get rid of entire hand
+Alternate game end - person who is forced to take the last map grid card
+
+Connecting cards to the map:
+
+* Edges must match
+* Resources must connect to Pirates (blocked by Ports)
+* Pirates must connect to Port (blocked by other Pirates)
+* Ports must connect to Resources (blocked by Pirates, may pass through other Ports) 
+
+Rules
+
+Draw 7 cards into hand
+
+Take turns attaching to map
+
+When you play a Pirate card:
+
+* Pirate on Land - everyone else draws a card into hand
+* Pirate on Water - whirlpool, everyone passes a card from their hand to player on left
+    * card that would go to the player who played the Pirate goes instead to the bottom of the deck
+
+The Grid
+
+One other restriction you need to follow is the Grid
+
+Cards can only be played within the currently active Grid.
+Initially 3x3
+
+If you can't play within the Grid, then you must Draw a card
+
+Once all players have passed (and drawn) in a row,
+    then the next player (the first one to pass)
+    takes the next Grid card to unlock the next level and plays as normal.
+
+When a player takes the last Grid card, then then that player loses the game
+
+
+3 player
+Alex Mont, Velgus, David Rodgers
+
+In common with Tsuro
+
+Looking at edges, symbols, connections
++ distance with map grid
+
+
+Removed grid restriction after 5x5.
+Probably not really needed since the next few cards were placed within the restriction.
+But removing the mental load was a relief.
+
+Velgus:
+Lots of difficulty
+identifying what he could play
+easy to forget which symbols connected to which other symbols
+    ref card - decorative - but maybe not easy to read
+    perhapos all text facing the same direction
+"what can i play?"
+bigger concern:
+    I'm not sure who the target audience
+    it might be a bit much for 8+
+biggest
+difficulty to analyze
+difficult to 
+
+strategic element - not a lot
+lacks a lot of choice
+    lack of meaningful consequences
+felt like a jigsaw puzzle
+
+David:
+some compatible thoughts as well
+agency problems
+age of players
+    cf candyland - also lack of agency
+    but meant to teach how to play
+lack of agency doesn't prevent marketability
+    but it's not a plus
+no gameplay, why would people want to play
+problems recognizing what goes where
+    fixable in art
+only gamestate is
+    whether I can play a tile
+can I play a tile? yes, no
+grid to narrow play to make middle of game too easy
+no characterists of area control
+reduces to can I play a tile
+
+Alex:
+Not a lot of strategy
+Just lookign where to play tile
+
+Was pirate shifting worthwhile
+like Uno Draw-4
+
+Cannot force opponents to be in a bad position.
+
+David:
+biggest issue
+80's Bartle 4 basic archetypes
+looking at a hand
+    different players make diff decisions with same hand
+
+
+--- other thoughts
+R -> Pirate connection was harder to explain thematically
 
