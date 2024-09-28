@@ -92,7 +92,8 @@ Port Tempest
 Silver Port
 Pearl Bay Port
 Misreport
-
+Import
+Export
 
 ===
 Bay
@@ -143,7 +144,7 @@ Inlet
 * Letme Inlet
 
 -- Deck 2
-* Viol Inlet
+* Viol Inlet (Vile Inlet?)
 
 -- Unused
 Pumpk Inlet; Gobl Inlet; Rais Inlet; With Inlet; Urch Inlet; Insul Inlet
@@ -187,6 +188,7 @@ Strait
 
 -- Unused
 Privateer Strait
+Scared Strait
 
 
 =====
@@ -212,7 +214,7 @@ Point
 Point Illism
 Knife Point
 Pin Point
-Rea Point
+Rea Point (Reappoint)
 
 
 =======
