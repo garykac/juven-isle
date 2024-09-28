@@ -1,0 +1,111 @@
+Juven Isle Playtest
+27 Sep 2024 - Anaheim CA
+
+Nick M, Tyler M, Dan X, Gary K
+
+
+Testing:
+Standard rules to get reacquainted with the game.
+	3 cards in hand
+	Play card, draw cards equal to the score of the placement
+No automatic card draw at end of turn.
+Every card scores at least one card (to replenish hand).
+When you score, you can look at the cards and decide which one to keep and then score the rest
+
+
+Comments:
+Too many pirates in first game?
+	There are only 8 in the deck, so it may have just been chance
+Ports are significantly better than resources.
+Pirates interesting for scoring.
+Resources still feel odd (scoring against pirates)
+	Longstanding problem
+
+Nick suggestion:
+	Since you're looking at the cards for scoring, why not make that an interesting puzzle.
+	Cards you score are investments.
+	Score your investments at end of game (instead of each score card being equal to 1)
+
+Remove pirate cards from game.
+
+For scoring:
+Each resource is worth the # resources that can reach a matching port.
+
+Tested giving each player a pirate that they can place on the map to block.
+When you place the pirate, you increase your hand size.
+
+Place pirate on path crossing card edge.
+	Cuts off path for everyone else
+	Acts as a wildcard port for the player who placed the pirate
+
+Place pirates on an existing port
+	Port become wild (matches all resources), but only for that player
+	Other players can't use this port for scoring
+
+Both of these felt good thematically
+	but didn't quite work as well as hoped
+
+In both cases, having the pirate meant that different players scores the resources differently
+	This was by design
+	But it made scoring more challenging:
+		Coconuts are 4 for everyone, but 6 for me
+	The challenge of tracing the paths is fun when doing it one at a time
+	Overwhelming when you have to do it for all your resources at the same time.
+	Better to have the value the same since then the game focuses on your investment	
+
+Having the pirate increase the hand size:
+	Interesting tradeoff between placing pirate early vs holding it until the map is more mature
+	Having the hand size change was slightly confusing
+		because you couldn't just remember, discard down to 3
+		An issue because you add the score cards to your hand before discarding down to your limit
+	Worth considering allowing hand size to grow
+
+Do ports count as resources when scoring?
+	pros and cons
+	Would be easier to update the graphics on the card to include more resources
+		and then make ports not score as resources
+
+Cards with multiple resources
+	Which one to score?
+	If you score all of them, they you definitely place that in your score pile
+		Which is less good for the map development
+	Tested: only scoring the lowest scoring resource
+		Better to not have different resources on the card to avoid this
+Should only have 1 resource per card to simplify scoring
+		
+More resources can be added to the cards
+	Put multiples of the same resources when there are split paths
+	Only a single resource type per card to simplify endgame scoring.
+
+Too many ports?
+	But ports mark the transition between land and sea
+	Would be odd to have that transition without a port
+	
+Tyler:
+Pass-through ports
+	ports that have no resource and don't block resources connecting to matching port
+	
+Number of resources:
+	Earlier games had 8 resources. Now reduced to 6
+
+Nick:
+Should be reduced further to make it easier to invest
+Down to 5: 2 land, 2 sea and 1 hybrid
+	Turtle is the obvious hybrid (land/sea) resource
+
+
+For next playtest:
+
+Single resource on each card (perhaps duplicated)
+
+Reduce to 5 resources:
+	Water: Fish, Squid
+	Land: Coconut, Banana
+	Hybrid: Turtle
+
+No pirates
+
+Make some port "pass-through"
+
+Decide what should happens if you cannot place a card on the map
+	Rare, but need a solution that doesn't reward people for churning their hand
