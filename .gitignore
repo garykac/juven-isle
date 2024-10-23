@@ -3,8 +3,11 @@
 *.pyc
 *.blend1
 __pycache__
-png-out/*
-png-out2/*
+cards/png-out/*
+cards/png-out-bleed/*
+cards/png-out2/*
+cards/svg-out/*
+cards/svg-out2/*
 ppg/*
 ref/*
 blender/cards-out/*
