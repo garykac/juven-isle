@@ -1,0 +1,90 @@
+
+SVG image notes:
+
+Layers
+======
+
+Cut "cut_layer"
+	2.5x2.5 cut line
+
+Safe "safe_layer"
+	Safe area on card
+
+Edge Guides Master "edge_guides_master_layer"
+	Set of all edge guides
+	Each guide is a group labeled "guideX-Y", where:
+	X: 0=top, 1=left, 2=bottom, 3=right
+	Y: edge patterh: 0,1,3,4,6,7
+	
+Edge Guides "edge_guides_layer"
+	Edge guides for this card (moved next to card edge)
+	There must be 4 guides in this layer (moved down from the master layer
+	They must be in the correct order to match the card: T, L, B, R
+	This order is verified by the script.
+
+Resources Master "resources_master_layer"
+	Set of all available resources
+
+Resources "resources_layer"
+	Resources for card (copied from master)
+	There must be a single group in this layer with id = "resource-xxx", where
+	"xxx" is the name of the resource:
+		"fish", "turtle", "squid", "flower", "coconut", "banana"
+		"pirate"
+		"portcircle" + another resource
+	The resource type is verified by the script.
+
+Labels Guide "labels_guide_layer"
+	Label text guideline (on separate layer so that it can be hidden easily)
+	
+Labels "labels_layer"
+	fill:	rgb: 93,72,27
+			hsl: 29,140,60
+
+Routes "routes_layer"
+	Must contain a single path.
+	stroke:	rgb: 0,0,0
+			style: 2px round join; round cap
+			custom dashes: stroke-dasharray: 0.1,5
+
+Forest Overlay "forest_overlay_layer" ** OPTIONAL LAYER **
+	Must contain a single path.
+	stroke:	rgb = 73,110,40
+			hsl = 65,119/120,75
+			style: 0.5px round join, round cap
+
+Forest "forest_master_layer"
+	Must contain a single path.
+	fill:	rgb = 126,189,71
+			hsl = 65,120,130
+	stroke:	rgb = 73,110,40
+			hsl = 65,119/120,75
+			style: 0.5px round join, round cap
+	
+Grass "grass_master_layer"
+	Must contain a single path.
+	fill:	rgb = 183,218,152
+			hsl = 65,120,185
+
+Shoreline "shoreline_master_layer"
+	Must contain a single path.
+	fill:	rgb = 226,203,154
+			hsl = 29,141/140,190
+	stroke:	rgb = 93,72,27
+			hsl = 29,140,60
+			style: 0.5px round join, round cap
+
+Water Deep "water_deep_layer"
+	Must contain a single path.
+	fill:	rgb = 165,208,255
+			hsl = 150,255,210
+
+Water Medium "water_medium_layer"
+	Must contain a single path.
+	fill:	rgb = 175,213,255
+			hsl = 150,255,215
+
+Water "water_layer"
+	Must contain a single path.
+	fill:	rgb = 180,220,255
+			hsl = 147,255,218
