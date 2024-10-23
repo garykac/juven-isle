@@ -3,6 +3,7 @@
 
 import getopt
 import os
+import platform
 import re
 import subprocess
 import sys
@@ -23,7 +24,7 @@ resource_encode = {
 }
 
 card_info = {
-    # <id>: [ pattern, resources, deck1-label, deck2-label ]
+    # <id>: [ pattern, resources, deck-label, old-deck2-label ]
     # pattern:
     #   r: resource (f,s,t,B,C,H)
     #   x: pirate
@@ -47,10 +48,10 @@ card_info = {
     #   Added connections to the card, but left the extra resources
     # Remove 6 pirates with triple connections. Convert to resources.
 
-    'start-1436':  ['start',  'px',   'Portuga',    'Portuga'],
+    'start-1436':  ['start',  'px',   'Portuga',   'Portuga'],
 
-    '0000a':    ['3rw',   'fst',  'Juven Isle',           'Pure Isle'],
-    '0000b':    ['xw',    'x',    'Argh Isle',            'Fert Isle'],
+    '0000a':    ['3rw',   's',    'Juven Isle',           'Pure Isle'],
+    '0000b':    ['xw',    't',    'Argh Isle',            'Fert Isle'],
 
     '0014a':    ['rw',    'f-t',  'Point Exter',          'Mid Point'],         # t added for 2 water edges
     '0014b':    ['xw',    'x',    'Exclamation Point',    'Dagger Point'],
@@ -179,7 +180,7 @@ class IslandsGen(object):
         
         self.route_style = 'display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1'
 
-    def draw_card(self, name, data, alt):
+    def draw_card(self, name, data):
         self.curr_name = name
         filename = data['name']
         borders = data['borders']
@@ -193,27 +194,7 @@ class IslandsGen(object):
         textpath = data['labels']
         resources = data['resources']
 
-        if alt:
-            textpath = data['labels-alt']
-            if data['water_medium_alt_layer']:
-                shallow_water_path = data['water_medium_alt_layer']
-            if data['water_deep_alt_layer']:
-                deep_water_path = data['water_deep_alt_layer']
-            if data['shoreline_alt_master_layer']:
-                shoreline_path = data['shoreline_alt_master_layer']
-            if data['grass_alt_master_layer']:
-                grass_path = data['grass_alt_master_layer']
-            if data['forest_alt_master_layer']:
-                forest_path = data['forest_alt_master_layer']
-            if data['forest_alt_overlay_layer']:
-                forest_overlay = data['forest_alt_overlay_layer']
-            if data['routes_alt_layer']:
-                routes_path = data['routes_alt_layer']
-        
-        dir_suffix = 'out'
-        if alt:
-            dir_suffix = 'out2'
-        outdir = 'svg-%s' % (dir_suffix)
+        outdir = 'svg-out'
         if not os.path.exists(outdir):
             os.makedirs(outdir)
 
@@ -821,6 +802,7 @@ class IslandsGen(object):
             'resources_master_layer': { 'ignore': True },
             'edge_guides_layer': {},
             'edge_guides_master_layer': { 'ignore': True },
+            'forest_edge_guides_layer': { 'ignore': True },
             'safe_layer': { 'ignore': True },
             'cut_layer': { 'ignore': True },
         }
@@ -828,10 +810,7 @@ class IslandsGen(object):
         layer_data = {}
         label_text = None
         label_guide = None
-        label_alt_text = None
-        label_alt_guide = None
         resources = []
-        resources_alt = []
         
         found_layer = {}
         for layer in layer_info.keys():
@@ -858,27 +837,19 @@ class IslandsGen(object):
                         current_layer = layer
                 continue
 
-            # Parse labels and label guides (and alt labels/guides)
+            # Parse labels and label guides.
             if current_layer.startswith('labels_'):
-                m = re.match('labels_(alt_)?layer', current_layer)
+                m = re.match('labels_layer', current_layer)
                 if m:
-                    alt = (m.group(1) == 'alt_')
                     m = re.search(r'>([^<]+)</textPath></text>', line)
                     if m:
-                        if alt:
-                            label_alt_text = m.group(1)
-                        else:
-                            label_text = m.group(1)
+                        label_text = m.group(1)
                         found_layer[current_layer] = True
-                m = re.match('labels_(alt_)?guide_layer', current_layer)
+                m = re.match('labels_guide_layer', current_layer)
                 if m:
-                    alt = (m.group(1) == 'alt_')
                     m = re.search(r' d="([^"]+)"', line)
                     if m:
-                        if alt:
-                            label_alt_guide = m.group(1)
-                        else:
-                            label_guide = m.group(1)
+                        label_guide = m.group(1)
                         found_layer[current_layer] = True
 
             # Parse resources
@@ -950,7 +921,6 @@ class IslandsGen(object):
         target_pattern = info[0]
         target_resources = info[1].replace('?', '').replace('-', '')
         target_label = info[2]
-        target_label_alt = info[3]
 
         if target_borders != ''.join([str(x) for x in borders]):
             print('Expected borders:', target_borders)
@@ -961,15 +931,7 @@ class IslandsGen(object):
             print('Expected label:', target_label)
             print('Found label:', label_text)
             error('Label doesn\'t match expected')
-        if label_alt_text and label_alt_text != target_label_alt:
-            print('Expected alt label:', target_label_alt)
-            print('Found alt label:', label_alt_text)
-            error('Alt label doesn\'t match expected')
-            
-        if label_alt_text == None or label_alt_guide == None:
-            label_alt_text = target_label_alt
-            label_alt_guide = label_guide
-            
+                        
         found_r = ''
         for r in resources:
             found_r += resource_encode[r[0]]
@@ -989,7 +951,6 @@ class IslandsGen(object):
                 card_data[layer] = layer_data.get(layer)
 
         card_data['labels'] = [label_text, label_guide]
-        card_data['labels-alt'] = [label_alt_text, label_alt_guide]
 
         card_data['resources'] = resources
 
@@ -1025,35 +986,43 @@ class IslandsGen(object):
         if self.options['verify']:
             return
 
-        for alt in [False, True]:
-            self.draw_card(name, data, alt)
-            if self.options['png']:
-                self.process_png(name, alt)
+        self.draw_card(name, data)
+        if self.options['png']:
+            self.process_png(name)
 
-    def process_png(self, name, alt):
+    def process_png(self, name):
         cwd = os.getcwd()
 
-        dir_suffix = 'out'
-        if alt:
-            dir_suffix = 'out2'
-        outdir = '%s/png-%s' % (cwd, dir_suffix)
+        dir_suffix = ""
+        if self.options['bleed']:
+            dir_suffix += '-bleed'
+        outdir = f'{cwd}/png-out{dir_suffix}'
         if not os.path.exists(outdir):
             os.makedirs(outdir)
 
+        INKSCAPE_APP = 'inkscape'
+        if platform.system() == 'Darwin': # MacOS
+            INKSCAPE_APP = '/Applications/Inkscape.app/Contents/MacOS/inkscape'
+
+        outfile = f"{outdir}/{name}.png"
+
         # Generate PNG file.
         cmd = [
-            #"/Applications/Inkscape.app/Contents/Resources/bin/inkscape",
-            'inkscape',
-            "--file=%s/svg-%s/%s.svg" % (cwd, dir_suffix, name),
-            "--export-png=%s/%s.png" % (outdir, name),
+            INKSCAPE_APP,
+            f"--export-filename={outfile}",
             #"--export-dpi=300",
-            "--export-width=750",
-            "--export-height=750",
             "--export-text-to-path",
-            "--without-gui"
         ]
-        if self.options['no-bleed']:
+        if self.options['bleed']:
+            cmd.append("--export-width=820")
+            cmd.append("--export-height=820")
+            cmd.append("--export-area-page")
+        else:
+            cmd.append("--export-width=750")
+            cmd.append("--export-height=750")
             cmd.append('--export-id=cut-line')
+
+        cmd.append(f"{cwd}/svg-out/{name}.svg")
         subprocess.call(cmd)
 
     def check_res_count(self, desc, res, count):
@@ -1096,18 +1065,19 @@ class IslandsGen(object):
             else:
                 labels1[label1] = name
 
-            label2 = card_info[name][3]
-            if label2 == "Unused":
-                unused2 += 1
-            elif self.is_start_card(name):
-                if label2 != "Portuga":
-                    error('Start card should have label "Portuga" instead of %s (deck 2)' % (label2))
-            elif label2 in labels1:
-                error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 1)' % (name, label2, labels1[label2]))
-            elif label2 in labels2:
-                error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 2)' % (name, label2, labels2[label2]))
-            else:
-                labels1[label1] = name
+            if len(card_info[name]) > 3:
+                label2 = card_info[name][3]
+                if label2 == "Unused":
+                    unused2 += 1
+                elif self.is_start_card(name):
+                    if label2 != "Portuga":
+                        error('Start card should have label "Portuga" instead of %s (deck 2)' % (label2))
+                elif label2 in labels1:
+                    error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 1)' % (name, label2, labels1[label2]))
+                elif label2 in labels2:
+                    error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 2)' % (name, label2, labels2[label2]))
+                else:
+                    labels2[label2] = name
 
         if unused1 != 0:
             print(unused1, 'unassigned labels in deck 1')
@@ -1132,13 +1102,14 @@ def usage():
     print("  --show-cut     Show the cut line in the output")
     print("  --show-guides  Show the guide layers in the output")
     print("  --show-id      Add a new layer that shows the card id")
+    print("  --bleed    Include bleed")
     sys.exit(2)
 
 def main():
     try:
         opts, args = getopt.getopt(sys.argv[1:],
             'p',
-            ['png', 'id=', 'verify', 'show-cut', 'show-guides', 'show-id'])
+            ['png', 'id=', 'verify', 'show-cut', 'show-guides', 'show-id', 'bleed'])
     except getopt.GetoptError:
         usage()
 
@@ -1149,7 +1120,7 @@ def main():
         'show-cut': False,
         'show-guides': False,
         'show-id': False,
-        'no-bleed': True,
+        'bleed': False,
     }
     
     for opt,arg in opts:
@@ -1165,6 +1136,8 @@ def main():
             options['show-guides'] = True
         if opt in ('--show-id'):
             options['show-id'] = True
+        if opt in ('--bleed'):
+            options['bleed'] = True
             
     islands = IslandsGen(options)
     islands.gen()
