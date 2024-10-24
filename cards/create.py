@@ -46,12 +46,12 @@ card_info = {
     # Don't split paths on cards with ports
     #   4 cards had split paths on ports (with resources on the 2nd path)
     #   Added connections to the card, but left the extra resources
-    # Remove 6 pirates with triple connections. Convert to resources.
 
     'start-1436':  ['start',  'px',   'Portuga',   'Portuga'],
 
-    '0000a':    ['3rw',   's',    'Juven Isle',           'Pure Isle'],
-    '0000b':    ['xw',    't',    'Argh Isle',            'Fert Isle'],
+    '0000a':    ['3rw',   's',    'Juven Isle'],
+    '0000b':    ['xw',    't',    'Argh Isle'],
+    '0000c':    ['xw',    't',    'Fert Isle'],
 
     '0014a':    ['rw',    'f-t',  'Point Exter',          'Mid Point'],         # t added for 2 water edges
     '0014b':    ['xw',    'x',    'Exclamation Point',    'Dagger Point'],
@@ -141,8 +141,9 @@ card_info = {
     '3776b':    ['xl',    'x',    'Keelhaul Landing',     'Dead Man’s Beach'],
     '3776c':    ['xl',    'x',    'Cove Arient',          'Cove Alent'],
 
-    '7777a':    ['3rl',   'BCH',  'Landlubber’s Lane',    'Noob Isle'],
-    '7777b':    ['xl',    'x',    'Devil’s Hideout',      'Jolly Roger’s Grog &amp; Flog'],
+    '7777a':    ['3rl',   'BCH',  'Landlubber’s Lane'],
+    '7777b':    ['xl',    'x',    'Devil’s Hideout'],
+    '7777c':    ['3rl',   'BCH',  'Noob Isle'],
 }
 
 def error(msg):
@@ -780,25 +781,15 @@ class IslandsGen(object):
         layer_info = {
             'water_layer': { 'ignore': True },
             'water_medium_layer': {},
-            'water_medium_alt_layer': { 'optional': True },
             'water_deep_layer': {},
-            'water_deep_alt_layer': { 'optional': True },
             'shoreline_master_layer': {},
-            'shoreline_alt_master_layer': { 'optional': True },
             'grass_master_layer': {},
-            'grass_alt_master_layer': { 'optional': True },
             'forest_master_layer': {},
             'forest_overlay_layer': { 'optional': True },
-            'forest_alt_master_layer': { 'optional': True },
-            'forest_alt_overlay_layer': { 'optional': True },
             'routes_layer': {},
-            'routes_alt_layer': { 'optional': True },
             'labels_layer': {},
             'labels_guide_layer': {},
-            'labels_alt_layer': { 'optional': True },
-            'labels_alt_guide_layer': { 'optional': True },
             'resources_layer': {},
-            'resources_alt_layer': { 'optional': True },
             'resources_master_layer': { 'ignore': True },
             'edge_guides_layer': {},
             'edge_guides_master_layer': { 'ignore': True },
@@ -1044,47 +1035,29 @@ class IslandsGen(object):
         
         id = self.options['id']
         if id != '' and not id in card_info:
-            error('Invalid card id: %s' % id)
+            error(f'Invalid card id: {id}')
 
         # Check for duplicate or unassigned labels.
-        labels1 = {}
-        labels2 = {}
-        unused1 = 0
-        unused2 = 0
+        labels = {}
+        unused = 0
         for name in sorted(card_info.keys()):
-            label1 = card_info[name][2]
-            if label1 == "Unused":
-                unused1 += 1
+            label = card_info[name][2]
+            if label == "Unused":
+                unused += 1
             elif self.is_start_card(name):
-                if label1 != "Portuga":
-                    error('Start card should have label "Portuga" instead of %s (deck 1)' % (label1))
-            elif label1 in labels1:
-                error('Duplicate label for %s (deck 1): %s (already assigned to %s in deck 1)' % (name, label1, labels1[label1]))
-            elif label1 in labels2:
-                error('Duplicate label for %s (deck 1): %s (already assigned to %s in deck 2)' % (name, label1, labels2[label1]))
+                if label != "Portuga":
+                    error(f'Start card should have label "Portuga" instead of {label}')
+            elif label in labels:
+                error(f'Duplicate label for {name}: {label} (already assigned to {labels[label]})')
             else:
-                labels1[label1] = name
+                labels[label] = name
 
-            if len(card_info[name]) > 3:
-                label2 = card_info[name][3]
-                if label2 == "Unused":
-                    unused2 += 1
-                elif self.is_start_card(name):
-                    if label2 != "Portuga":
-                        error('Start card should have label "Portuga" instead of %s (deck 2)' % (label2))
-                elif label2 in labels1:
-                    error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 1)' % (name, label2, labels1[label2]))
-                elif label2 in labels2:
-                    error('Duplicate label for %s (deck 2): %s (already assigned to %s in deck 2)' % (name, label2, labels2[label2]))
-                else:
-                    labels2[label2] = name
+        if unused != 0:
+            print(f'{unused} unassigned labels')
 
-        if unused1 != 0:
-            print(unused1, 'unassigned labels in deck 1')
-        if unused2 != 0:
-            print(unused2, 'unassigned labels in deck 2')
-
+        card_count = 0
         for name in sorted(card_info.keys()):
+            card_count += 1
             seed_delta += 1
             self.seed = seed_base + seed_delta
 
@@ -1092,6 +1065,7 @@ class IslandsGen(object):
             if id == '' or id == name:
                 self.process_card(name)
         print()
+        print(f"{card_count} cards processed.")
 
 def usage():
     print("Usage: %s <options>" % sys.argv[0])
