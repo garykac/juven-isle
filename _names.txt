@@ -38,36 +38,36 @@ Port (30 (+start) in deck)
 * Queensport
 
 -- Deck 2 (30)
-* Vintage Port (wine)
-* Reserve Port (wine)
-* White Port (wine)
-* Colheita Port (wine)
-* Port de Bras
-* Port Amento
-* Port Glave
-* Port Ulaca (portulaca)
-* Sally Port
-* Bloodsport
-* Data Port - cf. Data Point
-* Port Jackson (shark)
-* Dis Port
-* Port Raiture
-* Tele Port
-* Com Port
-* Port Olan (portolan/portolano)
-* Bridle Port
-* Port Entous (portent, portentous, portension)
-* Port Fire (portfire)
-* Kingsport
-* Portsmouth
-* Purr Port (purport)
-* Port Ative
-* Portlast
-* Oldport
-* Porthook
-* Port Rackham
-* Port Reeve
-* Port Cullis
+Vintage Port (wine)
+Reserve Port (wine)
+White Port (wine)
+Colheita Port (wine)
+Port de Bras
+Port Amento
+Port Glave
+Port Ulaca (portulaca)
+Sally Port
+Bloodsport
+Data Port - cf. Data Point
+Port Jackson (shark)
+Dis Port
+Port Raiture
+Tele Port
+Com Port
+Port Olan (portolan/portolano)
+Bridle Port
+Port Entous (portent, portentous, portension)
+Port Fire (portfire)
+Kingsport
+Portsmouth
+Purr Port (purport)
+Port Ative
+Portlast
+Oldport
+Porthook
+Port Rackham
+Port Reeve
+Port Cullis
 
 -- Unused
 Port Ugâl
@@ -105,10 +105,10 @@ Bay
 * Mutiny Bay
 
 -- Deck 2
-* Fishstick Bay
-* Lulla Bay
-* Crybey Bay
-* Loading Bay
+Fishstick Bay
+Lulla Bay
+Crybey Bay
+Loading Bay
 
 -- Unused
 Ghost Bay
@@ -119,6 +119,7 @@ Hapless Bay; Black Jack Bay; Jolly Bay
 Shark Bay; Scurvy Dog Bay
 Half Moon Bay; Stingray Bay; Crystal Bay; Darkwater Bay; Hammerhead Bay
 Spirit Bay
+Scallywag Bay
 
 
 ====
@@ -129,8 +130,8 @@ Cove
 * Al Cove
 
 -- Deck 2
-* Cove Alent
-* Cove Ert
+Cove Alent
+Cove Ert
 
 -- Unused
 Dread Cove
@@ -144,7 +145,7 @@ Inlet
 * Letme Inlet
 
 -- Deck 2
-* Viol Inlet (Vile Inlet?)
+Viol Inlet (Vile Inlet?)
 
 -- Unused
 Pumpk Inlet; Gobl Inlet; Rais Inlet; With Inlet; Urch Inlet; Insul Inlet
@@ -165,12 +166,12 @@ Pass
 * Over Pass
 
 -- Deck 2
-* Buck Pass
-* Imm Pass
-* Bye Pass
-* Season Pass
-* Sir Pass (surpass)
-* Encom Pass
+Buck Pass
+Imm Pass
+Bye Pass
+Season Pass
+Sir Pass (surpass)
+Encom Pass
 
 -- Unused
 Under Pass
@@ -183,8 +184,8 @@ Strait
 * Crooked Strait
 
 -- Deck 2
-* Dire Strait
-* Twisted Strait
+Dire Strait
+Twisted Strait
 
 -- Unused
 Privateer Strait
@@ -203,12 +204,12 @@ Point
 * Gun Point
 
 -- Deck 2
-* Mid Point
-* Dagger Point
-* Point Less
-* Check Point
-* Counter Point
-* Needle Point
+Mid Point
+Dagger Point
+Point Less
+Check Point
+Counter Point
+Needle Point
 
 -- Unused
 Point Illism
@@ -223,7 +224,7 @@ Isthmus
 --Deck 1
 * Mary Isthmus (Merry?)
 -- Deck 2
-* Cur Isthmus
+Cur Isthmus
 
 
 =====
@@ -235,13 +236,16 @@ Beach (Landing)
 * Treasure Beach
 
 -- Deck 2
-* Peg-leg Beach
-* Skullwater Beach
-* Seaweed Landing
+Peg-leg Beach
+Skullwater Beach
+Seaweed Landing
 
 -- Unused
 Rustyspike Beach; Half-Pig Landing
 Coconut Beach; Baldhead Beach; Buccaneer Landing
+Shipwreck Landing
+Scurvy Beach
+Dead Man's Beach
 
 
 ======
@@ -251,37 +255,33 @@ Strand
 * Magi Strand
 
 -- Deck 2
-* Well Strand
+Well Strand
 
 
 ====
 Isle
 ====
 -- Deck 1
-* Juven Isle
-* Argh Isle
-* Prehense Isle
-* Rept Isle
+* Juven Isle (juvenile)
+* Argh Isle (argyle)
+* Prehense Isle (prehensile)
+* Rept Isle (reptile)
 * Carlyle Isle
-Noob Isle
-* Fewt Isle
-* Seen Isle
+* Fewt Isle (futile)
+* Seen Isle (senile)
+Fert Isle (fertile)
 
 -- Deck 2
-* Miss Isle
-* Imbess Isle
-* Ex Isle
-* Crocod Isle
-* Fraj Isle
-Tact Isle
-* Pure Isle
-* Fert Isle
+Miss Isle (missile)
+Imbess Isle (imbecile)
+Ex Isle (exile)
+Croco d'Isle (crocodile)
+Fraj Isle (fragile)
+Tact Isle (tactile)
 
 -- Unused
-Peen Isle
 Duct Isle
 Comp Isle
-Erect Isle
 Quint Isle
 Chamom Isle
 Percent Isle
@@ -294,6 +294,23 @@ Isle Land
 Aisle Isle
 Blubbernut Isle
 Crane Isle
+Serv Isle (servile)
+Mohb Isle (mobile)
+Sterile
+Vile
+V Isle
+Worthwh Isle (worthwhile) erstwhile
+Host Isle (hostile)
+Infant Isle (infantile)
+Comp Isle (compile)
+Domis Isle (domicile)
+
+-- purile expansion
+Pure Isle (puerile)
+Noob Isle (nubile)
+Pedoff Isle / Isle of Pedoff (paedophile, pedophile)
+Peen Isle (penile)
+Erect Isle (erectile)
 
 
 Reef
