@@ -16,8 +16,8 @@ resource_encode = {
     'squid': 's',
     'turtle': 't',
     'banana': 'B',
-    'flower': 'H',    # Hibiscus
     'coconut': 'C',
+    'flower': 'H',    # Hibiscus
     
     'pirate': 'x',
     'portcircle': 'p',
@@ -36,114 +36,104 @@ card_info = {
     #   B,C,H: land resources: banana, coconut, flower/hibiscus
     #   x: pirate
     #   p: port
-    # Extra symbols added to base separated by '-'
-    #   Added to remove "dead" paths (those without any symbols)
-    #   18 additional Pirates
-    #   12 additional Resources
-    # Extra resources added to cards with 2 all-land or 2 all-water edges
-    #   6 cards with 2 all-water edges
-    #   6 cards with 2 all-land edges
-    # Don't split paths on cards with ports
-    #   4 cards had split paths on ports (with resources on the 2nd path)
-    #   Added connections to the card, but left the extra resources
 
-    'start-1436':  ['start',  'px',   'Portuga',   'Portuga'],
+    'start-1436':  ['start',  '',   'Portuga'],
 
-    '0000a':    ['3rw',   's',    'Juven Isle'],
-    '0000b':    ['xw',    't',    'Argh Isle'],
-    '0000c':    ['xw',    't',    'Fert Isle'],
+    '0000a':    ['3rw',   's-t',   'Juven Isle'],
+    '0000b':    ['xw',    't-f',   'Argh Isle'],
+    '0000c':    ['xw',    'f-s',   'Fert Isle'],
 
-    '0014a':    ['rw',    'f-t',  'Point Exter',          'Mid Point'],         # t added for 2 water edges
-    '0014b':    ['xw',    'x',    'Exclamation Point',    'Dagger Point'],
-    '0014c':    ['xw',    'x',    'View Point',           'Check Point'],
+    '0014a':    ['rw',    'f-t',   'Point Exter'],
+    '0014b':    ['xw',    'f-s',   'Exclamation Point'],
+    '0014c':    ['xw',    's-t',   'View Point'],
 
-    '0016a':    ['pl',    'pC-s', 'Davenport',            'Port Jackson'],      # s added for 2 water edges
-    '0016b':    ['pw',    'ps-f', 'Queensport',           'Port Olan'],         # f added for 2 water edges
-    '0016c':    ['rdl',   'B-t',  'Dissa Point',          'Point Less'],        # x->t triple-w
+    '0016a':    ['pl',    'pt-s',  'Davenport'],
+    '0016b':    ['pw',    'ps-f',  'Queensport'],
+    '0016c':    ['rdl',   'f-t',   'Dissa Point'],
 
-    '0034a':    ['pl',    'pH-f', 'Rose Port',            'Port Fire'],         # f added for 2 water edges
-    '0034b':    ['pw',    'pf-t', 'Port Ico',             'Port Amento'],       # t added for 2 water edges
-    '0034c':    ['rdl',   'C-x',  'Gun Point',            'Needle Point'],      # triple-w
+    '0034a':    ['pl',    'f-t',   'Rose Port'],
+    '0034b':    ['pw',    'ps-t',  'Port Ico'],
+    '0034c':    ['rdl',   'f-s',   'Gun Point'],
 
-    '0036a':    ['pw',    'pf-s', 'Port Folio',           'Colheita Port'],     # s added for 2 water edges
-    '0036b':    ['rl',    'B-t',  'Data Point',           'Counter Point'],     # path-w
-    '0036c':    ['rw',    's-C',  'Rept Isles',           'Imbess Isles'],      # path-l
+    '0036a':    ['pw',    'pf-s',  'Port Folio'],
+    '0036b':    ['rl',    'f-t',   'Data Point'],
+    '0036c':    ['rw',    's-t',   'Rept Isles'],
 
-    '0174a':    ['pl',    'pC',   'Port O’Bello',         'Port Ulaca'],
-    '0174b':    ['pw',    'ps',   'Port Manteau',         'Data Port'],
-    '0174c':    ['rdl',   'H-s',  'Seen Isle',            'Fraj Isle'],         # x->s triple-w
+    '0174a':    ['pl',    'C-f',   'Port O’Bello'],
+    '0174b':    ['pw',    'pt-B',  'Port Manteau'],
+    '0174c':    ['rdl',   'H-s',   'Seen Isle'],
 
-    '0176a':    ['pl',    'pB',   'Port Lee',             'Reserve Port'],
-    '0176b':    ['pw',    'pt',   'Ruby Port',            'Portsmouth'],
-    '0176c':    ['rl',    'H-s',  'Carlyle Isle',         'Ex Isle'],           # path-w
+    '0176a':    ['pl',    'B-f',   'Port Lee'],
+    '0176b':    ['pw',    'pt-C',  'Ruby Port'],
+    '0176c':    ['rl',    'H-s',   'Carlyle Isle'],
 
-    '0374a':    ['pl',    'pH',   'Port Starboard',       'Portlast'],
-    '0374b':    ['pw',    'pf',   'Spoils Port',          'Bridle port'],
-    '0374c':    ['rw',    't-B',  'Prehense Isle',        'Miss Isle'],         # path-l
+    '0374a':    ['pl',    'pH-t',  'Port Starboard'],
+    '0374b':    ['pw',    'pf-B',  'Spoils Port'],
+    '0374c':    ['rw',    's-C',   'Prehense Isle'],
 
-    '0376a':    ['pl',    'pB',   'Crusted Port',         'Port Entous'],
-    '0376b':    ['pw',    'ps',   'Port Royale',          'White Port'],
-    '0376c':    ['rdw',   't-x',  'Bomb Bay',             'Lulla Bay'],         # triple-l
+    '0376a':    ['pl',    'pB-f',  'Crusted Port'],
+    '0376b':    ['pw',    'ps-H',  'Port Royale'],
+    '0376c':    ['rdw',   't-C',   'Bomb Bay'],
 
-    '1414a':    ['rw',    's',    'Kidneystone Pass',     'Dire Strait'],
-    '1414b':    ['xw',    'x',    'None-shall Pass',      'Imm Pass'],
+    '1414a':    ['rw',    'f-t',   'Kidneystone Pass'],
+    '1414b':    ['xw',    's-t',   'None-shall Pass'],
 
-    '1416a':    ['pl',    'pC-f', 'Port-au-Potée',        'Port de Bras'],      # f previously from separate path
-    '1416b':    ['pw',    'pt',   'Port Hole',            'Bloodsport'],
-    '1416c':    ['rdl',   'H-x',  'Tress Pass',           'Sir Pass'],          # triple-w
+    '1416a':    ['pl',    'pC-f',  'Port-au-Potée'],
+    '1416b':    ['pw',    'pt-B',  'Port Hole'],
+    '1416c':    ['rdl',   'H-s',   'Tress Pass'],
 
-    '1434a':    ['pl',    'pH-s', 'Back Port',            'Tele Port'],         # s previously from separate path
-    '1434b':    ['pw',    'pf',   'Tawny Port',           'Port Glave'],
-    '1434c':    ['rdl',   'B-x',  'Je-ne-sais Pass',      'Bye Pass'],          # triple-w
-    '1434d':    ['rdl',   'C-f',  'Over Pass',            'Season Pass'],       # x->f   # triple-w
+    '1434a':    ['pl',    'pf-s',  'Back Port'],
+    '1434b':    ['pw',    'ps-B',  'Tawny Port'],
+    '1434c':    ['rdl',   't-H',   'Je-ne-sais Pass'],
+    '1434d':    ['rdl',   'C-f',   'Over Pass'],
 
-    '1436a':    ['pl',    'pB',   'Port Judgement',       'Port Rackham'],
-    '1436b':    ['pw',    'ps',   'Port Able',            'Port Cullis'],
-    '1436c':    ['2rdw',  'fs-C', 'Scabby Beach',         'Skullwater Beach'],  # path-l 2r
-    '1436d':    ['rw',    't-H',  'Backstage Pass',       'Encom Pass'],        # path-l
+    '1436a':    ['pl',    'pB-t',  'Port Judgement'],
+    '1436b':    ['pw',    'pf-H',  'Port Able'],
+    '1436c':    ['2rdw',  's-C',   'Scabby Beach'],
+    '1436d':    ['rw',    'f-C',   'Backstage Pass'],
 
-    '1616a':    ['2rdl',  'BC-s', 'Crooked Strait',       'Twisted Strait'],    # path-w 2r
-    '1616b':    ['2rdw',  'tf-H', 'Mutiny Bay',           'Fishstick Bay'],     # path-l 2r
+    '1616a':    ['2rdl',  'B-s',   'Crooked Strait'],
+    '1616b':    ['2rdw',  't-H',   'Mutiny Bay'],
 
-    '1634a':    ['pl',    'pC',   'Serial Port',          'Vintage Port'],
-    '1634b':    ['pw',    'pt',   'Newport',              'Com Port'],
-    '1634c':    ['2rdl',  'HB-t', 'Inappropriate Pass',   'Under Pass'],        # path-w 2r
-    '1634d':    ['rl',    'C-f',  'Letme Inlet',          'Viol Inlet'],        # path-w
+    '1634a':    ['pl',    'pB-f',  'Serial Port'],
+    '1634b':    ['pw',    's-C',   'Newport'],
+    '1634c':    ['2rdl',  'H-t',  'Inappropriate Pass'],
+    '1634d':    ['rl',    'C-t',   'Letme Inlet'],
 
-    '1636a':    ['pl',    'pH',   'Grande Port',          'Port Reeve'],
-    '1636b':    ['pw',    'pf-C', 'Watersport',           'Purr port'],         # C previously from separate path
-    '1636c':    ['rdw',   's-H',  'Wreckage Bay',         'Scallywag Bay'],     # x->H triple-l
-    '1636d':    ['rdw',   't-x',  'Mary Isthmus',         'Cur Isthmus'],       # triple-l
+    '1636a':    ['pl',    'pC-t',  'Grande Port'],
+    '1636b':    ['pw',    'f-H',   'Watersport'],
+    '1636c':    ['rdw',   's-B',   'Wreckage Bay'],
+    '1636d':    ['rdw',   'B-C',   'Mary Isthmus'],
 
-    '1774a':    ['pl',    'pC-B', 'Freeport',             'Dis Port'],          # B added for 2 land edges
-    '1774b':    ['rl',    'B-t',  'Fewt Isle',            'Croco d’Isle'],      # path-w
-    '1774c':    ['rw',    'f-H',  'Scuttleship Beach',    'Seaweed Landing'],   # path-l
+    '1774a':    ['pl',    'pC-s',  'Freeport'],
+    '1774b':    ['rl',    'B-t',   'Fewt Isle'],
+    '1774c':    ['rw',    'f-H',   'Scuttleship Beach'],
 
-    '1776a':    ['pl',    'pB-C', 'Port End',             'Porthook'],          # C added for 2 land edges
-    '1776b':    ['pw',    'ps-H', 'Port Tristam',         'Oldport'],           # H added for 2 land edges
-    '1776c':    ['rdw',   'f-x',  'Binnacle Beach',       'Shipwreck Landing'], # triple-l
+    '1776a':    ['pl',    'pB-C',  'Port End'],
+    '1776b':    ['pw',    'pH-C',  'Port Tristam'],
+    '1776c':    ['rdw',   'B-H',   'Binnacle Beach'],
 
-    '3434a':    ['2rdl',  'CH-f', 'Forward Pass',         'Buck Pass'],         # path-w
-    '3434b':    ['2rdw',  'st-B', 'Magi Strand',          'Well Strand'],       # path-l
+    '3434a':    ['2rdl',  'H-f',   'Forward Pass'],
+    '3434b':    ['2rdw',  's-B',   'Magi Strand'],
 
-    '3436a':    ['pl',    'pH',   'Morgansport',          'Port Ative'],
-    '3436b':    ['pw',    'pt-B', 'Port Ray',             'Port Raiture'],      # B previously from separate path
-    '3436c':    ['rdw',   's-C',  'Sick Bay',             'Crybey Bay'],        # x->C triple-l
+    '3436a':    ['pl',    'pC-B',  'Morgansport'],
+    '3436b':    ['pw',    'H-B',   'Port Ray'],
+    '3436c':    ['rdw',   'C-pH',   'Sick Bay'],
 
-    '3636a':    ['rl',    'C',    'Al Cove',              'Cove Ert'],
-    '3636b':    ['xl',    'x',    'Shelly Beach',         'Peg-leg Beach'],
+    '3636a':    ['rl',    'C-H',   'Al Cove'],
+    '3636b':    ['xl',    'B-H',   'Shelly Beach'],
 
-    '3774a':    ['pl',    'pB-H', 'Port Quinta',          'Kingsport'],         # H added for 2 land edges
-    '3774b':    ['pw',    'pt-C', 'Port Roberts',         'Sally Port'],        # C added for 2 land edges
-    '3774c':    ['rdw',   'f-B',  'Bay O’Net',            'Loading Bay'],       # x->B triple-l
+    '3774a':    ['pl',    'B-H',   'Port Quinta'],
+    '3774b':    ['pw',    'pH-C',  'Port Roberts'],
+    '3774c':    ['rdw',   'B-C',   'Bay O’Net'],
 
-    '3776a':    ['rl',    'H-B',  'Plunder Beach',        'Scurvy Beach'],      # B added for 2 land edges
-    '3776b':    ['xl',    'x',    'Keelhaul Landing',     'Dead Man’s Beach'],
-    '3776c':    ['xl',    'x',    'Cove Arient',          'Cove Alent'],
+    '3776a':    ['rl',    'B-H',   'Plunder Beach'],
+    '3776b':    ['xl',    'B-C',   'Keelhaul Landing'],
+    '3776c':    ['xl',    'C-H',   'Cove Arient'],
 
-    '7777a':    ['3rl',   'BCH',  'Landlubber’s Lane'],
-    '7777b':    ['xl',    'x',    'Devil’s Hideout'],
-    '7777c':    ['3rl',   'BCH',  'Noob Isle'],
+    '7777a':    ['3rl',   'B-C',   'Landlubber’s Lane'],
+    '7777b':    ['xl',    'C-H',   'Devil’s Hideout'],
+    '7777c':    ['3rl',   'B-H',   'Noob Isle'],
 }
 
 def error(msg):
@@ -897,10 +887,12 @@ class IslandsGen(object):
             ignore = options.get('ignore')
             optional = options.get('optional')
             if not ignore and not optional and not found_layer[layer]:
+                print()
                 error('Unable to find data for %s' % layer)
                 return
 
         if len(borders) != 4:
+            print()
             print(borders)
             error('Unable to find all four borders')
                 
@@ -910,23 +902,26 @@ class IslandsGen(object):
         if self.is_start_card(name):
             target_borders = self.get_start_borders(name)
         target_pattern = info[0]
-        target_resources = info[1].replace('?', '').replace('-', '')
+        target_resources = info[1].replace('-', '')
         target_label = info[2]
 
         if target_borders != ''.join([str(x) for x in borders]):
+            print()
             print('Expected borders:', target_borders)
             print('Found borders:', borders)
             error('Borders don\'t match expected')
 
         if label_text != target_label:
+            print()
             print('Expected label:', target_label)
             print('Found label:', label_text)
             error('Label doesn\'t match expected')
-                        
+
         found_r = ''
         for r in resources:
             found_r += resource_encode[r[0]]
         if ''.join(sorted(target_resources)) != ''.join(sorted(found_r)):
+            print()
             print('Expected resources:', target_resources)
             print('Found resources:', resources)
             error('Resources don\'t match expected')
@@ -973,7 +968,7 @@ class IslandsGen(object):
         print(name[4:], end='')
 
         data = self.load_data(name)
-
+        
         if self.options['verify']:
             return
 
@@ -1016,13 +1011,6 @@ class IslandsGen(object):
         cmd.append(f"{cwd}/svg-out/{name}.svg")
         subprocess.call(cmd)
 
-    def check_res_count(self, desc, res, count):
-        rlist = ['f','s','t','B','C','H']
-        for r in rlist:
-            if not res.count(r) == count:
-                print('Failed Validation: %s. Wrong count for %s in %s. Expected %d' % (desc, r, ''.join(sorted(res)), count))
-                self.warnings += 1
-
     def is_start_card(self, name):
         return name[0:6] == 'start-'
 
@@ -1056,16 +1044,60 @@ class IslandsGen(object):
             print(f'{unused} unassigned labels')
 
         card_count = 0
+        res_count = {}
+        port_count = {}
+        for x in list("fstBCH"):
+            res_count[x] = 0
+            port_count[x] = 0
+        pair_count = {}
+
         for name in sorted(card_info.keys()):
             card_count += 1
             seed_delta += 1
             self.seed = seed_base + seed_delta
 
-            # Process single card
+            # Count resources and port so we can validate the totals.
+            res = card_info[name][1].split('-')
+            rr = []
+            for r in res:
+                if not r:
+                    continue
+                if r[0] == 'p':
+                    port_count[r[1]] += 1
+                    res_count[r[1]] += 1
+                    rr.append(r[1])
+                else:
+                    res_count[r] += 1
+                    rr.append(r)
+            key = pair2key(rr)
+            if not key in pair_count:
+                pair_count[key] = 1
+            else:
+                pair_count[key] += 1
+
+            # Process single card if |id| is set.
             if id == '' or id == name:
                 self.process_card(name)
         print()
         print(f"{card_count} cards processed.")
+        
+        # Print resource/port counts
+        print(f"     r  p   f  s  t  B  C  H")
+        for x in list("fstBCH"):
+            pairs = []
+            for x2 in list("fstBCH"):
+                if x == x2:
+                    pairs.append('-')
+                else:
+                    key = pair2key([x, x2])
+                    pairs.append(str(pair_count[key]))
+            pair_counts = '  '.join(pairs)
+            print(f"{x} : {res_count[x]}  {port_count[x]}   {pair_counts}")
+
+def pair2key(pair):
+    pair.sort()
+    return '-'.join(pair)
+
 
 def usage():
     print("Usage: %s <options>" % sys.argv[0])
@@ -1076,7 +1108,7 @@ def usage():
     print("  --show-cut     Show the cut line in the output")
     print("  --show-guides  Show the guide layers in the output")
     print("  --show-id      Add a new layer that shows the card id")
-    print("  --bleed    Include bleed")
+    print("  --bleed    Include bleed border around card")
     sys.exit(2)
 
 def main():
