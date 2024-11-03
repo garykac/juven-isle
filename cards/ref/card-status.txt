@@ -1,0 +1,119 @@
+Info:
+	Label Guide: Adjust label path
+	Route templ: Verify route paths
+	Forest Edge: Pointy edge template
+	Forest Master: Pointy tree boundary
+	Forest Overlay: Pointy tree accents
+	Grass Master: Grass path
+	Shore Master: Shoreline path
+	Water Medium: Medium depth path
+	Water Deep: Deep path
+
+
+	Label	Route	Forest----------------	Grass	Shore	Water-------
+	Guide	Tmpl	Edge	Master	Overlay	Master	Master	Medium	Deep
+
+start	-	-	o	o	-	-	-	-	-
+
+0000 a	o	o	*	o	o	o	o	o	o
+0000 b	o	o	*	o	o	o	o	o	o
+0000 c	o	o	*	o	o	o	o	o	o
+
+0014 a	o	o	o	o	-	-	-	o	o
+0014 b	o	o	o	o	-	-	-	o	o
+0014 c	o	o	o	o	-	-	-	o	o
+
+0016 a	o	o	o	o	-	o	o	o	o
+0016 b	-	-	o	o		-	-	-	-
+0016 c	-	-	o	o	-	-	-	-	-
+
+0034 a	-	-	o	o	-	-	-	-	-
+0034 b	-	-	o	o	-	-	-	-	-
+0034 c	-	-	o	o	-	-	-	-	-
+
+0036 a	-	-	o	o	-	-	-	-	-
+0036 b	-	-	o	o	-	-	-	-	-
+0036 c	-	-	o	o	-	-	-	-	-
+
+0174 a	-	-	o	o	-	-	-	-	-
+0174 b	-	-	o	o	-	-	-	-	-
+0174 c	-	-	o	o	-	-	-	-	-
+
+-
+
+0176 a	-	-	o	o	-	-	-	-	-
+0176 b	-	-	o	o	-	-	-	-	-
+0176 c	-	-	o	-	-	-	-	-	-
+
+0374 a	-	-	o	-	-	-	-	-	-
+0374 b	-	-	o	-	-	-	-	-	-
+0374 c	-	-	o	-	-	-	-	-	-
+
+0376 a
+0376 b
+0376 c
+
+1414 a
+1414 b
+
+1416 a
+1416 b
+1416 c
+
+1434 a
+1434 b
+1434 c
+1434 d
+
+-
+
+1436 a
+1436 b
+1436 c
+1436 d
+
+1616 a
+1616 b
+
+1634 a
+1634 b
+1634 c
+1634 d
+
+1636 a
+1636 b
+1636 c
+1636 d
+
+1774 a
+1774 b
+1774 c
+
+-
+
+1776 a
+1776 b
+1776 c
+
+3434 a
+3434 b
+
+3436 a
+3436 b
+3436 c
+
+3636 a
+3636 b
+
+3774 a
+3774 b
+3774 c
+
+3776 a
+3776 b
+3776 c
+
+7777 a
+7777 b
+7777 c
+
