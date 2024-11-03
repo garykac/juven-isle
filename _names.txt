@@ -3,42 +3,43 @@ Port (30 (+start) in deck)
 ====
 
 -- Start location (both decks)
-* Portuga (on start card) - cf. Tortuga http://www.thewayofthepirates.com/regions-and-places/tortuga/
+Portuga (on start card) - cf. Tortuga http://www.thewayofthepirates.com/regions-and-places/tortuga/
+The Juven Isles
 
 -- Deck 1 (30)
 * Ruby Port (wine)
-* Crusted Port (wine)
+Crusted Port (wine)
 * Tawny Port (wine)
-* Rose Port (wine)
-* Port Quinta (wine)
-* Port Ico
+Rose Port (wine)
+Port Quinta (wine)
+Port Ico
 * Port Folio
 * Port O'Bello (portobello)
-* Port Manteau (portmanteau, portmantle)
+Port Manteau (portmanteau, portmantle)
 * Port Starboard
 * Spoils Port
 * Port-au-Potée
-* Port Hole
-* Back Port
-* Port Judgement
+Port Hole
+Back Port
+Port Judgement
 * Port Able
 * Serial Port
-* Newport
-* Grande Port
+Newport
+Grande Port
 * Watersport
-* Freeport
+Freeport
 * Port End
 * Port Ray
-* Port Royale - http://www.atlasobscura.com/places/sunken-pirate-stronghold-at-port-royal
-* Port Lee
-* Morgansport
-* Port Tristam
-* Port Roberts
+Port Royale - http://www.atlasobscura.com/places/sunken-pirate-stronghold-at-port-royal
+Port Lee
+Morgansport
+Port Tristam
+Port Roberts
 * Davenport
-* Queensport
+Queensport
 
 -- Deck 2 (30)
-Vintage Port (wine)
+* Vintage Port (wine)
 Reserve Port (wine)
 White Port (wine)
 Colheita Port (wine)
@@ -46,28 +47,28 @@ Port de Bras
 Port Amento
 Port Glave
 Port Ulaca (portulaca)
-Sally Port
-Bloodsport
-Data Port - cf. Data Point
+* Sally Port
+* Bloodsport
+* Data Port - cf. Data Point
 Port Jackson (shark)
 Dis Port
-Port Raiture
-Tele Port
+* Port Raiture
+* Tele Port
 Com Port
 Port Olan (portolan/portolano)
 Bridle Port
-Port Entous (portent, portentous, portension)
+* Port Entous (portent, portentous, portension)
 Port Fire (portfire)
 Kingsport
 Portsmouth
-Purr Port (purport)
-Port Ative
+* Purr Port (purport)
+* Port Ative
 Portlast
 Oldport
 Porthook
 Port Rackham
 Port Reeve
-Port Cullis
+* Port Cullis
 
 -- Unused
 Port Ugâl
@@ -93,7 +94,8 @@ Silver Port
 Pearl Bay Port
 Misreport
 Import
-Export
+* Export
+Parallel Port
 
 ===
 Bay
@@ -101,14 +103,14 @@ Bay
 -- Deck 1
 * Bomb Bay
 * Sick Bay
-* Bay O'Net
-* Mutiny Bay
+* Bay Onette (Bay O'Net)
+Mutiny Bay
 
 -- Deck 2
 Fishstick Bay
-Lulla Bay
-Crybey Bay
-Loading Bay
+* Lulla Bay
+* Crybey Bay
+* Loading Bay
 
 -- Unused
 Ghost Bay
@@ -130,8 +132,8 @@ Cove
 * Al Cove
 
 -- Deck 2
-Cove Alent
-Cove Ert
+* Cove Alent
+* Cove Ert
 
 -- Unused
 Dread Cove
@@ -163,7 +165,7 @@ Pass
 * Je-ne-sais Pass
 * Forward Pass
 * Backstage Pass
-* Over Pass
+Over Pass
 
 -- Deck 2
 Buck Pass
@@ -184,7 +186,7 @@ Strait
 * Crooked Strait
 
 -- Deck 2
-Dire Strait
+* Dire Strait
 Twisted Strait
 
 -- Unused
@@ -199,16 +201,16 @@ Point
 * Exclamation Point
 * Point Exter
 * Dissa Point
-* View Point
+View Point
 * Data Point
 * Gun Point
 
 -- Deck 2
-Mid Point
+* Mid Point
 Dagger Point
 Point Less
 Check Point
-Counter Point
+* Counter Point
 Needle Point
 
 -- Unused
@@ -222,7 +224,7 @@ Rea Point (Reappoint)
 Isthmus
 =======
 --Deck 1
-* Mary Isthmus (Merry?)
+* Merry Isthmus
 -- Deck 2
 Cur Isthmus
 
@@ -231,9 +233,9 @@ Cur Isthmus
 Beach (Landing)
 =====
 -- Deck 1
-* Shelly Beach
-* Scabby Beach
-* Treasure Beach
+Shelly Beach
+Scabby Beach
+Treasure Beach
 
 -- Deck 2
 Peg-leg Beach
@@ -252,7 +254,7 @@ Dead Man's Beach
 Strand
 ======
 -- Deck 1
-* Magi Strand
+Magi Strand
 
 -- Deck 2
 Well Strand
@@ -261,49 +263,49 @@ Well Strand
 ====
 Isle
 ====
+
 -- Deck 1
-* Juven Isle (juvenile)
+Juven Isle (juvenile)
 * Argh Isle (argyle)
 * Prehense Isle (prehensile)
 * Rept Isle (reptile)
-* Carlyle Isle
+Carlyle Isle
 * Fewt Isle (futile)
 * Seen Isle (senile)
-Fert Isle (fertile)
 
 -- Deck 2
-Miss Isle (missile)
-Imbess Isle (imbecile)
-Ex Isle (exile)
-Croco d'Isle (crocodile)
-Fraj Isle (fragile)
-Tact Isle (tactile)
+* Miss Isle (missile)
+* Imbess Isle (imbecile)
+* Ex Isle (exile)
+* Croco d'Isle (crocodile)
+* Fraj Isle (fragile)
+* Tact Isle (tactile)
 
 -- Unused
-Duct Isle
+* Duct Isle
 Comp Isle
 Quint Isle
 Chamom Isle
-Percent Isle
-Text Isle
-Project Isle
+* Percent Isle
+* Text Isle
+* Project Isle
 Merchant Isle
 Insect Isle
-Carl Isle
-Isle Land
+Carl Isle (carlyle)
+Isle Land (island)
 Aisle Isle
 Blubbernut Isle
 Crane Isle
-Serv Isle (servile)
+Serve Isle (servile)
 Mohb Isle (mobile)
-Sterile
+* Stare Isle (sterile)
 Vile
 V Isle
 Worthwh Isle (worthwhile) erstwhile
 Host Isle (hostile)
-Infant Isle (infantile)
+* Infant Isle (infantile)
 Comp Isle (compile)
-Domis Isle (domicile)
+* Domis Isle (domicile)
 
 -- purile expansion
 Pure Isle (puerile)
@@ -311,6 +313,7 @@ Noob Isle (nubile)
 Pedoff Isle / Isle of Pedoff (paedophile, pedophile)
 Peen Isle (penile)
 Erect Isle (erectile)
+Fert Isle (fertile)
 
 
 Reef
@@ -335,7 +338,7 @@ Anchor
 Avast
 Barnacle
 Bilge (bilgewater)
-* Binnacle
+Binnacle
 Black Jack
 Blubber
 Booty
@@ -344,31 +347,31 @@ Chantey
 Corsair
 Crow's Nest
 Cutlass
-* Dead man's
-* Devil's
-* Flog
-* Grog
+Dead man's
+Devil's
+Flog
+Grog
 Gunpowder
 Hornswaggle
-* Jolly Roger
-* Keelhaul
+Jolly Roger
+Keelhaul
 Kraken
 Maroon
 Mermaid
 Mizzen
-* Mutiny
-* Plunder
+Mutiny
+Plunder
 Rum
 Salty
-* Scallywag
-* Scurvy
+Scallywag
+Scurvy
 Scupper
-* Scuttle (Scuttleship)
+Scuttle (Scuttleship)
 Seadog
-* Seaweed
-* Shipwreck
+Seaweed
+Shipwreck
 Skeleton
-* Skull (skullwater)
+Skull (skullwater)
 Swab
 Treasure
-* Wreckage
+Wreckage
