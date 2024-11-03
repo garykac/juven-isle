@@ -172,9 +172,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.520629"
-     inkscape:cx="102.3554"
-     inkscape:cy="143.81331"
+     inkscape:zoom="7.7754924"
+     inkscape:cx="68.420104"
+     inkscape:cy="72.599903"
      inkscape:document-units="px"
      inkscape:current-layer="labels_guide_layer"
      showgrid="false"
@@ -293,7 +293,7 @@
        id="text5237"><textPath
          xlink:href="#path4673"
          id="textPath4486"
-         style="font-size:10px">Plunder Beach</textPath></text>
+         style="font-size:10px">Crybey Bay</textPath></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -302,10 +302,19 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 75.132372,31.526326 C 70.753712,45.424306 60.099328,59.531499 43.986578,65.230383 M 56.84372,37.194669 C 50.218778,50.078588 36.48113,58.302518 19.405782,62.331102"
+       d="m 75.132372,31.526326 c -1.774047,5.630871 -4.57827,11.296085 -8.35831,16.42251 C 61.2243,55.47533 55.01798,58.826167 45.795145,63.662958 m 8.39601,-23.333439 C 49.013067,50.802015 36.842843,56.614522 19.405782,62.331102"
        id="path4673"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="csccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:37.5px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';stroke-width:0.9375"
+       x="62.06118"
+       y="55.425705"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.9375"></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
