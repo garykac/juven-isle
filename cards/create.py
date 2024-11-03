@@ -19,8 +19,8 @@ resource_encode = {
     'coconut': 'C',
     'flower': 'H',    # Hibiscus
     
-    'pirate': 'x',
     'portcircle': 'p',
+    'smallport': 'x',
 }
 
 card_info = {
@@ -37,103 +37,103 @@ card_info = {
     #   x: pirate
     #   p: port
 
-    'start-1436':  ['start',  '',   'Portuga'],
+    'start-1436':  ['start',  'x',   'The Juven Isles'],
 
-    '0000a':    ['3rw',   's-t',   'Juven Isle'],
-    '0000b':    ['xw',    't-f',   'Argh Isle'],
-    '0000c':    ['xw',    'f-s',   'Fert Isle'],
+    '0000a':    ['3rw',   's-t',   'Fraj Isle'],            # isle
+    '0000b':    ['xw',    't-f',   'Argh Isle'],            # isle
+    '0000c':    ['xw',    'f-s',   'Tact Isle'],            # isle
 
-    '0014a':    ['rw',    'f-t',   'Point Exter'],
-    '0014b':    ['xw',    'f-s',   'Exclamation Point'],
-    '0014c':    ['xw',    's-t',   'View Point'],
+    '0014a':    ['rw',    'f-t',   'Point Exter'],          # point
+    '0014b':    ['xw',    'f-s',   'Exclamation Point'],    # point
+    '0014c':    ['xw',    's-t',   'Mid Point'],            # point
 
-    '0016a':    ['pl',    'pt-s',  'Davenport'],
-    '0016b':    ['pw',    'ps-f',  'Queensport'],
-    '0016c':    ['rdl',   'f-t',   'Dissa Point'],
+    '0016a':    ['pl',    'pt-s',  'Davenport'],            # port
+    '0016b':    ['pw',    'ps-f',  'Bloodsport'],           # port
+    '0016c':    ['rdl',   'f-t-x', 'Dissa Point'],          # point
 
-    '0034a':    ['pl',    'f-t',   'Rose Port'],
-    '0034b':    ['pw',    'ps-t',  'Port Ico'],
-    '0034c':    ['rdl',   'f-s',   'Gun Point'],
+    '0034a':    ['pl',    'f-t-x', 'Counter Point'],        # point
+    '0034b':    ['pw',    'ps-t',  'Port Ative'],           # port
+    '0034c':    ['rdl',   'f-s-x', 'Miss Isle'],            # isle
 
-    '0036a':    ['pw',    'pf-s',  'Port Folio'],
-    '0036b':    ['rl',    'f-t',   'Data Point'],
-    '0036c':    ['rw',    's-t',   'Rept Isles'],
+    '0036a':    ['pw',    'pf-s',  'Purr Port'],            # port
+    '0036b':    ['rl',    'f-t-x', 'Data Point'],           # point
+    '0036c':    ['rw',    's-t-x', 'Rept Isles'],           # isle
 
-    '0174a':    ['pl',    'C-f',   'Port O’Bello'],
-    '0174b':    ['pw',    'pt-B',  'Port Manteau'],
-    '0174c':    ['rdl',   'H-s',   'Seen Isle'],
+    '0174a':    ['pl',    'C-f-x', 'Gun Point'],            # point
+    '0174b':    ['pw',    'pt-B',  'Port Raiture'],         # port
+    '0174c':    ['rdl',   'H-s',   'Seen Isle'],            # isle
 
-    '0176a':    ['pl',    'B-f',   'Port Lee'],
-    '0176b':    ['pw',    'pt-C',  'Ruby Port'],
-    '0176c':    ['rl',    'H-s',   'Carlyle Isle'],
+    '0176a':    ['pl',    'B-f',   'Prehense Isle'],        # isle
+    '0176b':    ['pw',    'pt-C',  'Ruby Port'],            # port
+    '0176c':    ['rl',    'H-s-x', 'Imbess Isle'],          # isle
 
-    '0374a':    ['pl',    'pH-t',  'Port Starboard'],
-    '0374b':    ['pw',    'pf-B',  'Spoils Port'],
-    '0374c':    ['rw',    's-C',   'Prehense Isle'],
+    '0374a':    ['pl',    'pH-t',  'Port Starboard'],       # port
+    '0374b':    ['pw',    'pf-B',  'Spoilsport'],           # port
+    '0374c':    ['rw',    's-C-x', 'Croco d’Isle'],         # isle
 
-    '0376a':    ['pl',    'pB-f',  'Crusted Port'],
-    '0376b':    ['pw',    'ps-H',  'Port Royale'],
-    '0376c':    ['rdw',   't-C',   'Bomb Bay'],
+    '0376a':    ['pl',    'pB-f',  'Port Entous'],          # port
+    '0376b':    ['pw',    'ps-H',  'Port O’Bello'],         # port
+    '0376c':    ['rdw',   't-C-x', 'Bomb Bay'],             # bay
 
-    '1414a':    ['rw',    'f-t',   'Kidneystone Pass'],
-    '1414b':    ['xw',    's-t',   'None-shall Pass'],
+    '1414a':    ['rw',    'f-t',   'Kidneystone Pass'],     # pass
+    '1414b':    ['xw',    's-t',   'None-shall Pass'],      # pass
 
-    '1416a':    ['pl',    'pC-f',  'Port-au-Potée'],
-    '1416b':    ['pw',    'pt-B',  'Port Hole'],
-    '1416c':    ['rdl',   'H-s',   'Tress Pass'],
+    '1416a':    ['pl',    'pC-f',  'Port-au-Potée'],        # port
+    '1416b':    ['pw',    'pt-B',  'Watersport'],           # port
+    '1416c':    ['rdl',   'H-s',   'Tress Pass'],           # pass
 
-    '1434a':    ['pl',    'pf-s',  'Back Port'],
-    '1434b':    ['pw',    'ps-B',  'Tawny Port'],
-    '1434c':    ['rdl',   't-H',   'Je-ne-sais Pass'],
-    '1434d':    ['rdl',   'C-f',   'Over Pass'],
+    '1434a':    ['pl',    'pf-s',  'Tele Port'],            # port
+    '1434b':    ['pw',    'ps-B',  'Tawny Port'],           # port
+    '1434c':    ['rdl',   't-H',   'Je-ne-sais Pass'],      # pass
+    '1434d':    ['rdl',   'C-f-x', 'Dire Strait'],          # strait
 
-    '1436a':    ['pl',    'pB-t',  'Port Judgement'],
-    '1436b':    ['pw',    'pf-H',  'Port Able'],
-    '1436c':    ['2rdw',  's-C',   'Scabby Beach'],
-    '1436d':    ['rw',    'f-C',   'Backstage Pass'],
+    '1436a':    ['pl',    'pB-t',  'Vintage Port'],         # port
+    '1436b':    ['pw',    'pf-H',  'Port Able'],            # port
+    '1436c':    ['2rdw',  's-C-x', 'Percent Isle'],         # isle
+    '1436d':    ['rw',    'f-C',   'Backstage Pass'],       # pass
 
-    '1616a':    ['2rdl',  'B-s',   'Crooked Strait'],
-    '1616b':    ['2rdw',  't-H',   'Mutiny Bay'],
+    '1616a':    ['2rdl',  'B-s-x', 'Crooked Strait'],       # strait
+    '1616b':    ['2rdw',  't-H-x', 'Lulla Bay'],            # bay
 
-    '1634a':    ['pl',    'pB-f',  'Serial Port'],
-    '1634b':    ['pw',    's-C',   'Newport'],
-    '1634c':    ['2rdl',  'H-t',  'Inappropriate Pass'],
-    '1634d':    ['rl',    'C-t',   'Letme Inlet'],
+    '1634a':    ['pl',    'pB-f',  'Serial Port'],          # port
+    '1634b':    ['pw',    's-C-x', 'Landing Bay'],          # bay
+    '1634c':    ['2rdl',  'H-t-x', 'Inappropriate Pass'],   # pass
+    '1634d':    ['rl',    'C-t',   'Letme Inlet'],          # inlet
 
-    '1636a':    ['pl',    'pC-t',  'Grande Port'],
-    '1636b':    ['pw',    'f-H',   'Watersport'],
-    '1636c':    ['rdw',   's-B',   'Wreckage Bay'],
-    '1636d':    ['rdw',   'B-C',   'Mary Isthmus'],
+    '1636a':    ['pl',    'pC-t',  'Sally Port'],           # port
+    '1636b':    ['pw',    'f-H-x', 'Merry Ithmus'],         # ithmus
+    '1636c':    ['rdw',   's-B',   'Sick Bay'],             # bay
+    '1636d':    ['rdw',   'B-C-x', 'Ex Isle'],              # isle
 
-    '1774a':    ['pl',    'pC-s',  'Freeport'],
-    '1774b':    ['rl',    'B-t',   'Fewt Isle'],
-    '1774c':    ['rw',    'f-H',   'Scuttleship Beach'],
+    '1774a':    ['pl',    'pC-s',  'Port Ray'],             # port
+    '1774b':    ['rl',    'B-t-x', 'Fewt Isle'],            # isle
+    '1774c':    ['rw',    'f-H',   'Duct Isle'],            # isle
 
-    '1776a':    ['pl',    'pB-C',  'Port End'],
-    '1776b':    ['pw',    'pH-C',  'Port Tristam'],
-    '1776c':    ['rdw',   'B-H',   'Binnacle Beach'],
+    '1776a':    ['pl',    'pB-C',  'Port End'],             # port
+    '1776b':    ['pw',    'pH-C',  'Data Port'],            # port
+    '1776c':    ['rdw',   'B-H-x', 'Project Isle'],         # isle
 
-    '3434a':    ['2rdl',  'H-f',   'Forward Pass'],
-    '3434b':    ['2rdw',  's-B',   'Magi Strand'],
+    '3434a':    ['2rdl',  'H-f-x', 'Forward Pass'],         # pass
+    '3434b':    ['2rdw',  's-B-x', 'Infant Isle'],          # isle
 
-    '3436a':    ['pl',    'pC-B',  'Morgansport'],
-    '3436b':    ['pw',    'H-B',   'Port Ray'],
-    '3436c':    ['rdw',   'C-pH',   'Sick Bay'],
+    '3436a':    ['pl',    'pC-B',  'Port Cullis'],          # port
+    '3436b':    ['pw',    'H-B-x', 'Cove Ert'],             # cove
+    '3436c':    ['rdw',   'C-pH',  'Ex Port'],              # port
 
-    '3636a':    ['rl',    'C-H',   'Al Cove'],
-    '3636b':    ['xl',    'B-H',   'Shelly Beach'],
+    '3636a':    ['rl',    'C-H',   'Al Cove'],              # cove
+    '3636b':    ['xl',    'B-H',   'Cove Alent'],           # cove
 
-    '3774a':    ['pl',    'B-H',   'Port Quinta'],
-    '3774b':    ['pw',    'pH-C',  'Port Roberts'],
-    '3774c':    ['rdw',   'B-C',   'Bay O’Net'],
+    '3774a':    ['pl',    'B-H-x', 'Text Isle'],            # isle
+    '3774b':    ['pw',    'pH-C',  'Port Folio'],           # port
+    '3774c':    ['rdw',   'B-C-x', 'Bay Onette'],           # bay
 
-    '3776a':    ['rl',    'B-H',   'Plunder Beach'],
-    '3776b':    ['xl',    'B-C',   'Keelhaul Landing'],
-    '3776c':    ['xl',    'C-H',   'Cove Arient'],
+    '3776a':    ['rl',    'B-H',   'Crybey Bay'],           # bay
+    '3776b':    ['xl',    'B-C',   'Stare Isle'],           # isle
+    '3776c':    ['xl',    'C-H',   'Cove Arient'],          # cove
 
-    '7777a':    ['3rl',   'B-C',   'Landlubber’s Lane'],
-    '7777b':    ['xl',    'C-H',   'Devil’s Hideout'],
-    '7777c':    ['3rl',   'B-H',   'Noob Isle'],
+    '7777a':    ['3rl',   'B-C',   'Down Hill'],            # hill
+    '7777b':    ['xl',    'C-H',   'Dist Hill'],            # hill
+    '7777c':    ['3rl',   'B-H',   'Domis Isle'],           # isle
 }
 
 def error(msg):
@@ -167,6 +167,7 @@ class IslandsGen(object):
             'turtle': self.draw_turtle,
             'pirate': self.draw_pirate,
             'portcircle': self.draw_port_circle,
+            'smallport': self.draw_small_port,
         }
         
         self.route_style = 'display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1'
@@ -764,6 +765,30 @@ class IslandsGen(object):
         
         self.svg.end_group()
     
+    def draw_small_port(self, id='', transform=''):
+        self.svg.start_group({'id': id, 'transform': transform})
+        
+        self.svg.start_group({'transform': "translate(168.55655,-76.089882)"})
+
+        style_black_fill = "opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+
+        #path = "m 117.61371,135.33305 -14.27687,-7.03247 -5.122553,15.06798 -5.122556,-15.06798 -14.276867,7.03247 7.032478,-14.27686 -15.067982,-5.12256 15.067981,-5.12255 -7.032477,-14.276871 14.276866,7.032481 5.122557,-15.067985 5.122553,15.067985 14.27687,-7.032481 -7.03248,14.276861 15.06798,5.12256 -15.06798,5.12256 z"
+        path = "m 70.414002,125.63334 -7.13844,-3.51623 -2.561272,7.53399 -2.56128,-7.53399 -7.138434,3.51623 3.516239,-7.13843 -7.533989,-2.56128 7.533989,-2.56127 -3.516239,-7.13844 7.138434,3.51624 2.56128,-7.53399 2.561272,7.53399 7.13844,-3.51624 -3.51624,7.13843 7.53399,2.56128 -7.53399,2.56128 z"
+        self.svg.path(path, {'style': style_black_fill})
+
+        #rotate = "matrix(0.92387953,-0.38268343,0.38268343,0.92387953,-92.322534,69.370912)"
+        #path = "m 174.56986,132.36623 -10.89361,-3.15815 -5.51643,9.91029 -5.46979,-9.9361 -10.90834,3.10693 3.15816,-10.89362 -9.91029,-5.51642 9.9361,-5.4698 -3.10693,-10.908329 10.89361,3.158149 5.51643,-9.910281 5.46979,9.936101 10.90834,-3.106932 -3.15816,10.893612 9.91029,5.51643 -9.9361,5.46979 z"
+        path = "m 71.413822,120.395 -5.63648,0.62553 -0.652,5.63348 -4.427907,-3.54328 -4.44451,3.52243 -0.625525,-5.63648 -5.633478,-0.652 3.543279,-4.42791 -3.522433,-4.44451 5.636477,-0.62553 0.652009,-5.63347 4.427904,3.54328 4.444514,-3.52244 0.62552,5.63648 5.63348,0.65201 -3.54328,4.4279 z"
+        #self.svg.path(path, {'style': style_black_fill, 'transform': rotate})
+        self.svg.path(path, {'style': style_black_fill})
+        
+        self.svg.end_group()
+
+        circle_style = "opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+        self.svg.circle(229.27084, 39.843746, 9, {'style': circle_style})
+        
+        self.svg.end_group()
+    
     # Load card data
     
     def load_data(self, name):
@@ -923,7 +948,7 @@ class IslandsGen(object):
         if ''.join(sorted(target_resources)) != ''.join(sorted(found_r)):
             print()
             print('Expected resources:', target_resources)
-            print('Found resources:', resources)
+            print('Found resources:', [x[0] for x in resources])
             error('Resources don\'t match expected')
 
         card_data = {}
@@ -996,7 +1021,7 @@ class IslandsGen(object):
         cmd = [
             INKSCAPE_APP,
             f"--export-filename={outfile}",
-            #"--export-dpi=300",
+            "--export-dpi=300",
             "--export-text-to-path",
         ]
         if self.options['bleed']:
@@ -1033,8 +1058,8 @@ class IslandsGen(object):
             if label == "Unused":
                 unused += 1
             elif self.is_start_card(name):
-                if label != "Portuga":
-                    error(f'Start card should have label "Portuga" instead of {label}')
+                if label != "The Juven Isles":
+                    error(f'Incorrect name for start card: {label}')
             elif label in labels:
                 error(f'Duplicate label for {name}: {label} (already assigned to {labels[label]})')
             else:
@@ -1046,11 +1071,14 @@ class IslandsGen(object):
         card_count = 0
         res_count = {}
         port_count = {}
+        neutral_port_res_count = {}
         for x in list("fstBCH"):
             res_count[x] = 0
             port_count[x] = 0
+            neutral_port_res_count[x] = 0
         pair_count = {}
-
+        neutral_port_count = -1  # Ignore neutral port on start card.
+        
         for name in sorted(card_info.keys()):
             card_count += 1
             seed_delta += 1
@@ -1059,6 +1087,7 @@ class IslandsGen(object):
             # Count resources and port so we can validate the totals.
             res = card_info[name][1].split('-')
             rr = []
+            has_neutral_port = False
             for r in res:
                 if not r:
                     continue
@@ -1066,9 +1095,17 @@ class IslandsGen(object):
                     port_count[r[1]] += 1
                     res_count[r[1]] += 1
                     rr.append(r[1])
+                elif r == 'x':
+                    has_neutral_port = True
                 else:
                     res_count[r] += 1
                     rr.append(r)
+
+            if has_neutral_port:
+                neutral_port_count += 1
+                for r in rr:
+                    neutral_port_res_count[r] += 1
+                    
             key = pair2key(rr)
             if not key in pair_count:
                 pair_count[key] = 1
@@ -1093,6 +1130,13 @@ class IslandsGen(object):
                     pairs.append(str(pair_count[key]))
             pair_counts = '  '.join(pairs)
             print(f"{x} : {res_count[x]}  {port_count[x]}   {pair_counts}")
+
+        np_counts = []
+        for x in list("fstBCH"):
+            np_counts.append(str(neutral_port_res_count[x]))
+        print(f"Neutral ports: {neutral_port_count}")
+        print(f"    f  s  t  B  C  H")
+        print(f"    {'  '.join(np_counts)}")
 
 def pair2key(pair):
     pair.sort()
