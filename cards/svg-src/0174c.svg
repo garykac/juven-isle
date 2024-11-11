@@ -172,17 +172,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8596625"
-     inkscape:cx="121.69268"
-     inkscape:cy="125.71414"
+     inkscape:zoom="1.8330332"
+     inkscape:cx="94.92463"
+     inkscape:cy="130.11221"
      inkscape:document-units="px"
-     inkscape:current-layer="forest_master_layer"
+     inkscape:current-layer="labels_guide_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:window-x="920"
+     inkscape:window-y="1478"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
@@ -294,7 +294,7 @@
        id="text5237"><textPath
          xlink:href="#path4673"
          id="textPath4486"
-         style="font-size:10px">Seen Isle</textPath></text>
+         style="font-size:10px">Prehense Isle</textPath></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -303,7 +303,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 144.51856,113.20707 c -31.47248,-1.64591 -47.285693,-1.96288 -75.861243,5.98019"
+       d="m 142.87938,118.45244 c -31.47248,-1.64591 -47.285692,-1.96288 -75.861242,5.98019"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />

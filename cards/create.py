@@ -61,9 +61,9 @@ card_info = {
 
     '0174a':    ['pl',    'C-f-x', 'Gun Point'],            # point
     '0174b':    ['pw',    'pt-B',  'Port Raiture'],         # port
-    '0174c':    ['rdl',   'H-s',   'Seen Isle'],            # isle
+    '0174c':    ['rdl',   'H-s',   'Prehense Isle'],        # isle
 
-    '0176a':    ['pl',    'B-f',   'Prehense Isle'],        # isle
+    '0176a':    ['pl',    'B-f',   'Seen Isle'],            # isle
     '0176b':    ['pw',    'pt-C',  'Ruby Port'],            # port
     '0176c':    ['rl',    'H-s-x', 'Imbess Isle'],          # isle
 
