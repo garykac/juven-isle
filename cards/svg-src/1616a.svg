@@ -172,17 +172,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0804191"
-     inkscape:cx="101.66221"
-     inkscape:cy="164.14962"
+     inkscape:zoom="5.1472406"
+     inkscape:cx="103.74491"
+     inkscape:cy="146.97195"
      inkscape:document-units="px"
-     inkscape:current-layer="forest_master_layer"
+     inkscape:current-layer="grass_master_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:window-x="920"
+     inkscape:window-y="1478"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
@@ -282,7 +282,7 @@
     <path
        id="path4555"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55,85.883336 h -20 C 217.36725,84.368103 194.92518,71.806566 188.52745,55.44701 m -80.7845,69.07358 c -42.97474,-1.48167 -47.67202,34.69607 -96.692949,36.19603 h -20 m 169.666689,94.83346 v -20 c -1.46223,-27.67331 -47.3683,-22.28718 -60.62805,-39.12359 -14.288824,-18.14308 50.40565,-42.71978 48.32503,-55.41916 -1.92746,-11.76455 -20.52625,-7.18109 -33.07411,-8.12753 -16.026162,-1.20879 -3.27201,-35.823448 -0.0244,-65.519874 C 118.07348,42.137768 87.818338,36.850737 85.88328,11.049981 V -8.95002"
+       d="m 255.55,85.883336 h -20 C 217.36725,84.368103 194.92518,71.806566 188.52745,55.44701 m -80.18153,53.80094 c -42.974736,-1.48167 -48.27499,49.96871 -97.295919,51.46867 h -20 m 169.666689,94.83346 v -20 c -1.46223,-27.67331 -47.3683,-22.28718 -60.62805,-39.12359 -14.288824,-18.14308 50.40565,-42.71978 48.32503,-55.41916 -1.92746,-11.76455 -20.52625,-7.18109 -33.07411,-8.12753 -16.026162,-1.20879 -3.27201,-35.823448 -0.0244,-65.519874 C 118.07348,42.137768 87.818338,36.850737 85.88328,11.049981 V -8.95002"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccsssscc" />
   </g>
@@ -493,7 +493,7 @@
     <g
        id="resource-smallport"
        style="display:inline"
-       transform="rotate(-2.5902765,2096.1284,3136.0529)">
+       transform="rotate(-2.5902765,1873.967,3336.5679)">
       <g
          transform="translate(168.55655,-76.089882)"
          id="g7">
