@@ -483,7 +483,7 @@ class IslandsGen(object):
     def draw_turtle(self, id='', transform=''):
         self.svg.start_group({'id': id, 'transform': transform})
 
-        style = 'fill:#acf398;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
+        style = 'fill:#90ef76;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'
         paths = [
             # Left Rear Flipper
             'm -13.200987,-100.29637 c 0.383554,0.976603 3.233916,-2.12106 6.131249,-1.42702 1.332863,0.31928 0.882122,-3.09205 -0.399356,-3.57815 -2.371651,-0.89961 -6.659154,2.64419 -5.731893,5.00517 z',
