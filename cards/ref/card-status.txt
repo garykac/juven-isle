@@ -83,8 +83,8 @@ start	o	o	o	o	o	-	o	o	o	o
 
 1636 a	o	o	o	o	o	-	o	o	o	o
 1636 b	o	o	o	o	o	-	o	o	o	o
-1636 c	-	-	o	o	-	-	-	-	-	-
-1636 d	-	-	o	o	-	-	-	-	-	-
+1636 c	-	-	o	o	o	-	-	-	-	-
+1636 d	-	-	o	o	o	-	-	-	-	-
 
 1774 a	-	-	o	o	-	-	-	-	-	-
 1774 b	-	-	o	o	-	-	-	-	-	-
