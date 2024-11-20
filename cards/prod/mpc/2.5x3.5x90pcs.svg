@@ -4344,15 +4344,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.0440875"
-     inkscape:cx="215.0203"
-     inkscape:cy="402.74403"
+     inkscape:zoom="0.87495161"
+     inkscape:cx="450.88208"
+     inkscape:cy="412.02279"
      inkscape:window-width="1640"
      inkscape:window-height="919"
      inkscape:window-x="920"
      inkscape:window-y="1485"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer19">
+     inkscape:current-layer="layer21">
     <inkscape:page
        x="0"
        y="0"
@@ -7337,8 +7337,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer21"
-     inkscape:label="Background"
-     sodipodi:insensitive="true">
+     inkscape:label="Background">
     <rect
        style="fill:#91cbff;fill-opacity:1;stroke:none;stroke-width:1.13386;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
        id="rect1053"
