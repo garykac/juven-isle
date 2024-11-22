@@ -114,6 +114,6 @@ start	o	o	o	o	o	-	o	o	o	o
 3776 b	-	-	o	o	-	-	-	-	-	-
 3776 c	-	-	o	o	-	-	-	-	-	-
 
-7777 a	-	o	o	o	-	-	-	-	-	-
+7777 a	o	o	o	o	o	-	o	o	o	o
 7777 b	-	o	o	o	-	-	-	-	-	-
 7777 c	-	o	o	o	-	-	-	-	-	-
