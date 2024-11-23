@@ -4345,15 +4345,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.1320406"
-     inkscape:cx="440.79689"
-     inkscape:cy="449.18882"
+     inkscape:zoom="0.60455812"
+     inkscape:cx="577.28114"
+     inkscape:cy="336.60949"
      inkscape:window-width="1640"
      inkscape:window-height="919"
      inkscape:window-x="25"
      inkscape:window-y="58"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer22">
+     inkscape:current-layer="layer19">
     <inkscape:page
        x="0"
        y="0"
@@ -10608,7 +10608,7 @@
          y="0"
          xlink:href="#g6"
          id="use27"
-         transform="rotate(94.373062,-286.54637,918.70782)"
+         transform="rotate(94.373062,-283.69347,917.63427)"
          style="display:inline" />
     </g>
     <g
@@ -10718,7 +10718,7 @@
          y="0"
          xlink:href="#g4"
          id="use18"
-         transform="matrix(-0.99859529,0.05298549,0.05298549,0.99859529,-121.20251,527.14846)"
+         transform="matrix(-0.99859529,0.05298549,0.05298549,0.99859529,-123.20251,523.14846)"
          style="display:inline" />
       <use
          x="0"
@@ -10751,7 +10751,7 @@
          y="0"
          xlink:href="#g9"
          id="use1065"
-         transform="translate(828.79248,113.67165)"
+         transform="rotate(11.84183,-543.29065,4305.4274)"
          style="display:inline" />
       <use
          x="0"
@@ -10959,15 +10959,16 @@
          y="0"
          xlink:href="#g7"
          id="use26"
-         transform="matrix(-0.98570872,0.16845869,0.16845869,0.98570872,-162.91549,584.97247)"
+         transform="matrix(-0.98570872,0.16845869,0.16845869,0.98570872,-160.91549,580.97247)"
          style="display:inline" />
       <use
          x="0"
          y="0"
          xlink:href="#g7"
          id="use29"
-         transform="matrix(0.16845869,0.98570872,0.98570872,-0.16845869,463.64253,1141.8347)"
-         style="display:inline" />
+         transform="matrix(0.16845869,0.98570872,0.98570872,-0.16845869,457.64253,1137.8347)"
+         style="display:inline"
+         clip-path="none" />
     </g>
     <g
        id="g1123"
@@ -11208,7 +11209,8 @@
      inkscape:groupmode="layer"
      id="layer23"
      inkscape:label="Box Top - Title"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        id="g1127"
        inkscape:label="Gary Kacmarcik"
