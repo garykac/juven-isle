@@ -94,9 +94,9 @@ start	o	o	o	o	o	-	o	o	o	o
 
 1776 a	-	-	o	o	o	-	-	-	-	-
 1776 b	-	-	o	o	o	-	-	-	-	-
-1776 c	-	-	o	o	-	-	-	-	-	-
+1776 c	-	-	o	o	o	-	-	-	-	-
 
-3434 a	-	-	o	o	-	-	-	-	-	-
+3434 a	-	-	o	o	o	-	-	-	-	-
 3434 b	-	-	o	o	-	-	-	-	-	-
 
 3436 a	-	-	o	o	-	-	-	-	-	-
@@ -115,5 +115,5 @@ start	o	o	o	o	o	-	o	o	o	o
 3776 c	-	-	o	o	-	-	-	-	-	-
 
 7777 a	o	o	o	o	o	-	o	o	o	o
-7777 b	-	o	o	o	o	-	-	-	-	-
+7777 b	o	o	o	o	o	-	o	o	o	o
 7777 c	-	o	o	o	-	-	-	-	-	-

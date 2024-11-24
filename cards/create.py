@@ -48,63 +48,63 @@ card_info = {
     '0014c':    ['xw',    's-t',   'Mid Point'],            # point
 
     #'0016a':    ['pl',    'pt-s',  'Davenport'],            # port
-    '0016a':    ['pl',    't-s-x',  'Davenport'],            # port
+    '0016a':    ['pl',    't-s-x',  'Davenport'],           # port
     #'0016b':    ['pw',    'ps-f',  'Bloodsport'],           # port
-    '0016b':    ['pw',    's-f-x',  'Bloodsport'],           # port
+    '0016b':    ['pw',    's-f-x',  'Bloodsport'],          # port
     '0016c':    ['rdl',   'f-t-x', 'Dissa Point'],          # point
 
     '0034a':    ['pl',    'f-t-x', 'Counter Point'],        # point
     #'0034b':    ['pw',    'ps-t',  'Port Ative'],           # port
-    '0034b':    ['pw',    's-t-x',  'Port Ative'],           # port
+    '0034b':    ['pw',    's-t-x',  'Port Ative'],          # port
     '0034c':    ['rdl',   'f-s-x', 'Miss Isle'],            # isle
 
     #'0036a':    ['pw',    'pf-s',  'Purr Port'],            # port
-    '0036a':    ['pw',    'f-s-x',  'Purr Port'],            # port
+    '0036a':    ['pw',    'f-s-x',  'Purr Port'],           # port
     '0036b':    ['rl',    'f-t-x', 'Data Point'],           # point
     '0036c':    ['rw',    's-t-x', 'Rept Isles'],           # isle
 
     '0174a':    ['pl',    'C-f-x', 'Gun Point'],            # point
     #'0174b':    ['pw',    'pt-B',  'Port Raiture'],         # port
-    '0174b':    ['pw',    't-B-x',  'Port Raiture'],         # port
+    '0174b':    ['pw',    't-B-x',  'Port Raiture'],        # port
     '0174c':    ['rdl',   'H-s',   'Prehense Isle'],        # isle
 
     '0176a':    ['pl',    'B-f',   'Seen Isle'],            # isle
     #'0176b':    ['pw',    'pt-C',  'Ruby Port'],            # port
-    '0176b':    ['pw',    't-C-x',  'Ruby Port'],            # port
+    '0176b':    ['pw',    't-C-x',  'Ruby Port'],           # port
     '0176c':    ['rl',    'H-s-x', 'Imbess Isle'],          # isle
 
     #'0374a':    ['pl',    'pH-t',  'Port Starboard'],       # port
-    '0374a':    ['pl',    'H-t-x',  'Port Starboard'],       # port
+    '0374a':    ['pl',    'H-t-x',  'Port Starboard'],      # port
     #'0374b':    ['pw',    'pf-B',  'Spoilsport'],           # port
-    '0374b':    ['pw',    'f-B-x',  'Spoilsport'],           # port
+    '0374b':    ['pw',    'f-B-x',  'Spoilsport'],          # port
     '0374c':    ['rw',    's-C-x', 'Croco d’Isle'],         # isle
 
     #'0376a':    ['pl',    'pB-f',  'Port Entous'],          # port
-    '0376a':    ['pl',    'B-f-x',  'Port Entous'],          # port
+    '0376a':    ['pl',    'B-f-x',  'Port Entous'],         # port
     #'0376b':    ['pw',    'ps-H',  'Port O’Bello'],         # port
-    '0376b':    ['pw',    's-H-x',  'Port O’Bello'],         # port
+    '0376b':    ['pw',    's-H-x',  'Port O’Bello'],        # port
     '0376c':    ['rdw',   't-C-x', 'Bomb Bay'],             # bay
 
     '1414a':    ['rw',    'f-t',   'Kidneystone Pass'],     # pass
     '1414b':    ['xw',    's-t',   'None-shall Pass'],      # pass
 
     #'1416a':    ['pl',    'pC-f',  'Port-au-Potée'],        # port
-    '1416a':    ['pl',    'C-f-x',  'Port-au-Potée'],        # port
+    '1416a':    ['pl',    'C-f-x',  'Port-au-Potée'],       # port
     #'1416b':    ['pw',    'pt-B',  'Watersport'],           # port
-    '1416b':    ['pw',    't-B-x',  'Watersport'],           # port
+    '1416b':    ['pw',    't-B-x',  'Watersport'],          # port
     '1416c':    ['rdl',   'H-s',   'Tress Pass'],           # pass
 
     #'1434a':    ['pl',    'pf-s',  'Tele Port'],            # port
-    '1434a':    ['pl',    'f-s-x',  'Tele Port'],            # port
+    '1434a':    ['pl',    'f-s-x',  'Tele Port'],           # port
     #'1434b':    ['pw',    'ps-B',  'Tawny Port'],           # port
-    '1434b':    ['pw',    's-B-x',  'Tawny Port'],           # port
+    '1434b':    ['pw',    's-B-x',  'Tawny Port'],          # port
     '1434c':    ['rdl',   't-H',   'Je-ne-sais Pass'],      # pass
     '1434d':    ['rdl',   'C-f-x', 'Dire Strait'],          # strait
 
     #'1436a':    ['pl',    'pB-t',  'Vintage Port'],         # port
-    '1436a':    ['pl',    'B-t-x',  'Vintage Port'],         # port
+    '1436a':    ['pl',    'B-t-x',  'Vintage Port'],        # port
     #'1436b':    ['pw',    'pf-H',  'Port Able'],            # port
-    '1436b':    ['pw',    'f-H-x',  'Port Able'],            # port
+    '1436b':    ['pw',    'f-H-x',  'Port Able'],           # port
     '1436c':    ['2rdw',  's-C-x', 'Percent Isle'],         # isle
     '1436d':    ['rw',    'f-C',   'Backstage Pass'],       # pass
 
@@ -112,48 +112,48 @@ card_info = {
     '1616b':    ['2rdw',  't-H-x', 'Lulla Bay'],            # bay
 
     #'1634a':    ['pl',    'pB-f',  'Serial Port'],          # port
-    '1634a':    ['pl',    'B-f-x',  'Serial Port'],          # port
+    '1634a':    ['pl',    'B-f-x',  'Serial Port'],         # port
     '1634b':    ['pw',    's-C-x', 'Landing Bay'],          # bay
     '1634c':    ['2rdl',  'H-t-x', 'Inappropriate Pass'],   # pass
     '1634d':    ['rl',    'C-t',   'Letme Inlet'],          # inlet
 
     #'1636a':    ['pl',    'pC-t',  'Sally Port'],           # port
-    '1636a':    ['pl',    'C-t-x',  'Sally Port'],           # port
+    '1636a':    ['pl',    'C-t-x',  'Sally Port'],          # port
     '1636b':    ['pw',    'f-H-x', 'Merry Ithmus'],         # ithmus
     '1636c':    ['rdw',   's-B',   'Sick Bay'],             # bay
     '1636d':    ['rdw',   'B-C-x', 'Ex Isle'],              # isle
 
-    #'1774a':    ['pl',    'C-s-x',  'Port Ray'],             # port
-    '1774a':    ['pl',    'C-s-x',  'Port Ray'],             # port
+    #'1774a':    ['pl',    'pC-s',  'Port Ray'],             # port
+    '1774a':    ['pl',    'C-s-x',  'Port Ray'],            # port
     '1774b':    ['rl',    'B-t-x', 'Fewt Isle'],            # isle
     '1774c':    ['rw',    'f-H',   'Duct Isle'],            # isle
 
     #'1776a':    ['pl',    'pB-C',  'Port End'],             # port
-    '1776a':    ['pl',    'B-C-x',  'Port End'],             # port
+    '1776a':    ['pl',    'B-C-x',  'Port End'],            # port
     #'1776b':    ['pw',    'pH-C',  'Data Port'],            # port
-    '1776b':    ['pw',    'H-C-x',  'Data Port'],            # port
+    '1776b':    ['pw',    'H-C-x',  'Data Port'],           # port
     '1776c':    ['rdw',   'B-H-x', 'Project Isle'],         # isle
 
     '3434a':    ['2rdl',  'H-f-x', 'Forward Pass'],         # pass
     '3434b':    ['2rdw',  's-B-x', 'Infant Isle'],          # isle
 
     #'3436a':    ['pl',    'pC-B',  'Port Cullis'],          # port
-    '3436a':    ['pl',    'C-B-x',  'Port Cullis'],          # port
+    '3436a':    ['pl',    'C-B-x',  'Port Cullis'],         # port
     '3436b':    ['pw',    'H-B-x', 'Cove Ert'],             # cove
     #'3436c':    ['rdw',   'pH-C',  'Ex Port'],              # port
-    '3436c':    ['rdw',   'H-C-x',  'Ex Port'],              # port
+    '3436c':    ['rdw',   'H-C-x',  'Ex Port'],             # port
 
     '3636a':    ['rl',    'C-H',   'Al Cove'],              # cove
     '3636b':    ['xl',    'B-H',   'Cove Alent'],           # cove
 
     '3774a':    ['pl',    'B-H-x', 'Text Isle'],            # isle
     #'3774b':    ['pw',    'pH-C',  'Port Folio'],           # port
-    '3774b':    ['pw',    'H-C-x',  'Port Folio'],           # port
+    '3774b':    ['pw',    'H-C-x',  'Port Folio'],          # port
     '3774c':    ['rdw',   'B-C-x', 'Bay Onette'],           # bay
 
-    '3776a':    ['rl',    'B-H',   'Crybey Bay'],           # bay
-    '3776b':    ['xl',    'B-C',   'Stare Isle'],           # isle
-    '3776c':    ['xl',    'C-H',   'Cove Arient'],          # cove
+    '3776a':    ['rl',    'B-H',   'Stare Isle'],           # isle
+    '3776b':    ['xl',    'B-C',   'Cove Arient'],          # cove
+    '3776c':    ['xl',    'C-H',   'Crybey Bay'],           # bay
 
     '7777a':    ['3rl',   'B-C',   'Down Hill'],            # hill
     '7777b':    ['xl',    'C-H',   'Dist Hill'],            # hill
