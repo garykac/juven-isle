@@ -16,9 +16,9 @@ Info:
 
 start	o	o	o	o	o	-	o	o	o	o
 
-0000 a	o	o	*	o	o	o	o	o	o	o
-0000 b	o	o	*	o	o	o	o	o	o	o
-0000 c	o	o	*	o	o	o	o	o	o	o
+0000 a	o	o	o	o	o	o	o	o	o	o
+0000 b	o	o	o	o	o	o	o	o	o	o
+0000 c	o	o	o	o	o	o	o	o	o	o
 
 0014 a	o	o	o	o	o	-	o	o	o	o
 0014 b	o	o	o	o	o	-	o	o	o	o
@@ -83,21 +83,21 @@ start	o	o	o	o	o	-	o	o	o	o
 
 1636 a	o	o	o	o	o	-	o	o	o	o
 1636 b	o	o	o	o	o	-	o	o	o	o
-1636 c	-	-	o	o	o	-	-	-	-	-
-1636 d	-	-	o	o	o	-	-	-	-	-
+1636 c	o	o	o	o	o	-	o	o	o	o
+1636 d	o	o	o	o	o	-	o	o	o	o
 
-1774 a	-	-	o	o	o	-	-	-	-	-
-1774 b	-	-	o	o	o	-	-	-	-	-
-1774 c	-	-	o	o	o	-	-	-	-	-
+1774 a	o	o	o	o	o	-	o	o	o	o
+1774 b	o	o	o	o	o	-	o	o	o	o
+1774 c	o	o	o	o	o	-	o	o	o	o
 
 -
 
-1776 a	-	-	o	o	o	-	-	-	-	-
-1776 b	-	-	o	o	o	-	-	-	-	-
-1776 c	-	-	o	o	o	-	-	-	-	-
+1776 a	o	o	o	o	o	-	o	o	o	o
+1776 b	o	o	o	o	o	-	o	o	o	o
+1776 c	o	o	o	o	o	-	o	o	o	o
 
-3434 a	-	-	o	o	o	-	-	-	-	-
-3434 b	-	-	o	o	-	-	-	-	-	-
+3434 a	o	o	o	o	o	-	o	o	o	o
+3434 b	o	o	o	o	o	-	o	o	o	o
 
 3436 a	-	-	o	o	-	-	-	-	-	-
 3436 b	-	-	o	o	-	-	-	-	-	-
@@ -110,10 +110,10 @@ start	o	o	o	o	o	-	o	o	o	o
 3774 b	-	-	o	o	-	-	-	-	-	-
 3774 c	-	-	o	o	-	-	-	-	-	-
 
-3776 a	-	-	o	o	-	-	-	-	-	-
-3776 b	-	-	o	o	-	-	-	-	-	-
-3776 c	-	-	o	o	-	-	-	-	-	-
+3776 a	o	o	o	o	-	-	o	o	o	o
+3776 b	o	o	o	o	-	-	o	o	o	o
+3776 c	o	o	o	o	-	-	o	o	o	o
 
 7777 a	o	o	o	o	o	-	o	o	o	o
 7777 b	o	o	o	o	o	-	o	o	o	o
-7777 c	-	o	o	o	-	-	-	-	-	-
+7777 c	o	o	o	o	-	-	o	o	o	o
