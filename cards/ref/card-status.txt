@@ -37,7 +37,7 @@ start	o	o	o	o	o	-	o	o	o	o
 0036 c	o	o	o	o	o	-	o	o	o	o
 
 0174 a	-	-	o	o	o	-	-	-	-	-
-0174 b	-	-	o	o	o	-	-	-	-	-
+0174 b	o	o	o	o	o	-	-	-	-	-
 0174 c	-	-	o	o	o	-	-	-	-	-
 
 -
@@ -63,7 +63,7 @@ start	o	o	o	o	o	-	o	o	o	o
 
 1434 a	-	-	o	o	-	-	-	-	-	-
 1434 b	-	-	o	o	-	-	-	-	-	-
-1434 c	-	-	o	o	-	-	-	-	-	-
+1434 c	o	o	o	o	-	-	-	-	-	-
 1434 d	-	-	o	o	-	-	-	-	-	-
 
 -

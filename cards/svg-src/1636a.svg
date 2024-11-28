@@ -172,17 +172,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.938312"
-     inkscape:cx="116.80131"
-     inkscape:cy="162.63313"
+     inkscape:zoom="1.6578273"
+     inkscape:cx="94.702264"
+     inkscape:cy="190.30933"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_layer"
+     inkscape:current-layer="water_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1712"
      inkscape:window-height="1029"
      inkscape:window-x="16"
-     inkscape:window-y="60"
+     inkscape:window-y="38"
      inkscape:window-maximized="0"
      inkscape:snap-page="true"
      inkscape:object-nodes="true"
@@ -316,7 +316,7 @@
     <g
        id="resource-coconut"
        style="display:inline"
-       transform="rotate(109.15546,-30.669354,70.606754)">
+       transform="rotate(24.310269,-596.87025,134.93584)">
       <path
          sodipodi:nodetypes="csssscc"
          inkscape:connector-curvature="0"

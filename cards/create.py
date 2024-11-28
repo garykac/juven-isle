@@ -24,7 +24,7 @@ resource_encode = {
 }
 
 card_info = {
-    # <id>: [ pattern, resources, deck-label, old-deck2-label ]
+    # <id>: [ pattern, resources, deck-label ]
     # pattern:
     #   r: resource (f,s,t,B,C,H)
     #   x: pirate
@@ -65,7 +65,7 @@ card_info = {
 
     '0174a':    ['pl',    'C-f-x', 'Gun Point'],            # point
     #'0174b':    ['pw',    'pt-B',  'Port Raiture'],         # port
-    '0174b':    ['pw',    't-B-x',  'Port Raiture'],        # port
+    '0174b':    ['pw',    't-B',   'Text Isle'],            # isle
     '0174c':    ['rdl',   'H-s',   'Prehense Isle'],        # isle
 
     '0176a':    ['pl',    'B-f',   'Seen Isle'],            # isle
@@ -98,7 +98,8 @@ card_info = {
     '1434a':    ['pl',    'f-s-x',  'Tele Port'],           # port
     #'1434b':    ['pw',    'ps-B',  'Tawny Port'],           # port
     '1434b':    ['pw',    's-B-x',  'Tawny Port'],          # port
-    '1434c':    ['rdl',   't-H',   'Je-ne-sais Pass'],      # pass
+    #'1434c':    ['rdl',   't-H',   'Je-ne-sais Pass'],      # pass
+    '1434c':    ['rdl',   't-H-x',   'Je-ne-sais Pass'],      # pass
     '1434d':    ['rdl',   'C-f-x', 'Dire Strait'],          # strait
 
     #'1436a':    ['pl',    'pB-t',  'Vintage Port'],         # port
@@ -121,7 +122,8 @@ card_info = {
     '1636a':    ['pl',    'C-t-x',  'Sally Port'],          # port
     '1636b':    ['pw',    'f-H-x', 'Merry Ithmus'],         # ithmus
     '1636c':    ['rdw',   's-B',   'Sick Bay'],             # bay
-    '1636d':    ['rdw',   'B-C-x', 'Ex Isle'],              # isle
+    #'1636d':    ['rdw',   'B-C-x', 'Ex Isle'],              # isle
+    '1636d':    ['rdw',   'B-H-x', 'Ex Isle'],              # isle
 
     #'1774a':    ['pl',    'pC-s',  'Port Ray'],             # port
     '1774a':    ['pl',    'C-s-x',  'Port Ray'],            # port
@@ -144,9 +146,10 @@ card_info = {
     '3436c':    ['rdw',   'H-C-x',  'Ex Port'],             # port
 
     '3636a':    ['rl',    'C-H',   'Al Cove'],              # cove
-    '3636b':    ['xl',    'B-H',   'Cove Alent'],           # cove
+    #'3636b':    ['xl',    'B-H',   'Cove Alent'],           # cove
+    '3636b':    ['xl',    'B-C',   'Cove Alent'],           # cove
 
-    '3774a':    ['pl',    'B-H-x', 'Text Isle'],            # isle
+    '3774a':    ['pl',    'B-H-x', 'Port Raiture'],         # port
     #'3774b':    ['pw',    'pH-C',  'Port Folio'],           # port
     '3774b':    ['pw',    'H-C-x',  'Port Folio'],          # port
     '3774c':    ['rdw',   'B-C-x', 'Bay Onette'],           # bay
@@ -1159,7 +1162,7 @@ class IslandsGen(object):
         for x in list("fstBCH"):
             np_counts.append(str(neutral_port_res_count[x]))
         print(f"Neutral ports: {neutral_port_count}")
-        print(f"    f  s  t  B  C  H")
+        print(f"    f   s   t   B   C   H")
         print(f"    {'  '.join(np_counts)}")
 
 def pair2key(pair):
