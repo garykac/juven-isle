@@ -67,13 +67,13 @@ card_info = {
 
     '0176a':    ['-',   'Bf',   'Seen Isle'],            # isle
     '0176b':    ['x',   'tC',   'Ruby Port'],            # port
-    '0176c':    ['x',   'Hs',   'Imbess Isle'],          # isle
+    '0176c':    ['f',   'Hs',   'Imbess Isle'],          # isle
 
     '0374a':    ['x',   'Ht',   'Port Starboard'],       # port
     '0374b':    ['x',   'fB',   'Spoilsport'],           # port
     '0374c':    ['x',   'sC',   'Croco d’Isle'],         # isle
 
-    '0376a':    ['x',   'Bf',   'Port Entous'],          # port
+    '0376a':    ['H',   'Bf',   'Port Entous'],          # port
     '0376b':    ['x',   'sH',   'Port O’Bello'],         # port
     '0376c':    ['x',   'tC',   'Bomb Bay'],             # bay
 
@@ -82,13 +82,13 @@ card_info = {
     '1414b':    [' ',   'st',   'None-shall Pass'],      # pass
 
     '1416a':    ['x',   'Cf',   'Port-au-Potée'],        # port
-    '1416b':    ['x',   'tB',   'Watersport'],           # port
+    '1416b':    ['s',   'tB',   'Watersport'],           # port
     '1416c':    ['-',   'Hs',   'Tress Pass'],           # pass
 
     '1434a':    ['x',   'fs',   'Tele Port'],            # port
     '1434b':    ['x',   'sB',   'Tawny Port'],           # port
     '1434c':    ['x',   'tH',   'Je-ne-sais Pass'],      # pass
-    '1434d':    ['x',   'Cf',   'Dire Strait'],          # strait
+    '1434d':    ['t',   'Cf',   'Dire Strait'],          # strait
 
     '1436a':    ['x',   'Bt',   'Vintage Port'],         # port
     '1436b':    ['x',   'fH',   'Port Able'],            # port
@@ -96,7 +96,7 @@ card_info = {
     '1436d':    ['-',   'fC',   'Backstage Pass'],       # pass
 
     '1616a':    ['x',   'Bs',   'Crooked Strait'],       # strait
-    '1616b':    ['x',   'tH',   'Lulla Bay'],            # bay
+    '1616b':    ['C',   'tH',   'Lulla Bay'],            # bay
 
     '1634a':    ['x',   'Bf',   'Serial Port'],          # port
     '1634b':    ['x',   'sC',   'Landing Bay'],          # bay
@@ -108,7 +108,7 @@ card_info = {
     '1636c':    ['-',   'sB',   'Sick Bay'],             # bay
     '1636d':    ['x',   'BH',   'Ex Isle'],              # isle
 
-    '1774a':    ['x',   'Cs',   'Port Ray'],             # port
+    '1774a':    ['B',   'Cs',   'Port Ray'],             # port
     '1774b':    ['x',   'Bt',   'Fewt Isle'],            # isle
     '1774c':    ['-',   'fH',   'Duct Isle'],            # isle
 
@@ -937,6 +937,8 @@ class IslandsGen(object):
         target_label = info[CARDINFO_LABEL]
 
         if not target_port in [' ', '-']:
+            if target_port != 'x':
+                target_resources += "p"
             target_resources += target_port
         
         if target_borders != ''.join([str(x) for x in borders]):
