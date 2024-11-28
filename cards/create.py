@@ -23,114 +23,123 @@ resource_encode = {
     'smallport': 'x',
 }
 
-CARDINFO_FACTIONS = 0
-CARDINFO_LABEL = 1
+CARDINFO_PORT = 0
+CARDINFO_FACTIONS = 1
+CARDINFO_LABEL = 2
 
 card_info = {
-    # <id>: [ resources, card-label ]
+    # <id>: [ port, resources, card-label ]
+    # port:
+    #    : Port not allowed on card
+    #   -: Port not present
+    #   x: Neutral port
     # resources:
     #   f,s,t: water resources: fish, squid, turtle
     #   B,C,H: land resources: banana, coconut, flower/hibiscus
-    #   x: neutral port
-    #   p: port
 
-    'start-1436':  ['x',   'The Juven Isles'],
+    'start-1436':  ['x',  '',   'The Juven Isles'],
 
-    '0000a':    ['st',   'Fraj Isle'],            # isle
-    '0000b':    ['tf',   'Argh Isle'],            # isle
-    '0000c':    ['fs',   'Tact Isle'],            # isle
+    # No ports
+    '0000a':    [' ',   'st',   'Fraj Isle'],            # isle
+    '0000b':    [' ',   'tf',   'Argh Isle'],            # isle
+    '0000c':    [' ',   'fs',   'Tact Isle'],            # isle
 
-    '0014a':    ['ft',   'Point Exter'],          # point
-    '0014b':    ['fs',   'Exclamation Point'],    # point
-    '0014c':    ['st',   'Mid Point'],            # point
+    # No ports
+    '0014a':    [' ',   'ft',   'Point Exter'],          # point
+    '0014b':    [' ',   'fs',   'Exclamation Point'],    # point
+    '0014c':    [' ',   'st',   'Mid Point'],            # point
 
-    '0016a':    ['tsx',  'Davenport'],            # port
-    '0016b':    ['sfx',  'Bloodsport'],           # port
-    '0016c':    ['ftx',  'Dissa Point'],          # point
+    '0016a':    ['x',   'ts',   'Davenport'],            # port
+    '0016b':    ['x',   'sf',   'Bloodsport'],           # port
+    '0016c':    ['x',   'ft',   'Dissa Point'],          # point
 
-    '0034a':    ['ftx',  'Counter Point'],        # point
-    '0034b':    ['stx',  'Port Ative'],           # port
-    '0034c':    ['fsx',  'Miss Isle'],            # isle
+    '0034a':    ['x',   'ft',   'Counter Point'],        # point
+    '0034b':    ['x',   'st',   'Port Ative'],           # port
+    '0034c':    ['x',   'fs',   'Miss Isle'],            # isle
 
-    '0036a':    ['fsx',  'Purr Port'],            # port
-    '0036b':    ['ftx',  'Data Point'],           # point
-    '0036c':    ['stx',  'Rept Isles'],           # isle
+    '0036a':    ['x',   'fs',   'Purr Port'],            # port
+    '0036b':    ['x',   'ft',   'Data Point'],           # point
+    '0036c':    ['x',   'st',   'Rept Isles'],           # isle
 
-    '0174a':    ['Cfx',  'Gun Point'],            # point
-    '0174b':    ['tB',   'Text Isle'],            # isle
-    '0174c':    ['Hs',   'Prehense Isle'],        # isle
+    '0174a':    ['x',   'Cf',   'Gun Point'],            # point
+    '0174b':    ['-',   'tB',   'Text Isle'],            # isle
+    '0174c':    ['-',   'Hs',   'Prehense Isle'],        # isle
 
-    '0176a':    ['Bf',   'Seen Isle'],            # isle
-    '0176b':    ['tCx',  'Ruby Port'],            # port
-    '0176c':    ['Hsx',  'Imbess Isle'],          # isle
+    '0176a':    ['-',   'Bf',   'Seen Isle'],            # isle
+    '0176b':    ['x',   'tC',   'Ruby Port'],            # port
+    '0176c':    ['x',   'Hs',   'Imbess Isle'],          # isle
 
-    '0374a':    ['Htx',  'Port Starboard'],       # port
-    '0374b':    ['fBx',  'Spoilsport'],           # port
-    '0374c':    ['sCx',  'Croco d’Isle'],         # isle
+    '0374a':    ['x',   'Ht',   'Port Starboard'],       # port
+    '0374b':    ['x',   'fB',   'Spoilsport'],           # port
+    '0374c':    ['x',   'sC',   'Croco d’Isle'],         # isle
 
-    '0376a':    ['Bfx',  'Port Entous'],          # port
-    '0376b':    ['sHx',  'Port O’Bello'],         # port
-    '0376c':    ['tCx',  'Bomb Bay'],             # bay
+    '0376a':    ['x',   'Bf',   'Port Entous'],          # port
+    '0376b':    ['x',   'sH',   'Port O’Bello'],         # port
+    '0376c':    ['x',   'tC',   'Bomb Bay'],             # bay
 
-    '1414a':    ['ft',   'Kidneystone Pass'],     # pass
-    '1414b':    ['st',   'None-shall Pass'],      # pass
+    # No ports
+    '1414a':    [' ',   'ft',   'Kidneystone Pass'],     # pass
+    '1414b':    [' ',   'st',   'None-shall Pass'],      # pass
 
-    '1416a':    ['Cfx',  'Port-au-Potée'],        # port
-    '1416b':    ['tBx',  'Watersport'],           # port
-    '1416c':    ['Hs',   'Tress Pass'],           # pass
+    '1416a':    ['x',   'Cf',   'Port-au-Potée'],        # port
+    '1416b':    ['x',   'tB',   'Watersport'],           # port
+    '1416c':    ['-',   'Hs',   'Tress Pass'],           # pass
 
-    '1434a':    ['fsx',  'Tele Port'],            # port
-    '1434b':    ['sBx',  'Tawny Port'],           # port
-    '1434c':    ['tHx',  'Je-ne-sais Pass'],      # pass
-    '1434d':    ['Cfx',  'Dire Strait'],          # strait
+    '1434a':    ['x',   'fs',   'Tele Port'],            # port
+    '1434b':    ['x',   'sB',   'Tawny Port'],           # port
+    '1434c':    ['x',   'tH',   'Je-ne-sais Pass'],      # pass
+    '1434d':    ['x',   'Cf',   'Dire Strait'],          # strait
 
-    '1436a':    ['Btx',  'Vintage Port'],         # port
-    '1436b':    ['fHx',  'Port Able'],            # port
-    '1436c':    ['sCx',  'Percent Isle'],         # isle
-    '1436d':    ['fC',   'Backstage Pass'],       # pass
+    '1436a':    ['x',   'Bt',   'Vintage Port'],         # port
+    '1436b':    ['x',   'fH',   'Port Able'],            # port
+    '1436c':    ['x',   'sC',   'Percent Isle'],         # isle
+    '1436d':    ['-',   'fC',   'Backstage Pass'],       # pass
 
-    '1616a':    ['Bsx',  'Crooked Strait'],       # strait
-    '1616b':    ['tHx',  'Lulla Bay'],            # bay
+    '1616a':    ['x',   'Bs',   'Crooked Strait'],       # strait
+    '1616b':    ['x',   'tH',   'Lulla Bay'],            # bay
 
-    '1634a':    ['Bfx',  'Serial Port'],          # port
-    '1634b':    ['sCx',  'Landing Bay'],          # bay
-    '1634c':    ['Htx',  'Inappropriate Pass'],   # pass
-    '1634d':    ['Ct',   'Letme Inlet'],          # inlet
+    '1634a':    ['x',   'Bf',   'Serial Port'],          # port
+    '1634b':    ['x',   'sC',   'Landing Bay'],          # bay
+    '1634c':    ['x',   'Ht',   'Inappropriate Pass'],   # pass
+    '1634d':    ['-',   'Ct',   'Letme Inlet'],          # inlet
 
-    '1636a':    ['Ctx',  'Sally Port'],           # port
-    '1636b':    ['fHx',  'Merry Ithmus'],         # ithmus
-    '1636c':    ['sB',   'Sick Bay'],             # bay
-    '1636d':    ['BHx',  'Ex Isle'],              # isle
+    '1636a':    ['x',   'Ct',   'Sally Port'],           # port
+    '1636b':    ['x',   'fH',   'Merry Ithmus'],         # ithmus
+    '1636c':    ['-',   'sB',   'Sick Bay'],             # bay
+    '1636d':    ['x',   'BH',   'Ex Isle'],              # isle
 
-    '1774a':    ['Csx',  'Port Ray'],             # port
-    '1774b':    ['Btx',  'Fewt Isle'],            # isle
-    '1774c':    ['fH',   'Duct Isle'],            # isle
+    '1774a':    ['x',   'Cs',   'Port Ray'],             # port
+    '1774b':    ['x',   'Bt',   'Fewt Isle'],            # isle
+    '1774c':    ['-',   'fH',   'Duct Isle'],            # isle
 
-    '1776a':    ['BCx',  'Port End'],             # port
-    '1776b':    ['HCx',  'Data Port'],            # port
-    '1776c':    ['BHx',  'Project Isle'],         # isle
+    '1776a':    ['x',   'BC',   'Port End'],             # port
+    '1776b':    ['x',   'HC',   'Data Port'],            # port
+    '1776c':    ['x',   'BH',   'Project Isle'],         # isle
 
-    '3434a':    ['Hfx',  'Forward Pass'],         # pass
-    '3434b':    ['sBx',  'Infant Isle'],          # isle
+    '3434a':    ['x',   'Hf',   'Forward Pass'],         # pass
+    '3434b':    ['x',   'sB',   'Infant Isle'],          # isle
 
-    '3436a':    ['CBx',  'Port Cullis'],          # port
-    '3436b':    ['HBx',  'Cove Ert'],             # cove
-    '3436c':    ['HCx',  'Ex Port'],              # port
+    '3436a':    ['x',   'CB',   'Port Cullis'],          # port
+    '3436b':    ['x',   'HB',   'Cove Ert'],             # cove
+    '3436c':    ['x',   'HC',   'Ex Port'],              # port
 
-    '3636a':    ['CH',   'Al Cove'],              # cove
-    '3636b':    ['BC',   'Cove Alent'],           # cove
+    # No ports
+    '3636a':    [' ',   'CH',   'Al Cove'],              # cove
+    '3636b':    [' ',   'BC',   'Cove Alent'],           # cove
 
-    '3774a':    ['BHx',  'Port Raiture'],         # port
-    '3774b':    ['HCx',  'Port Folio'],           # port
-    '3774c':    ['BCx',  'Bay Onette'],           # bay
+    '3774a':    ['x',   'BH',   'Port Raiture'],         # port
+    '3774b':    ['x',   'HC',   'Port Folio'],           # port
+    '3774c':    ['x',   'BC',   'Bay Onette'],           # bay
 
-    '3776a':    ['BH',   'Stare Isle'],           # isle
-    '3776b':    ['BC',   'Cove Arient'],          # cove
-    '3776c':    ['CH',   'Crybey Bay'],           # bay
+    # No ports
+    '3776a':    [' ',   'BH',   'Stare Isle'],           # isle
+    '3776b':    [' ',   'BC',   'Cove Arient'],          # cove
+    '3776c':    [' ',   'CH',   'Crybey Bay'],           # bay
 
-    '7777a':    ['BC',   'Down Hill'],            # hill
-    '7777b':    ['CH',   'Dist Hill'],            # hill
-    '7777c':    ['BH',   'Domis Isle'],           # isle
+    # No ports
+    '7777a':    [' ',   'BC',   'Down Hill'],            # hill
+    '7777b':    [' ',   'CH',   'Dist Hill'],            # hill
+    '7777c':    [' ',   'BH',   'Domis Isle'],           # isle
 }
 
 def error(msg):
@@ -923,9 +932,13 @@ class IslandsGen(object):
         target_borders = name[0:4]
         if self.is_start_card(name):
             target_borders = self.get_start_borders(name)
+        target_port = info[CARDINFO_PORT]
         target_resources = info[CARDINFO_FACTIONS]
         target_label = info[CARDINFO_LABEL]
 
+        if not target_port in [' ', '-']:
+            target_resources += target_port
+        
         if target_borders != ''.join([str(x) for x in borders]):
             print()
             print('Expected borders:', target_borders)
@@ -1081,28 +1094,27 @@ class IslandsGen(object):
             self.seed = seed_base + seed_delta
 
             # Count resources and port so we can validate the totals.
+            port = card_info[name][CARDINFO_PORT]
             res = list(card_info[name][CARDINFO_FACTIONS])
-            rr = []
-            has_neutral_port = False
             for r in res:
-                if not r:
-                    continue
-                if r[0] == 'p':
-                    port_count[r[1]] += 1
-                    res_count[r[1]] += 1
-                    rr.append(r[1])
-                elif r == 'x':
-                    has_neutral_port = True
-                else:
-                    res_count[r] += 1
-                    rr.append(r)
+                res_count[r] += 1
+
+            has_neutral_port = False
+            if port in ['-', ' ']:
+                # No port - ignore
+                pass
+            elif port == 'x':
+                has_neutral_port = True
+            else:
+                port_count[port] += 1
+                res_count[port] += 1
 
             if has_neutral_port:
                 neutral_port_count += 1
-                for r in rr:
+                for r in res:
                     neutral_port_res_count[r] += 1
                     
-            key = pair2key(rr)
+            key = pair2key(res)
             if not key in pair_count:
                 pair_count[key] = 1
             else:
