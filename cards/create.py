@@ -40,9 +40,9 @@ card_info = {
     'start-1436':  ['x',  '',   'The Juven Isles'],
 
     # No ports
-    '0000a':    [' ',   'st',   'Fraj Isle'],            # isle
-    '0000b':    [' ',   'tf',   'Argh Isle'],            # isle
-    '0000c':    [' ',   'fs',   'Tact Isle'],            # isle
+    '0000a':    [' ',   'fst',  'Fraj Isle'],            # isle
+    '0000b':    [' ',   'fst',  'Argh Isle'],            # isle
+    '0000c':    [' ',   'fst',  'Tact Isle'],            # isle
 
     # No ports
     '0014a':    [' ',   'ft',   'Point Exter'],          # point
@@ -137,9 +137,9 @@ card_info = {
     '3776c':    [' ',   'CH',   'Crybey Bay'],           # bay
 
     # No ports
-    '7777a':    [' ',   'BC',   'Down Hill'],            # hill
-    '7777b':    [' ',   'CH',   'Dist Hill'],            # hill
-    '7777c':    [' ',   'BH',   'Domis Isle'],           # isle
+    '7777a':    [' ',   'BCH',  'Down Hill'],            # hill
+    '7777b':    [' ',   'BCH',  'Dist Hill'],            # hill
+    '7777c':    [' ',   'BCH',  'Domis Isle'],           # isle
 }
 
 def error(msg):
