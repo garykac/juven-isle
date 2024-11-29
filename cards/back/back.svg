@@ -512,11 +512,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.71281987"
-     inkscape:cx="183.77714"
-     inkscape:cy="223.75919"
+     inkscape:zoom="0.91483665"
+     inkscape:cx="40.990924"
+     inkscape:cy="339.40485"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="g11"
      showgrid="false"
      units="in"
      inkscape:window-width="1728"
@@ -7317,13 +7317,29 @@
      inkscape:groupmode="layer"
      id="layer23"
      inkscape:label="Center Tag - Circle"
-     style="display:inline">
+     style="display:none">
     <circle
        style="display:inline;fill:#b9deff;fill-opacity:1;stroke:#005199;stroke-width:3.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle1"
        cx="123.29956"
        cy="123.29955"
        r="9.3100004" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g11"
+     inkscape:label="Center Tag - Double Circle"
+     style="display:inline">
+    <circle
+       style="display:inline;fill:#b9deff;fill-opacity:1;stroke:#005199;stroke-width:4.4864;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle2"
+       cx="123.29956"
+       cy="123.29955"
+       r="11.138241" />
+    <path
+       style="color:#000000;fill:#005199;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m 123.29883,119.28125 c -2.21092,0 -4.01758,1.80666 -4.01758,4.01758 0,2.21091 1.80666,4.01758 4.01758,4.01758 2.21091,0 4.01758,-1.80667 4.01758,-4.01758 0,-2.21092 -1.80667,-4.01758 -4.01758,-4.01758 z"
+       id="path29" />
   </g>
   <g
      inkscape:label="Cut"
