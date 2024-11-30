@@ -4,7 +4,7 @@ Info:
 	Forest Edge: Pointy edge template into bleed
 	Forest Shape: Rough forest blockout outline
 	Forest Master: Pointy tree outside boundary
-	Forest Overlay: Pointy tree accents
+	Forest Overlay: Pointy tree accents - Final check
 	Grass Master: Grass path
 	Shore Master: Shoreline path
 	Water Medium: Verify smooth medium water depth path
@@ -58,13 +58,13 @@ start	o	o	o	o	o	-	o	o	o	o
 1414 b	-	-	o	o	o	-	-	-	-	-
 
 1416 a	-	-	o	o	o	-	-	-	-	-
-1416 b	-	-	o	o	-	-	-	-	-	-
-1416 c	-	-	o	o	-	-	-	-	-	-
+1416 b	-	-	o	o	o	-	-	-	-	-
+1416 c	-	-	o	o	o	-	-	-	-	-
 
-1434 a	-	-	o	o	-	-	-	-	-	-
-1434 b	-	-	o	o	-	-	-	-	-	-
-1434 c	o	o	o	o	-	-	-	-	-	-
-1434 d	-	-	o	o	-	-	-	-	-	-
+1434 a	-	-	o	o	o	-	-	-	-	-
+1434 b	-	-	o	o	o	-	-	-	-	-
+1434 c	o	o	o	o	o	-	-	-	-	-
+1434 d	-	-	o	o	o	-	-	-	-	-
 
 -
 
