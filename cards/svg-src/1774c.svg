@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.5777695"
-     inkscape:cx="131.89698"
-     inkscape:cy="107.65121"
+     inkscape:zoom="3.0864528"
+     inkscape:cx="82.457118"
+     inkscape:cy="107.40485"
      inkscape:document-units="px"
-     inkscape:current-layer="water_layer"
+     inkscape:current-layer="resources_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -279,17 +279,16 @@
      inkscape:label="Routes"
      style="display:inline">
     <path
-       id="path4555"
+       id="path8"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.1, 5;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       d="m 255.55002,123.30006 h -20 c -19.51579,0.41698 -27.99184,-15.0762 -42.16078,-5.52621 -10.60834,7.15011 10.97429,42.74879 -0.99043,50.71099 -17.04605,11.34369 -25.14865,-20.76911 -27.28062,-28.83337 -3.50084,-13.24203 -26.70503,-10.4979 -30.52887,-2.62895 -13.85332,28.50833 34.83158,33.35117 20.46203,52.4048 -12.67927,16.81237 -27.7861,-22.07809 -39.73731,-20.6477 -16.497344,1.97449 -15.783176,17.6655 -7.41816,24.3718 8.80232,7.05689 15.57587,24.68988 15.40409,42.3986 v 20 M -8.95,85.88329 H 11.050001 C 36.187938,84.545941 58.33646,114.46107 89.658589,81.900538 115.98577,54.532441 84.84294,32.236253 85.88328,11.049981 V -8.95002"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsssssssccccscc" />
+       d="m 98.249878,47.101279 c 25.137932,-5.23246 48.137382,-2.698148 67.895542,13.205339 23.40334,18.837516 12.25021,30.610161 32.40372,51.669232 m 57.00088,11.32421 h -20 c -19.51579,0.41698 -27.99184,-15.0762 -42.16078,-5.52621 -10.60834,7.15011 10.97429,42.74879 -0.99043,50.71099 -17.04605,11.34369 -25.14865,-20.76911 -27.28062,-28.83337 -3.50084,-13.24203 -26.70503,-10.4979 -30.52887,-2.62895 -13.85332,28.50833 34.83158,33.35117 20.46203,52.4048 -12.67927,16.81237 -27.7861,-22.07809 -39.73731,-20.6477 -16.497344,1.97449 -15.783176,17.6655 -7.41816,24.3718 8.80232,7.05689 15.57587,24.68988 15.40409,42.3986 v 20 M -8.95,85.88329 H 11.050001 C 36.187938,84.545941 58.33646,114.46107 89.658589,81.900538 115.98577,54.532441 84.84294,32.236253 85.88328,11.049981 V -8.95002" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="labels_layer"
      inkscape:label="Labels"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -440,6 +439,31 @@
          cy="-114.39716"
          r="0.57845598" />
     </g>
+    <g
+       id="resource-smallport"
+       style="display:inline"
+       transform="rotate(45.332432,177.9526,-48.512397)">
+      <g
+         transform="translate(168.55655,-76.089882)"
+         id="g7">
+        <path
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 70.414002,125.63334 -7.13844,-3.51623 -2.561272,7.53399 -2.56128,-7.53399 -7.138434,3.51623 3.516239,-7.13843 -7.533989,-2.56128 7.533989,-2.56127 -3.516239,-7.13844 7.138434,3.51624 2.56128,-7.53399 2.561272,7.53399 7.13844,-3.51624 -3.51624,7.13843 7.53399,2.56128 -7.53399,2.56128 z"
+           inkscape:connector-curvature="0"
+           id="path6-5" />
+        <path
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 71.413822,120.395 -5.63648,0.62553 -0.652,5.63348 -4.427907,-3.54328 -4.44451,3.52243 -0.625525,-5.63648 -5.633478,-0.652 3.543279,-4.42791 -3.522433,-4.44451 5.636477,-0.62553 0.652009,-5.63347 4.427904,3.54328 4.444514,-3.52244 0.62552,5.63648 5.63348,0.65201 -3.54328,4.4279 z"
+           inkscape:connector-curvature="0"
+           id="path7" />
+      </g>
+      <circle
+         cx="229.27084"
+         cy="39.843746"
+         r="9"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle7" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -468,7 +492,7 @@
            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            sodipodi:type="star" />
         <path
-           transform="matrix(0.92387953,-0.38268343,0.38268343,0.92387953,-92.322534,69.370912)"
+           transform="rotate(-22.5,128.21429,266.75382)"
            sodipodi:type="star"
            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="path4979"
@@ -489,7 +513,7 @@
          cy="39.843746"
          cx="266.77084"
          id="circle4961"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
        id="resource-pirate"
