@@ -57,23 +57,23 @@ card_info = {
     '0016c':    ['x',   '',     'f',    'Dissa Point'],          # point
 
     '0034a':    ['x',   '',     'f',    'Counter Point'],        # point
-    '0034b':    ['x',   't',    't',    'Port Ative'],           # port - Printed: no turtle deadend
+    '0034b':    ['x',   't',    't',    'Port Ative'],           # port
     '0034c':    ['x',   '',     's',    'Miss Isle'],            # isle
 
     '0036a':    ['x',   '',     's',    'Purr Port'],            # port
     '0036b':    ['x',   '',     'f',    'Data Point'],           # point
     '0036c':    ['x',   '',     't',    'Rept Isles'],           # isle
 
-    '0174a':    ['x',   '',     'Hs',   'Gun Point'],            # point - Printed: Cf
+    '0174a':    ['x',   '',     'Hs',   'Gun Point'],            # point
     '0174b':    ['-',   'B',    'tB',   'Text Isle'],            # isle
-    '0174c':    ['-',   'C',    'Cf',   'Prehense Isle'],        # isle - Printed: Hs
+    '0174c':    ['-',   'C',    'Cf',   'Prehense Isle'],        # isle
 
     '0176a':    ['-',   '',     'Bf',   'Seen Isle'],            # isle
     '0176b':    ['x',   '',     'tC',   'Ruby Port'],            # port
-    '0176c':    ['-',   '',     'Hs',   'Imbess Isle'],          # isle - Printed: has neutral port
+    '0176c':    ['-',   '',     'Hs',   'Imbess Isle'],          # isle
 
     '0374a':    ['x',   '',     'Ht',   'Port Starboard'],       # port
-    '0374b':    ['x',   'f',    'fB',   'Spoilsport'],           # port - Printed: no fish deadend
+    '0374b':    ['x',   'f',    'fB',   'Spoilsport'],           # port
     '0374c':    ['x',   '',     'sC',   'Croco d’Isle'],         # isle
 
     '0376a':    ['x',   '',     'Bf',   'Port Entous'],          # port
@@ -96,14 +96,14 @@ card_info = {
     '1436a':    ['x',   '',     'Bt',   'Vintage Port'],         # port
     '1436b':    ['x',   'f',    'fH',   'Port Able'],            # port
     '1436c':    ['x',   '',     'sC',   'Percent Isle'],         # isle
-    '1436d':    ['x',   '',     'fC',   'Backstage Pass'],       # pass - Printed: missing port
+    '1436d':    ['x',   '',     'fC',   'Backstage Pass'],       # pass
 
     '1616a':    ['x',   'B',    'Bs',   'Crooked Strait'],       # strait
     '1616b':    ['x',   't',    'tH',   'Lulla Bay'],            # bay
 
     '1634a':    ['x',   '',     'Bf',   'Serial Port'],          # port
-    '1634b':    ['x',   '',     'Ht',   'Landing Bay'],          # bay - Printed: sC
-    '1634c':    ['x',   'C',    'sC',   'Inappropriate Pass'],   # pass - Printed: Ht
+    '1634b':    ['x',   '',     'Ht',   'Landing Bay'],          # bay
+    '1634c':    ['x',   'C',    'sC',   'Inappropriate Pass'],   # pass
     '1634d':    ['-',   '',     'Ct',   'Letme Inlet'],          # inlet
 
     '1636a':    ['x',   '',     'Ct',   'Sally Port'],           # port
@@ -113,7 +113,7 @@ card_info = {
 
     '1774a':    ['x',   '',     'Cs',   'Port Ray'],             # port
     '1774b':    ['x',   '',     'Bt',   'Fewt Isle'],            # isle
-    '1774c':    ['x',   '',     'fH',   'Duct Isle'],            # isle - Printed: missing port
+    '1774c':    ['x',   '',     'fH',   'Duct Isle'],            # isle
 
     '1776a':    ['x',   '',     'C',    'Port End'],             # port
     '1776b':    ['x',   '',     'H',    'Data Port'],            # port
@@ -1142,6 +1142,7 @@ class IslandsGen(object):
         
         # Print resource/port counts
         print(f"     r  p   f  s  t  B  C  H")
+        res_total = 0
         for x in list("fstBCH"):
             pairs = []
             for x2 in list("fstBCH"):
@@ -1152,7 +1153,9 @@ class IslandsGen(object):
                     pairs.append(str(pair_count[key]))
             pair_counts = '  '.join(pairs)
             print(f"{x} : {res_count[x]}  {port_count[x]}   {pair_counts}")
-
+            res_total += res_count[x]
+        print(f"   {res_total} total faction symbols")
+        
         np_counts = []
         de_counts = []
         for x in list("fstBCH"):
