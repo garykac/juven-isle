@@ -512,11 +512,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.91483665"
-     inkscape:cx="40.990924"
-     inkscape:cy="339.40485"
+     inkscape:zoom="7.074611"
+     inkscape:cx="134.8484"
+     inkscape:cy="140.14905"
      inkscape:document-units="px"
-     inkscape:current-layer="g11"
+     inkscape:current-layer="g30"
      showgrid="false"
      units="in"
      inkscape:window-width="1728"
@@ -7251,6 +7251,18 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer23"
+     inkscape:label="Center Tag - Circle"
+     style="display:none">
+    <circle
+       style="display:inline;fill:#b9deff;fill-opacity:1;stroke:#005199;stroke-width:3.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle1"
+       cx="123.29956"
+       cy="123.29955"
+       r="9.3100004" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer22"
      inkscape:label="Center Tag - Star"
      style="display:none">
@@ -7315,21 +7327,9 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer23"
-     inkscape:label="Center Tag - Circle"
-     style="display:none">
-    <circle
-       style="display:inline;fill:#b9deff;fill-opacity:1;stroke:#005199;stroke-width:3.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle1"
-       cx="123.29956"
-       cy="123.29955"
-       r="9.3100004" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="g11"
      inkscape:label="Center Tag - Double Circle"
-     style="display:inline">
+     style="display:none">
     <circle
        style="display:inline;fill:#b9deff;fill-opacity:1;stroke:#005199;stroke-width:4.4864;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2"
@@ -7340,6 +7340,34 @@
        style="color:#000000;fill:#005199;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
        d="m 123.29883,119.28125 c -2.21092,0 -4.01758,1.80666 -4.01758,4.01758 0,2.21091 1.80666,4.01758 4.01758,4.01758 2.21091,0 4.01758,-1.80667 4.01758,-4.01758 0,-2.21092 -1.80667,-4.01758 -4.01758,-4.01758 z"
        id="path29" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g30"
+     inkscape:label="Center Tag - Circle Star"
+     style="display:inline">
+    <circle
+       style="display:inline;fill:#b9deff;fill-opacity:1;stroke:#005199;stroke-width:4.4864;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle2-4"
+       cx="123.29955"
+       cy="123.29955"
+       r="11.138241" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:#0071cc;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path28"
+       sodipodi:sides="8"
+       sodipodi:cx="98.214287"
+       sodipodi:cy="115.93363"
+       sodipodi:r1="23.552483"
+       sodipodi:r2="11.776241"
+       sodipodi:arg1="0.78539816"
+       sodipodi:arg2="1.1780972"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 114.86841,132.58775 -12.14755,-5.77429 -4.506573,12.67265 -4.506572,-12.67265 -12.147548,5.77429 5.774292,-12.14755 -12.672655,-4.50657 12.672654,-4.50657 -5.774291,-12.147548 12.147547,5.774288 4.506573,-12.672651 4.506573,12.672651 12.14755,-5.774288 -5.7743,12.147548 12.67266,4.50657 -12.67265,4.50657 z"
+       transform="matrix(0.2401,0,0,0.2401,99.7183,95.463878)" />
   </g>
   <g
      inkscape:label="Cut"
