@@ -27,13 +27,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.9084867"
-     inkscape:cx="441.44924"
-     inkscape:cy="694.26736"
+     inkscape:zoom="1.7568319"
+     inkscape:cx="447.39625"
+     inkscape:cy="713.78485"
      inkscape:window-width="1568"
      inkscape:window-height="970"
      inkscape:window-x="83"
-     inkscape:window-y="79"
+     inkscape:window-y="51"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer12"
      showgrid="false"
@@ -48,7 +48,8 @@
        bleed="0"
        inkscape:label="1-setup"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="./game-info.png" />
     <inkscape:page
        x="79.596001"
        y="0"
@@ -146,7 +147,10 @@
        id="page315"
        margin="0"
        bleed="0"
-       inkscape:label="game-info" />
+       inkscape:label="game-info"
+       inkscape:export-filename="./game-info.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <inkscape:page
        x="159.192"
        y="156.85938"
@@ -5835,7 +5839,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Safe"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <use
        x="0"
@@ -5934,7 +5938,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Cut"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <rect
        style="display:inline;opacity:0.408;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.141111;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
