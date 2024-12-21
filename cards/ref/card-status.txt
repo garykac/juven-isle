@@ -76,9 +76,9 @@ start	o	o	o	o	o	-	o	o	o	o
 1616 a	-	-	o	o	o	-	-	-	-	-
 1616 b	-	-	o	o	o	-	-	-	-	-
 
-1634 a	-	-	o	o	-	-	-	-	-	-
-1634 b	-	-	o	o	-	-	-	-	-	-
-1634 c	-	-	o	o	-	-	-	-	-	-
+1634 a	-	-	o	o	o	-	-	-	-	-
+1634 b	-	-	o	o	o	-	-	-	-	-
+1634 c	-	-	o	o	o	-	-	-	-	-
 1634 d	-	-	o	o	-	-	-	-	-	-
 
 1636 a	o	o	o	o	o	-	o	o	o	o
@@ -106,9 +106,9 @@ start	o	o	o	o	o	-	o	o	o	o
 3636 a	-	-	o	o	o	-	-	-	-	-
 3636 b	-	-	o	o	o	-	-	-	-	-
 
-3774 a	-	-	o	o	-	-	-	-	-	-
-3774 b	-	-	o	o	-	-	-	-	-	-
-3774 c	-	-	o	o	-	-	-	-	-	-
+3774 a	-	-	o	o	o	-	-	-	-	-
+3774 b	-	-	o	o	o	-	-	-	-	-
+3774 c	-	-	o	o	o	-	-	-	-	-
 
 3776 a	o	o	o	o	-	-	o	o	o	o
 3776 b	o	o	o	o	-	-	o	o	o	o
@@ -116,4 +116,4 @@ start	o	o	o	o	o	-	o	o	o	o
 
 7777 a	o	o	o	o	o	-	o	o	o	o
 7777 b	o	o	o	o	o	-	o	o	o	o
-7777 c	o	o	o	o	-	-	o	o	o	o
+7777 c	o	o	o	o	o	-	o	o	o	o
