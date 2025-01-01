@@ -36,9 +36,9 @@ start	o	o	o	o	o	-	o	o	o	o
 0036 b	o	o	o	o	o	-	o	o	o	o
 0036 c	o	o	o	o	o	-	o	o	o	o
 
-0174 a	-	-	o	o	o	-	-	-	-	-
-0174 b	o	o	o	o	o	-	-	-	-	-
-0174 c	-	-	o	o	o	-	-	-	-	-
+0174 a	o	o	o	o	o	-	o	o	o	o
+0174 b	o	o	o	o	o	-	o	o	o	o
+0174 c	o	o	o	o	o	-	o	o	o	o
 
 -
 
@@ -99,9 +99,9 @@ start	o	o	o	o	o	-	o	o	o	o
 3434 a	o	o	o	o	o	-	o	o	o	o
 3434 b	o	o	o	o	o	-	o	o	o	o
 
-3436 a	-	-	o	o	o	-	-	-	-	-
-3436 b	-	-	o	o	o	-	-	-	-	-
-3436 c	-	-	o	o	o	-	-	-	-	-
+3436 a	o	o	o	o	o	-	o	o	o	o
+3436 b	o	o	o	o	o	-	o	o	o	o
+3436 c	o	o	o	o	o	-	o	o	o	o
 
 3636 a	-	-	o	o	o	-	-	-	-	-
 3636 b	-	-	o	o	o	-	-	-	-	-
