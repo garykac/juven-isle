@@ -50,36 +50,36 @@ start	o	o	o	o	o	-	o	o	o	o
 0374 b	o	o	o	o	o	-	o	o	o	o
 0374 c	o	o	o	o	o	-	o	o	o	o
 
-0376 a	-	-	o	o	o	-	-	-	-	-
-0376 b	-	-	o	o	o	-	-	-	-	-
-0376 c	-	-	o	o	o	-	-	-	-	-
+0376 a	o	o	o	o	o	-	o	o	o	o
+0376 b	o	o	o	o	o	-	o	o	o	o
+0376 c	o	o	o	o	o	-	o	o	o	o
 
-1414 a	-	-	o	o	o	-	-	-	-	-
-1414 b	-	-	o	o	o	-	-	-	-	-
+1414 a	o	o	o	o	o	-	o	o	o	o
+1414 b	o	o	o	o	o	-	o	o	o	o
 
-1416 a	-	-	o	o	o	-	-	-	-	-
-1416 b	-	-	o	o	o	-	-	-	-	-
-1416 c	-	-	o	o	o	-	-	-	-	-
+1416 a	o	o	o	o	o	-	o	o	o	o
+1416 b	o	o	o	o	o	-	o	o	o	o
+1416 c	o	o	o	o	o	-	o	o	o	o
 
-1434 a	-	-	o	o	o	-	-	-	-	-
-1434 b	-	-	o	o	o	-	-	-	-	-
-1434 c	o	o	o	o	o	-	-	-	-	-
-1434 d	-	-	o	o	o	-	-	-	-	-
+1434 a	o	o	o	o	o	-	o	o	o	o
+1434 b	o	o	o	o	o	-	o	o	o	o
+1434 c	o	o	o	o	o	-	o	o	o	o
+1434 d	o	o	o	o	o	-	o	o	o	o
 
 -
 
-1436 a	-	-	o	o	o	-	-	-	-	-
-1436 b	-	-	o	o	o	-	-	-	-	-
-1436 c	-	-	o	o	o	-	-	-	-	-
-1436 d	-	-	o	o	o	-	-	-	-	-
+1436 a	o	o	o	o	o	-	o	o	o	o
+1436 b	o	o	o	o	o	-	o	o	o	o
+1436 c	o	o	o	o	o	-	o	o	o	o
+1436 d	o	o	o	o	o	-	o	o	o	o
 
-1616 a	-	-	o	o	o	-	-	-	-	-
-1616 b	-	-	o	o	o	-	-	-	-	-
+1616 a	o	o	o	o	o	-	o	o	o	o
+1616 b	o	o	o	o	o	-	o	o	o	o
 
-1634 a	-	-	o	o	o	-	-	-	-	-
-1634 b	-	-	o	o	o	-	-	-	-	-
-1634 c	-	-	o	o	o	-	-	-	-	-
-1634 d	-	-	o	o	o	-	-	-	-	-
+1634 a	o	o	o	o	o	-	o	o	o	o
+1634 b	o	o	o	o	o	-	o	o	o	o
+1634 c	o	o	o	o	o	-	o	o	o	o
+1634 d	o	o	o	o	o	-	o	o	o	o
 
 1636 a	o	o	o	o	o	-	o	o	o	o
 1636 b	o	o	o	o	o	-	o	o	o	o
@@ -103,12 +103,12 @@ start	o	o	o	o	o	-	o	o	o	o
 3436 b	o	o	o	o	o	-	o	o	o	o
 3436 c	o	o	o	o	o	-	o	o	o	o
 
-3636 a	-	-	o	o	o	-	-	-	-	-
-3636 b	-	-	o	o	o	-	-	-	-	-
+3636 a	o	o	o	o	o	-	o	o	o	o
+3636 b	o	o	o	o	o	-	o	o	o	o
 
-3774 a	-	-	o	o	o	-	-	-	-	-
-3774 b	-	-	o	o	o	-	-	-	-	-
-3774 c	-	-	o	o	o	-	-	-	-	-
+3774 a	o	o	o	o	o	-	o	o	o	o
+3774 b	o	o	o	o	o	-	o	o	o	o
+3774 c	o	o	o	o	o	-	o	o	o	o
 
 3776 a	o	o	o	o	o	-	o	o	o	o
 3776 b	o	o	o	o	o	-	o	o	o	o
