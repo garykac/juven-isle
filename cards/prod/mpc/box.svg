@@ -4345,15 +4345,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.60455812"
-     inkscape:cx="577.28114"
-     inkscape:cy="336.60949"
+     inkscape:zoom="0.48356188"
+     inkscape:cx="574.90057"
+     inkscape:cy="346.38793"
      inkscape:window-width="1640"
      inkscape:window-height="919"
      inkscape:window-x="25"
-     inkscape:window-y="58"
+     inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer19">
+     inkscape:current-layer="layer23">
     <inkscape:page
        x="0"
        y="0"
@@ -4363,7 +4363,7 @@
        height="739.6507"
        margin="0"
        bleed="0"
-       inkscape:export-filename="automatic-save-501-2024_11_20_19_22_10-22498-8.png"
+       inkscape:export-filename="box.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
   </sodipodi:namedview>
@@ -11209,20 +11209,19 @@
      inkscape:groupmode="layer"
      id="layer23"
      inkscape:label="Box Top - Title"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        id="g1127"
        inkscape:label="Gary Kacmarcik"
        transform="translate(23.185003,4.62666)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.8"
+         style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.89782608"
          id="text309"
          inkscape:label="Isle Shadow"
          x="302.09747"
          y="366.08612"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-dasharray:none;stroke-opacity:0.8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-dasharray:none;stroke-opacity:0.89782608"
            id="tspan308">Gary Kacmarcik</tspan></text>
       <text
          xml:space="preserve"
@@ -11240,14 +11239,14 @@
        transform="translate(13.344391,-20.672196)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:64px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.8"
+         style="font-style:normal;font-weight:normal;font-size:64px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.89782608"
          id="text1215"
          inkscape:label="Isle Shadow"
          x="302.09747"
          y="366.08612"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-dasharray:none;stroke-opacity:0.8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-dasharray:none;stroke-opacity:0.89782608"
            id="tspan1215"><tspan
-             style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-dasharray:none;stroke-opacity:0.8"
+             style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-dasharray:none;stroke-opacity:0.89782608"
              id="tspan1214">Isle</tspan></tspan></text>
       <text
          xml:space="preserve"
@@ -11265,12 +11264,12 @@
        transform="translate(5.1288679,-3.2300306)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:64px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;mix-blend-mode:normal;fill:#ffffff;fill-opacity:0.99;stroke:#ffffff;stroke-width:16.252;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.8"
+         style="font-style:normal;font-weight:normal;font-size:64px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.89565217"
          id="text308"
          inkscape:label="Juven Shadow"
          x="287.73792"
          y="276.46768"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:CCTreasureTrove;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:0.99;stroke:#ffffff;stroke-width:16.252;stroke-dasharray:none;stroke-opacity:0.8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:CCTreasureTrove;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:16.252;stroke-dasharray:none;stroke-opacity:0.89565217"
            id="tspan307">Juven</tspan></text>
       <text
          xml:space="preserve"
