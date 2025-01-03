@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.9175556"
-     inkscape:cx="146.52677"
-     inkscape:cy="129.04639"
+     inkscape:zoom="6.7585417"
+     inkscape:cx="70.577355"
+     inkscape:cy="72.574827"
      inkscape:document-units="px"
-     inkscape:current-layer="forest_master_layer"
+     inkscape:current-layer="water_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -304,7 +304,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 86.181227,48.232225 C 76.14096,64.731613 66.34949,73.995339 39.531936,82.168076"
+       d="M 84.932807,45.596671 C 78.6378,63.344479 68.291477,71.637212 42.861056,74.400128"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />

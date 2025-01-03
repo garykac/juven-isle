@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8232338"
-     inkscape:cx="207.59817"
-     inkscape:cy="160.97771"
+     inkscape:zoom="5.2640504"
+     inkscape:cx="122.81417"
+     inkscape:cy="137.82163"
      inkscape:document-units="px"
-     inkscape:current-layer="water_layer"
+     inkscape:current-layer="grass_master_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1680"
@@ -305,7 +305,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 139.07932,126.68921 c -30.68084,11.04943 -53.928266,4.98272 -70.552893,-15.72897"
+       d="m 137.83266,124.37398 c -23.20086,8.7342 -53.21589,6.58557 -71.79956,-12.70136"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -949,7 +949,7 @@
      inkscape:groupmode="layer"
      id="edge_guides_layer"
      inkscape:label="Edge Guides"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="guide0-1"

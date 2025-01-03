@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.2228907"
-     inkscape:cx="101.21955"
-     inkscape:cy="142.38217"
+     inkscape:zoom="3.2664573"
+     inkscape:cx="107.91508"
+     inkscape:cy="116.7932"
      inkscape:document-units="px"
-     inkscape:current-layer="forest_master_layer"
+     inkscape:current-layer="labels_guide_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1712"
@@ -287,7 +287,8 @@
      inkscape:groupmode="layer"
      id="labels_layer"
      inkscape:label="Labels"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -303,7 +304,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 152.34895,41.44667 c 0.64,30.534594 -6.30576,44.868114 -36.42021,65.77029"
+       d="m 156.60137,49.460861 c -3.77598,22.847513 -12.03018,36.363258 -28.89668,47.77925"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -464,11 +465,11 @@
      inkscape:groupmode="layer"
      id="resources_master_layer"
      inkscape:label="Resources Master"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="resource-portcircle"
-       transform="rotate(174.91047,196.11137,76.716926)">
+       transform="rotate(174.91047,89.86127,-68.907993)">
       <g
          transform="translate(168.55655,-76.089882)"
          id="g4973">

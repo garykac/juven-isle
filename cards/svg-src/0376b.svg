@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8585066"
-     inkscape:cx="119.29306"
-     inkscape:cy="165.2961"
+     inkscape:zoom="2.4944655"
+     inkscape:cx="96.012553"
+     inkscape:cy="102.02587"
      inkscape:document-units="px"
-     inkscape:current-layer="routes_layer"
+     inkscape:current-layer="labels_guide_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1728"
@@ -289,7 +289,8 @@
      inkscape:groupmode="layer"
      id="labels_layer"
      inkscape:label="Labels"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:0%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -305,7 +306,7 @@
      style="display:inline">
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 124.43237,75.823581 C 100.26443,76.647696 71.463558,71.368095 43.057939,57.812138"
+       d="M 130.91852,71.499479 C 107.15597,74.620773 72.679712,71.908608 44.949733,62.13624"
        id="path4673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -949,7 +950,7 @@
      inkscape:groupmode="layer"
      id="edge_guides_layer"
      inkscape:label="Edge Guides"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(-1.5e-5,39.99994)"
        style="display:inline"
