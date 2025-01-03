@@ -84,7 +84,7 @@ card_info = {
     '1414a':    [' ',   '',     'f',    'Kidneystone Pass'],     # pass
     '1414b':    [' ',   '',     't',    'None-shall Pass'],      # pass
 
-    '1416a':    ['x',   '',     'Cf',   'Port-au-Potée'],        # port
+    '1416a':    ['x',   '',     'Cf',   'Port-au-Potee'],        # port
     '1416b':    ['x',   '',     'tB',   'Watersport'],           # port
     '1416c':    ['-',   'H',    'Hs',   'Tress Pass'],           # pass
 
@@ -193,6 +193,7 @@ class IslandsGen(object):
         forest_overlay = data['forest_overlay_layer']
         routes_path = data['routes_layer']
         textpath = data['labels']
+        labels_accent_path = data['labels_accent_layer']
         resources = data['resources']
 
         outdir = 'svg-out'
@@ -230,7 +231,7 @@ class IslandsGen(object):
         self.draw_grass_layers(grass_path)
         self.draw_forest_layers(forest_path, forest_overlay)
         self.draw_routes_layers(routes_path)
-        self.draw_labels_layer(textpath)
+        self.draw_labels_layer(textpath, labels_accent_path)
         self.draw_resources_layer(resources)
         
         self.draw_guides(borders)
@@ -328,7 +329,7 @@ class IslandsGen(object):
             error('Invalid id name: %s' % norm)
         return norm
 
-    def draw_labels_layer(self, textpath):
+    def draw_labels_layer(self, textpath, accent_path):
         text = textpath[0]
         path = textpath[1]
 
@@ -347,6 +348,12 @@ class IslandsGen(object):
         self.svg.text_path(text, 'label-path', options)
         self.svg.end_layer()
         
+        if accent_path:
+            self.svg.start_layer('labels_accent_layer', 'Labels Accent')
+            style = "display:inline;fill:#5d481b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+            self.svg.path(accent_path, {'style': style})
+            self.svg.end_layer()
+
         self.svg.start_layer('labels_guide_layer', 'Labels Guide', {'hidden': True})
         style = 'color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1'
         self.svg.path(path, {'id': 'label-path', 'style': style})
@@ -812,6 +819,7 @@ class IslandsGen(object):
             'forest_overlay_layer': { 'optional': True },
             'routes_layer': {},
             'labels_layer': {},
+            'labels_accent_layer': { 'optional': True },
             'labels_guide_layer': {},
             'resources_layer': {},
             'resources_master_layer': { 'ignore': True },
@@ -865,6 +873,14 @@ class IslandsGen(object):
                     m = re.search(r' d="([^"]+)"', line)
                     if m:
                         label_guide = m.group(1)
+                        found_layer[current_layer] = True
+                m = re.match('labels_accent_layer', current_layer)
+                if m:
+                    m = re.search(r' d="([^"]+)"', line)
+                    if m:
+                        if found_layer[current_layer]:
+                            error(f'Multiple paths found in {current_layer}')
+                        layer_data[current_layer] = m.group(1)
                         found_layer[current_layer] = True
 
             # Parse resources
@@ -991,7 +1007,7 @@ class IslandsGen(object):
                     print(resources)
                 elif layer == 'edge_guides_layer':
                     print(borders)
-                else:
+                elif layer in layer_data:
                     print('\t%s\n' % layer_data[layer])
 
         return card_data
