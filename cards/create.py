@@ -84,7 +84,7 @@ card_info = {
     '1414a':    [' ',   '',     'f',    'Kidneystone Pass'],     # pass
     '1414b':    [' ',   '',     't',    'None-shall Pass'],      # pass
 
-    '1416a':    ['x',   '',     'Cf',   'Port-au-Potee'],        # port
+    '1416a':    ['x',   '',     'Cf',   'Port-au-Potee'],        # port - Potée accent added graphically
     '1416b':    ['x',   '',     'tB',   'Watersport'],           # port
     '1416c':    ['-',   'H',    'Hs',   'Tress Pass'],           # pass
 
