@@ -3446,10 +3446,10 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter315"
-       x="-0.022763923"
-       y="-0.034765809"
-       width="1.0455278"
-       height="1.0695316">
+       x="-0.022917021"
+       y="-0.03488584"
+       width="1.045834"
+       height="1.0697717">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.20298128"
@@ -3459,10 +3459,10 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter314"
-       x="-0.016673904"
-       y="-0.027388597"
-       width="1.0333478"
-       height="1.0547772">
+       x="-0.016716237"
+       y="-0.027449734"
+       width="1.0334325"
+       height="1.0548995">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.29790327"
@@ -3516,15 +3516,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.310004"
-     inkscape:cx="480.91457"
-     inkscape:cy="406.10563"
+     inkscape:zoom="0.67331445"
+     inkscape:cx="492.34054"
+     inkscape:cy="331.19741"
      inkscape:window-width="1616"
      inkscape:window-height="930"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer23">
+     inkscape:current-layer="layer21">
     <inkscape:page
        x="0"
        y="0"
@@ -3533,7 +3533,9 @@
        height="359.04001"
        margin="0"
        bleed="0"
-       inkscape:label="front" />
+       inkscape:label="front"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <inkscape:page
        x="0"
        y="383.59711"
@@ -3543,9 +3545,9 @@
        margin="0"
        bleed="0"
        inkscape:label="back"
-       inkscape:export-filename="front.png"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="back.png" />
   </sodipodi:namedview>
   <g
      inkscape:groupmode="layer"
@@ -6167,6 +6169,42 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06667px"
          id="tspan143">End of Game</tspan></text>
     <text
+       id="text139-5-1"
+       y="717.47406"
+       x="752.41711"
+       style="font-style:normal;font-weight:normal;font-size:8.66668px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="717.47406"
+         x="752.41711"
+         sodipodi:role="line"
+         id="tspan196-0-3">©2025 Gary Kacmarcik</tspan></text>
+    <text
+       id="text910-5"
+       y="675.96838"
+       x="752.42969"
+       style="font-style:normal;font-weight:normal;font-size:8.66668px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="675.96838"
+         x="752.42969"
+         sodipodi:role="line"
+         id="tspan906-8">Game Design: Gary Kacmarcik</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="686.80176"
+         x="752.42969"
+         sodipodi:role="line"
+         id="tspan907-8">Game Development: Adam Blinkinsop</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="697.63507"
+         x="752.42969"
+         sodipodi:role="line"
+         id="tspan910-8">Graphical Whatnots: Gary Kacmarcik</tspan></text>
+    <path
+       style="fill:#7ac2ff;fill-opacity:1;stroke:#100f0d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 787.46614,648.61378 H 917.64043"
+       id="path938-6" />
+    <text
        id="text144"
        y="555.87604"
        x="752.42847"
@@ -6659,6 +6697,13 @@
              x="168.5583"
              sodipodi:role="line">•</tspan></text>
       </g>
+      <path
+         style="font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:1.06667px"
+         d="m 437.79672,694.53682 c -0.0593,0.18396 -0.0458,0.45716 -0.0865,0.60112 -0.0402,0.14232 -0.056,0.32044 -0.056,0.532 0,0.0747 -0.0124,0.196 -0.0373,0.364 -0.0187,0.16177 -0.0311,0.33288 -0.0373,0.51333 -0.006,0.17422 2.3e-4,0.33289 0.0187,0.476 0.0249,0.13689 0.084,0.21466 0.17734,0.23333 0.0373,0.006 0.084,0.0153 0.14,0.028 0.0622,0.0125 0.12442,0.0342 0.18666,0.0653 0.0622,0.0249 0.11198,0.0622 0.14934,0.112 0.0435,0.0435 0.0653,0.10265 0.0653,0.17734 0,0.0684 -0.0218,0.13066 -0.0653,0.18666 -0.0373,0.0498 -0.084,0.0965 -0.14,0.14 -0.056,0.0373 -0.11511,0.0684 -0.17734,0.0933 -0.0622,0.0249 -0.1182,0.0466 -0.168,0.0653 -0.0809,0.0249 -0.18044,0.0715 -0.29866,0.14 -0.11823,0.0684 -0.24267,0.14 -0.37334,0.21467 -0.12444,0.0684 -0.25199,0.13377 -0.38266,0.196 -0.12445,0.056 -0.23956,0.0871 -0.34534,0.0933 -0.0996,0.006 -0.15555,-0.0407 -0.168,-0.14 -0.006,-0.0996 0.006,-0.21778 0.0373,-0.35467 0.0311,-0.14311 0.0685,-0.28622 0.112,-0.42933 0.0435,-0.14933 0.15169,-0.33667 0.15169,-0.42378 0.006,-0.23644 0.009,-0.47288 0.009,-0.70933 0.006,-0.24267 0.003,-0.48222 -0.009,-0.71866 -0.006,-0.24267 -0.0247,-0.48222 -0.056,-0.71867 -0.0311,-0.24267 -0.0809,-0.48533 -0.14933,-0.728 -0.0249,-0.0871 -0.0682,-0.29247 -0.0896,-0.35603 -0.055,-0.16353 -0.0852,-0.36394 -0.10088,-0.43696 -0.089,-0.415 -0.18439,-0.76143 0.0596,-0.97023 0.22493,-0.19249 0.41049,-0.20256 0.6365,-0.19197 0.20067,0.009 0.37202,0.0873 0.53441,0.13508 0.2199,0.0647 0.3392,0.19926 0.43816,0.28049 0.17409,0.14289 0.25374,0.45923 0.22504,0.65597 -0.0796,0.54537 -0.12982,0.65504 -0.20053,0.87444 z m 0.22151,5.29584 c 0,0.13689 -0.0218,0.28 -0.0653,0.42933 -0.0373,0.14311 -0.10267,0.28 -0.196,0.41067 -0.0933,0.12444 -0.21778,0.23333 -0.37333,0.32666 -0.15556,0.0996 -0.35156,0.16489 -0.588,0.196 -0.11823,0.0187 -0.22712,0 -0.32667,-0.056 -0.0996,-0.056 -0.18044,-0.13067 -0.24267,-0.224 -0.0622,-0.0933 -0.10264,-0.196 -0.12133,-0.308 -0.0187,-0.11822 -0.009,-0.22711 0.028,-0.32666 0.0498,-0.13689 0.12136,-0.26445 0.21467,-0.38267 0.0996,-0.11822 0.20844,-0.21778 0.32666,-0.29867 0.12445,-0.0871 0.25511,-0.15555 0.392,-0.20533 0.14311,-0.0498 0.28311,-0.0747 0.42,-0.0747 0.12445,0 0.24267,0.0498 0.35467,0.14934 0.11822,0.0996 0.17733,0.22089 0.17733,0.364 z"
+         id="text54-9"
+         inkscape:label="Then if you have tokens"
+         aria-label="!"
+         sodipodi:nodetypes="csscscccccsccscsccsccccccccsssssssscccsscccccscssccc" />
       <g
          id="g933"
          transform="matrix(3.7795276,0,0,3.7795276,-365.82043,623.00473)"
@@ -6678,12 +6723,12 @@
              y="20.556089"
              x="170.72379"
              sodipodi:role="line"
-             id="tspan932">3 cards to your Scoring Pile (but no</tspan><tspan
+             id="tspan932">3 cards to your Scoring Pile. Yay  But</tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.29306px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.282222px"
              y="23.422415"
              x="170.72379"
              sodipodi:role="line"
-             id="tspan939">more scoring for you this turn).</tspan></text>
+             id="tspan939">no more scoring for you this turn.</tspan></text>
         <text
            id="text933"
            y="17.729616"
@@ -6695,6 +6740,17 @@
              y="17.729616"
              x="168.5583"
              sodipodi:role="line">•</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';stroke-width:0.264583"
+           x="212.32321"
+           y="18.494951"
+           id="text1053"><tspan
+             sodipodi:role="line"
+             id="tspan1053"
+             style="stroke-width:0.264583"
+             x="212.32321"
+             y="18.494951" /></text>
       </g>
     </g>
     <g
@@ -6834,7 +6890,7 @@
      inkscape:label="Back - Setup">
     <g
        id="g903"
-       transform="translate(0,120)"
+       transform="translate(0,148)"
        inkscape:label="Scoring pile">
       <text
          id="text902"
@@ -6866,20 +6922,25 @@
     </g>
     <text
        id="text192"
-       y="652.47528"
+       y="670.47528"
        x="37.168365"
        style="font-style:normal;font-weight:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:label="Keep secret"><tspan
          id="tspan192"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
-         y="652.47528"
+         y="670.47528"
          x="37.168365"
-         sodipodi:role="line">Keep these secret (Pirate-side up)</tspan></text>
+         sodipodi:role="line">Keep your tokens hidden from other</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="682.14191"
+         x="37.168365"
+         sodipodi:role="line"
+         id="tspan1048">players (Pirate-side up).</tspan></text>
     <g
        id="g1042"
        inkscape:label="Scoring token table"
-       transform="translate(0,8)">
+       transform="translate(0,2)">
       <g
          id="g990"
          inkscape:label="quote marks">
@@ -6994,7 +7055,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
            y="578.47522"
            x="112.61353"
-           sodipodi:role="line">tokens (chosen randomly)</tspan><tspan
+           sodipodi:role="line">tokens (one of each)</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
            y="590.14185"
            x="112.61353"
@@ -7079,7 +7140,7 @@
     </g>
     <g
        id="g883"
-       transform="translate(0,18)"
+       transform="translate(0,14)"
        inkscape:label="Give scoring token">
       <text
          id="text104"
@@ -7106,7 +7167,7 @@
     </g>
     <g
        id="g183"
-       transform="matrix(3.7795276,0,0,3.7795276,-3.761294,385.2225)"
+       transform="matrix(3.7795276,0,0,3.7795276,-3.761294,383.2225)"
        style="display:inline"
        inkscape:label="Deal 3 cards">
       <text
@@ -7201,7 +7262,7 @@
     </g>
     <g
        id="g182"
-       transform="matrix(3.7795276,0,0,3.7795276,-3.761294,375.22249)"
+       transform="matrix(3.7795276,0,0,3.7795276,-3.761294,377.22249)"
        style="display:inline"
        inkscape:label="Place start card">
       <text
@@ -7259,6 +7320,23 @@
          y="437.23254"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:1.06667px"
          id="tspan5749-9"> </tspan></text>
+    <text
+       id="text1046"
+       y="644.47528"
+       x="37.168365"
+       style="font-style:normal;font-weight:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:label="Keep secret"><tspan
+         id="tspan1046"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="644.47528"
+         x="37.168365"
+         sodipodi:role="line">Place unused Scoring Tokens back in</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="656.14191"
+         x="37.168365"
+         sodipodi:role="line"
+         id="tspan1047">the game box (yes, without looking).</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -8418,47 +8496,12 @@
          x="503.85486"
          sodipodi:role="line"
          id="tspan944">you are unable to add a card to the Map.</tspan></text>
-    <text
-       id="text139-5-1"
-       y="332.56036"
-       x="503.68503"
-       style="font-style:normal;font-weight:normal;font-size:8.66668px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
-         y="332.56036"
-         x="503.68503"
-         sodipodi:role="line"
-         id="tspan196-0-3">©2025 Gary Kacmarcik</tspan></text>
-    <text
-       id="text910-5"
-       y="291.05469"
-       x="503.6976"
-       style="font-style:normal;font-weight:normal;font-size:8.66668px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
-         y="291.05469"
-         x="503.6976"
-         sodipodi:role="line"
-         id="tspan906-8">Game Design: Gary Kacmarcik</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
-         y="301.88803"
-         x="503.6976"
-         sodipodi:role="line"
-         id="tspan907-8">Game Development: Adam Blinkinsop</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.66668px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
-         y="312.72137"
-         x="503.6976"
-         sodipodi:role="line"
-         id="tspan910-8">Graphical Whatnots: Gary Kacmarcik</tspan></text>
-    <path
-       style="fill:#7ac2ff;fill-opacity:1;stroke:#100f0d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 538.73406,261.70009 H 668.90835"
-       id="path938-6" />
     <g
        id="g1032"
-       transform="translate(0,-10)">
+       transform="translate(0,-12)">
       <g
-         id="g974">
+         id="g974"
+         transform="translate(0,-4)">
         <text
            id="text953"
            y="179.88"
@@ -8484,7 +8527,7 @@
       </g>
       <g
          id="g975"
-         transform="translate(0,-6)">
+         transform="translate(0,-10)">
         <text
            id="text952"
            y="199.88"
@@ -8510,7 +8553,7 @@
       </g>
       <g
          id="g976"
-         transform="translate(0,-12)">
+         transform="translate(0,-16)">
         <text
            id="text951"
            y="219.88"
@@ -8536,7 +8579,7 @@
       </g>
       <g
          id="g977"
-         transform="translate(0,-18)">
+         transform="translate(0,-22)">
         <text
            id="text949"
            y="239.88"
@@ -8562,7 +8605,7 @@
       </g>
       <g
          id="g978"
-         transform="translate(0,-24)">
+         transform="translate(0,-28)">
         <text
            id="text948"
            y="259.88"
@@ -8584,11 +8627,11 @@
              y="259.88"
              x="557.85486"
              sodipodi:role="line"
-             id="tspan958">OK-ish</tspan></text>
+             id="tspan958">Hmmm...</tspan></text>
       </g>
       <g
          id="g979"
-         transform="translate(0,-30)">
+         transform="translate(0,-34)">
         <text
            id="text947"
            y="279.88"
@@ -8650,6 +8693,22 @@
          x="503.85486"
          sodipodi:role="line"
          id="tspan963" /></text>
+    <text
+       id="text1051"
+       y="255.88"
+       x="503.85486"
+       style="font-style:normal;font-weight:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="255.88"
+         x="503.85486"
+         sodipodi:role="line"
+         id="tspan1051">Solo Variant: Draw your Scoring Tokens</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
+         y="267.54666"
+         x="503.85486"
+         sodipodi:role="line"
+         id="tspan1054">randomly.</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -8993,7 +9052,7 @@
      inkscape:groupmode="layer"
      id="layer18"
      inkscape:label="Pages"
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#100f0d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:4, 1;stroke-dashoffset:0;stroke-opacity:1"
        id="rect871"

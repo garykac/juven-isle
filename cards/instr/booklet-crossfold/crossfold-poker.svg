@@ -2932,15 +2932,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.73233535"
-     inkscape:cx="197.31398"
-     inkscape:cy="553.70808"
+     inkscape:zoom="0.92991691"
+     inkscape:cx="257.54989"
+     inkscape:cy="500.58236"
      inkscape:window-width="1592"
      inkscape:window-height="869"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer14">
+     inkscape:current-layer="g1090">
     <inkscape:page
        x="0"
        y="0"
@@ -2950,9 +2950,9 @@
        margin="0"
        bleed="0"
        inkscape:label="scoring"
-       inkscape:export-filename="edges.png"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="edges.png" />
     <inkscape:page
        x="0"
        y="513.94727"
@@ -2961,7 +2961,9 @@
        id="page1101"
        margin="0"
        bleed="0"
-       inkscape:label="edges" />
+       inkscape:label="edges"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </sodipodi:namedview>
   <g
      inkscape:groupmode="layer"
@@ -6435,7 +6437,7 @@
     </g>
     <g
        id="g184-5"
-       transform="matrix(2.2677166,0,0,2.2677166,193.10853,110.36825)">
+       transform="matrix(2.2677166,0,0,2.2677166,193.10853,110.7361)">
       <circle
          r="5.3622222"
          cy="-29.03433"
@@ -6498,7 +6500,7 @@
     </g>
     <g
        id="g146-2"
-       transform="matrix(2.2677166,0,0,2.2677166,157.10858,141.57763)">
+       transform="matrix(2.2677166,0,0,2.2677166,157.10858,133.85278)">
       <circle
          r="5.3622222"
          cy="-13.159331"
@@ -6998,7 +7000,7 @@
              y="30.830753"
              x="170.72379"
              sodipodi:role="line"
-             id="tspan1090">to pass through the port at f.</tspan></text>
+             id="tspan1090">to pass through the Port at f.</tspan></text>
       </g>
       <g
          id="g1098"
@@ -7237,7 +7239,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Fold"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        id="g1105">
