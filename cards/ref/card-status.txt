@@ -14,106 +14,106 @@ Info:
 	Label	Route	Forest-------------------------	Grass	Shore	Water-------
 	Guide	Tmpl	Edge	Shape	Master	Overlay	Master	Master	Medium	Deep
 
-start	o	o	o	o	o	-	o	o	o	o
+start	o	o	o	o	o	o	o	o	o	o
 
 0000 a	o	o	o	o	o	o	o	o	o	o
 0000 b	o	o	o	o	o	o	o	o	o	o
 0000 c	o	o	o	o	o	o	o	o	o	o
 
-0014 a	o	o	o	o	o	-	o	o	o	o
-0014 b	o	o	o	o	o	-	o	o	o	o
-0014 c	o	o	o	o	o	-	o	o	o	o
+0014 a	o	o	o	o	o	o	o	o	o	o
+0014 b	o	o	o	o	o	o	o	o	o	o
+0014 c	o	o	o	o	o	o	o	o	o	o
 
-0016 a	o	o	o	o	o	-	o	o	o	o
-0016 b	o	o	o	o	o	-	o	o	o	o
-0016 c	o	o	o	o	o	-	o	o	o	o
+0016 a	o	o	o	o	o	o	o	o	o	o
+0016 b	o	o	o	o	o	o	o	o	o	o
+0016 c	o	o	o	o	o	o	o	o	o	o
 
-0034 a	o	o	o	o	o	-	o	o	o	o
-0034 b	o	o	o	o	o	-	o	o	o	o
-0034 c	o	o	o	o	o	-	o	o	o	o
+0034 a	o	o	o	o	o	o	o	o	o	o
+0034 b	o	o	o	o	o	o	o	o	o	o
+0034 c	o	o	o	o	o	o	o	o	o	o
 
-0036 a	o	o	o	o	o	-	o	o	o	o
-0036 b	o	o	o	o	o	-	o	o	o	o
-0036 c	o	o	o	o	o	-	o	o	o	o
+0036 a	o	o	o	o	o	o	o	o	o	o
+0036 b	o	o	o	o	o	o	o	o	o	o
+0036 c	o	o	o	o	o	o	o	o	o	o
 
-0174 a	o	o	o	o	o	-	o	o	o	o
-0174 b	o	o	o	o	o	-	o	o	o	o
-0174 c	o	o	o	o	o	-	o	o	o	o
-
--
-
-0176 a	o	o	o	o	o	-	o	o	o	o
-0176 b	o	o	o	o	o	-	o	o	o	o
-0176 c	o	o	o	o	o	-	o	o	o	o
-
-0374 a	o	o	o	o	o	-	o	o	o	o
-0374 b	o	o	o	o	o	-	o	o	o	o
-0374 c	o	o	o	o	o	-	o	o	o	o
-
-0376 a	o	o	o	o	o	-	o	o	o	o
-0376 b	o	o	o	o	o	-	o	o	o	o
-0376 c	o	o	o	o	o	-	o	o	o	o
-
-1414 a	o	o	o	o	o	-	o	o	o	o
-1414 b	o	o	o	o	o	-	o	o	o	o
-
-1416 a	o	o	o	o	o	-	o	o	o	o
-1416 b	o	o	o	o	o	-	o	o	o	o
-1416 c	o	o	o	o	o	-	o	o	o	o
-
-1434 a	o	o	o	o	o	-	o	o	o	o
-1434 b	o	o	o	o	o	-	o	o	o	o
-1434 c	o	o	o	o	o	-	o	o	o	o
-1434 d	o	o	o	o	o	-	o	o	o	o
+0174 a	o	o	o	o	o	o	o	o	o	o
+0174 b	o	o	o	o	o	o	o	o	o	o
+0174 c	o	o	o	o	o	o	o	o	o	o
 
 -
 
-1436 a	o	o	o	o	o	-	o	o	o	o
-1436 b	o	o	o	o	o	-	o	o	o	o
-1436 c	o	o	o	o	o	-	o	o	o	o
-1436 d	o	o	o	o	o	-	o	o	o	o
+0176 a	o	o	o	o	o	o	o	o	o	o
+0176 b	o	o	o	o	o	o	o	o	o	o
+0176 c	o	o	o	o	o	o	o	o	o	o
 
-1616 a	o	o	o	o	o	-	o	o	o	o
-1616 b	o	o	o	o	o	-	o	o	o	o
+0374 a	o	o	o	o	o	o	o	o	o	o
+0374 b	o	o	o	o	o	o	o	o	o	o
+0374 c	o	o	o	o	o	o	o	o	o	o
 
-1634 a	o	o	o	o	o	-	o	o	o	o
-1634 b	o	o	o	o	o	-	o	o	o	o
-1634 c	o	o	o	o	o	-	o	o	o	o
-1634 d	o	o	o	o	o	-	o	o	o	o
+0376 a	o	o	o	o	o	o	o	o	o	o
+0376 b	o	o	o	o	o	o	o	o	o	o
+0376 c	o	o	o	o	o	o	o	o	o	o
 
-1636 a	o	o	o	o	o	-	o	o	o	o
-1636 b	o	o	o	o	o	-	o	o	o	o
-1636 c	o	o	o	o	o	-	o	o	o	o
-1636 d	o	o	o	o	o	-	o	o	o	o
+1414 a	o	o	o	o	o	o	o	o	o	o
+1414 b	o	o	o	o	o	o	o	o	o	o
 
-1774 a	o	o	o	o	o	-	o	o	o	o
-1774 b	o	o	o	o	o	-	o	o	o	o
-1774 c	o	o	o	o	o	-	o	o	o	o
+1416 a	o	o	o	o	o	o	o	o	o	o
+1416 b	o	o	o	o	o	o	o	o	o	o
+1416 c	o	o	o	o	o	o	o	o	o	o
+
+1434 a	o	o	o	o	o	o	o	o	o	o
+1434 b	o	o	o	o	o	o	o	o	o	o
+1434 c	o	o	o	o	o	o	o	o	o	o
+1434 d	o	o	o	o	o	o	o	o	o	o
 
 -
 
-1776 a	o	o	o	o	o	-	o	o	o	o
-1776 b	o	o	o	o	o	-	o	o	o	o
-1776 c	o	o	o	o	o	-	o	o	o	o
+1436 a	o	o	o	o	o	o	o	o	o	o
+1436 b	o	o	o	o	o	o	o	o	o	o
+1436 c	o	o	o	o	o	o	o	o	o	o
+1436 d	o	o	o	o	o	o	o	o	o	o
 
-3434 a	o	o	o	o	o	-	o	o	o	o
-3434 b	o	o	o	o	o	-	o	o	o	o
+1616 a	o	o	o	o	o	o	o	o	o	o
+1616 b	o	o	o	o	o	o	o	o	o	o
 
-3436 a	o	o	o	o	o	-	o	o	o	o
-3436 b	o	o	o	o	o	-	o	o	o	o
-3436 c	o	o	o	o	o	-	o	o	o	o
+1634 a	o	o	o	o	o	o	o	o	o	o
+1634 b	o	o	o	o	o	o	o	o	o	o
+1634 c	o	o	o	o	o	o	o	o	o	o
+1634 d	o	o	o	o	o	o	o	o	o	o
 
-3636 a	o	o	o	o	o	-	o	o	o	o
-3636 b	o	o	o	o	o	-	o	o	o	o
+1636 a	o	o	o	o	o	o	o	o	o	o
+1636 b	o	o	o	o	o	o	o	o	o	o
+1636 c	o	o	o	o	o	o	o	o	o	o
+1636 d	o	o	o	o	o	o	o	o	o	o
 
-3774 a	o	o	o	o	o	-	o	o	o	o
-3774 b	o	o	o	o	o	-	o	o	o	o
-3774 c	o	o	o	o	o	-	o	o	o	o
+1774 a	o	o	o	o	o	o	o	o	o	o
+1774 b	o	o	o	o	o	o	o	o	o	o
+1774 c	o	o	o	o	o	o	o	o	o	o
 
-3776 a	o	o	o	o	o	-	o	o	o	o
-3776 b	o	o	o	o	o	-	o	o	o	o
-3776 c	o	o	o	o	o	-	o	o	o	o
+-
 
-7777 a	o	o	o	o	o	-	o	o	o	o
-7777 b	o	o	o	o	o	-	o	o	o	o
-7777 c	o	o	o	o	o	-	o	o	o	o
+1776 a	o	o	o	o	o	o	o	o	o	o
+1776 b	o	o	o	o	o	o	o	o	o	o
+1776 c	o	o	o	o	o	o	o	o	o	o
+
+3434 a	o	o	o	o	o	o	o	o	o	o
+3434 b	o	o	o	o	o	o	o	o	o	o
+
+3436 a	o	o	o	o	o	o	o	o	o	o
+3436 b	o	o	o	o	o	o	o	o	o	o
+3436 c	o	o	o	o	o	o	o	o	o	o
+
+3636 a	o	o	o	o	o	o	o	o	o	o
+3636 b	o	o	o	o	o	o	o	o	o	o
+
+3774 a	o	o	o	o	o	o	o	o	o	o
+3774 b	o	o	o	o	o	o	o	o	o	o
+3774 c	o	o	o	o	o	o	o	o	o	o
+
+3776 a	o	o	o	o	o	o	o	o	o	o
+3776 b	o	o	o	o	o	o	o	o	o	o
+3776 c	o	o	o	o	o	o	o	o	o	o
+
+7777 a	o	o	o	o	o	o	o	o	o	o
+7777 b	o	o	o	o	o	o	o	o	o	o
+7777 c	o	o	o	o	o	o	o	o	o	o

@@ -172,11 +172,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6377504"
-     inkscape:cx="105.6327"
-     inkscape:cy="171.27152"
+     inkscape:zoom="4.4106018"
+     inkscape:cx="62.576495"
+     inkscape:cy="205.98096"
      inkscape:document-units="px"
-     inkscape:current-layer="resources_master_layer"
+     inkscape:current-layer="forest_overlay_layer"
      showgrid="false"
      units="in"
      inkscape:window-width="1728"
@@ -279,12 +279,7 @@
      inkscape:groupmode="layer"
      id="forest_overlay_layer"
      inkscape:label="Forest Overlay"
-     style="display:inline">
-    <path
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#496e28;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 19.971747,187.22504 -1.709429,1.05194 2.085822,0.92564 -0.936371,2.04954 2.171264,-0.64138 0.225198,2.40405 1.543816,-1.57247 1.379398,0.92447 -0.09314,-1.3345"
-       id="path22" />
-  </g>
+     style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="routes_layer"
