@@ -2932,15 +2932,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.96262057"
-     inkscape:cx="279.96493"
-     inkscape:cy="593.69187"
+     inkscape:zoom="0.94109108"
+     inkscape:cx="393.69197"
+     inkscape:cy="302.30868"
      inkscape:window-width="1592"
      inkscape:window-height="869"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1090">
+     inkscape:current-layer="layer10">
     <inkscape:page
        x="0"
        y="0"
@@ -2952,7 +2952,7 @@
        inkscape:label="scoring"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
-       inkscape:export-filename="scoring.png" />
+       inkscape:export-filename="./edges.png" />
     <inkscape:page
        x="0"
        y="513.94727"
@@ -6578,7 +6578,7 @@
     </g>
     <g
        id="g245"
-       transform="matrix(2.2677166,0,0,2.2677166,323.9174,372.64943)">
+       transform="matrix(2.2677166,0,0,2.2677166,323.9174,368.64943)">
       <circle
          r="5.3622222"
          cy="-44.909332"
@@ -6874,21 +6874,21 @@
     </g>
     <g
        id="g1077"
-       transform="translate(-208.80373,260.76302)">
+       transform="translate(-208.80373,252.76302)">
       <text
          id="text1071"
-         y="38.029091"
+         y="40.434738"
          x="697.34882"
          style="font-style:normal;font-weight:normal;font-size:12.8px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan1071"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06667px"
-           y="38.029091"
+           y="40.434738"
            x="697.34882"
-           sodipodi:role="line">Play a Pirate on card (e) for 4pts:</tspan></text>
+           sodipodi:role="line">Play a Pirate on card (e) for 2pts:</tspan></text>
       <g
          id="g1073"
-         transform="matrix(3.7795276,0,0,3.7795276,66.231739,-14.764191)"
+         transform="matrix(3.7795276,0,0,3.7795276,66.231739,-12.358542)"
          style="display:inline">
         <text
            id="text1072"
@@ -6900,17 +6900,12 @@
              y="17.689764"
              x="170.72379"
              sodipodi:role="line"
-             id="tspan1072">1 for each Neutral or Faction Port</tspan><tspan
+             id="tspan1072">1 for each Neutral Port the paths</tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.29306px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.282222px"
              y="20.556089"
              x="170.72379"
              sodipodi:role="line"
-             id="tspan1077">the paths are Directly Connected</tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.29306px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.282222px"
-             y="23.422415"
-             x="170.72379"
-             sodipodi:role="line"
-             id="tspan1094">to: d, a, b, f.</tspan></text>
+             id="tspan1">are Directly Connected to: d, f.</tspan></text>
         <text
            id="text1073"
            y="17.729616"
@@ -6925,7 +6920,7 @@
       </g>
       <g
          id="g1076"
-         transform="matrix(3.7795276,0,0,3.7795276,66.23174,-6.764194)"
+         transform="matrix(3.7795276,0,0,3.7795276,66.23174,-15.169843)"
          style="display:inline">
         <text
            id="text1075"
@@ -6967,7 +6962,7 @@
       </g>
       <g
          id="g1090"
-         transform="matrix(3.7795276,0,0,3.7795276,66.231739,39.235806)"
+         transform="matrix(3.7795276,0,0,3.7795276,66.231739,57.235806)"
          style="display:inline">
         <text
            id="text1087"
@@ -7004,7 +6999,7 @@
       </g>
       <g
          id="g1098"
-         transform="matrix(3.7795276,0,0,3.7795276,66.231739,75.235806)"
+         transform="matrix(3.7795276,0,0,3.7795276,66.231739,93.235806)"
          style="display:inline">
         <text
            id="text1095"
@@ -7038,6 +7033,38 @@
              x="170.72379"
              sodipodi:role="line"
              id="tspan1101">longer be used for scoring.</tspan></text>
+      </g>
+      <g
+         id="g5"
+         transform="matrix(3.7795276,0,0,3.7795276,66.231739,31.641455)"
+         style="display:inline">
+        <text
+           id="text2"
+           y="25.137945"
+           x="168.5583"
+           style="font-style:normal;font-weight:normal;font-size:3.38667px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.282222px"
+             y="25.137945"
+             x="168.5583"
+             sodipodi:role="line">•</tspan></text>
+        <text
+           id="text5"
+           y="25.098103"
+           x="170.72379"
+           style="font-style:normal;font-weight:normal;font-size:2.29306px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.29306px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.282222px"
+             y="25.098103"
+             x="170.72379"
+             sodipodi:role="line"
+             id="tspan3">Ports a and b don't score because</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.29306px;line-height:125%;font-family:CCTreasureTrove;-inkscape-font-specification:'CCTreasureTrove, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.282222px"
+             y="27.964428"
+             x="170.72379"
+             sodipodi:role="line"
+             id="tspan5">they are not Neutral Ports.</tspan></text>
       </g>
     </g>
     <text
