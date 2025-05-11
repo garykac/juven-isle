@@ -1,0 +1,86 @@
+地理用語
+Cove = 入り江
+Inlet = 入り江
+Isle = Island = 島
+Pass = 海峡
+Strait = 海峡
+Bay = 湾
+Port = ポート, 港
+Point = 突端
+Hill = 丘
+Ithmus = 地峡
+
+カード名
+Al Cove = alcove = アルコーブ
+Argh Isle = argyle = アーガイル柄
+Backstage Pass = バックステージパス
+Bay Onette = bayonet = 銃剣
+Bloodsport = 流血を伴うスポーツや娯楽
+Bomb Bay = 爆弾倉
+Counter Point = 対位法
+Cove Alent = covalent = 共有結合性
+Cove Arient = covarient = 共変
+Cove Ert = covert = 秘密の
+Croco d’Isle = crocodile = クロコダイル
+Crooked Strait = crooked (歪) + straight (真っ直ぐ)
+Crybey Bay = crybaby = 泣き虫
+Data Point = データポイント
+Data Port = データポート
+Davenport = sofa = ソファー
+Dire Strait = 窮地
+Dissa Point = disappoint = がっかりする
+Dist Hill = distill = 蒸留する
+Domis Isle = domicile = 住所
+Down Hill = downhill = 下り坂
+Duct Isle = ductile = 延性のある
+Ex Isle = exile = 亡命
+Ex Port = export = 輸出
+Exclamation Point = 感嘆符
+Fewt Isle = futile = 無駄な
+Forward Pass = フォワードパス
+Fraj Isle = fragile = 壊れやすい
+Gun Point = 銃を突きつける
+Imbess Isle = imbecile = 低能者
+Inappropriate Pass = 不適切な戯れる
+Infant Isle = infantile = 幼稚
+Je-ne-sais Pass = "je ne sais pas" (フランス語) 分からない
+Juven Isle = juvenile = 幼稚な
+Kidneystone Pass = 腎臓結石を通過する
+Landing Bay = 着陸湾
+Letme Inlet = "let me in" = 入れてください
+Lulla Bay = lullaby = 子守唄
+Merry Ithmus ~ christmas = メリークリスマス
+Mid Point = midpoint = 中間点
+Miss Isle = missile = ミサイル
+None-shall Pass = 誰もここを通ってはいけません
+Percent Isle = percentile = パーセンタイル
+Point Exter = poindexter = 社会的に不適格な人
+Port Able = portable = ポータブル ; 持ち運び可能な
+Port Ative = portative = 持ち運び可能な
+Port Cullis = portcullis = 落とし格子
+Port End = portend = 前兆
+Port Entous = portentous = 尊大な
+Port Folio = portfolio = ポートフォリオ
+Port O’Bello = portobello = マッシュルーム
+Port Raiture = portraiture = 肖像画
+Port Ray = portray = 演じる ; 描写する
+Port Starboard = port = 左舷 ; starboard = 右舷
+Port-au-Potee = porta (portable) potty = 仮設便所
+Prehense Isle = prehensile = 足と尾などが物をつかむ
+Project Isle = projectile = 発射体
+Purr Port = purport = 何かであると主張する（多くの場合、虚偽である）
+Rept Isles = reptiles = 爬虫類
+Ruby Port = ポートワインの一種
+Sally Port = 砦や刑務所への安全な入り口
+Seen Isle = senile = 老人性
+Serial Port = シリアルポート
+Sick Bay = 病棟
+Spoilsport = 行儀が悪くて楽しみを台無しにする人
+Stare Isle = sterile = 無菌
+Tact Isle = tactile = 触覚的な
+Tawny Port = ポートワインの一種
+Tele Port = teleport = テレポート
+Text Isle = textile = 織物
+Tress Pass = trespass (tress = 長い髪の毛) = 不法侵入
+Vintage Port = ポートワインの一種
+Watersport = 水上で行われるスポーツ活動
